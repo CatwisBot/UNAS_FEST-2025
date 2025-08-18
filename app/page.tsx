@@ -17,17 +17,14 @@ export default function homePage() {
             {/* Competition */}
             <Competition />
 
+            {/* Timeline */}
+            {homeEvents && <Timeline events={homeEvents} />}
 
             {/* Benefit Section */}
             <Benefit />
 
-            {/* Timeline */}
-            {homeEvents && <Timeline events={homeEvents} />}
-
-
             {/* Ready */}
             <Ready />
-
 
             {/* FAQ */}
             <FAQ />
