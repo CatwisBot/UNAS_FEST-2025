@@ -8,7 +8,7 @@ import { EVENTS } from "@/constants/Activities/Timeline";
 export default function homePage() {
     const homeEvents = EVENTS.find(event => event.path === "/")?.timeline;
     return(
-        <main>
+        <>
             {/* Hero Section */}
             <Hero />
 
@@ -23,6 +23,6 @@ export default function homePage() {
 
             {/* FAQ */}
             <FAQ />
-        </main>
+        </>
     )
 }
