@@ -59,7 +59,7 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
           >
             <Dialog>
               <div className="relative h-full">
-                <Card className="flex h-full min-h-[350px] w-full flex-col justify-start gap-y-1 rounded-lg active:cursor-grabbing bg-gradient-to-b from-black/20 from-0% via-white via-25% via-white via-75% to-black/30 to-100% p-6 text-black shadow-md transition-all hover:shadow-lg md:gap-y-4 md:p-8 lg:min-h-[400px]">
+                <Card className="flex h-full min-h-[350px] w-full flex-col justify-start gap-y-1 rounded-lg active:cursor-grabbing bg-gradient from-[#011f41] to-[#3b3095] from-0% to-100%  p-6 text-white shadow-md transition-all hover:shadow-lg md:gap-y-4 md:p-8 lg:min-h-[400px]">
                   <CardContent className="flex flex-col gap-y-3 p-0 text-left md:gap-y-4">
                     <h1 className="text-4xl font-semibold md:text-5xl">
                       0{prop.index}
