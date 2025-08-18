@@ -80,8 +80,7 @@ export default function Hero() {
 
   return (
     <div className="bg-[#000138] text-white flex items-center justify-center p-10">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl w-full">
-        {/* Right Content (ditampilkan dulu di mobile/tablet) */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full mb-5 md:mb-10">
         <div className="order-1 lg:order-2 flex flex-col items-center justify-start gap-2 -mt-15 sm:-mt-30">
           <Image src={Mascot} alt="Mascot" className="w-200 sm:w-160 h-auto" />
 
