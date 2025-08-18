@@ -8,6 +8,7 @@ import { AllPoster } from "@/constants/Home/Poster";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { MoveRight, MoveLeft } from "lucide-react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -60,18 +61,32 @@ export default function PosterSwiper() {
         </div>
       </div>
 
-      <div className="w-full bg-[#000138] py-10">
+      <div className="w-full bg-[#000138] py-10 relative">
         <Swiper
-          modules={[Navigation, Pagination]}
-          navigation
-          pagination={{ clickable: true }}
+          pagination={{
+            clickable: true,
+            el: ".custom-pagination",
+            bulletClass: "swiper-pagination-bullet",
+            bulletActiveClass: "swiper-pagination-bullet-active",
+            renderBullet: (index, className) => {
+              return `<span class="${className}" data-index="${index}"></span>`;
+            },
+          }}
+          navigation={{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }}
+          modules={[Pagination, Navigation]}
+          className="!overflow-visible py-6"
           spaceBetween={5}
           breakpoints={{
             0: { slidesPerView: 1.5 },
+            375: { slidesPerView: 1.7 },
+            425: { slidesPerView: 1.9 },
             640: { slidesPerView: 3 },
-            1024: { slidesPerView: 5 },
+            1024: { slidesPerView: 4 },
+            1440: { slidesPerView: 5 },
           }}
-          className="py-6"
         >
           {AllPoster.map((item) => (
             <SwiperSlide key={item.index}>
@@ -90,6 +105,72 @@ export default function PosterSwiper() {
             </SwiperSlide>
           ))}
         </Swiper>
+
+        <div className="absolute bottom-0 left-0 md:left-4 w-full z-10">
+          <div className="relative max-w-sm sm:max-w-[210px] px-4">
+            <div className="flex items-center justify-center gap-4 h-12">
+              {/* Tombol Prev */}
+              <div className="swiper-button-prev absolute left-4 md:left-6 lg:left-8 cursor-pointer rounded-sm p-2 transition-all hover:scale-105">
+                <MoveLeft className="h-5 w-5 text-white md:h-6 md:w-6" />
+              </div>
+
+              {/* Pagination */}
+              <div className="custom-pagination flex items-center justify-center gap-2 w-full max-w-[300px]" />
+
+              {/* Tombol Next */}
+              <div className="swiper-button-next absolute right-4 md:right-6 lg:right-8 cursor-pointer rounded-sm p-2 transition-all hover:scale-105">
+                <MoveRight className="h-5 w-5 text-white md:h-6 md:w-6" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <style jsx global>{`
+          /* Bullet Pagination */
+          .custom-pagination .swiper-pagination-bullet {
+            width: 20px;
+            height: 10px;
+            background-color: rgba(255, 255, 255, 0.5);
+            opacity: 1;
+            transition: all 0.3s ease;
+            margin: 0 2px;
+            cursor: pointer;
+            border-radius: 5px;
+          }
+
+          .custom-pagination .swiper-pagination-bullet-active {
+            background-color: #ffffff;
+            width: 30px;
+            height: 10px;
+            border-radius: 5px;
+          }
+
+          @media (min-width: 768px) {
+            .custom-pagination .swiper-pagination-bullet {
+              width: 24px;
+              height: 12px;
+            }
+            .custom-pagination .swiper-pagination-bullet-active {
+              width: 36px;
+              height: 12px;
+            }
+          }
+
+          /* Override default Swiper navigation */
+          .swiper-button-prev,
+          .swiper-button-next {
+            background: none !important;
+            border: none !important;
+            color: inherit !important;
+            width: auto !important;
+            height: auto !important;
+          }
+
+          .swiper-button-prev::after,
+          .swiper-button-next::after {
+            display: none !important; /* Hilangkan default arrow Swiper */
+          }
+        `}</style>
       </div>
     </main>
   );
