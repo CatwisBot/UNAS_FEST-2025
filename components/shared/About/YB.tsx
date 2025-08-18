@@ -3,7 +3,7 @@ import Fotbar from "@/public/image/About/YB/FotoBersama.png";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen text-white bg-gradient-to-b from-[#0E2C57] to-[#000F2D] overflow-hidden">
+    <main className="relative min-h-screen text-white bg-gradient-to-b from-[#0E2C57] to-[#000C29] overflow-hidden">
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="relative w-full max-w-8xl h-[65vh] md:h-[80vh] lg:h-[95vh]">
