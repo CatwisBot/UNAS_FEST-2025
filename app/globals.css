@@ -2,13 +2,11 @@
 
 * {
   font-family: var(--font-poppins), sans-serif;
-  scroll-behavior: smooth;
 }
 
 .font-poppins {
   font-family: var(--font-poppins), sans-serif;
 }
-
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
