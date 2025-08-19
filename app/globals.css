@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/free-mode';
 
 * {
   font-family: var(--font-poppins), sans-serif;
@@ -15,4 +17,55 @@
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.shine-wrap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 25%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: skewX(-25deg);
+  pointer-events: none;
+  animation: shine 2s infinite linear;
+  z-index: 1;
+}
+
+@keyframes shine {
+  0%   { left: -75%; }
+  100% { left: 125%; }
+}
+
+.shine-wrap::before,
+.shine-wrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 60%;
+  height: 100%;
+  transform: skewX(-20deg);
+}
+
+.shine-wrap::before {
+  left: -100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.4),
+    transparent
+  );
+  animation: shine 6s linear infinite;
+}
+
+.shine-wrap::after {
+  left: -150%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.15),
+    transparent
+  );
+  animation: shine 10s linear infinite;
 }
