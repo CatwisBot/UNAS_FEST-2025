@@ -76,7 +76,7 @@ export default function Timeline({ events }: TimelineProps) {
   return (
     <div
       ref={containerRef}
-      className="relative w-full bg-gradient-to-b from-[#000138] via-[#571C87] to-[#223788] overflow-hidden"
+      className="relative w-full bg-gradient-to-b from-[#571C87] to-[#223788] overflow-hidden"
       style={{
         height: `${containerHeight}px`,
       }}
