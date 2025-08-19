@@ -79,39 +79,41 @@ export default function Hero() {
   };
 
   return (
-    <div className="bg-[#000138] text-white flex items-center justify-center p-10">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full mb-5 md:mb-10">
-        <div className="order-1 lg:order-2 flex flex-col items-center justify-start gap-2 -mt-15 sm:-mt-30">
-          <Image src={Mascot} alt="Mascot" className="w-200 sm:w-160 h-auto" />
+    <main className="bg-[#000138]">
+      <div className="bg-[#000138] text-white flex items-center justify-center max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto p-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full mb-5 md:mb-10">
+          <div className="order-1 lg:order-2 flex flex-col items-center justify-start gap-2 -mt-15 sm:-mt-30 lg:mt-0 xl:-mt-30">
+            <Image src={Mascot} alt="Mascot" className="w-200 sm:w-160 h-auto" />
 
-          <div
-            ref={containerRef}
-            className="w-full overflow-x-hidden whitespace-nowrap -mt-10 sm:-mt-20 scrollbar-hide"
-          >
-            <div ref={contentRef} className="inline-flex gap-1">
-              {renderFeatureCards()}
+            <div
+              ref={containerRef}
+              className="w-full overflow-x-hidden whitespace-nowrap -mt-10 sm:-mt-20 scrollbar-hide"
+            >
+              <div ref={contentRef} className="inline-flex gap-1">
+                {renderFeatureCards()}
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="order-2 lg:order-1 flex flex-col justify-center">
-          <span className="bg-[#8E5CBD]/77 text-white text-sm px-4 py-1 rounded-full w-fit mb-4">
-            76th anniversary Celebration
-          </span>
-          <h1 className="text-3xl sm:text-5xl font-bold leading-tight max-[350px]:text-center sm:text-left">
-            SIGN UP NOW FOR <br />
-            THE <span className="bg-gradient-to-r from-[#A14CF3] from-[38%] to-[#345CEB] to-[100%] bg-clip-text text-transparent">COMPETITION</span>
-          </h1>
-          <p className="text-white mt-6 text-md sm:text-lg leading-relaxed">
-            The Universitas Nasional Festival 2025 (UNAS FEST 2025) is one of
-            the annual events held to commemorate and celebrate the 76th
-            anniversary of Dies Natalis Universitas Nasional.
-          </p>
-          <button className="mt-8 cursor-pointer bg-white text-[#973BEB] font-semibold px-6 py-3 rounded-xl shadow-lg w-fit hover:bg-[#973BEB] hover:text-white transition">
-            Explore Event →
-          </button>
+          <div className="order-2 lg:order-1 flex flex-col justify-center">
+            <span className="bg-[#8E5CBD]/77 text-white text-sm px-4 py-1 rounded-full w-fit mb-4">
+              76th anniversary Celebration
+            </span>
+            <h1 className="text-3xl sm:text-5xl font-bold leading-tight max-[350px]:text-center sm:text-left">
+              SIGN UP NOW FOR <br />
+              THE <span className="bg-gradient-to-r from-[#A14CF3] from-[38%] to-[#345CEB] to-[100%] bg-clip-text text-transparent">COMPETITION</span>
+            </h1>
+            <p className="text-white mt-6 text-md sm:text-lg leading-relaxed">
+              The Universitas Nasional Festival 2025 (UNAS FEST 2025) is one of
+              the annual events held to commemorate and celebrate the 76th
+              anniversary of Dies Natalis Universitas Nasional.
+            </p>
+            <button className="mt-8 cursor-pointer bg-white text-[#973BEB] font-semibold px-6 py-3 rounded-xl shadow-lg w-fit hover:bg-[#973BEB] hover:text-white transition">
+              Explore Event →
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
