@@ -24,8 +24,8 @@ export default function PosterSwiper() {
   }, []);
 
   return (
-    <main>
-      <div className="text-center md:text-left bg-[#000138] p-0 md:p-4 pt-2">
+    <main className="bg-[#000138]">
+      <div className="text-center md:text-left p-0 md:p-4 lg:p-0 px-0 md:px-5 xl:px-0 pt-2 max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto">
         <h2 className="text-white text-2xl md:text-4xl font-semibold pb-2 mx-0 md:mx-2 uppercase">
           our special{" "}
           <span className="bg-gradient-to-r from-[#A14CF3] from-[38%] to-[#345CEB] to-[100%] bg-clip-text text-transparent">
@@ -33,7 +33,7 @@ export default function PosterSwiper() {
           </span>
         </h2>
 
-        <div className="flex flex-col md:flex-row items-center gap-4 px-5 md:px-2 min-h-[300px]">
+        <div className="flex flex-col md:flex-row items-center gap-4 px-5 md:px-2 xl:px-0 min-h-[300px]">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeIndex}
@@ -61,7 +61,7 @@ export default function PosterSwiper() {
         </div>
       </div>
 
-      <div className="w-full bg-[#000138] py-10 relative">
+      <div className="w-full bg-[#000138] py-10 relative max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto overflow-hidden">
         <Swiper
           pagination={{
             clickable: true,
