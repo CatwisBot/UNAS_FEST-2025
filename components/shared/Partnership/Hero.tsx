@@ -2,7 +2,7 @@ import React from 'react';
 
 const PartnershipSection: React.FC = () => {
   return (
-    <div className="bg-[#000138] text-white p-10 rounded-lg text-center font-poppins">
+    <div className="bg-[#000138] text-white p-10 rounded-3xl text-center font-poppins">
       <h1 className="text-4xl font-bold mb-5">
         BUILDING THE <strong className="text-[#8f56ff]">FUTURE</strong> TOGETHER
       </h1>
@@ -28,10 +28,10 @@ const PartnershipSection: React.FC = () => {
         </div>
       </div>
       <div className="flex justify-center space-x-5">
-        <button className="py-3 px-3 rounded-2xl font-bold text-white bg-gradient-to-r from-[#af52ff] to-[#6555ef]">
+        <button className="py-3 px-4 rounded-xl font-bold text-white bg-gradient-to-r from-[#af52ff] to-[#6555ef] cursor-pointer">
           Become a Partner
         </button>
-        <button className="py-3 px-6 rounded-2xl font-bold text-white border border-white bg-transparent">
+        <button className="py-3 px-4 rounded-xl font-bold text-white border border-white bg-transparent cursor-pointer">
           View Partner
         </button>
       </div>
