@@ -2,12 +2,12 @@ import Link from "next/link";
 
 export default function Ready() {
   return (
-    <div className="flex flex-col items-center justify-center bg-gradient-to-b from-[0%] from-[#551C86] to-[100%] to-[#37126A] text-white py-12 px-6 text-center space-y-4">
-      <h2 className="text-2xl md:text-4xl font-bold">
+    <div className="flex flex-col items-center justify-center bg-gradient-to-b from-0% from-[#551C86] to-100% to-[#37126A] text-white pt-32 py-12 px-6 text-center space-y-4">
+      <h2 className="text-2xl md:text-4xl font-bold uppercase">
         Ready to Join the Competition?
       </h2>
 
-      <p className="text-base md:text-md text-white/80 max-w-md">
+      <p className="text-base md:text-xl text-[#F3DAF9] max-w-lg">
         Don’t miss this opportunity to be part of our 76th anniversary celebration. 
         Register now and showcase your talents!
       </p>
