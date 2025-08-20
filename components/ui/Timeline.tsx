@@ -23,9 +23,9 @@ export default function InfoCard({
         relative rounded-xl p-3 bg-[#40298A] border border-[#54279E] shadow-lg flex
         flex-row
         w-full max-w-[90%] mx-auto      
-        sm:max-w-[320px]               
+        sm:max-w-[320px] lg:max-w-[400px]              
         md:w-[300px] md:h-[110px]       
-        lg:w-[375px] lg:h-[120px]      
+        lg:w-[600px] lg:h-[120px]      
         md:${isEven ? "flex-row-reverse" : "flex-row"}
       `}
     >
