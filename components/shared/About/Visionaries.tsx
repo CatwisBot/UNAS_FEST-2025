@@ -11,6 +11,7 @@ const VisionarySlider = ({ data }: { data: Visionary[] }) => (
     spaceBetween={10}
     breakpoints={{
       1440: { slidesPerView: 4.5 },
+      1280: { slidesPerView: 4.2 },
       1024: { slidesPerView: 3.2 },
       768: { slidesPerView: 2.7 },
       640: { slidesPerView: 2.5 },
