@@ -3,7 +3,7 @@ import Slider from "@/components/ui/slider";
 
 export default function VisiMission() {
   return (
-    <div className="bg-gradient-to-b from-[#000C29] to-[#0E2C57] pb-5 md:pb-10">
+    <div className="bg-gradient-to-b from-[#0D0A40] to-[#1B0858] pb-5 md:pb-10">
       <h1 className="text-center text-4xl font-semibold uppercase">
         our vision
       </h1>

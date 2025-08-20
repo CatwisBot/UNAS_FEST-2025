@@ -14,7 +14,7 @@ const PastMascots: React.FC = () => {
   const tabs = Object.keys(pastMascotsData);
 
   return (
-    <section className="bg-gradient-to-b from-[#004479] to-[#00386A] py-16 px-4">
+    <section className="bg-[#4D00AD] py-16 px-4">
       <div className="w-full px-4 md:px-8">
         <h2 className="text-4xl font-bold uppercase text-center text-white mb-5">
           PAST MASCOTS

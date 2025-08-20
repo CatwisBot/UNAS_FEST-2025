@@ -111,7 +111,7 @@ const MainCommittee: React.FC = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-[#000C29] to-[#000F2D] text-white min-h-auto py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-gradient-to-b from-[#29066F] to-[#061431] text-white min-h-auto py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center mb-12">
           <div className="hidden sm:block"></div>

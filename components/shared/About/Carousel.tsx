@@ -31,7 +31,7 @@ export default function AboutCarousel({
   const currentSlide = slides[currentSlideIndex];
 
   return (
-    <section className="relative w-full h-[600px] overflow-hidden bg-[#000C29] flex items-center justify-center p-8 mx-auto">
+    <section className="relative w-full h-[600px] overflow-hidden bg-[#0D0A40] flex items-center justify-center p-8 mx-auto">
       <div className="flex flex-col-reverse md:flex-row w-full h-full max-w-7xl mx-auto">
         <div className="w-full md:w-1/2 flex flex-col justify-center p-4 md:p-8 text-white text-center md:text-left z-20 md:pr-8">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold mb-4 leading-tight drop-shadow-lg">
