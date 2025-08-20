@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ourLogo = () => {
   return (
-    <section className="bg-gradient-to-b from-[#000F2D] to-[#061431] text-white w-full px-4 py-12">
+    <section className="bg-gradient-to-b from-[#061431] to-[#001033] text-white w-full px-4 py-12">
       <div className="max-w-5xl mx-auto flex flex-col gap-6 mb-5">
         <div className="text-center leading-tight">
           <h2 className="text-4xl font-extrabold text-white tracking-widest uppercase mb-1">

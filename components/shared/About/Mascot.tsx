@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ourMascot() {
   return (
-    <div className="pt-10 pb-1 bg-gradient-to-b from-[#001E5B] via-[#010552] to-[#004479] max-w-screen px-10">
+    <div className="pt-10 pb-1 bg-gradient-to-b from-[#001132] via-[#010552] to-[#4D00AD] max-w-screen px-10">
       <div className="text-center">
         <h1 className="text-4xl font-bold uppercase">
           our mascots

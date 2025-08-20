@@ -57,7 +57,7 @@ const Visionaries = () => {
   }, []);
 
   return (
-    <div className="overflow-hidden bg-gradient-to-b from-[#00386A] to-[#000138] px-10 py-16">
+    <div className="overflow-hidden bg-gradient-to-b from-[#4D00AD] via-[#0A0B30] to-[#000138] px-10 py-16">
       <h2 className="text-4xl font-bold uppercase text-center text-white mb-10">
         Our Visionaries
       </h2>

@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function LogoDetail() {
   return (
-    <div className="bg-gradient-to-b from-[#061431] to-[#001F5C] px-4 py-10">
+    <div className="bg-gradient-to-b from-[#001033] to-[#001132] px-4 py-10">
       <h1 className="text-center text-4xl font-bold text-white">LOGO DETAILS</h1>
 
       <div className="mt-8 flex flex-wrap justify-center gap-6">
