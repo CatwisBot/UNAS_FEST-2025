@@ -85,14 +85,15 @@ export default function PosterSwiper() {
             425: { slidesPerView: 1.9 },
             640: { slidesPerView: 3 },
             1024: { slidesPerView: 4 },
-            1440: { slidesPerView: 5 },
+            1280: { slidesPerView: 5 },
           }}
         >
           {AllPoster.map((item) => (
             <SwiperSlide key={item.index}>
               <div className="flex flex-col items-center py-3">
                 <Link href={item.path}>
-                  <div className="relative w-[200px] h-[280px] xl:w-[260px] xl:h-[360px] cursor-pointer hover:scale-105 transition-transform duration-300">
+                  <div className="relative w-[200px] h-[280px] xl:w-[260px] xl:h-[360px] cursor-pointer shine-container">
+                    <div className="shine-overlay"></div>
                     <Image
                       src={item.image}
                       alt={item.name}
