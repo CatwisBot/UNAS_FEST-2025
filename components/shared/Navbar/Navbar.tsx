@@ -14,7 +14,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuLink,
 } from "@/components/ui/navigationMenu";
-import unasfestLogo from "@/public/icons/Navbar/UF24.png";
+import unasfestLogo from "@/public/icons/Navbar/Logo_UF25.png";
 import { AnimatePresence, motion } from "framer-motion";
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";

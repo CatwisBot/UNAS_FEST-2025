@@ -8,7 +8,7 @@ import Instagram from "@/public/icons/Footer/Instagram.png";
 import Youtube from "@/public/icons/Footer/Youtube.png";
 import Tiktok from "@/public/icons/Footer/Tiktok.png";
 import Linkedin from "@/public/icons/Footer/LinkedIn.png";
-import UF from "@/public/icons/Navbar/UF24.png";
+import UF from "@/public/icons/Navbar/UF25.png";
 
 export default function Footer() {
   const [showActivities, setShowActivities] = useState(false);
