@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import Mascot from "@/public/icons/Mascot/Mascot.png";
 import { featureHero } from "@/constants/Home/Hero";
 import { useEffect, useRef } from "react";
@@ -97,7 +98,7 @@ export default function Hero() {
 
           <div className="order-2 lg:order-1 flex flex-col justify-center">
             <span className="bg-[#8E5CBD]/77 text-white text-sm px-4 py-1 rounded-full w-fit mb-4">
-              76th anniversary Celebration
+              76th Anniversary Celebration
             </span>
             <h1 className="text-3xl sm:text-5xl font-bold leading-tight max-[350px]:text-center sm:text-left">
               SIGN UP NOW FOR <br />
@@ -108,9 +109,11 @@ export default function Hero() {
               the annual events held to commemorate and celebrate the 76th
               anniversary of Dies Natalis Universitas Nasional.
             </p>
+            <Link href="#competition" className="scroll-smooth">
             <button className="mt-8 cursor-pointer bg-white text-[#973BEB] font-semibold px-6 py-3 rounded-xl shadow-lg w-fit hover:bg-[#973BEB] hover:text-white transition">
               Explore Event →
             </button>
+            </Link>
           </div>
         </div>
       </div>

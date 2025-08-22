@@ -18,7 +18,6 @@ const GalleryHero: React.FC = () => {
      
       </div>
 
-      {/* Konten Utama */}
       <div className="flex flex-col items-center justify-center text-center max-w-4xl mx-auto z-10">
         <h1 className="text-4xl lg:text-5xl font-bold -mb-3">
           GALLERY OF <br /> </h1>.
@@ -30,7 +29,6 @@ const GalleryHero: React.FC = () => {
           Official Photo Gallery of UNAS FEST - Event Documentation
         </p>
 
-        {/* Informasi Bawah */}
         <div className="flex justify-center space-x-10 mt-30">
   <div className="flex items-center gap-2 text-[#b388ff]">
 

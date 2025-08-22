@@ -33,7 +33,6 @@ export default function Memories() {
             <div className="grid grid-cols-4sm:grid-cols-4 sm:grid-rows-4 lg:grid-cols-6 lg:grid-rows-7 gap-4 max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto px-4 sm:px-0 pt-8">
                 <Card className="sm:col-span-2 sm:row-span-2 lg:col-span-2 lg:row-span-4 p-4 bg-[#49258B] border-1 border-[#54279E] text-white rounded-2xl shadow-lg">
                     <CardContent className="flex flex-col h-full justify-between">
-                        {/* Header */}
                         <div className="flex items-center gap-3">
                             <div className="bg-gradient-to-r from-[#9035EA] to-[#2A60EB] from-0% to-100% p-2 rounded-xl">
                                 <Calendar className="w-6 h-6 text-white" />
@@ -44,13 +43,11 @@ export default function Memories() {
                             </div>
                         </div>
 
-                        {/* Description */}
                         <p className="text-sm mt-3 text-[#D8B4FE] font-bold leading-relaxed">
                             Last year, we celebrated the 75th anniversary of the National University
                             with various exciting competitions and outstanding participation from all students.
                         </p>
 
-                        {/* Stats */}
                         <div className="grid grid-cols-2 gap-2 mt-4">
                             <div className="bg-[#55269E] border-1 border-[#54279E] p-3 rounded-xl text-center">
                                 <p className="text-xl font-bold">999+</p>
@@ -86,21 +83,17 @@ export default function Memories() {
                     <CardContent className="flex flex-col h-full">
                         <h2 className="font-extrabold text-xl mb-4">Website 2024</h2>
 
-                        {/* Box UNAS FEST */}
                         <div className="bg-gradient-to-r from-[#572AA4] to-[#4731A4] from-0% to-100% rounded-xl p-4 flex flex-col items-center justify-center">
                             <div className="bg-gradient-to-br from-[#A056F7] to-[#3262EC] from-0% to-100% rounded-xl p-8 text-center shadow-md w-full">
                                 <h3 className="text-2xl font-extrabold">UNAS FEST 2024</h3>
                                 <p className="text-md text-[#D5D4FA] font-bold">Previous Website</p>
                             </div>
 
-
-                            {/* Deskripsi */}
                             <p className="text-md text-[#DEC8F8] font-bold mt-4 leading-relaxed">
                                 Visit last year’s website to see complete documentation and a gallery of
                                 photos from various competitions that have taken place.
                             </p>
                         </div>
-                        {/* Tombol */}
                         <Link href="https://unasfest2024.com" target="_blank" rel="noopener noreferrer">
                             <Button className="cursor-pointer mt-6 bg-gradient-to-r from-[#9233EA] from-0% to-[#2C5FEA] to-100% text-white w-full rounded-xl py-4 text-base font-semibold shadow-md hover:opacity-90">
                                 Visit UNAS FEST 2024
@@ -118,7 +111,6 @@ export default function Memories() {
                     </CardContent>
                 </Card>
 
-                {/* Nomor 5 - Gallery */}
                 <Card className="sm:col-start-4 sm:row-start-4 lg:col-span-2 lg:row-span-2 lg:col-start-5 lg:row-start-6 p-4 bg-[#49258B] border-1 border-[#54279E] text-white rounded-2xl shadow-lg flex items-center">
                     <CardContent className="flex flex-col gap-3">
                         <ImageIcon className="w-8 h-8 text-blue-400" />

@@ -1,7 +1,7 @@
 import IDC from "@/public/image/Poster/IDC.png";
 import EDC from "@/public/image/Poster/EDC.png";
 import SPC from "@/public/image/Poster/SPC.png";
-import Infografis from "@/public/image/Poster/Infografis.png";
+import Infographic from "@/public/image/Poster/Infografis.png";
 import Short from "@/public/image/Poster/Short-Video.png";
 
 export const AllPoster = [
@@ -28,9 +28,9 @@ export const AllPoster = [
   },
   {
     index: 4,
-    image: Infografis.src,
-    name: "Infografis Poster",
-    path: "/activities/Infografis",
+    image: Infographic.src,
+    name: "Infographic Poster",
+    path: "/activities/Infographic",
     desc: "The Infographics competition aims to encourage participants to think critically andcreatively, while being able to present information in a concise, accurate, and easily understandable manner. Besides honing design skills and visual message delivery, participants are also invited to increase their awareness of global issues relevant to daily life. The Infographics competition carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” which discusses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and remain sustainable. The competition targets 15 teams consisting of active high school students from SMA, MAN, and SMK in the JABODETABEK area. Activities begin with a webinar to equip participants with the skills, knowledge, and understanding necessary to create their works.The Infographics competition consists of three stages: Administrative Selection, Semifinals, and Finals—all conducted online, followed by an onsite awarding ceremony.",
   },
   {

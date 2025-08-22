@@ -69,6 +69,8 @@ export default function Timeline({ events }: TimelineProps) {
     { ...useFloatingParticle(40), size: 40, opacity: 0.5 },
     { ...useFloatingParticle(50), size: 50, opacity: 0.6 },
     { ...useFloatingParticle(60), size: 60, opacity: 0.7 },
+    { ...useFloatingParticle(60), size: 60, opacity: 0.7 },
+    { ...useFloatingParticle(60), size: 60, opacity: 0.7 },
     { ...useFloatingParticle(70), size: 70, opacity: 0.8 },
     { ...useFloatingParticle(80), size: 80, opacity: 0.9 },
   ];

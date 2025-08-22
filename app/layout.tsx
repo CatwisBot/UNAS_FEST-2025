@@ -1,9 +1,11 @@
-import type { Metadata, Viewport} from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import Navbar from "@/components/shared/Navbar/Navbar";
 import Footer from "@/components/shared/Footer/Footer";
 import Audio from "@/components/shared/Audio";
+import RefreshHandler from "@/components/shared/Refresh";
+
 const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",
@@ -18,34 +20,27 @@ export const viewport: Viewport = {
   maximumScale: 1,
   userScalable: false,
   viewportFit: 'cover',
-}
+};
 
 export const metadata: Metadata = {
   title: "UNASFEST 2025",
-  description: "UNAS FEST 2025 - Unas Fest is a festival organized by the students of Universitas Nasional, Jakarta, Indonesia. It is a celebration of culture, creativity, and community.",
+  description:
+    "UNAS FEST 2025 - Unas Fest is a festival organized by the students of Universitas Nasional, Jakarta, Indonesia. It is a celebration of culture, creativity, and community.",
   icons: "./favicon.ico",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly< {
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body 
-        className={`${poppins.variable} font-poppins text-white overflow-x-hidden`}
-        >
-        {/* Navbar */}
-        <Navbar />
+      <body className={`${poppins.variable} font-poppins text-white overflow-x-hidden`}>
+        <div id="root-layout">
+          <Navbar />
+          <Audio />
 
-        {/* Music Audio */}
-        <Audio />
+          {children}
 
-        {children}
-        
-        {/* Footer */}
-        <Footer />
+          <Footer />
+        </div>
       </body>
     </html>
   );

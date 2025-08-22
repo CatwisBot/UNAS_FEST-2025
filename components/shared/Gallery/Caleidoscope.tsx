@@ -8,16 +8,14 @@ const CaleidoscopeSection: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   return (
-    <div className="bg-gradient-to-b from-[#0A0B30] to-[#400E7B] to-50% text-white p-5 flex flex-col items-center font-poppins">
+    <div className="bg-gradient-to-b from-[#0C0D35] to-[#0C0B33] to-50% text-white p-5 flex flex-col items-center py-20">
       
-      <h1 className="text-4xl lg:text-5xl font-bold mb-8">
+      <h1 className="text-xl sm:text-2xl lg:text-4xl text-center font-bold mb-5">
         CALEIDOSCOPE <span className="text-[#8B5CF6]">UNAS FEST</span> 2025
       </h1>
 
-      {/* Kontainer Video */}
-      <div className="w-full max-w-5xl bg-[#4b4b4b] rounded-lg shadow-xl relative aspect-video overflow-hidden">
+      <div className="w-full max-w-2xs sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto rounded-lg shadow-xl relative aspect-video overflow-hidden">
         
-        {/* Konten Placeholder (Gambar & Logo) hanya Tampil jika video TIDAK diputar */}
         {!isPlaying && (
           <>
 
@@ -48,19 +46,17 @@ const CaleidoscopeSection: React.FC = () => {
               </svg>
             </div>
 
-            {/* Tautan */}
             <a 
               href="https://www.youtube.com/live/avng_u8b2d0?si=wPA-68IZGX14DcPl" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="absolute bottom-4 left-4 text-lg font-bold text-black hover:underline z-10"
+              className="absolute bottom-4 left-4 text-lg font-bold text-black backdrop-blur-xs hover:underline z-10"
             >
               Watch on YouTube
             </a>
           </>
         )}
 
-        {/* Video YouTube (Hanya Tampil jika isPlaying bernilai true) */}
         {isPlaying && (
           <iframe 
             src="https://www.youtube.com/embed/avng_u8b2d0?autoplay=1" 

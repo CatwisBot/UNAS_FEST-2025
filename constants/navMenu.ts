@@ -1,4 +1,5 @@
 import { Activities } from "@/constants/Activities/Activities";
+import { Gallery } from "@/constants/Gallery/Gallery";
 
 export const navMenu = [
   {
@@ -16,6 +17,10 @@ export const navMenu = [
   {
     path: "/gallery",
     title: "Gallery",
+    child: Gallery.map((gallery) => ({
+      name: gallery.title,
+      href: `/gallery/${gallery.path}`,
+    })),
   },
   {
     path: "/partnership",

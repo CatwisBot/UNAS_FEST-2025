@@ -57,7 +57,6 @@ const Faq = () => {
   return (
     <div className="relative bg-gradient-to-b from-0% from-[#37126B] to-80% to-[#000138] w-full min-h-[600px] md:min-h-[700px] lg:min-h-[800px] xl:min-h-[900px] overflow-visible">
 
-      {/* FAQ Content */}
       <div className="relative z-10 w-full pt-16 sm:pt-24 md:pt-32 pb-12 sm:pb-16 md:pb-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold tracking-wide text-white mb-8 sm:mb-10 md:mb-12">

@@ -18,9 +18,11 @@ export default function Ready() {
           Register Now →
         </button>
         </Link>
+        <Link href="#competition" className="scroll-smooth">
         <button className="px-6 py-3 rounded-xl border-2 border-white text-white font-semibold hover:bg-white hover:text-[#973BEB] transition cursor-pointer">
           Learn More
         </button>
+        </Link>
       </div>
     </div>
   );

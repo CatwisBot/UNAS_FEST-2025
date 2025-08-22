@@ -90,7 +90,6 @@ export default function Navbar() {
     <header className="sticky z-[99] top-0 w-full bg-[#441F7E]">
       <div className="h-[80px] w-full border-b-2 border-[rgba(0,0,0,0.10)]">
         <div className="container mx-auto flex h-full items-center justify-between px-4">
-          {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
               src={unasfestLogo}
@@ -101,7 +100,6 @@ export default function Navbar() {
             />
           </Link>
 
-          {/* Desktop Menu */}
           <nav className="hidden lg:flex mr-8">
             <NavigationMenu>
               <NavigationMenuList className="flex flex-row gap-8">
@@ -166,7 +164,6 @@ export default function Navbar() {
             </NavigationMenu>
           </nav>
 
-          {/* Mobile Menu Button */}
           <div className="flex lg:hidden">
             <button
               className="p-2"
@@ -186,7 +183,6 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile Menu with Particles */}
         <AnimatePresence>
           {menuOpen && (
             <>
@@ -313,26 +309,33 @@ function NestedNav({ title, path, menu, closeMenu }: NestedNavProps) {
   const pathname = usePathname();
 
   return (
-    <NavigationMenuItem
-      className={`z-50 ${pathname.includes(path) ? "nav-active" : "nav"}`}
-    >
-      <NavigationMenuTrigger className="relative px-2 py-1 text-white font-bold text-base transition-colors duration-150 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-0 after:transition-all after:duration-300 hover:after:w-full data-[state=open]:after:w-full">
-        {title}
-      </NavigationMenuTrigger>
-      <NavigationMenuContent>
-        <ul className="w-[300px] text-left">
-          {menu.map(({ name, href }, index) => (
-            <NavigationMenuLink key={index} onClick={closeMenu}>
-              <Link
-                href={href}
-                className="block w-[300px] rounded-md p-3 text-sm leading-snug text-muted-foreground hover:bg-white hover:text-black"
-              >
-                {name}
-              </Link>
-            </NavigationMenuLink>
-          ))}
-        </ul>
-      </NavigationMenuContent>
-    </NavigationMenuItem>
+    <NavigationMenu>
+      <NavigationMenuList>
+        <NavigationMenuItem
+          className={`z-50 ${pathname.includes(path) ? "nav-active" : "nav"}`}
+        >
+          <NavigationMenuTrigger className="relative px-2 py-1 text-white font-bold text-base transition-colors duration-150 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-0 after:transition-all after:duration-300 hover:after:w-full data-[state=open]:after:w-full">
+            {title}
+          </NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <ul className="w-[300px] text-left">
+              {menu.map(({ name, href }) => (
+                <li key={`${title}-${name}`}>
+                  <NavigationMenuLink asChild>
+                    <Link
+                      href={href}
+                      className="block w-full rounded-md p-3 text-sm leading-snug text-muted-foreground hover:bg-white hover:text-black transition-colors"
+                      onClick={closeMenu}
+                    >
+                      {name}
+                    </Link>
+                  </NavigationMenuLink>
+                </li>
+              ))}
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+      </NavigationMenuList>
+    </NavigationMenu>
   );
 }

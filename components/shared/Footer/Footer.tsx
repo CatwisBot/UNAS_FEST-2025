@@ -12,6 +12,7 @@ import UF from "@/public/icons/Navbar/UF25.png";
 
 export default function Footer() {
   const [showActivities, setShowActivities] = useState(false);
+  const [showGallery, setShowGallery] = useState(false);
   const [count, setCount] = useState<number | null>(null);
 
   useEffect(() => {
@@ -37,7 +38,6 @@ export default function Footer() {
       className="bg-[#000138] text-white py-10"
     >
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 md:items-start">
-        {/* Logo & Sosmed */}
         <div className="flex flex-col items-center md:items-start space-y-4 pl-0 md:pl-8">
           <Image
             src={UF}
@@ -78,7 +78,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-3">
@@ -129,10 +128,10 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="/activities/Infografis"
+                      href="/activities/Infographic"
                       className="hover:text-gray-300"
                     >
-                      Infografis Competition
+                      Infographic Competition
                     </Link>
                   </li>
                   <li>
@@ -147,9 +146,63 @@ export default function Footer() {
               </div>
             </li>
             <li>
-              <Link href="/gallery" className="hover:text-gray-300">
+              <button
+                onClick={() => setShowGallery(!showGallery)}
+                className="flex items-center hover:text-gray-300 cursor-pointer"
+              >
                 Gallery
-              </Link>
+                <FaCaretDown
+                  className={`ml-2 transition-transform duration-300 ${showGallery ? "rotate-180" : ""}`}
+                />
+              </button>
+              <div
+                className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                  showGallery ? "max-h-96 mt-2" : "max-h-0"
+                }`}
+              >
+                <ul className="ml-4 space-y-2">
+                  <li>
+                    <Link
+                      href="/gallery/IDC"
+                      className="hover:text-gray-300"
+                    >
+                      Indonesian Debate Competition
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/gallery/EDC"
+                      className="hover:text-gray-300"
+                    >
+                      English Debate Competition
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/gallery/SPC"
+                      className="hover:text-gray-300"
+                    >
+                      Scientific Paper Competition
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/gallery/Infographic"
+                      className="hover:text-gray-300"
+                    >
+                      Infographic Competition
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/gallery/ShortVideo"
+                      className="hover:text-gray-300"
+                    >
+                      Short Video Competition
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li>
               <Link href="/partnership" className="hover:text-gray-300">
@@ -164,7 +217,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Activities */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Activities</h3>
           <ul className="space-y-2">
@@ -185,10 +237,10 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                href="/activities/Infografis"
+                href="/activities/Infographic"
                 className="hover:text-gray-300"
               >
-                Infografis Competition
+                Infographic Competition
               </Link>
             </li>
             <li>
@@ -202,7 +254,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Contact */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
           <p className="mb-4">unasfest@gmail.com</p>
@@ -216,7 +267,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Footer Bottom */}
       <div className="container mx-auto px-10 mt-8">
         <div className="border-t-2 border-white/50 flex flex-col md:flex-row justify-between items-center text-xs md:text-sm font-semibold gap-2 pt-4">
           <p>© Copyright UNAS FEST 2025</p>

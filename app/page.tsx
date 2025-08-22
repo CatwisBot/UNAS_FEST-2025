@@ -12,25 +12,19 @@ export default function homePage() {
     const homeEvents = EVENTS.find(event => event.path === "/")?.timeline;
     return(
         <>
-            {/* Hero Section */}
+           
             <Hero />
 
-            {/* Competition */}
             <Competition />
 
-            {/* Memories */}
             <Memories />
 
-            {/* Timeline */}
             {homeEvents && <Timeline events={homeEvents} />}
 
-            {/* Benefit Section */}
             <Benefit />
 
-            {/* Ready */}
             <Ready />
 
-            {/* FAQ */}
             <FAQ />
         </>
     )

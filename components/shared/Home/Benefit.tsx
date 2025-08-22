@@ -32,7 +32,6 @@ const Benefit = () => {
       <div className="pb-10 px-4">
         <div className="shine-wrap relative overflow-hidden max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto rounded-2xl bg-gradient-to-r from-[#9233EA] to-[#2761EA] p-8 text-center text-white">
 
-          {/* Isi konten */}
           <p className="text-xs sm:text-sm font-semibold mb-2">
             Total prize value and appreciation for all categories
           </p>

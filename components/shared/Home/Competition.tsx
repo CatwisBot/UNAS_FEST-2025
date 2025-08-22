@@ -48,7 +48,7 @@ export default function PosterSwiper() {
                   {AllPoster[activeIndex].desc}
                 </p>
               </div>
-              <div className="relative w-[200px] h-[280px] xl:w-[260px] xl:h-[360px] flex-shrink-0">
+              <div id="competition" className="relative w-[200px] h-[280px] xl:w-[260px] xl:h-[360px] flex-shrink-0">
                 <Image
                   src={AllPoster[activeIndex].image}
                   alt={AllPoster[activeIndex].name}
@@ -110,15 +110,10 @@ export default function PosterSwiper() {
         <div className="absolute bottom-0 left-0 md:left-4 w-full z-10">
           <div className="relative max-w-sm sm:max-w-[210px] px-4">
             <div className="flex items-center justify-center gap-4 h-12">
-              {/* Tombol Prev */}
               <div className="swiper-button-prev absolute left-4 md:left-6 lg:left-8 cursor-pointer rounded-sm p-2 transition-all hover:scale-105">
                 <MoveLeft className="h-5 w-5 text-white md:h-6 md:w-6" />
               </div>
-
-              {/* Pagination */}
               <div className="custom-pagination flex items-center justify-center gap-2 w-full max-w-[300px]" />
-
-              {/* Tombol Next */}
               <div className="swiper-button-next absolute right-4 md:right-6 lg:right-8 cursor-pointer rounded-sm p-2 transition-all hover:scale-105">
                 <MoveRight className="h-5 w-5 text-white md:h-6 md:w-6" />
               </div>
