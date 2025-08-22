@@ -33,14 +33,8 @@ export default function Sponsor() {
     const duplicates = scrollerInner.querySelectorAll('[data-duplicated="true"]');
     duplicates.forEach(el => el.remove());
     
-    sponsorsData.forEach((sponsor, idx) => {
-      const duplicatedItem = (
-        <div key={`duplicate-${idx}`} className="min-w-[250px] flex-shrink-0" data-duplicated="true">
-          <SponsorCard sponsor={sponsor} />
-        </div>
-      );
-      
-      const tempDiv = document.createElement('div');
+    sponsorsData.forEach((_sponsor, idx) => {
+    
 
       const originalItems = scrollerInner.querySelectorAll('.min-w-\\[250px\\]');
       if (originalItems[idx]) {
@@ -58,7 +52,7 @@ export default function Sponsor() {
       
       <div id="SeeSponsor" className="flex flex-row gap-4 items-center justify-center text-white pb-10 pt-20 relative z-20">
         <Image src={Medal} alt="Medal" width={30} height={30} />
-        <h2 className="uppercase text-2xl sm:text-4xl font-bold">sponsor</h2>
+        <h2 className="uppercase text-3xl font-bold">sponsor</h2>
       </div>
 
       <div ref={scrollerRef} className="relative w-full overflow-hidden group max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto py-6 z-20">

@@ -8,9 +8,7 @@ import Trophy from "@/public/icons/Home/Trophy2.png";
 import Star from "@/public/icons/Home/Star.png";
 import Plaque from "@/public/icons/Home/Plaque.png";
 import Person from "@/public/icons/Home/Person2.png";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { FreeMode, Autoplay } from "swiper/modules";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay"
 

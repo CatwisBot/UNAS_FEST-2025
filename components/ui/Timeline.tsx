@@ -1,7 +1,7 @@
 import { TimelineItem } from "@/lib/types/Activities/Timeline";
 
 interface InfoCardProps extends TimelineItem {
-  index: number;
+  isEven?: boolean;
 }
 
 export default function InfoCard({
@@ -9,10 +9,8 @@ export default function InfoCard({
   day,
   year,
   title,
-  index,
+  isEven = false,
 }: InfoCardProps) {
-  const isEven = index % 2 === 0;
-
   const borderClasses = isEven
     ? "border-l border-white pl-3 md:border-r md:border-l-0 md:pl-0 md:pr-3"
     : "border-l border-white pl-3 md:border-l md:pr-0 md:pl-3";

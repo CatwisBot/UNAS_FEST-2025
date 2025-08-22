@@ -13,9 +13,6 @@ import {
 import {
   Drawer,
   DrawerContent,
-  DrawerHeader,
-  DrawerTitle,
-  DrawerDescription,
 } from "@/components/ui/drawer";
 import { Button } from "@/components/ui/button";
 import { Fragment } from "react";
@@ -36,10 +33,6 @@ const MemberCard: React.FC<MemberCardProps> = ({
   name,
   role,
   photoUrl,
-  description,
-  member,
-  position,
-  isAPM = false,
   onOpen,
   isHovered,
 }) => {

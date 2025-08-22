@@ -4,7 +4,6 @@ import { Poppins } from "next/font/google";
 import Navbar from "@/components/shared/Navbar/Navbar";
 import Footer from "@/components/shared/Footer/Footer";
 import Audio from "@/components/shared/Audio";
-import RefreshHandler from "@/components/shared/Refresh";
 
 const poppins = Poppins({
   subsets: ["latin"],

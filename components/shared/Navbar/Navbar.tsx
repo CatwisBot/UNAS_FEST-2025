@@ -143,19 +143,20 @@ export default function Navbar() {
                           )}
                         </a>
                       ) : (
-                        <Link href={path} legacyBehavior passHref>
-                          <NavigationMenuLink
-                            className={`
-                              relative px-2 py-1 text-white transition-colors duration-150
-                              after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-0 after:transition-all after:duration-300
-                              hover:after:w-full
-                              ${pathname === path ? "after:w-full" : ""}
-                              font-bold
-                            `}
-                          >
+                        <NavigationMenuLink
+                          asChild
+                          className={`
+                            relative px-2 py-1 text-white transition-colors duration-150
+                            after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-0 after:transition-all after:duration-300
+                            hover:after:w-full
+                            ${pathname === path ? "after:w-full" : ""}
+                            font-bold
+                          `}
+                        >
+                          <Link href={path}>
                             {title}
-                          </NavigationMenuLink>
-                        </Link>
+                          </Link>
+                        </NavigationMenuLink>
                       )}
                     </NavigationMenuItem>
                   );

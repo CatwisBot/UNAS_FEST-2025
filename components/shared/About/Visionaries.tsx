@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Image from "next/image";
 import { Mascot, Web, Music, Visionary } from "@/constants/About/Visionaries";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -41,22 +41,6 @@ const VisionarySlider = ({ data }: { data: Visionary[] }) => (
 );
 
 const Visionaries = () => {
-  const [bgSize, setBgSize] = useState("100%");
-
-  useEffect(() => {
-    const updateSize = () => {
-      if (window.innerWidth >= 768) {
-        setBgSize("75%");
-      } else {
-        setBgSize("100%");
-      }
-    };
-
-    updateSize();
-    window.addEventListener("resize", updateSize);
-    return () => window.removeEventListener("resize", updateSize);
-  }, []);
-
   return (
     <div className="overflow-hidden bg-gradient-to-b from-[#4D00AD] via-[#0A0B30] to-[#000138] px-10 py-16">
       <h2 className="text-4xl font-bold uppercase text-center text-white mb-10">

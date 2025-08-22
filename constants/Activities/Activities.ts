@@ -1,19 +1,21 @@
 // Cover Image
 import KDBICover from "@/public/image/Activities/Cover/coverKDBI.png";
-
+import SPCCover from "@/public/image/Activities/Cover/Gemini_Generated_Image_vfn6iyvfn6iyvfn6.png"
 // Juri KDBI
-import kyla from "@/public/image/Activities/Judges/Kylas.jpg";
+import kyla from "@/public/image/Activities/judges/Kylas.jpg";
 
 //Juri EDC
-import jerry from "@/public/image/Activities/Judges/Jerry.jpg";
+import jerry from "@/public/image/Activities/judges/Jerry.jpg";
 
 //Juri SPC
-import hisyam from "@/public/image/Activities/Judges/Hisyam.jpg";
+import hisyam from "@/public/image/Activities/judges/Hisyam.jpg";
 
 // Juri DCC
-import fuecoco from "@/public/image/Activities/Judges/Fuecoco.jpg";
+import fuecoco from "@/public/image/Activities/judges/Fuecoco.jpg";
 
-export const Activities = [
+import { Activity } from "@/lib/types/Activities/Activities";
+
+export const Activities: Activity[] = [
   {
     path: "IDC",
     title: "Indonesian Debate Competition",
@@ -739,7 +741,7 @@ export const Activities = [
   {
     path: "Short-Video",
     title: "Short Video Competition",
-    coverImage: KDBICover,
+    coverImage: SPCCover,
     description:
       "The Short Video competition is a contest for brief videos typically lasting from 15 seconds up to 3 minutes, designed to convey messages in a concise, creative, and informative manner. The theme, “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” addresses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and sustainable over time. The Short Video competition targets 15 teams consisting of active high school students from SMA, MAN, and SMK in the JABODETABEK area. The activity begins with a webinar aimed at providing participants with the skills, knowledge, and understanding needed to create effective Short Video works. The competition consists of three stages: Administrative Selection, Semifinals, and Finals — all conducted online, followed by an onsite awarding ceremony.",
     guideBook: "/File/tes.pdf",
