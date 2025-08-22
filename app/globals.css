@@ -172,3 +172,59 @@
 .shine-container-contact:hover .shine-overlay-contact {
   opacity: 1;
 }
+
+@keyframes loop-scroll-reverse {
+  0% { transform: translateX(calc(-100% / 2)); }
+  100% { transform: translateX(0); }
+}
+
+.animate-loop-scroll-reverse {
+  display: flex;
+  animation: loop-scroll-reverse 25s linear infinite;
+  width: max-content;
+}
+
+.animate-loop-scroll-reverse:hover {
+  animation-play-state: paused;
+}
+
+@keyframes bounce-scale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+}
+
+.animate-bounce-scale {
+  animation: bounce-scale 2s infinite ease-in-out;
+}
+
+body:has(.hide-navbar-footer) #root-layout > nav,
+body:has(.hide-navbar-footer) #root-layout > footer {
+  display: none !important;
+}
+
+.hide-navbar-footer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+@keyframes sparkle {
+    0% { opacity: 0.2; transform: rotate(12deg) scale(0.8); }
+    50% { opacity: 1; transform: rotate(12deg) scale(1.2); }
+    100% { opacity: 0.2; transform: rotate(12deg) scale(0.8); }
+  }
+  .sparkle-animation {
+    animation: sparkle 2s infinite ease-in-out;
+  }
+
+.hide-navbar-footer ~ #root-layout > nav,
+.hide-navbar-footer ~ #root-layout > footer {
+  display: none !important;
+}
