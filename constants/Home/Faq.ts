@@ -1,38 +1,66 @@
 export interface FaqItem {
   question: string;
-  answer: string;
+  answer: string | string[];
 }
 
 export const FaqData: FaqItem[] = [
   {
-    question: "How do I register for the competition of UNAS FEST?",
+    question: "What is UNAS FEST 2025?",
     answer:
-      "Visit the caturnawa.unasfest.com, choose one of the Competition 'Kompetisi Debat Bahasa Indonesia', click 'Register Now', fill the form, review, and make the payment",
+      "UNAS FEST 2025 is a national academic and creative festival organized by Universitas Nasional. This festival accommodates competitions for high school/vocational school/equivalent students to hone their critical thinking, scientific writing, and digital creativity skills.",
   },
   {
-    question: "How do I register for the competition of UNAS FEST?",
+    question: "What is the theme of this year's UNAS FEST?",
     answer:
-      "Click the posters at the top of the homepage to register for the competition or click the 'Register' button on the activity page",
+      " This year, UNAS FEST carries the theme “Taking Preventive Action Against Deforestation Through Artificial Intelligence (AI)-Based Technological Innovation in Achieving a Resilient and Sustainable Ecosystem.”",
   },
   {
-    question: "How much is the registration fee for the UNAS FEST competition?",
-    answer:
-      "The registration fees vary across competitions, starting from Rp 3000,000 to Rp 550,000",
+    question: "What competitions are there at UNAS FEST 2025?",
+    answer: [
+      "English Debate Competition",
+      "Indonesian Debate Competition",
+      "Scientific Writing Competition",
+      "Short Video Competition",
+      "Infographics Competition",
+    ],
   },
   {
     question:
-      "What is the deadline for registration for the UNAS FEST competition?",
+      "Who can participate in UNAS FEST 2025?",
     answer:
-      "The deadline for registration for the Kompetisi Debat Bahasa Indonesia (KDBI) is August 30, 2025",
+      "The Debate and Scientific Paper Competition is open to all university students in Indonesia, while the Digital Content Competition is open to high school students in the Greater Jakarta area.",
   },
   {
-    question: "When will the winners be announced?",
-    answer:
-      "The winners will be announced on October 17 2025, after the final round sessions",
+    question: "When will registration for UNAS FEST 2025 open?",
+    answer: [
+      "Early Bird: September 1–7, 2025",
+      "Phase 1: September 8–19, 2025",
+      "Phase 2: September 20–28, 2025",
+    ],
   },
   {
-    question: "Where can I see the winner announcement?",
+    question: "How do I register?",
     answer:
-      "The winner announcement will be available on this caturnawa.unasfest.com",
+      "Registration for the competition can be done through the Caturnawa UNAS FEST 2025 website.",
+  },
+  {
+    question: "Is there a registration fee?",
+    answer:
+      "Yes, each competition has a different registration fee. Details of the fees will be listed on the official website.",
+  },
+  {
+    question: "What is the format of the competition? Online or offline?",
+    answer:
+      "The entire UNAS FEST 2025 series will be held online through the official platform determined by the committee, and the UNAS FEST awarding ceremony will be held onsite at Universitas Nasional.",
+  },
+  {
+    question: "Who are the judges for the competition at UNAS FEST?",
+    answer:
+      "The judges consist of academics, practitioners, influencers, and professionals in their respective fields of competition.",
+  },
+  {
+    question: "Will there be certificates for participants and winners of the competition?",
+    answer:
+      "All contestants from all competition categories will receive a certificate of participation, while the winners will receive a special certificate, prize money, and a trophy. ",
   },
 ];
