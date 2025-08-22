@@ -247,6 +247,15 @@ body:has(.hide-navbar-footer) #root-layout > footer {
   z-index: 9999;
 }
 
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+
+.animate-twinkle {
+  animation: twinkle 2s infinite ease-in-out;
+}
+
 @keyframes sparkle {
     0% { opacity: 0.2; transform: rotate(12deg) scale(0.8); }
     50% { opacity: 1; transform: rotate(12deg) scale(1.2); }

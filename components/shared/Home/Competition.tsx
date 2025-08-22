@@ -24,7 +24,23 @@ export default function PosterSwiper() {
   }, []);
 
   return (
-    <main className="bg-[#000138]">
+    <main className="relative bg-[#000000]">
+      <div className="absolute inset-0 z-0">
+        {Array.from({ length: 40 }).map((_, i) => (
+          <div
+            key={i}
+            className="absolute bg-white rounded-full animate-twinkle"
+            style={{
+              width: `${Math.random() * 3 + 1}px`,
+              height: `${Math.random() * 3 + 1}px`,
+              top: `${Math.random() * 100}%`,
+              left: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 5}s`,
+              opacity: Math.random(),
+            }}
+          />
+        ))}
+      </div>
       <div className="text-center md:text-left p-0 md:p-4 lg:p-0 px-0 md:px-5 xl:px-0 pt-2 max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto">
         <h2 className="text-white text-2xl md:text-4xl font-semibold pb-2 mx-0 md:mx-2 uppercase">
           our special{" "}
@@ -61,7 +77,7 @@ export default function PosterSwiper() {
         </div>
       </div>
 
-      <div className="w-full bg-[#000138] py-10 relative max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto overflow-hidden">
+      <div className="w-full bg-[#000000] py-10 relative max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto overflow-hidden">
         <Swiper
           pagination={{
             clickable: true,

@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Memories() {
     return (
-        <main className="bg-gradient-to-b from-[#000138] to-[#571C87] from-32% to-100% pb-20">
+        <main className="bg-gradient-to-b from-[#000000] via-[#571C87] to-[#571C87] from-0% via-63% to-100% pb-20">
             <div className="flex items-center justify-center pt-25">
                 <div className="inline-flex items-center gap-2 bg-[#4D258E] text-white font-bold px-6 py-2 rounded-full">
                     <Image
