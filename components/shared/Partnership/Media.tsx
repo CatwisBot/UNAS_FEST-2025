@@ -32,14 +32,8 @@ export default function Sponsor() {
     const duplicates = scrollerInner.querySelectorAll('[data-duplicated="true"]');
     duplicates.forEach(el => el.remove());
     
-    MediaData.forEach((media, idx) => {
-      const duplicatedItem = (
-        <div key={`duplicate-${idx}`} className="min-w-[250px] flex-shrink-0" data-duplicated="true">
-          <MediaCard media={media} />
-        </div>
-      );
-      
-      const tempDiv = document.createElement('div');
+    MediaData.forEach((_media, idx) => {
+     
 
       const originalItems = scrollerInner.querySelectorAll('.min-w-\\[250px\\]');
       if (originalItems[idx]) {

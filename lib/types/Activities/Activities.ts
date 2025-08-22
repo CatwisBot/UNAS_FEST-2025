@@ -1,22 +1,39 @@
 import { StaticImageData } from "next/image";
 
+export interface Judge {
+  index: number;
+  name: string;
+  linkedin?: string;
+  image: StaticImageData;
+  lastEducation: string;
+  description: string;
+  achievements?: string[];
+}
+
+export interface Requirement {
+  index: number;
+  detail: string;
+}
+
+export interface FAQ {
+  question: string;
+  answer: string | string[];
+}
+
+export interface Activity {
+  path: string;
+  title: string;
+  coverImage: StaticImageData;
+  description: string;
+  guideBook: string;
+  guideBookName: string;
+  requirements: Requirement[];
+  judgesData: Judge[];
+  faqs?: FAQ[];
+}
+
+// Legacy types for backward compatibility
 export interface activitiesData {
-    judgesData: {
-    index: number;
-    name: string;
-    linkedin?: string
-    image: StaticImageData;
-    lastEducation: string;
-    description: string;
-    achievements?: string[];
-  }[];
-  judgesData2: {
-    index: number;
-    name: string;
-    linkedin: string;
-    image: StaticImageData;
-    lastEducation: string;
-    description: string;
-    achievements: string[];
-  }[];
+  judgesData: Judge[];
+  judgesData2: Judge[];
 }

@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 
 export default function NotFound() {
     return (
@@ -79,23 +80,23 @@ export default function NotFound() {
 
                     <p className="mb-4 text-2xl md:text-3xl font-bold text-white">Page Not Found</p>
                     <p className="mb-8 text-lg font-light text-blue-100 max-w-md mx-auto leading-relaxed">
-                        Sorry, we couldn't find the page you were looking for. It may have been moved or deleted.
+                        Sorry, we couldn&apos;t find the page you were looking for. It may have been moved or deleted.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a
+                        <Link
                             href="/"
                             className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium rounded-xl hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:-translate-y-1 shadow-2xl hover:shadow-3xl relative overflow-hidden group"
                         >
                             <span className="relative z-10">Back to Home</span>
                             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                             href="https://wa.me/qr/NXZORPQUZXUCL1#"
                             className="px-8 py-4 border-2 border-blue-400/50 text-blue-300 font-medium rounded-xl hover:bg-blue-500/10 hover:border-blue-400 transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl group"
                         >
                             <span className="relative z-10">Contact Support</span>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="absolute inset-0 overflow-hidden z-0 pointer-events-none">

@@ -5,88 +5,153 @@ import { CompetitionEvent } from "@/lib/types/Activities/Timeline";
 import { motion, useMotionValue, animate } from "framer-motion";
 import Image from "next/image";
 import Particle from "@/public/icons/Mascot/Neura.png";
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect, useMemo, useCallback } from "react";
 
 interface TimelineProps {
     events: CompetitionEvent["timeline"];
+    variant?: "home" | "activities";
 }
 
-export default function Timeline({ events }: TimelineProps) {
+// Custom hook for floating particles with proper cleanup - moved outside component
+const useFloatingParticle = (size: number, delay: number, showParticle: boolean, containerRef: React.RefObject<HTMLDivElement | null>) => {
+    const baseX = useMotionValue(0);
+    const baseY = useMotionValue(0);
+    const baseRotate = useMotionValue(0);
+
+    useEffect(() => {
+        if (!showParticle || !containerRef.current) return;
+
+        let isActive = true;
+        let animationFrame: number;
+
+        const moveParticle = () => {
+            if (!isActive || !containerRef.current) return;
+
+            const containerWidth = containerRef.current.clientWidth;
+            const containerHeight = containerRef.current.clientHeight;
+            const maxX = containerWidth - size;
+            const maxY = containerHeight - size;
+
+            const targetX = Math.random() * maxX;
+            const targetY = Math.random() * maxY;
+            const targetRotate = Math.random() * 40 - 20;
+
+            const duration = 2 + Math.random() * 6;
+
+            animate(baseX, targetX, {
+                duration,
+                ease: "easeInOut",
+                onComplete: () => {
+                    if (isActive) {
+                        animationFrame = requestAnimationFrame(moveParticle);
+                    }
+                },
+            });
+
+            animate(baseY, targetY, {
+                duration,
+                ease: "easeInOut",
+            });
+
+            animate(baseRotate, targetRotate, {
+                duration,
+                ease: "easeInOut",
+            });
+        };
+
+        // Start animation after delay
+        const timeoutId = setTimeout(moveParticle, delay * 1000);
+
+        return () => {
+            isActive = false;
+            clearTimeout(timeoutId);
+            if (animationFrame) {
+                cancelAnimationFrame(animationFrame);
+            }
+        };
+    }, [showParticle, size, delay, containerRef]);
+
+    return { baseX, baseY, baseRotate };
+};
+
+export default function Timeline({ events, variant = "activities" }: TimelineProps) {
     const containerHeight = events.length * 165;
     const cardOffset = 50;
     const lineHeight = (events.length - 1) * 165;
     const containerRef = useRef<HTMLDivElement>(null);
-    const [showParticle, setShowParticle] = useState(true);
+    const [showParticle] = useState(true);
 
-    const useFloatingParticle = (size: number) => {
-        const baseX = useMotionValue(0);
-        const baseY = useMotionValue(0);
-        const baseRotate = useMotionValue(0);
+    // Memoize particle configurations to prevent unnecessary re-renders
+    const particleConfigs = useMemo(() => [
+        { size: 40, opacity: 0.5, delay: 0, duration: 3.2 },
+        { size: 50, opacity: 0.6, delay: 0.5, duration: 3.4 },
+        { size: 60, opacity: 0.7, delay: 1, duration: 3.6 },
+        { size: 60, opacity: 0.7, delay: 1.5, duration: 3.8 },
+        { size: 60, opacity: 0.7, delay: 2, duration: 4.0 },
+        { size: 70, opacity: 0.8, delay: 2.5, duration: 4.2 },
+        { size: 80, opacity: 0.9, delay: 3, duration: 4.4 },
+    ], []);
 
-        useEffect(() => {
-            if (!showParticle || !containerRef.current) return;
+    // Create particles with memoized configurations - move hook calls to top level
+    const particle1 = useFloatingParticle(40, 0, showParticle, containerRef);
+    const particle2 = useFloatingParticle(50, 0.5, showParticle, containerRef);
+    const particle3 = useFloatingParticle(60, 1, showParticle, containerRef);
+    const particle4 = useFloatingParticle(60, 1.5, showParticle, containerRef);
+    const particle5 = useFloatingParticle(60, 2, showParticle, containerRef);
+    const particle6 = useFloatingParticle(70, 2.5, showParticle, containerRef);
+    const particle7 = useFloatingParticle(80, 3, showParticle, containerRef);
 
-            const moveParticle = () => {
-                const containerWidth = containerRef.current!.clientWidth;
-                const containerHeight = containerRef.current!.clientHeight;
-                const maxX = containerWidth - size;
-                const maxY = containerHeight - size;
+    // Combine particles with their configurations
+    const particles = useMemo(() => [
+        { ...particle1, size: 40, opacity: 0.5, duration: 3.2 },
+        { ...particle2, size: 50, opacity: 0.6, duration: 3.4 },
+        { ...particle3, size: 60, opacity: 0.7, duration: 3.6 },
+        { ...particle4, size: 60, opacity: 0.7, duration: 3.8 },
+        { ...particle5, size: 60, opacity: 0.7, duration: 4.0 },
+        { ...particle6, size: 70, opacity: 0.8, duration: 4.2 },
+        { ...particle7, size: 80, opacity: 0.9, duration: 4.4 },
+    ], [particle1, particle2, particle3, particle4, particle5, particle6, particle7]);
 
-                const targetX = Math.random() * maxX;
-                const targetY = Math.random() * maxY;
-                const targetRotate = Math.random() * 40 - 20;
+    // Memoize background classes based on variant
+    const backgroundClasses = useMemo(() => {
+        return variant === "home" 
+            ? "bg-gradient-to-b from-[#571C87] to-[#223788]"
+            : "";
+    }, [variant]);
 
-                const duration = 2 + Math.random() * 6;
-                const delay = Math.random() * 0.1;
-
-                animate(baseX, targetX, {
-                    duration,
-                    delay,
-                    ease: "easeInOut",
-                    onComplete: moveParticle,
-                });
-
-                animate(baseY, targetY, {
-                    duration,
-                    delay,
-                    ease: "easeInOut",
-                });
-
-                animate(baseRotate, targetRotate, {
-                    duration,
-                    delay,
-                    ease: "easeInOut",
-                });
-            };
-
-            setTimeout(moveParticle, Math.random() * 2000);
-        }, [showParticle, size]);
-
-        return { baseX, baseY, baseRotate };
-    };
-
-    const particles = [
-        { ...useFloatingParticle(40), size: 40, opacity: 0.5 },
-        { ...useFloatingParticle(50), size: 50, opacity: 0.6 },
-        { ...useFloatingParticle(60), size: 60, opacity: 0.7 },
-        { ...useFloatingParticle(60), size: 60, opacity: 0.7 },
-        { ...useFloatingParticle(60), size: 60, opacity: 0.7 },
-        { ...useFloatingParticle(70), size: 70, opacity: 0.8 },
-        { ...useFloatingParticle(80), size: 80, opacity: 0.9 },
-    ];
+    // Memoize header content based on variant
+    const headerContent = useMemo(() => {
+        if (variant === "home") {
+            return (
+                <div className="absolute top-10 left-0 w-full text-center z-10">
+                    <h2 className="text-2xl md:text-4xl font-bold text-white uppercase">
+                        Activity Timeline
+                    </h2>
+                </div>
+            );
+        }
+        
+        return (
+            <div className="flex flex-col items-center text-center px-4 justify-center">
+                <h2 className="uppercase text-4xl font-bold pb-3">
+                    the journey to <span className="bg-gradient-to-r from-[#63A3FA] from-68% to-[#BE84FC] to-100% bg-clip-text text-transparent">victory</span>
+                </h2>
+                <p className="text-[#E8D4FE] font-semibold">
+                    Complete schedule of the competition from registration to the grand final
+                </p>
+            </div>
+        );
+    }, [variant]);
 
     return (
         <div
             ref={containerRef}
-            className="relative w-full overflow-hidden"
+            className={`relative w-full overflow-hidden ${backgroundClasses}`}
             style={{
                 height: `${containerHeight}px`,
             }}
         >
-            <div className="flex flex-col items-center text-center px-4 justify-center">
-                <h2 className="uppercase text-4xl font-bold pb-3">the journey to <span className="bg-gradient-to-r from-[#63A3FA] from-68% to-[#BE84FC] to-100% bg-clip-text text-transparent">victory</span></h2>
-                <p className="text-[#E8D4FE] font-semibold">Complete schedule of the competition from registration to the grand final</p>
-            </div>
+            {headerContent}
 
             {showParticle &&
                 particles.map((p, i) => (
@@ -105,10 +170,10 @@ export default function Timeline({ events }: TimelineProps) {
                             scale: [1, 1.1, 0.9, 1],
                         }}
                         transition={{
-                            duration: 3 + Math.random() * 2,
+                            duration: p.duration,
                             repeat: Infinity,
                             ease: "easeInOut",
-                            delay: Math.random() * 2,
+                            delay: i * 0.3,
                         }}
                     >
                         <Image
@@ -163,11 +228,11 @@ export default function Timeline({ events }: TimelineProps) {
                             transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
                         >
                             <InfoCard
-                                index={index}
                                 month={event.month}
                                 day={event.day}
                                 year={event.year}
                                 title={event.title}
+                                isEven={isEven}
                             />
                         </motion.div>
 
@@ -186,11 +251,11 @@ export default function Timeline({ events }: TimelineProps) {
                             transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
                         >
                             <InfoCard
-                                index={index}
                                 month={event.month}
                                 day={event.day}
                                 year={event.year}
                                 title={event.title}
+                                isEven={isEven}
                             />
                         </motion.div>
                     </div>

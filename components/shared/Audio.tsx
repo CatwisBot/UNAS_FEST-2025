@@ -58,7 +58,7 @@ export default function GlobalAudio() {
     target: number,
     duration: number
   ) => {
-    let step = (target - audio.volume) / (duration / 50);
+    const step = (target - audio.volume) / (duration / 50);
     const fadeInterval = setInterval(() => {
       if (audio.volume + step >= target) {
         audio.volume = target;

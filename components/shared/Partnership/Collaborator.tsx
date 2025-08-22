@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
-import Medal from "@/public/icons/Partnership/Medal.png";
 import Person from "@/public/icons/Partnership/Person.png";
 import CollaboratorCard from "@/components/ui/CollaboratorCard";
 import { CollaboratorData } from "@/constants/Partnership/Collaborator";
@@ -34,14 +33,8 @@ export default function Sponsor() {
     const duplicates = scrollerInner.querySelectorAll('[data-duplicated="true"]');
     duplicates.forEach(el => el.remove());
     
-    CollaboratorData.forEach((collaborator, idx) => {
-      const duplicatedItem = (
-        <div key={`duplicate-${idx}`} className="min-w-[250px] flex-shrink-0" data-duplicated="true">
-          <CollaboratorCard collaborator={collaborator} />
-        </div>
-      );
-      
-      const tempDiv = document.createElement('div');
+    CollaboratorData.forEach((_collaborator, idx) => {
+
       
       const originalItems = scrollerInner.querySelectorAll('.min-w-\\[250px\\]');
       if (originalItems[idx]) {
@@ -57,7 +50,7 @@ export default function Sponsor() {
     <main className="bg-gradient-to-b from-[#030D6C] to-[#0A0B30] py-10">
       <div className="flex flex-row gap-4 items-center justify-center text-white py-10">
         <Image src={Person} alt="Person" width={30} height={30} />
-        <h2 className="uppercase text-2xl sm:text-4xl font-bold">collaborator</h2>
+        <h2 className="uppercase text-2xl sm:text-3xl font-bold">collaborator</h2>
       </div>
 
       <div ref={scrollerRef} className="relative w-full overflow-hidden group max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto py-6">

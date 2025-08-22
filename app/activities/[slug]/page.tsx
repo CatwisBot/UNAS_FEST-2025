@@ -10,13 +10,11 @@ import Timeline from "@/components/shared/Activities/Timeline";
 import Spark from "@/public/icons/Activities/Sparkles.png";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import "@/components/ui/shine.css"
 import CustomSwiper from "@/components/ui/swiper";
 import Judges from "@/components/shared/Activities/Judges";
 import {
     Card,
-    CardTitle,
     CardContent,
     CardDescription,
 } from "@/components/ui/card";
@@ -250,12 +248,14 @@ export default function ActivityDetailPage({ params }: Props) {
                                 <p className="text-white text-sm">Assessment Criteria</p>
                             </div>
                         </div>
-                        <Link href={activity.guideBook} download={activity.guideBookName}>
-                            <button className="mx-auto flex items-center justify-center gap-3 px-3 py-2 sm:px-8 sm:py-4 bg-gradient-to-r from-[#FACA16] to-[#FB943A] text-black font-bold rounded-lg shadow-lg hover:bg-white hover:bg-none cursor-pointer transition">
-                                <Download className="w-6 h-6" />
-                                DOWNLOAD NOW
-                                <Sparkles className="w-6 h-6" />
-                            </button>
+                        <Link 
+                            href={activity.guideBook} 
+                            download={activity.guideBookName}
+                            className="mx-auto inline-flex items-center justify-center gap-3 px-3 py-2 sm:px-8 sm:py-4 bg-gradient-to-r from-[#FACA16] to-[#FB943A] text-black font-bold rounded-lg shadow-lg hover:bg-white hover:bg-none cursor-pointer transition"
+                        >
+                            <Download className="w-6 h-6" />
+                            DOWNLOAD NOW
+                            <Sparkles className="w-6 h-6" />
                         </Link>
                     </div>
                 </section>

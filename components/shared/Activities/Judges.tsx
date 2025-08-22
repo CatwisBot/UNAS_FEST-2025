@@ -1,33 +1,24 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
-import { activitiesData } from "@/lib/types/Activities/Activities";
+import { Judge } from "@/lib/types/Activities/Activities";
 import {
     Drawer,
     DrawerTrigger,
     DrawerContent,
-    DrawerPortal,
-    DrawerOverlay,
 } from "@/components/ui/drawer";
-import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
-} from "@/components/ui/accordion";
+
 import { useState } from "react";
-import { Linkedin } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useMediaQuery } from "@/hooks/MediaQuery";
 import { GraduationCap, MapPin } from "lucide-react";
 
-interface judgesProps {
-    judgesData: activitiesData["judgesData"];
+interface JudgesProps {
+    judgesData: Judge[];
 }
 
 const paginationStyle = `
@@ -45,14 +36,14 @@ const paginationStyle = `
 }
 `;
 
-const Judges: React.FC<judgesProps> = ({ judgesData }) => {
+const Judges: React.FC<JudgesProps> = ({ judgesData }) => {
     const [activeIndex, setActiveIndex] = useState(1);
     const isDesktop = useMediaQuery("(min-width: 1024px)");
 
     if (isDesktop) {
         return (
             <div className="relative w-full py-8">
-                <div className="flex items-center justify-center gap-4 px-4">
+                <div className="flex items-stretch justify-center gap-4 px-4">
                     {judgesData.map((judge, index) => (
                         <div
                             key={index}
@@ -63,41 +54,49 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                             onClick={() => setActiveIndex(index)}
                         >
                             <Card
-                                className={`lg:w-[280px] xl:w-[300px] h-[420px] border-none rounded-xl shadow-md transition-all ${index === activeIndex ? "bg-[#4A428E] shadow-lg" : "bg-[#4A428E]"
+                                className={`lg:w-[280px] xl:w-[300px] h-[520px] border-none rounded-xl shadow-md transition-all ${index === activeIndex ? "bg-[#4A428E] shadow-lg" : "bg-[#4A428E]"
                                     }`}
                             >
                                 <div className="absolute top-0 right-0 w-15 h-15 bg-[#654E9D] rounded-bl-3xl"></div>
                                 <CardContent className="flex flex-col items-center text-center p-6 h-full">
-                                    <div className="flex justify-center mb-4">
-                                        <Image
-                                            src={judge.image}
-                                            alt={judge.name}
-                                            width={80}
-                                            height={80}
-                                            className="w-20 h-20 rounded-full border-4 border-purple-500 object-cover"
-                                        />
+                                    {/* Header Section - Fixed Height */}
+                                    <div className="flex-shrink-0 mb-4">
+                                        <div className="flex justify-center mb-4">
+                                            <Image
+                                                src={judge.image}
+                                                alt={judge.name}
+                                                width={80}
+                                                height={80}
+                                                className="w-20 h-20 rounded-full border-4 border-purple-500 object-cover"
+                                            />
+                                        </div>
+                                        <h1 className="text-lg font-bold text-white mb-2">{judge.name}</h1>
                                     </div>
 
-                                    <h1 className="text-lg font-bold text-white">{judge.name}</h1>
-
-                                    <div className="mt-2 space-y-1 text-sm text-gray-200 mb-6">
-                                        <p className="flex items-center justify-center gap-2">
-                                            <GraduationCap className="w-4 h-4" />
-                                            {judge.lastEducation}
+                                    {/* Education Section - Fixed Height */}
+                                    <div className="flex-shrink-0 mb-6 h-[80px] flex flex-col justify-center">
+                                        <p className="flex items-center justify-center gap-2 text-sm text-gray-200 mb-2">
+                                            <GraduationCap className="w-4 h-4 flex-shrink-0" />
+                                            <span className="line-clamp-2 text-xs leading-tight max-w-[200px]">
+                                                {judge.lastEducation}
+                                            </span>
                                         </p>
-                                        <p className="flex items-center justify-center gap-2">
-                                            <MapPin className="w-4 h-4" />
-                                            {judge.lastEducation}
+                                        <p className="flex items-center justify-center gap-2 text-sm text-gray-200">
+                                            <MapPin className="w-4 h-4 flex-shrink-0" />
+                                            <span className="line-clamp-2 text-xs leading-tight max-w-[200px]">
+                                                {judge.lastEducation}
+                                            </span>
                                         </p>
                                     </div>
 
-                                    <div className="mt-auto w-full space-y-3">
-                                        <button className="w-full py-2 rounded-lg font-medium text-white bg-gradient-to-r from-purple-500 to-indigo-500">
+                                    {/* Buttons Section - Fixed Height at Bottom */}
+                                    <div className="mt-auto w-full space-y-3 flex-shrink-0">
+                                        <button className="w-full py-2 px-3 rounded-lg font-medium text-white bg-gradient-to-r from-purple-500 to-indigo-500 text-sm truncate">
                                             {judge.name}
                                         </button>
                                         <Drawer>
                                             <DrawerTrigger asChild>
-                                                <button className="w-full py-2 rounded-lg font-medium text-yellow-300 bg-transparent border border-yellow-400 hover:bg-yellow-400 hover:text-black transition">
+                                                <button className="w-full py-2 px-3 rounded-lg font-medium text-yellow-300 bg-transparent border border-yellow-400 hover:bg-yellow-400 hover:text-black transition text-sm">
                                                     See More
                                                 </button>
                                             </DrawerTrigger>
@@ -201,41 +200,49 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                     {judgesData.map((judge, index) => (
                         <SwiperSlide key={index} className="custom-slide">
                             <Card
-                                className={`lg:w-[280px] xl:w-[300px] h-[420px] border-none rounded-xl shadow-md transition-all ${index === activeIndex ? "bg-[#4A428E] shadow-lg" : "bg-[#4A428E]"
+                                className={`lg:w-[280px] xl:w-[300px] h-[520px] border-none rounded-xl shadow-md transition-all ${index === activeIndex ? "bg-[#4A428E] shadow-lg" : "bg-[#4A428E]"
                                     }`}
                             >
                                 <div className="absolute top-0 right-0 w-15 h-15 bg-[#654E9D] rounded-bl-3xl"></div>
                                 <CardContent className="flex flex-col items-center text-center p-6 h-full">
-                                    <div className="flex justify-center mb-4">
-                                        <Image
-                                            src={judge.image}
-                                            alt={judge.name}
-                                            width={80}
-                                            height={80}
-                                            className="w-20 h-20 rounded-full border-4 border-purple-500 object-cover"
-                                        />
+                                    {/* Header Section - Fixed Height */}
+                                    <div className="flex-shrink-0 mb-4">
+                                        <div className="flex justify-center mb-4">
+                                            <Image
+                                                src={judge.image}
+                                                alt={judge.name}
+                                                width={80}
+                                                height={80}
+                                                className="w-20 h-20 rounded-full border-4 border-purple-500 object-cover"
+                                            />
+                                        </div>
+                                        <h1 className="text-lg font-bold text-white mb-2">{judge.name}</h1>
                                     </div>
 
-                                    <h1 className="text-lg font-bold text-white">{judge.name}</h1>
-
-                                    <div className="mt-2 space-y-1 text-sm text-gray-200 mb-6">
-                                        <p className="flex items-center justify-center gap-2">
-                                            <GraduationCap className="w-4 h-4" />
-                                            {judge.lastEducation}
+                                    {/* Education Section - Fixed Height */}
+                                    <div className="flex-shrink-0 mb-6 h-[80px] flex flex-col justify-center">
+                                        <p className="flex items-center justify-center gap-2 text-sm text-gray-200 mb-2">
+                                            <GraduationCap className="w-4 h-4 flex-shrink-0" />
+                                            <span className="line-clamp-2 text-xs leading-tight max-w-[200px]">
+                                                {judge.lastEducation}
+                                            </span>
                                         </p>
-                                        <p className="flex items-center justify-center gap-2">
-                                            <MapPin className="w-4 h-4" />
-                                            {judge.lastEducation}
+                                        <p className="flex items-center justify-center gap-2 text-sm text-gray-200">
+                                            <MapPin className="w-4 h-4 flex-shrink-0" />
+                                            <span className="line-clamp-2 text-xs leading-tight max-w-[200px]">
+                                                {judge.lastEducation}
+                                            </span>
                                         </p>
                                     </div>
 
-                                    <div className="mt-auto w-full space-y-3">
-                                        <button className="w-full py-2 rounded-lg font-medium text-white bg-gradient-to-r from-purple-500 to-indigo-500">
+                                    {/* Buttons Section - Fixed Height at Bottom */}
+                                    <div className="mt-auto w-full space-y-3 flex-shrink-0">
+                                        <button className="w-full py-2 px-3 rounded-lg font-medium text-white bg-gradient-to-r from-purple-500 to-indigo-500 text-sm truncate">
                                             {judge.name}
                                         </button>
                                         <Drawer>
                                             <DrawerTrigger asChild>
-                                                <button className="w-full py-2 rounded-lg font-medium text-yellow-300 bg-transparent border border-yellow-400 hover:bg-yellow-400 hover:text-black transition">
+                                                <button className="w-full py-2 px-3 rounded-lg font-medium text-yellow-300 bg-transparent border border-yellow-400 hover:bg-yellow-400 hover:text-black transition text-sm">
                                                     See More
                                                 </button>
                                             </DrawerTrigger>

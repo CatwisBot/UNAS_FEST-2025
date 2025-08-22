@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+public/image/01.png
+public/image/Logo-UNAS-Universitas-Nasional-Original-PNG-1.png
+public/image/Poster/mockup-poster.jpeg
+public/icons/Mascot/bola 1.svg
+.gitignore
+components.json
+components/ui/aurora-background.tsx
+public/icons/Mascot/MASKOT.png
+public/image/01 Logo UNAS FEST Outline.png
+public/image/Screenshot_2025-08-20_01-38-13.png
+public/image/Activities/Cover/Gemini_Generated_Image_vfn6iyvfn6iyvfn6.png
