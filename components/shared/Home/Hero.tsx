@@ -80,8 +80,8 @@ export default function Hero() {
   };
 
   return (
-    <main className="bg-[#000138]">
-      <div className="bg-[#000138] text-white flex items-center justify-center max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto p-10">
+    <main className="bg-[#000000]">
+      <div className="text-white flex items-center justify-center max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto p-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full mb-5 md:mb-10">
           <div className="order-1 lg:order-2 flex flex-col items-center justify-start gap-2 -mt-15 sm:-mt-30 lg:mt-0 xl:-mt-30">
             <Image src={Mascot} alt="Mascot" className="w-200 sm:w-160 h-auto" />
