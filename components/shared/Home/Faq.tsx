@@ -20,7 +20,9 @@ const FaqItem = ({
       >
         <span className="font-semibold text-black">{item.question}</span>
         <svg
-          className={`w-5 h-5 text-black transform transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
+          className={`w-5 h-5 text-black transform transition-transform duration-300 ${
+            isOpen ? "rotate-180" : ""
+          }`}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -39,8 +41,16 @@ const FaqItem = ({
           isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
         }`}
       >
-        <div className="overflow-hidden">
-          <p className="px-4 sm:px-5 pb-4 text-black">{item.answer}</p>
+        <div className="overflow-hidden px-4 sm:px-5 pb-4 text-black">
+          {Array.isArray(item.answer) ? (
+            <ul className="list-disc list-inside space-y-1">
+              {item.answer.map((ans, idx) => (
+                <li key={idx}>{ans}</li>
+              ))}
+            </ul>
+          ) : (
+            <p>{item.answer}</p>
+          )}
         </div>
       </div>
     </div>
@@ -56,11 +66,13 @@ const Faq = () => {
 
   return (
     <div className="relative bg-gradient-to-b from-0% from-[#37126B] to-80% to-[#000138] w-full min-h-[600px] md:min-h-[700px] lg:min-h-[800px] xl:min-h-[900px] overflow-visible">
-
       <div className="relative z-10 w-full pt-16 sm:pt-24 md:pt-32 pb-12 sm:pb-16 md:pb-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold tracking-wide text-white mb-8 sm:mb-10 md:mb-12">
-            FREQUENTLY <span className="bg-gradient-to-r from-[#A14CF3] from-[38%] to-[#345CEB] to-[100%] bg-clip-text text-transparent">ASKED QUESTIONS</span>
+            FREQUENTLY{" "}
+            <span className="bg-gradient-to-r from-[#A14CF3] from-[38%] to-[#345CEB] to-[100%] bg-clip-text text-transparent">
+              ASKED QUESTIONS
+            </span>
           </h2>
 
           <div className="space-y-3 sm:space-y-4 md:space-y-5 font-medium rounded-xl p-4 sm:p-6">
