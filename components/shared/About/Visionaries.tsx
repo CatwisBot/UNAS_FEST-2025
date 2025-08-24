@@ -42,32 +42,34 @@ const VisionarySlider = ({ data }: { data: Visionary[] }) => (
 
 const Visionaries = () => {
   return (
-    <div className="overflow-hidden bg-gradient-to-b from-[#4D00AD] via-[#0A0B30] to-[#000138] px-10 py-16">
-      <h2 className="text-4xl font-bold uppercase text-center text-white mb-10">
-        Our Visionaries
-      </h2>
+    <main className="bg-gradient-to-b from-[#22108D] via-[#120921] to-[#000138] from-0% via-50% to-100%">
+      <div className="overflow-hidden max-w-7xl mx-auto px-4 py-16">
+        <h2 className="text-4xl font-bold uppercase text-center text-white mb-10">
+          Our Visionaries
+        </h2>
 
-      <section className="py-10">
-        <h4 className="text-3xl font-semibold uppercase text-start mb-4 text-white">
-          our <br /> mascot creators
-        </h4>
-        <VisionarySlider data={Mascot} />
-      </section>
+        <section className="py-10">
+          <h4 className="text-3xl font-semibold uppercase text-start mb-4 text-white">
+            our <br /> mascot creators
+          </h4>
+          <VisionarySlider data={Mascot} />
+        </section>
 
-      <section className="py-10">
-        <h4 className="text-3xl font-semibold uppercase text-start mb-4 text-white">
-          our <br /> website creators
-        </h4>
-        <VisionarySlider data={Web} />
-      </section>
+        <section className="py-10">
+          <h4 className="text-3xl font-semibold uppercase text-start mb-4 text-white">
+            our <br /> website creators
+          </h4>
+          <VisionarySlider data={Web} />
+        </section>
 
-      <section className="py-10">
-        <h4 className="text-3xl font-semibold uppercase text-start mb-4 text-white">
-          our <br /> music creators
-        </h4>
-        <VisionarySlider data={Music} />
-      </section>
-    </div>
+        <section className="py-10">
+          <h4 className="text-3xl font-semibold uppercase text-start mb-4 text-white">
+            our <br /> music creators
+          </h4>
+          <VisionarySlider data={Music} />
+        </section>
+      </div>
+    </main>
   );
 };
 

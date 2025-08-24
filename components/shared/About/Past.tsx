@@ -14,8 +14,8 @@ const PastMascots: React.FC = () => {
   const tabs = Object.keys(pastMascotsData);
 
   return (
-    <section className="bg-[#4D00AD] py-16 px-4">
-      <div className="w-full px-4 md:px-8">
+    <section className="bg-gradient-to-b from-[#000022] to-[#23108E] from-0% to-100% py-16">
+      <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl font-bold uppercase text-center text-white mb-5">
           PAST MASCOTS
         </h2>
@@ -37,10 +37,7 @@ const PastMascots: React.FC = () => {
         </div>
 
         <div
-          className="relative rounded-[20px] overflow-hidden shadow-lg w-full max-w-[95vw] sm:max-w-[90vw] md:max-w-[600px] lg:max-w-[800px] xl:max-w-[1300px] mx-auto bg-cover p-4 sm:p-5 md:p-6"
-          style={{
-            backgroundImage: `url(${mascots[0]?.bg})`,
-          }}
+          className="relative rounded-[20px] overflow-hidden shadow-lg w-full max-w-[95vw] sm:max-w-[90vw] md:max-w-[600px] lg:max-w-[800px] xl:max-w-[1300px] mx-auto bg-white/10 border-1 border-[#294EC7] p-4 sm:p-5 md:p-6"
         >
           <div className="rounded-xl flex flex-col items-center gap-4 sm:gap-5 md:gap-6">
             <div className="w-full flex justify-center mt-2 sm:mt-3 md:mt-4">
@@ -57,7 +54,9 @@ const PastMascots: React.FC = () => {
             </div>
 
             <div className="w-full max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[75%] backdrop-blur-xs p-4 sm:p-5 md:p-6 rounded-lg mb-2 sm:mb-3 md:mb-4">
-              <p className="text-justify text-black text-xs sm:text-sm md:text-base lg:text-lg font-medium leading-relaxed">
+              <p className="text-justify text-white text-xs sm:text-sm md:text-base lg:text-lg font-medium leading-relaxed"
+              style={{ textAlignLast: 'center' }}
+              >
                 {description}
               </p>
             </div>

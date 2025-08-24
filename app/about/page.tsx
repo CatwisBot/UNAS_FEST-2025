@@ -1,4 +1,4 @@
-import AboutCarousel from "@/components/shared/About/Carousel";
+import Hero from "@/components/shared/About/Hero";
 import VM from "@/components/shared/About/VM";
 import MainCommitte from "@/components/shared/About/Committee";
 import LogoSection from "@/components/shared/About/Logo";
@@ -11,13 +11,13 @@ import Yearbook from  "@/components/shared/About/YB";
 export default function AboutPage() {
   return (
     <main>
-      <AboutCarousel />
+      <Hero />
       <VM />
       <Yearbook/>
-      <MainCommitte />
       <LogoSection />
       <LogoDetail />
       <OurMascot />
+      <MainCommitte />
       <PastMascots /> 
       <Visionary />
     </main>

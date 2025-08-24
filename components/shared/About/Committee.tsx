@@ -104,19 +104,18 @@ const MainCommittee: React.FC = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-[#29066F] to-[#061431] text-white min-h-auto py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center mb-12">
-          <div className="hidden sm:block"></div>
-          <h1 className="text-4xl font-extrabold text-white tracking-wide text-center sm:text-center order-1 sm:order-none">
+    <section className="bg-[#000022] text-white min-h-auto py-8 sm:py-12 md:py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto mt-4">
+        <div className="flex flex-col items-center justify-center mb-6 sm:mb-8 md:mb-12">
+          <h1 className="text-4xl font-extrabold text-white tracking-wide text-center sm:text-center">
             MAIN COMMITTEE
           </h1>
-          <p className="text-lg text-gray-300 text-center sm:text-right order-2 sm:order-none mx-auto sm:mx-20">
-            Explore to our Committee and around the photo
+          <p className="font-semibold text-xl text-center">
+            Meet our Committee Events
           </p>
         </div>
 
-        <div className="flex overflow-x-auto justify-center space-x-6 pb-4 mb-12 custom-scrollbar">
+        <div className="flex overflow-x-auto justify-center space-x-6 mb-6 sm:mb-8 md:mb-12 custom-scrollbar">
           {tabs.map((tab) => (
             <button
               key={tab}
@@ -193,6 +192,10 @@ const MainCommittee: React.FC = () => {
               breakpoints={{
                 1440: {
                   slidesPerView: 4.2,
+                  centeredSlides: false,
+                },
+                1280: {
+                  slidesPerView: 3.8,
                   centeredSlides: false,
                 },
                 1024: {

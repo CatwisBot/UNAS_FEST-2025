@@ -89,7 +89,7 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
 
       <style jsx global>{`
         .custom-pagination .swiper-pagination-bullet {
-          width: 20px;
+          width: 15px;
           height: 10px;
           background-color: rgba(255, 255, 255, 0.5);
           opacity: 1;
