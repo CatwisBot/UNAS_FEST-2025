@@ -1,8 +1,9 @@
 import Image from "next/image";
+import UF24 from "@/public/Preview_UF24.png";
 import Clock from "@/public/icons/Home/Clock.png";
 import React from "react";
 import Link from "next/link";
-import { Calendar, Star, Trophy, Image as ImageIcon } from "lucide-react"; 
+import { Calendar, Star, Trophy, Image as ImageIcon } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -84,12 +85,16 @@ export default function Memories() {
                         <h2 className="font-extrabold text-xl mb-4">Website 2024</h2>
 
                         <div className="bg-gradient-to-r from-[#572AA4] to-[#4731A4] from-0% to-100% rounded-xl p-4 flex flex-col items-center justify-center">
-                            <div className="bg-gradient-to-br from-[#A056F7] to-[#3262EC] from-0% to-100% rounded-xl p-8 text-center shadow-md w-full">
-                                <h3 className="text-2xl font-extrabold">UNAS FEST 2024</h3>
-                                <p className="text-md text-[#D5D4FA] font-bold">Previous Website</p>
+                            <div className="rounded-xl text-center shadow-2xl w-full">
+                                <Image
+                                    src={UF24}
+                                    alt="UNAS FEST 2024"
+                                    className="rounded-lg"
+                                />
                             </div>
 
-                            <p className="text-md text-[#DEC8F8] font-bold mt-4 leading-relaxed">
+                            <p className="text-md text-[#DEC8F8] font-bold mt-4 leading-relaxed"
+                            >
                                 Visit last year’s website to see complete documentation and a gallery of
                                 photos from various competitions that have taken place.
                             </p>
@@ -106,7 +111,9 @@ export default function Memories() {
                         <Trophy className="w-8 h-8 text-yellow-400" />
                         <div>
                             <h3 className="font-bold text-lg">Winners 2024</h3>
-                            <p className="text-sm opacity-80">See last year&apos;s winners</p>
+                            <Link href="https://unasfest.com" target="_blank">
+                                <p className="text-sm opacity-80 hover:scale-120">See last year&apos;s winners</p>
+                            </Link>
                         </div>
                     </CardContent>
                 </Card>
@@ -116,7 +123,9 @@ export default function Memories() {
                         <ImageIcon className="w-8 h-8 text-blue-400" />
                         <div>
                             <h3 className="font-bold text-lg">Gallery</h3>
-                            <p className="text-sm opacity-80">Event Archive</p>
+                            <Link href="https://unasfest/gallery.com" target="_blank">
+                                <p className="text-sm opacity-80 hover:scale-120">Event Archive</p>
+                            </Link>
                         </div>
                     </CardContent>
                 </Card>

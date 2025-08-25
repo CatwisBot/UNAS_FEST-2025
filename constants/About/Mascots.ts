@@ -7,13 +7,13 @@ export const mascots = [
     img: Panflora,
     name: "Panflora & Neura",
     description:
-      "Panflora & Neura seekor trenggiling antropomorfik yang berevolusi menjadi makhluk penjaga keharmonisan antara alam dan teknologi. Dihidupkan kembali oleh jaringan akar AI kuno, kini menjelajah bumi bersama Neura sebuah drone cerdas untuk mendeteksi kerusakan hutan, memperbaiki tanah, dan menghubungkan kehidupan alami dengan teknologi. Simbol dari tindakan pencegahan deforestasi, melalui pendekatan regeneratif berbasis teknologi dan kesadaran ekologis yang mendalam.",
+      "Panflora & Neura is an anthropomorphic pangolin that has evolved into a guardian of harmony between nature and technology. Revived by an ancient AI root network, it now explores the earth alongside Neura, an intelligent drone designed to detect forest damage, restore soil, and connect natural life with technology. A symbol of deforestation prevention efforts, through a regenerative technology-based approach and deep ecological awareness.",
   },
   {
     index: 2,
     img: Daiko,
     name: "Daiko",
     description:
-      'Daiko memiliki karakter penuh semangat yang terinspirasi dari burung eksotis Cendrawasih, spesies ikonik yang berasal dari Papua, Indonesia. Dikenal karena bulunya yang menawan dan gerakannya yang anggun, Cendrawasih telah lama menjadi simbol keindahan, keunikan, dan harmoni dalam alam. Penampilannya mencerminkan warna-warna asli dari burung Cendrawasih, menghadirkan kombinasi mencolok dari nuansa tropis. Tubuh utamanya berwarna kuning cerah seperti sinar matahari, melambangkan kehangatan, cahaya, dan optimisme.',
+      "Daiko has a vibrant character inspired by the exotic Bird of Paradise, an iconic species native to Papua, Indonesia. Known for its stunning plumage and graceful movements, the Bird of Paradise has long been a symbol of beauty, uniqueness, and harmony in nature. Its appearance reflects the original colors of the Bird of Paradise, presenting a striking combination of tropical hues. Its main body is bright yellow like sunlight, symbolizing warmth, light, and optimism.",
   },
 ];

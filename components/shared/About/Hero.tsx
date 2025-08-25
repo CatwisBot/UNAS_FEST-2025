@@ -3,6 +3,7 @@ import React from "react";
 import Arceus from "@/public/image/About/Hero/Squid1.png";
 import Charizard from "@/public/image/About/Hero/Squid2.png";
 import Lugia from "@/public/image/About/Hero/Squid3.png";
+import Link from "next/link";
 
 export default function Hero() {
     return (
@@ -48,9 +49,11 @@ export default function Hero() {
                         “Exploring the Potential of Renewable Energy Technology Innovation to Achieve Global Green Momentum”
                     </p>
 
-                    <button className="w-fit bg-gradient-to-r from-purple-500 to-indigo-500 text-xs lg:text-base text-white font-semibold px-4 py-2 lg:px-6 lg:py-3 rounded-xl shadow-lg hover:opacity-90 transition">
-                        Explore Competition
-                    </button>
+                    <Link href="/#competition">
+                        <button className="cursor-pointer w-fit bg-gradient-to-r from-purple-500 to-indigo-500 text-xs lg:text-base text-white font-semibold px-4 py-2 lg:px-6 lg:py-3 rounded-xl shadow-lg hover:opacity-90 transition">
+                            Explore Competition
+                        </button>
+                    </Link>
                 </div>
             </div>
         </main>

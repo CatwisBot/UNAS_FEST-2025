@@ -78,13 +78,13 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
       </Swiper>
 
       <div className="absolute -bottom-12 left-4 z-10 flex h-12 items-center gap-2 md:left-6 lg:left-8">
-        <div className="swiper-button-prev cursor-pointer rounded-sm p-2 transition-all hover:scale-105">
+        {/* <div className="swiper-button-prev cursor-pointer rounded-sm p-2 transition-all hover:scale-105">
           <MoveLeft className="h-5 w-5 text-white md:h-6 md:w-6" />
-        </div>
+        </div> */}
         <div className="custom-pagination flex items-center gap-2" />
-        <div className="swiper-button-next cursor-pointer rounded-sm p-2 transition-all hover:scale-105">
+        {/* <div className="swiper-button-next cursor-pointer rounded-sm p-2 transition-all hover:scale-105">
           <MoveRight className="h-5 w-5 text-white md:h-6 md:w-6" />
-        </div>
+        </div> */}
       </div>
 
       <style jsx global>{`
