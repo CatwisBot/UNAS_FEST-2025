@@ -104,7 +104,10 @@ const MainCommittee: React.FC = () => {
   };
 
   return (
-    <section className="bg-[#000022] text-white min-h-auto py-8 sm:py-12 md:py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#000022] text-white min-h-auto py-8 sm:py-12 md:py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <div className="absolute top-[20%] left-[25%] w-[350px] h-[350px] rounded-full blur-circle bg-[radial-gradient(circle_at_center,_rgba(81,124,255,0.6)_0%,_rgba(81,124,255,0)_70%)]"></div>
+      <div className="absolute bottom-[1%] left-[55%] w-[350px] h-[350px] rounded-full blur-circle bg-[radial-gradient(circle_at_center,_rgba(81,124,255,0.6)_0%,_rgba(81,124,255,0)_70%)]"></div>
+
       <div className="max-w-7xl mx-auto mt-4">
         <div className="flex flex-col items-center justify-center mb-6 sm:mb-8 md:mb-12">
           <h1 className="text-4xl font-extrabold text-white tracking-wide text-center sm:text-center">

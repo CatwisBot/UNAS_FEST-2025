@@ -64,19 +64,19 @@ export const Web: Visionary[] = [
     id: 2,
     name: "Dialga Original Form",
     role: "UNAS FEST 2025 Website",
-    image: Dialga,
+    image: Gengar,
   },
     {
     id: 3,
     name: "Eternatus",
     role: "UNAS FEST 2025 Website",
-    image: Eternatus,
+    image: Pikachu,
   },
     {
     id: 4,
     name: "Gengar Gigantamax",
     role: "UNAS FEST 2025 Website",
-    image: Gengar,
+    image: Dialga,
   },
     {
     id: 5,
@@ -88,7 +88,7 @@ export const Web: Visionary[] = [
     id: 6,
     name: "Pikachu Gigantamax",
     role: "UNAS FEST 2025 Website",
-    image: Pikachu,
+    image: Eternatus,
   },
 ];
 
@@ -97,7 +97,7 @@ export const Music: Visionary[] = [
     id: 1,
     name: "Charizard Gigantamax",
     role: "UNAS FEST 2025 Website",
-    image: Charizard,
+    image: Lapras,
   },
     {
     id: 2,
@@ -115,13 +115,13 @@ export const Music: Visionary[] = [
     id: 4,
     name: "Gengar Gigantamax",
     role: "UNAS FEST 2025 Website",
-    image: Gengar,
+    image: Pikachu,
   },
     {
     id: 5,
     name: "Lapras Gigantamax",
     role: "UNAS FEST 2025 Website",
-    image: Lapras,
+    image: Charizard,
   },
     {
     id: 6,
