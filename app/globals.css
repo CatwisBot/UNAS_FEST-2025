@@ -6,6 +6,10 @@
   font-family: var(--font-poppins), sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .font-poppins {
   font-family: var(--font-poppins), sans-serif;
 }
