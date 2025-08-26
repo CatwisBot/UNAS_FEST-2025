@@ -46,9 +46,9 @@ export const EVENTS: CompetitionEvent[] = [
   {
     path: "SPC",
     timeline: [
-      { month: "AUGUST", day: "25-31", year: "2025", title: "Registration SPC - Early Bird" },
-      { month: "SEPTEMBER", day: "1-13", year: "2025", title: "Registration SPC - Phase 1" },
-      { month: "SEPTEMBER", day: "14-26", year: "2025", title: "Registration SPC - Phase 2" },
+      { month: "SEPTEMBER", day: "1-7", year: "2025", title: "Registration SPC - Early Bird" },
+      { month: "SEPTEMBER", day: "8-19", year: "2025", title: "Registration SPC - Phase 1" },
+      { month: "SEPTEMBER", day: "20-28", year: "2025", title: "Registration SPC - Phase 2" },
       { month: "OCTOBER", day: "02-04", year: "2025", title: "Administration Selection and Assessment of Outstanding Achievements of SPC Participants" },
       { month: "OCTOBER", day: "07", year: "2025", title: "Annoucement of Passing Administration Selection" },
       { month: "OCTOBER", day: "08-17", year: "2025", title: "Collection of SPC Script" },
@@ -56,7 +56,7 @@ export const EVENTS: CompetitionEvent[] = [
       { month: "OCTOBER", day: "22", year: "2025", title: "Annoucement of 6 Finalists" },
       { month: "OCTOBER", day: "25", year: "2025", title: "Technical Meeting of Participants" },
       { month: "OCTOBER", day: "27", year: "2025", title: "Implementation of the Final Round" },
-      { month: "NOVEMBER", day: "10", year: "2025", title: "Award Ceremony UNAS FEST 2025" },
+      { month: "NOVEMBER", day: "6", year: "2025", title: "Award Ceremony UNAS FEST 2025" },
     ],
   },
   {

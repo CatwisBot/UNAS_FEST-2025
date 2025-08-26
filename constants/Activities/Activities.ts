@@ -21,7 +21,7 @@ export const Activities: Activity[] = [
     title: "Indonesian Debate Competition",
     coverImage: KDBICover,
     description:
-      "Welcome to the Indonesian Debate Competition! UNAS FEST 2025 is an event held to celebrate the 76th anniversary of Universitas Nasional. One of the competitions to be held at UNAS FEST 2025 is the Indonesian Debate Competition (IDC). The Indonesian Language Debate Competition (KDBI) is a debate competition conducted in the Indonesian language, serving as a platform for participants to present their arguments and ideas on current issues. What are you waiting for? Get ready to secure victory at UNAS FEST 2025!",
+      "Welcome to Kompetisi Debat Bahasa Indonesia! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the Kompetisi Debat Bahasa Indonesia (KDBI). Kompetisi Debat Bahasa Indonesia (KDBI) is an Indonesian language debate competition held as a platform for participants to express their arguments and thoughts on current, relevant and important issues in society. Through this competition, participants are expected to hone their public speaking, critical thinking, and logical and systematic argumentation skills, enabling them to better understand and address the issues around them in a more constructive manner. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025.",
     guideBook: "/File/tes.pdf",
     guideBookName: "Guide_Book_IDC",
     requirements: [
@@ -375,39 +375,39 @@ export const Activities: Activity[] = [
     title: "Scientific Paper Competition",
     coverImage: KDBICover,
     description:
-      "The UNAS FEST 2025 Scientific Paper Competition is a department that organizes a scientific paper competition based on research results using data collection methods such as observation, interviews, questionnaires, and focus group discussions (FGD). The papers are systematically structured, written in proper and correct Indonesian, and follow scientific principles that are accountable. This competition aims to produce students who are concerned about environmental and social issues and possess sharp analytical skills and critical thinking abilities. Through the process of writing and presenting scientific papers to the judging panel, participants are expected to hone their scientific communication skills, public speaking abilities, and the capacity to defend their arguments coherently.",
+      "The Scientific Paper Competition at UNAS FEST 2025 is organized for participants to submit scientific papers based on research results using data collection methods such as observation, interviews, questionnaires, and focus group discussions (FGD). The papers must be systematically structured, written in proper Indonesian, and adhere to scientific principles that can be accounted for. This competition aims to cultivate students who are concerned about environmental and social issues, as well as those who possess sharp analytical skills and critical thinking. Through the process of writing and presenting their scientific papers to the panel of judges, participants are expected to enhance their scientific communication skills, public speaking, and the ability to defend their arguments comprehensively.",
     guideBook: "/File/tes.pdf",
     guideBookName: "Guide_Book_SPC",
     requirements: [
       {
         index: 1,
         detail:
-          "Participants in the UNAS FEST 2025 Scientific Paper Competition are active undergraduate students enrolled in PDDIKTI (Higher Education Database) from various study programs and public and private universities in Indonesia.",
+          "Participants of the Scientific Paper Competition UNAS FEST 2025 must be active undergraduate (S1) students registered in PDDIKTI (Higher Education Database) from various study programs and both public and private universities in Indonesia.",
       },
       {
         index: 2,
         detail:
-          "Participants in the UNAS FEST 2025 Scientific Paper Competition must be students who have not yet obtained a bachelor's degree (S1).",
+          "Participants of the Scientific Paper Competition UNAS FEST 2025 must not have previously obtained a bachelor's degree (S1).",
       },
       {
         index: 3,
         detail:
-          "Participants in the UNAS FEST 2025 Scientific Paper Competition are individuals, not groups.",
+          "The Scientific Paper Competition UNAS FEST 2025 is an individual competition and does not allow group participation.",
       },
       {
         index: 4,
         detail:
-          "Participants are required to download the UNAS FEST 2025 Scientific Paper Competition activity manual and understand all the provisions contained in the manual. ",
+          "Participants are required to download the Scientific Paper Competition UNAS FEST 2025 guideline book and understand all the rules stated in the guideline.",
       },
       {
         index: 5,
         detail:
-          "Participants in the UNAS FEST 2025 Scientific Paper Competition are required to participate in all stages of the competition as determined by the organizing committee, from the initial stage to the final stage, including the Technical Meeting and final presentation (if the participant is declared eligible).",
+          "Participants of the Scientific Paper Competition UNAS FEST 2025 are required to take part in all stages of the competition as determined by the organizing committee, starting from the initial phase to the final stage, including the Technical Meeting and the final presentation (if the participant qualifies).",
       },
       {
         index: 6,
         detail:
-          "Any form of cheating or other violations of the rules will be subject to strict sanctions from the committee, in the form of disqualification from the competition without exception.",
+          "For participants of the Scientific Paper Competition UNAS FEST 2025 who have paid the registration fee and then withdrawn from the competition, the fee is non-refundable under any circumstances.",
       },
     ],
     judgesData: [
@@ -491,17 +491,17 @@ export const Activities: Activity[] = [
     faqs: [
       {
         question:
-          "Who can participate in the UNAS FEST 2025 Scientific Paper Competition (SPC)?",
+          "Who is eligible to participate in the Scientific Paper Competition (SPC) at UNAS FEST 2025?",
         answer:
-          "This competition is open to all active undergraduate students from public and private universities in Indonesia who are registered with PDDIKTI and do not yet have a bachelor's degree.",
+          "The competition is open to all active undergraduate (S1) students from public or private universities in Indonesia who are registered in the PDDIKTI database and have not yet earned a bachelor's degree.",
       },
       {
         question: "Is this competition individual or team-based?",
         answer:
-          "SPC UNAS FEST 2025 can only be participated in individually, not as a group.",
+          "SPC UNAS FEST 2025 is an individual competition and does not allow team participation.",
       },
       {
-        question: "How much is the registration fee and when is the payment period?",
+        question: "What is the registration fee and when is the payment period?",
         answer: [
           "Early Bird: Rp115.000 (25–31 August 2025)",
           "Phase 1: Rp135.000(1–13 September 2025)",
@@ -509,43 +509,44 @@ export const Activities: Activity[] = [
         ]
       },
       {
-        question: "Are registration fees refundable if participants cancel?",
+        question: "Is the registration fee refundable if a participant withdraws?",
         answer:
-        "No. Registration fees that have been paid are non-refundable under any circumstances.",
+        "No. The registration fee is non-refundable under any circumstances.",
       },
       {
-        question: "How does the scoring system work in this competition?",
+        question: "How is the competition assessed?",
         answer: [
-          "Preliminary Round: judged based on the participants' outstanding achievements.",
-          "Semifinals: judged based on participants' work (presentation, substance, and quality of work).",
-          "Final Round: judged based on participants' presentations (presentation of material, ability to answer questions, and relevance to the theme).",
-          "In the UNAS FEST 2025 National Scientific Paper Competition, scores from the preliminary round are not accumulated and will be reset when entering the semifinal round. The final score is determined based on a 60% weighting for the semifinal round and a 40% weighting for the final round.",
+          "The assessment is conducted in stages:",
+          "Preliminary Round: based on the participant’s outstanding achievements.",
+          "Semifinal Round: based on the submitted paper (presentation, substance, and quality).",
+          "Final Round: based on the presentation of the paper (material delivery, ability to answer questions, and theme relevance).",
+          "In the national-level Scientific Paper Competition of UNAS FEST 2025, scores from the preliminary round will not be carried over and will be reset at the semifinal round. The final score is determined by a weighted calculation: 60% from the semifinal round and 40% from the final round.",
         ]
       },
       {
-        question: "Does the paper have to be in English?",
+        question: "Does the paper have to be written in English?",
         answer:
-        "No. The paper can be written in Indonesian, but the abstract must be written in two languages, namely English and Indonesian.",
+        "No. The scientific paper can be written in Indonesian; however, the abstract must be written in both English and Indonesian.",
       },
       {
-        question: "Is there a page limit for manuscripts?",
+        question: "Is there a page limit for the paper?",
         answer:
-        "Yes. Scientific papers for SPC UNAS FEST 2025 are limited to a maximum of 10 pages, calculated from the title to the bibliography, excluding attachments.",
+        "Yes. The scientific paper for SPC UNAS FEST 2025 must be a maximum of 10 pages, counted from the title to the references section, excluding appendices.",
       },
       {
-        question: "When is the deadline for submitting scientific papers?",
+        question: "What is the deadline for submitting the scientific paper?",
         answer:
-        "The deadline for submitting scientific papers is October 17, 2025.",
+        "The deadline for submission is October 17, 2025.",
       },
       {
-        question: "Will there be certificates for contest participants?",
+        question: "Will participants receive a certificate?",
         answer:
-        "All SPC contest participants will receive a certificate as a token of appreciation.",
+        "All SPC participants will receive a certificate as a form of appreciation.",
       },
       {
-        question: "When will the winner be announced?",
+        question: "When will the winners be announced?",
         answer:
-        "The winner will be announced on November 10, 2025.",
+        "Winners will be announced on November 10, 2025.",
       },
     ],
   },
@@ -554,7 +555,7 @@ export const Activities: Activity[] = [
     title: "Infographic Competition",
     coverImage: KDBICover,
     description:
-      "The Infographics competition aims to encourage participants to think critically andcreatively, while being able to present information in a concise, accurate, and easily understandable manner. Besides honing design skills and visual message delivery, participants are also invited to increase their awareness of global issues relevant to daily life. The Infographics competition carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” which discusses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and remain sustainable. The competition targets 15 teams consisting of active high school students from SMA, MAN, and SMK in the JABODETABEK area. Activities begin with a webinar to equip participants with the skills, knowledge, and understanding necessary to create their works.The Infographics competition consists of three stages: Administrative Selection, Semifinals, and Finals—all conducted online, followed by an onsite awarding ceremony.",
+      "The Infographics competition aims to encourage participants to think critically and creatively, while being able to present information in a concise, accurate, and easily understandable manner. Besides honing design skills and visual message delivery, participants are also invited to increase their awareness of global issues relevant to daily life. The Infographics competition carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” which discusses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and remain sustainable. The competition targets 15 teams consisting of active high school students from SMA, MAN, and SMK in the JABODETABEK area. Activities begin with a webinar to equip participants with the skills, knowledge, and understanding necessary to create their works.The Infographics competition consists of three stages: Administrative Selection, Semifinals, and Finals—all conducted online, followed by an onsite awarding ceremony.",
     guideBook: "/File/tes.pdf",
     guideBookName: "Guide_Book_DCC",
     requirements: [

@@ -26,13 +26,13 @@ type Props = {
 const stats = [
     {
         icon: <Users className="w-6 h-6 text-white" />,
-        value: "500+",
+        value: "20+",
         label: "Participants",
         gradient: "from-[#BE85FC] to-[#858BF8]",
     },
     {
         icon: <Trophy className="w-6 h-6 text-white" />,
-        value: "500+",
+        value: "1.000.000+",
         label: "Prize",
         gradient: "from-[#BE85FC] to-[#858BF8]",
     },
@@ -44,7 +44,7 @@ const stats = [
     },
     {
         icon: <Star className="w-6 h-6 text-white" />,
-        value: "7 Hari",
+        value: "2 Months",
         label: "Competition",
         gradient: "from-[#BE85FC] to-[#858BF8]",
     },
@@ -207,7 +207,7 @@ export default function ActivityDetailPage({ params }: Props) {
                         <div className="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 bg-gradient-to-r from-[#FAC718] to-[#FA9639] rounded-full flex items-center justify-center shadow-lg">
                             <Book className="w-10 h-10 text-purple-900" />
                         </div>
-                        <h2 className="text-3xl md:text-4xl font-extrabold mb-6">
+                        <h2 className="text-3xl md:text-4xl font-extrabold mb-6 mt-5">
                             <span className="bg-gradient-to-r from-[#FACA18] from-0% to-[#F474B1] to-40% text-transparent bg-clip-text">
                                 DOWNLOAD
                             </span>{" "}
