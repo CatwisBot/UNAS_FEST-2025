@@ -2,11 +2,9 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Card, CardContent } from "@/components/ui/card";
 import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css/pagination";
 import { MoveRight, MoveLeft } from "lucide-react";
-import { Dialog } from "@radix-ui/react-dialog";
 
 type Prop = {
   index: number | undefined;
@@ -35,6 +33,9 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
           1024: {
             spaceBetween: 28,
           },
+          1280: {
+            slidesPerView: 4, 
+          },
         }}
         pagination={{
           clickable: true,
@@ -53,26 +54,18 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
         className="!overflow-visible"
       >
         {props.map((prop) => (
-          <SwiperSlide
-            key={prop.index}
-            className="!w-[250px] sm:!w-[360px] md:!w-[440px] lg:!w-[500px] xl:!w-[550px]"
-          >
-            <Dialog>
-              <div className="relative h-full">
-                <Card className="flex h-full min-h-[350px] w-full flex-col justify-start gap-y-1 rounded-lg active:cursor-grabbing bg-gradient-to-b from-[#4B2A96] to-[#393195] from-0% to-100%  p-6 text-white shadow-md transition-all hover:shadow-lg md:gap-y-4 md:p-8 lg:min-h-[400px]">
-                  <CardContent className="flex flex-col gap-y-3 p-0 text-left md:gap-y-4">
-                    <h1 className="text-4xl font-semibold md:text-5xl">
-                      0{prop.index}
-                    </h1>
-                  </CardContent>
-                  <CardContent className="p-0">
-                    <p className="text-justify text-[13px] font-medium md:text-base lg:text-lg">
-                      {prop.detail}
-                    </p>
-                  </CardContent>
-                </Card>
+          <SwiperSlide key={prop.index} className="!w-[250px] sm:!w-[300px] md:!w-[340px] lg:!w-[400px] xl:!w-1/4">
+            <div className="relative h-full flex flex-col items-center text-white text-center p-2">
+              <div className="relative w-full h-10 flex items-center justify-center">
+                <div className="absolute w-full h-px bg-white top-1/2 left-0 right-0"></div>
+                <div className="absolute z-10 w-8 h-8 flex items-center justify-center rounded-full border border-white bg-[#040D30]">
+                  <span className="text-sm font-bold">0{prop.index}</span>
+                </div>
               </div>
-            </Dialog>
+              <p className="mt-8 text-sm md-5 md:text-base font-medium">
+                {prop.detail}
+              </p>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

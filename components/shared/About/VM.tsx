@@ -1,5 +1,5 @@
 import { missions } from "@/constants/About/VM";
-import Slider from "@/components/ui/slider";
+import MissionsGrid from "@/components/ui/slider";
 
 export default function VisiMission() {
   return (
@@ -16,13 +16,13 @@ export default function VisiMission() {
           </i>
         </p>
         <div className="mt-16">
-          <h1 className="text-center text-xl sm:text-2xl md:text-6xl font-bold uppercase">
-            our missions
-          </h1>
-        </div>
-        <div className="pt-3 sm:pt-5 md:pt-10 pb-10 overflow-hidden">
-          <Slider props={missions} />
-        </div>
+        <h1 className="text-center text-xl sm:text-2xl md:text-6xl font-bold uppercase">
+          our missions
+        </h1>
+      </div>
+      <div className="pt-3 sm:pt-5 md:pt-10 pb-10 overflow-hidden">
+        <MissionsGrid props={missions} />
+      </div>
       </div>
     </main>
   );

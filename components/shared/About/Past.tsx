@@ -14,7 +14,7 @@ const PastMascots: React.FC = () => {
   const tabs = Object.keys(pastMascotsData);
 
   return (
-    <section className="bg-gradient-to-b from-[#000022] to-[#23108E] from-0% to-100% py-16">
+    <section className="bg-gradient-to-b from-[#000022] to-[#23108E] from-0% to-100% py-16 ">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl font-bold uppercase text-center text-white mb-5">
           PAST MASCOTS
@@ -37,8 +37,12 @@ const PastMascots: React.FC = () => {
         </div>
 
         <div
-          className="relative rounded-[20px] overflow-hidden shadow-lg w-full max-w-[95vw] sm:max-w-[90vw] md:max-w-[600px] lg:max-w-[800px] xl:max-w-[1300px] mx-auto bg-white/10 border-1 border-[#294EC7] p-4 sm:p-5 md:p-6"
+          className="relative rounded-[20px] overflow-hidden shadow-lg w-full max-w-[95vw] sm:max-w-[90vw] md:max-w-[600px] lg:max-w-[800px] xl:max-w-[1300px] mx-auto bg-white/10 border-1 border-[#294EC7] p-4 sm:p-5 md:p-6 relative overflow-hidden"
         >
+
+            <div className="absolute top-[10%] right-[10%] w-[350px] h-[350px] rounded-full blur-circle bg-[radial-gradient(circle_at_center,_rgba(173,77,255,0.7)_0%,_rgba(173,77,255,0)_60%)]"></div>
+            <div className="absolute top-[10%] left-[10%] w-[350px] h-[350px] rounded-full blur-circle bg-[radial-gradient(circle_at_center,_rgba(81,124,255,0.6)_0%,_rgba(81,124,255,0)_70%)]"></div>
+
           <div className="rounded-xl flex flex-col items-center gap-4 sm:gap-5 md:gap-6">
             <div className="w-full flex justify-center mt-2 sm:mt-3 md:mt-4">
               {mascots.map((mascot) => (
