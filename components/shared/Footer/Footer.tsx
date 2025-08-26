@@ -42,7 +42,7 @@ export default function Footer() {
           <Image
             src={UF}
             alt="UNAS FEST"
-            width={75}
+            width={50}
             height={25}
             className="mb-4"
           />
