@@ -4,12 +4,14 @@ import Image from "next/image";
 import Border from "@/public/image/About/YB/Border.png";
 import Fotbar from "@/public/image/About/YB/FotoBersama.png";
 import { useState } from "react";
+import { BookOpen } from "lucide-react";
 
 export default function Home() {
-  const [showModal, setShowModal] = useState(false);
+  const [showToast, setShowToast] = useState(false);
 
   const handleClick = () => {
-    setShowModal(true);
+    setShowToast(true);
+    setTimeout(() => setShowToast(false), 3000);
   };
 
   return (
@@ -38,24 +40,16 @@ export default function Home() {
           <div className="flex items-center justify-center">
             <button
               onClick={handleClick}
-              className="absolute bottom-10 border border-white px-4 py-2 rounded-xl text-white font-semibold hover:scale-110 z-10 bg-transparent"
+              className="absolute bottom-5 md:bottom-10 border border-white px-2 py-1 md:px-4 md:py-2 rounded-xl text-white font-semibold hover:scale-110 z-10 bg-transparent"
             >
               Visit Yearbook
             </button>
 
-            {showModal && (
-              <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
-                <div className="bg-white rounded-2xl shadow-lg p-6 w-80 text-center">
-                  <h2 className="text-lg font-bold mb-2">Notice</h2>
-                  <p className="text-black mb-4">
-                    The Yearbook for this year is not yet available.
-                  </p>
-                  <button
-                    onClick={() => setShowModal(false)}
-                    className="px-4 py-2 bg-[#000022] text-white rounded-lg hover:bg-blue-700"
-                  >
-                    OK
-                  </button>
+            {showToast && (
+              <div className="fixed top-25 left-1/2 transform -translate-x-1/2 z-50">
+                <div className="flex items-center gap-3 bg-black text-white px-4 py-3 rounded-xl shadow-lg">
+                  <BookOpen className="text-blue-400 w-5 h-5" />
+                  <span>The Yearbook for this year is not yet available.</span>
                 </div>
               </div>
             )}
