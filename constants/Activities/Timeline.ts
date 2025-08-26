@@ -4,9 +4,9 @@ export const EVENTS: CompetitionEvent[] = [
   {
     path: "/",
     timeline: [
-      { month: "AUGUST", day: "25-31", year: "2025", title: "Registration IDC - Early Bird Home" },
-      { month: "SEPTEMBER", day: "1-13", year: "2025", title: "Registration IDC - Phase 1 Home" },
-      { month: "SEPTEMBER", day: "14-26", year: "2025", title: "Registration IDC - Phase 2" },
+      { month: "AUGUST", day: "25-31", year: "2025", title: "Registration KDBI - Early Bird Home" },
+      { month: "SEPTEMBER", day: "1-13", year: "2025", title: "Registration KDBI - Phase 1 Home" },
+      { month: "SEPTEMBER", day: "14-26", year: "2025", title: "Registration KDBI - Phase 2" },
       { month: "SEPTEMBER", day: "27", year: "2025", title: "Webinar and Participants Technical Meeting" },
       { month: "OCTOBER", day: "13", year: "2025", title: "Preliminary Round - Day 1" },
       { month: "OCTOBER", day: "14", year: "2025", title: "Preliminary Round - Day 2" },
@@ -16,11 +16,11 @@ export const EVENTS: CompetitionEvent[] = [
     ],
   },
   {
-    path: "IDC",
+    path: "KDBI",
     timeline: [
-      { month: "SEPTEMBER", day: "1-7", year: "2025", title: "Registration IDC - Early Bird" },
-      { month: "SEPTEMBER", day: "8-19", year: "2025", title: "Registration IDC - Phase 1" },
-      { month: "SEPTEMBER", day: "20-28", year: "2025", title: "Registration IDC - Phase 2" },
+      { month: "SEPTEMBER", day: "1-7", year: "2025", title: "Registration KDBI - Early Bird" },
+      { month: "SEPTEMBER", day: "8-19", year: "2025", title: "Registration KDBI - Phase 1" },
+      { month: "SEPTEMBER", day: "20-28", year: "2025", title: "Registration KDBI - Phase 2" },
       { month: "OCTOBER", day: "9", year: "2025", title: "Webinar and Participants Technical Meeting" },
       { month: "OCTOBER", day: "13", year: "2025", title: "Preliminary Round - Day 1" },
       { month: "OCTOBER", day: "14", year: "2025", title: "Preliminary Round - Day 2" },

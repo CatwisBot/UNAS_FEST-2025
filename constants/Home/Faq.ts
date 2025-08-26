@@ -18,7 +18,7 @@ export const FaqData: FaqItem[] = [
     question: "What competitions are there at UNAS FEST 2025?",
     answer: [
       "English Debate Competition",
-      "Indonesian Debate Competition",
+      "Kompetisi Debat Bahasa Indonesia",
       "Scientific Writing Competition",
       "Short Video Competition",
       "Infographics Competition",

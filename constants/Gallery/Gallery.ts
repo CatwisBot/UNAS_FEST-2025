@@ -1,12 +1,12 @@
 export const Gallery = [
     {
-        path: "IDC",
-        title: "Indonesian Debate Competition",
-        desc: "IDC is a prestigious national debate competition that brings together the brightest minds from universities across Indonesia to showcase their debating skills and critical thinking.",
+        path: "KDBI",
+        title: "Kompetisi Debat Bahasa Indonesia",
+        desc: "KDBI is a prestigious national debate competition that brings together the brightest minds from universities across Indonesia to showcase their debating skills and critical thinking.",
         images: [
             {
-                src: "/image/Gallery/IDC/1.jpg",
-                alt: "Opening ceremony of IDC 2025",
+                src: "/image/Gallery/KDBI/1.jpg",
+                alt: "Opening ceremony of KDBI 2025",
                 caption: "Grand opening with keynote speakers",
                 day: "Day 1",
                 year: "2025",
@@ -14,7 +14,7 @@ export const Gallery = [
                 location: "Main Hall"
             },
             {
-                src: "/image/Gallery/IDC/2.jpg",
+                src: "/image/Gallery/KDBI/2.jpg",
                 alt: "Preliminary rounds",
                 caption: "Preliminary debate rounds in session",
                 day: "Day 1",
@@ -23,7 +23,7 @@ export const Gallery = [
                 location: "Room 301"
             },
             {
-                src: "/image/Gallery/IDC/3.jpg",
+                src: "/image/Gallery/KDBI/3.jpg",
                 alt: "Quarterfinal matches",
                 caption: "Intense quarterfinal debates",
                 day: "Day 2",
@@ -32,7 +32,7 @@ export const Gallery = [
                 location: "Main Hall"
             },
             {
-                src: "/image/Gallery/IDC/4.jpg",
+                src: "/image/Gallery/KDBI/4.jpg",
                 alt: "Semifinal matches",
                 caption: "Semifinal round between top teams",
                 day: "Day 2", 
@@ -41,7 +41,7 @@ export const Gallery = [
                 location: "Grand Ballroom"
             },
             {
-                src: "/image/Gallery/IDC/5.jpg",
+                src: "/image/Gallery/KDBI/5.jpg",
                 alt: "Final round debate",
                 caption: "Championship round between UI and ITB",
                 day: "Day 2",
@@ -50,7 +50,7 @@ export const Gallery = [
                 location: "Main Auditorium"
             },
             {
-                src: "/image/Gallery/IDC/1.jpg",
+                src: "/image/Gallery/KDBI/1.jpg",
                 alt: "Winners celebration",
                 caption: "Champion team receiving the trophy",
                 day: "Day 2",

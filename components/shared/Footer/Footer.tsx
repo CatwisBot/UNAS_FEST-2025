@@ -8,7 +8,7 @@ import Instagram from "@/public/icons/Footer/Instagram.png";
 import Youtube from "@/public/icons/Footer/Youtube.png";
 import Tiktok from "@/public/icons/Footer/Tiktok.png";
 import Linkedin from "@/public/icons/Footer/LinkedIn.png";
-import UF from "@/public/icons/Navbar/UF25.png";
+import UF from "@/public/icons/Navbar/UNAS FEST 2025.png";
 
 export default function Footer() {
   const [showActivities, setShowActivities] = useState(false);
@@ -38,12 +38,12 @@ export default function Footer() {
       className="bg-[#000138] text-white py-10"
     >
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 md:items-start">
-        <div className="flex flex-col items-center md:items-start space-y-4 pl-0 md:pl-8">
+        <div className="flex flex-col items-center space-y-4 pl-0">
           <Image
             src={UF}
             alt="UNAS FEST"
-            width={150}
-            height={50}
+            width={75}
+            height={25}
             className="mb-4"
           />
           <div className="flex space-x-4 justify-center md:justify-start">
@@ -104,10 +104,10 @@ export default function Footer() {
                 <ul className="ml-4 space-y-2">
                   <li>
                     <Link
-                      href="/activities/IDC"
+                      href="/activities/KDBI"
                       className="hover:text-gray-300"
                     >
-                      Indonesian Debate Competition
+                      Kompetisi Debat Bahasa Indonesia
                     </Link>
                   </li>
                   <li>
@@ -163,10 +163,10 @@ export default function Footer() {
                 <ul className="ml-4 space-y-2">
                   <li>
                     <Link
-                      href="/gallery/IDC"
+                      href="/gallery/KDBI"
                       className="hover:text-gray-300"
                     >
-                      Indonesian Debate Competition
+                      Kompetisi Debat Bahasa Indonesia
                     </Link>
                   </li>
                   <li>
@@ -221,8 +221,8 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4">Activities</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/activities/IDC" className="hover:text-gray-300">
-                Indonesian Debate Competition
+              <Link href="/activities/KDBI" className="hover:text-gray-300">
+                Kompetisi Debat Bahasa Indonesia
               </Link>
             </li>
             <li>

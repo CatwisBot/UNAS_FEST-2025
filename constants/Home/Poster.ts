@@ -1,4 +1,4 @@
-import IDC from "@/public/image/Poster/IDC.png";
+import KDBI from "@/public/image/Poster/KDBI.png";
 import EDC from "@/public/image/Poster/EDC.png";
 import SPC from "@/public/image/Poster/SPC.png";
 import Infographic from "@/public/image/Poster/Infografis.png";
@@ -7,10 +7,10 @@ import Short from "@/public/image/Poster/Short-Video.png";
 export const AllPoster = [
   {
     index: 1,
-    image: IDC.src,
+    image: KDBI.src,
     name: "Indonesia Poster",
-    path: "/activities/IDC",
-    desc: "Welcome to the Indonesian Debate Competition! UNAS FEST 2025 is an event held to celebrate the 76th anniversary of Universitas Nasional. One of the competitions to be held at UNAS FEST 2025 is the Indonesian Debate Competition (IDC). The Indonesian Language Debate Competition (IDC) is a debate competition conducted in the Indonesian language, serving as a platform for participants to present their arguments and ideas on current issues. What are you waiting for? Get ready to secure victory at UNAS FEST 2025!",
+    path: "/activities/KDBI",
+    desc: "Welcome to the Kompetisi Debat Bahasa Indonesia! UNAS FEST 2025 is an event held to celebrate the 76th anniversary of Universitas Nasional. One of the competitions to be held at UNAS FEST 2025 is the Kompetisi Debat Bahasa Indonesia (KDBI). The Indonesian Language Debate Competition (KDBI) is a debate competition conducted in the Indonesian language, serving as a platform for participants to present their arguments and ideas on current issues. What are you waiting for? Get ready to secure victory at UNAS FEST 2025!",
   },
   {
     index: 2,
