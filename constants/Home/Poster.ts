@@ -1,8 +1,8 @@
-import KDBI from "@/public/image/Poster/KDBI.png";
-import EDC from "@/public/image/Poster/EDC.png";
-import SPC from "@/public/image/Poster/SPC.png";
-import Infographic from "@/public/image/Poster/Infografis.png";
-import Short from "@/public/image/Poster/Short-Video.png";
+import KDBI from "@/public/image/About/Hero/no-photo.jpg";
+import EDC from "@/public/image/About/Hero/no-photo.jpg";
+import SPC from "@/public/image/About/Hero/no-photo.jpg";
+import Infographic from "@/public/image/About/Hero/no-photo.jpg";
+import Short from "@/public/image/About/Hero/no-photo.jpg";
 
 export const AllPoster = [
   {

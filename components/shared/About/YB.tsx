@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Border from "@/public/image/About/YB/Border.png";
 import Fotbar from "@/public/image/About/YB/FotoBersama.png";
+import Photo from "@/public/image/About/Hero/no-photo.jpg"
 import { useState } from "react";
 import { BookOpen } from "lucide-react";
 
@@ -31,13 +32,13 @@ export default function Home() {
             quality={100}
           />
           <Image
-            src={Fotbar}
+            src={Photo}
             alt="Fotbar UF 25"
             className="object-cover z-1 h-50 sm:h-100 max-w-[224px] sm:max-w-md mx-auto"
             priority
             quality={100}
           />
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center hidden">
             <button
               onClick={handleClick}
               className="absolute bottom-5 md:bottom-10 border border-white px-2 py-1 md:px-4 md:py-2 rounded-xl text-white font-semibold hover:scale-110 z-10 bg-transparent"

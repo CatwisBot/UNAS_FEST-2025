@@ -1,11 +1,6 @@
 import { StaticImageData } from 'next/image';
 
-import Charizard from "@/public/image/About/Visionaries/Charizard.png";
-import Pikachu from "@/public/image/About/Visionaries/Pikachu.png";
-import Dialga from "@/public/image/About/Visionaries/Dialga.png";
-import Eternatus from "@/public/image/About/Visionaries/Eternatus.png";
-import Gengar from "@/public/image/About/Visionaries/Gengar.png";
-import Lapras from "@/public/image/About/Visionaries/Lapras.png";
+import Photo from "@/public/image/About/Hero/no-photo.jpg"
 
 export interface Visionary {
   id: number;
@@ -17,116 +12,26 @@ export interface Visionary {
 export const Mascot: Visionary[] = [
     {
     id: 1,
-    name: "Charizard Gigantamax",
-    role: "UNAS FEST 2025 Website",
-    image: Charizard,
-  },
-    {
-    id: 2,
-    name: "Dialga Original Form",
-    role: "UNAS FEST 2025 Website",
-    image: Dialga,
-  },
-    {
-    id: 3,
-    name: "Eternatus",
-    role: "UNAS FEST 2025 Website",
-    image: Eternatus,
-  },
-    {
-    id: 4,
-    name: "Gengar Gigantamax",
-    role: "UNAS FEST 2025 Website",
-    image: Gengar,
-  },
-    {
-    id: 5,
-    name: "Lapras Gigantamax",
-    role: "UNAS FEST 2025 Website",
-    image: Lapras,
-  },
-    {
-    id: 6,
-    name: "Pikachu Gigantamax",
-    role: "UNAS FEST 2025 Website",
-    image: Pikachu,
+    name: "-",
+    role: "-",
+    image: Photo,
   },
 ];
 
 export const Web: Visionary[] = [
     {
     id: 1,
-    name: "Charizard Gigantamax",
-    role: "UNAS FEST 2025 Website",
-    image: Charizard,
-  },
-    {
-    id: 2,
-    name: "Dialga Original Form",
-    role: "UNAS FEST 2025 Website",
-    image: Gengar,
-  },
-    {
-    id: 3,
-    name: "Eternatus",
-    role: "UNAS FEST 2025 Website",
-    image: Pikachu,
-  },
-    {
-    id: 4,
-    name: "Gengar Gigantamax",
-    role: "UNAS FEST 2025 Website",
-    image: Dialga,
-  },
-    {
-    id: 5,
-    name: "Lapras Gigantamax",
-    role: "UNAS FEST 2025 Website",
-    image: Lapras,
-  },
-    {
-    id: 6,
-    name: "Pikachu Gigantamax",
-    role: "UNAS FEST 2025 Website",
-    image: Eternatus,
+    name: "-",
+    role: "-",
+    image: Photo,
   },
 ];
 
 export const Music: Visionary[] = [
     {
     id: 1,
-    name: "Charizard Gigantamax",
-    role: "UNAS FEST 2025 Website",
-    image: Lapras,
-  },
-    {
-    id: 2,
-    name: "Dialga Original Form",
-    role: "UNAS FEST 2025 Website",
-    image: Dialga,
-  },
-    {
-    id: 3,
-    name: "Eternatus",
-    role: "UNAS FEST 2025 Website",
-    image: Eternatus,
-  },
-    {
-    id: 4,
-    name: "Gengar Gigantamax",
-    role: "UNAS FEST 2025 Website",
-    image: Pikachu,
-  },
-    {
-    id: 5,
-    name: "Lapras Gigantamax",
-    role: "UNAS FEST 2025 Website",
-    image: Charizard,
-  },
-    {
-    id: 6,
-    name: "Pikachu Gigantamax",
-    role: "UNAS FEST 2025 Website",
-    image: Pikachu,
+    name: "-",
+    role: "-",
+    image: Photo,
   },
 ];

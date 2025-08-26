@@ -1,17 +1,8 @@
 // Cover Image
-import KDBICover from "@/public/image/Activities/Cover/coverKDBI.png";
-import SPCCover from "@/public/image/Activities/Cover/Gemini_Generated_Image_vfn6iyvfn6iyvfn6.png"
-// Juri KDBI
-import kyla from "@/public/image/Activities/judges/Kylas.jpg";
+import KDBICover from "@/public/image/About/Hero/no-photo.jpg";
 
-//Juri EDC
-import jerry from "@/public/image/Activities/judges/Jerry.jpg";
-
-//Juri SPC
-import hisyam from "@/public/image/Activities/judges/Hisyam.jpg";
-
-// Juri DCC
-import fuecoco from "@/public/image/Activities/judges/Fuecoco.jpg";
+// No Photo
+import Photo from "@/public/image/About/Hero/no-photo.jpg";
 
 import { Activity } from "@/lib/types/Activities/Activities";
 
@@ -66,7 +57,7 @@ export const Activities: Activity[] = [
       {
         index: 1,
         name: "Purwo Besari",
-        image: kyla,
+        image: Photo,
         school: "Jakarta State University",
         lastEducation:
           "Faculty of Social Sciences",
@@ -88,7 +79,7 @@ export const Activities: Activity[] = [
       {
         index: 2,
         name: "Lasman",
-        image: kyla,
+        image: Photo,
         school: "Padjajaran University",
         lastEducation: "-",
         description:
@@ -117,7 +108,7 @@ export const Activities: Activity[] = [
       {
         index: 3,
         name: "Laila Amalia Khaerani",
-        image: kyla,
+        image: Photo,
         school: "Jakarta State University",
         lastEducation: "History Education",
         description:
@@ -245,7 +236,7 @@ export const Activities: Activity[] = [
       {
         index: 1,
         name: "-",
-        image: jerry,
+        image: Photo,
         school: "-",
         lastEducation: "-",
         description:
@@ -257,7 +248,7 @@ export const Activities: Activity[] = [
       {
         index: 2,
         name: "-",
-        image: jerry,
+        image: Photo,
         school: "-",
         lastEducation: "-",
         description:
@@ -269,7 +260,7 @@ export const Activities: Activity[] = [
       {
         index: 3,
         name: "-",
-        image: jerry,
+        image: Photo,
         school: "-",
         lastEducation: "-",
         description:
@@ -380,7 +371,7 @@ export const Activities: Activity[] = [
       {
         index: 1,
         name: "Hisyam Farindra",
-        image: hisyam,
+        image: Photo,
         school: "-",
         lastEducation:
           "-",
@@ -393,7 +384,7 @@ export const Activities: Activity[] = [
       {
         index: 2,
         name: "Hisyam Farindra",
-        image: hisyam,
+        image: Photo,
         school: "-",
         lastEducation: "-",
         description:
@@ -405,7 +396,7 @@ export const Activities: Activity[] = [
       {
         index: 3,
         name: "Hisyam Farindra",
-        image: hisyam,
+        image: Photo,
         school: "-",
         lastEducation: "-",
         description:
@@ -547,7 +538,7 @@ export const Activities: Activity[] = [
       {
         index: 1,
         name: "Fuecoco a Pokemon",
-        image: fuecoco,
+        image: Photo,
         school: "-",
         lastEducation:
           "-",
@@ -560,7 +551,7 @@ export const Activities: Activity[] = [
       {
         index: 2,
         name: "Fuecoco a Pokemon",
-        image: fuecoco,
+        image: Photo,
         school: "-",
         lastEducation: "-",
         description:
@@ -572,7 +563,7 @@ export const Activities: Activity[] = [
       {
         index: 3,
         name: "Fuecoco a Pokemon",
-        image: fuecoco,
+        image: Photo,
         school: "-",
         lastEducation: "-",
         description:
@@ -708,7 +699,7 @@ export const Activities: Activity[] = [
       {
         index: 1,
         name: "Fuecoco a Pokemon",
-        image: fuecoco,
+        image: Photo,
         school: "-",
         lastEducation:
           "-",
@@ -721,7 +712,7 @@ export const Activities: Activity[] = [
       {
         index: 2,
         name: "Fuecoco a Pokemon",
-        image: fuecoco,
+        image: Photo,
         school: "-",
         lastEducation: "-",
         description:
@@ -733,7 +724,7 @@ export const Activities: Activity[] = [
       {
         index: 3,
         name: "Fuecoco a Pokemon",
-        image: fuecoco,
+        image: Photo,
         school: "-",
         lastEducation: "-",
         description:

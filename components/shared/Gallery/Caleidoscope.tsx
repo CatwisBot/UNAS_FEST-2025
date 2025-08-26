@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Photo from "@/public/image/About/Hero/no-photo.jpg"
 import youtube from '@/public/image/Gallery/youtube.jpg';
 
 const CaleidoscopeSection: React.FC = () => {
@@ -20,16 +21,12 @@ const CaleidoscopeSection: React.FC = () => {
           <>
 
             <Image
-              src={youtube}
+              src={Photo}
               alt="YouTube UNAS FEST Placeholder"
               layout="fill"
               objectFit="cover"
               className="z-0"
             />
-
-            <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl font-bold text-white opacity-75 z-5">
-              YouTube UNAS FEST
-            </p>
 
             <div
               className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 cursor-pointer"
@@ -47,17 +44,17 @@ const CaleidoscopeSection: React.FC = () => {
             </div>
 
             <a 
-              href="https://www.youtube.com/live/avng_u8b2d0?si=wPA-68IZGX14DcPl" 
-              target="_blank" 
+              href="#" 
+              // target="_blank" 
               rel="noopener noreferrer" 
               className="absolute bottom-4 left-4 text-lg font-bold text-black backdrop-blur-xs hover:underline z-10"
             >
-              Watch on YouTube
+              Not Available For Now
             </a>
           </>
         )}
 
-        {isPlaying && (
+        {/* {isPlaying && (
           <iframe 
             src="https://www.youtube.com/embed/avng_u8b2d0?autoplay=1" 
             title="YouTube video player" 
@@ -66,7 +63,7 @@ const CaleidoscopeSection: React.FC = () => {
             allowFullScreen 
             className="w-full h-full absolute top-0 left-0 rounded-lg"
           ></iframe>
-        )}
+        )} */}
       </div>
     </div>
   );

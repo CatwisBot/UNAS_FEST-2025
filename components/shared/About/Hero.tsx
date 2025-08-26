@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Arceus from "@/public/image/About/Hero/Squid1.png";
-import Charizard from "@/public/image/About/Hero/Squid2.png";
-import Lugia from "@/public/image/About/Hero/Squid3.png";
+import Photo from "@/public/image/About/Hero/no-photo.jpg"
 import Link from "next/link";
 
 export default function Hero() {
@@ -11,7 +9,7 @@ export default function Hero() {
             <div className="w-full max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto grid grid-cols-2 grid-rows-5 sm:grid-cols-5 sm:grid-rows-7 gap-4 max-hscreen px-4 py-10">
                 <div className="relative row-span-2 sm:row-span-3">
                     <Image
-                        src={Arceus}
+                        src={Photo}
                         alt="Gambar 1"
                         fill
                         className="object-cover rounded-xl"
@@ -20,7 +18,7 @@ export default function Hero() {
                 </div>
                 <div className="relative row-span-3 sm:col-span-2 sm:row-span-4">
                     <Image
-                        src={Charizard}
+                        src={Photo}
                         alt="Gambar 2"
                         fill
                         className="object-cover rounded-xl"
@@ -28,7 +26,7 @@ export default function Hero() {
                 </div>
                 <div className="relative hidden sm:flex sm:col-span-2 sm:row-span-5 sm:col-start-4">
                     <Image
-                        src={Lugia}
+                        src={Photo}
                         alt="Gambar 3"
                         fill
                         className="object-cover rounded-xl"

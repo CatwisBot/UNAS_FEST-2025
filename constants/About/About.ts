@@ -57,7 +57,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 1,
       name: "Nabila Shafa Sabrina, S.Sos",
       role: "Project Manager",
-      photoUrl: "/image/About/Committee/kaksaf.jpeg",
+      photoUrl: "",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
@@ -67,7 +67,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 2,
       name: "Wafa Ma'alim Fithoriq",
       role: "Deputy Manager for Finance & Secretarial Affairs",
-      photoUrl: "/image/About/Committee/Kylas.jpg",
+      photoUrl: "",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
@@ -75,7 +75,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 3,
       name: "Nazwa Priyandini Cahyani Putri",
       role: "Deputy Event Manager",
-      photoUrl: "/image/About/Committee/Hisyam.jpg",
+      photoUrl: "",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
@@ -83,7 +83,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 4,
       name: "Raffidamara Putra Anggara",
       role: "Deputy Manager for Advertising & Partnership",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
@@ -91,7 +91,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 5,
       name: "Najmia",
       role: "Deputy General Manager",
-      photoUrl: "/image/About/Committee/kaksaf.jpeg",
+      photoUrl: "",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
@@ -101,7 +101,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 6,
       name: "Harini Setyowati",
       role: "Dept. Finance",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Finance Department is responsible for managing all financial aspects of an event or organization. This includes budgeting, tracking expenses, handling transactions, and ensuring financial transparency.",
       member: [
@@ -135,7 +135,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 7,
       name: "Dwi Luvita Sari",
       role: "Dept. Secretarial Affairs",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Secretarial Affairs Department ensures smooth administrative operations, maintaining clear communication and documentation throughout the event planning and execution process.",
       member: [
@@ -167,7 +167,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 8,
       name: "Leila Alysia Syafiiqoh",
       role: "Dept. Debate",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Debate Department is responsible for organizing, managing, and overseeing debate-related activities and events.",
       member: [
@@ -227,7 +227,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 9,
       name: "Chairunnisa Salsabila",
       role: "Dept. Scientific Paper Competition",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Scientific Paper Competition Department is responsible for organizing and managing events focused on academic writing and research presentation.",
       member: [
@@ -269,7 +269,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 10,
       name: "Eky Wijayanto",
       role: "Dept. Digital Content Competition",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Short Movie Competition Department is in charge of organizing and managing all aspects of the short movie competition.",
       member: [
@@ -326,7 +326,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 11,
       name: "Vanez Meida Olivia Putri",
       role: "Dept. Entertainment",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Entertainment Department is responsible for organizing and managing all entertainment-related activities for events.",
       member: [
@@ -358,7 +358,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 12,
       name: "Muhammad Bisyr",
       role: "Dept. Advertising",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Advertising Department is tasked with creating and executing promotional strategies to maximize event visibility and engagement.",
       member: [
@@ -412,7 +412,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 13,
       name: "Kyla Nazwara Sofyan",
       role: "Dept. Partnership",
-      photoUrl: "/image/About/Committee/Kylas.jpg",
+      photoUrl: "",
       description:
         "The Partnership Department focuses on building and managing relationships with external organizations, partners, and sponsors.",
       member: [
@@ -458,7 +458,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 14,
       name: "Nasya Rizka Saputri",
       role: "Dept. Public Relation",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Public Relation (PR) Department is responsible for managing communication between the event organizers and the public, participants, sponsors, partners and stakeholders.",
       member: [
@@ -496,7 +496,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 15,
       name: "Dimas",
       role: "Dept. IT",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Information Technology (IT) Department is responsible for designing, developing, and maintaining the digital platforms for the event, including unasfest.com and caturnawa.unasfest.com.",
       member: [
@@ -526,7 +526,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 16,
       name: "Andhika Pratama",
       role: "Dept. Facility and Infrastructure",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Infrastructure Department is responsible for planning, organizing, and maintaining the physical resources required for events.",
       member: [
@@ -578,7 +578,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 17,
       name: "Keysha Andani",
       role: "Dept. Food & Beverage",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Food and Beverage (F&B) Department is responsible for planning, organizing, and delivering meals, snacks, and beverages during events.",
       member: [
@@ -624,7 +624,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 18,
       name: "Nayla Luthfia Hayati",
       role: "Dept. Health",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Health Department is tasked with ensuring the physical well-being and safety of all committee and participants during events.",
       member: [
@@ -660,7 +660,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 19,
       name: "Juandhika Irama",
       role: "Dept. Security",
-      photoUrl: "/image/About/Committee/kakrafi.jpeg",
+      photoUrl: "",
       description:
         "The Security Department is responsible for ensuring the safety and security of all participants, guests, and assets during events.",
       member: [
