@@ -130,7 +130,7 @@ export default function ActivityDetailPage({ params }: Props) {
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div className="bg-[#5C46A3] rounded-xl p-6 flex flex-col items-center border border-purple-500/30 hover:bg-purple-600/50 transition">
+                            <div className="bg-[#5C46A3] rounded-xl p-6 flex flex-col items-center border border-purple-500/30 transition">
                                 <Brain className="w-10 h-10 mb-4 text-purple-300" />
                                 <h3 className="font-semibold mb-2">Analytical Skills</h3>
                                 <p className="text-xs text-gray-300">
