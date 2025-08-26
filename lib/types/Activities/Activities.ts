@@ -22,6 +22,7 @@ export interface FAQ {
 
 export interface Activity {
   path: string;
+  alias: string;
   title: string;
   coverImage: StaticImageData;
   description: string;

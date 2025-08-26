@@ -66,7 +66,7 @@ export default function ActivityDetailPage({ params }: Props) {
                 <div className="flex flex-col items-center justify-center relative">
                     <div className="relative">
                         <h2 className="shine font-bold text-center uppercase text-4xl md:text-6xl lg:text-8xl pt-10 pb-5">
-                            {activity.path} 2025
+                            {activity.alias} 2025
                         </h2>
 
                         <div className="shine absolute top-3 -right-7 sm:top-5 sm:-right-7">

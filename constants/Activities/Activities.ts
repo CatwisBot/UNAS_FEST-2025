@@ -18,6 +18,7 @@ import { Activity } from "@/lib/types/Activities/Activities";
 export const Activities: Activity[] = [
   {
     path: "IDC",
+    alias: "IDC",
     title: "Indonesian Debate Competition",
     coverImage: KDBICover,
     description:
@@ -193,6 +194,7 @@ export const Activities: Activity[] = [
   },
   {
     path: "EDC",
+    alias: "EDC",
     title: "English Debate Competition",
     coverImage: KDBICover,
     description:
@@ -372,6 +374,7 @@ export const Activities: Activity[] = [
   },
   {
     path: "SPC",
+    alias: "SPC",
     title: "Scientific Paper Competition",
     coverImage: KDBICover,
     description:
@@ -552,6 +555,7 @@ export const Activities: Activity[] = [
   },
   {
     path: "Infographic",
+    alias: "Infographic",
     title: "Infographic Competition",
     coverImage: KDBICover,
     description:
@@ -741,6 +745,7 @@ export const Activities: Activity[] = [
   },
   {
     path: "Short-Video",
+    alias: "Short Video",
     title: "Short Video Competition",
     coverImage: KDBICover,
     description:
