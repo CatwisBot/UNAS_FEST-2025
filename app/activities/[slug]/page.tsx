@@ -202,7 +202,7 @@ export default function ActivityDetailPage({ params }: Props) {
                     </CardContent>
                 </Card>
 
-                <section className="flex items-center justify-center py-16 px-6">
+                <section id="guidebook" className="flex items-center justify-center py-16 px-6">
                     <div className="max-w-2xs sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto w-full text-center bg-gradient-to-r from-[#532898] to-[#582B7B] rounded-2xl p-10 shadow-lg border-1 border-[#806DB2] relative">
                         <div className="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 bg-gradient-to-r from-[#FAC718] to-[#FA9639] rounded-full flex items-center justify-center shadow-lg">
                             <Book className="w-10 h-10 text-purple-900" />
@@ -248,8 +248,8 @@ export default function ActivityDetailPage({ params }: Props) {
                                 <p className="text-white text-sm">Assessment Criteria</p>
                             </div>
                         </div>
-                        <Link 
-                            href={activity.guideBook} 
+                        <Link
+                            href={activity.guideBook}
                             download={activity.guideBookName}
                             className="mx-auto inline-flex items-center justify-center gap-3 px-3 py-2 sm:px-8 sm:py-4 bg-gradient-to-r from-[#FACA16] to-[#FB943A] text-black font-bold rounded-lg shadow-lg hover:bg-white hover:bg-none cursor-pointer transition"
                         >
@@ -302,12 +302,16 @@ export default function ActivityDetailPage({ params }: Props) {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <button className="px-6 py-3 rounded-md font-bold bg-gradient-to-r from-[#FACB16] to-[#FB933C] text-black hover:bg-white hover:bg-none cursor-pointer transition">
-                            REGISTER NOW
-                        </button>
-                        <button className="px-6 py-3 rounded-md font-medium text-white bg-gradient-to-r from-[#4E2185] to-[#362C7E] from-0% to-100% hover:bg-white hover:bg-none hover:text-black cursor-pointer transition">
-                            Learn More
-                        </button>
+                        <Link href="https://caturnawa.unasfest.com" target="_blank">
+                            <button className="px-6 py-3 rounded-md font-bold bg-gradient-to-r from-[#FACB16] to-[#FB933C] text-black hover:bg-white hover:bg-none cursor-pointer transition">
+                                REGISTER NOW
+                            </button>
+                        </Link>
+                        <Link href="#guidebook" className="scroll-smooth">
+                            <button className="px-6 py-3 rounded-md font-medium text-white bg-gradient-to-r from-[#4E2185] to-[#362C7E] from-0% to-100% hover:bg-white hover:bg-none hover:text-black cursor-pointer transition">
+                                Learn More
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
