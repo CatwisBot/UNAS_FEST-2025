@@ -5,6 +5,7 @@ export interface Judge {
   name: string;
   linkedin?: string;
   image: StaticImageData;
+  school: string;
   lastEducation: string;
   description: string;
   achievements?: string[];

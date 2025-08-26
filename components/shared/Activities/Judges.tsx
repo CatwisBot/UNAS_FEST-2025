@@ -84,7 +84,7 @@ const Judges: React.FC<JudgesProps> = ({ judgesData }) => {
                                         <p className="flex items-center justify-center gap-2 text-sm text-gray-200">
                                             <MapPin className="w-4 h-4 flex-shrink-0" />
                                             <span className="line-clamp-2 text-xs leading-tight max-w-[200px]">
-                                                {judge.lastEducation}
+                                                {judge.school}
                                             </span>
                                         </p>
                                     </div>
