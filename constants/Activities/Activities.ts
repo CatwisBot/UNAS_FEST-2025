@@ -138,56 +138,56 @@ export const Activities: Activity[] = [
     faqs: [
       {
         question:
-          "Regarding the administrative requirements in the Screenshot column for following Unas Fest social media (TikTok, Instagram, and YouTube), are participants who do not have one of these applications still required to follow them?",
+          "Regarding the administrative requirements in the Screenshot evidence column for following UNAS FEST social media (TikTok, Instagram, and YouTube), are participants who do not have one of those applications still required to follow?",
         answer:
-          "For UNAS FEST social media screenshots, participants must provide proof that they have followed the UNAS FEST account and are using their own active personal accounts.",
+          "UNAS FEST social media screenshot evidence is mandatory and participants must have proof that they have followed UNAS FEST account and are using their own active personal accounts.",
       },
       {
         question:
-          "Regarding the administrative requirements in the UNAS FEST 2025 Twibbon proof column, are participants required to upload all Twibbons?",
+          "Regarding the administrative requirements in the UNAS FEST 2025 Twibbon evidence column, are participants required to upload all Twibbon?",
         answer:
-          "Mandatory, as this is a required field that must be filled out and uploaded in the “UNAS FEST 2025 Twibbon Share Proof” column. All participants, including Debaters 1 and 2, are required to upload the Twibbon Share to their active personal accounts. The files must be submitted in the form of screenshots posted on each participant's active Instagram account.",
+          "Yes, because it is a mandatory requirement that must be filled in and uploaded in the UNAS FEST 2025 Twibbon Share Evidence column. All participants, both debater 1 and 2, are required to upload the Twibbon Share to their active personal accounts, and to collect the files in the form of screenshots posted on their respective active Instagram accounts.",
       },
       {
         question:
-          "Regarding the screenshot evidence of following UNAS FEST social media, should participants send it separately or combine it into one file?",
+          "Regarding the screenshot evidence of following UNAS FEST social media, must participants send it separately or combine it into one file?",
         answer:
-          "For the screenshot proof of following UNAS FEST's social media, it should be combined into one file and saved as a PDF file.",
+          "The screenshot evidence of following UNAS FEST social media must be combined into one PDF file.",
       },
       {
-        question: "Regarding the administrative requirements in the Delegation Cover Letter column, does the letter have to be signed by the Vice Rector, Dean, and Vice Dean, or is it okay if it is signed by just one of them?",
+        question: "Regarding the administrative requirements in the Delegation Cover Letter column, does the letter have to be signed by the Deputy Rector, Dean, and Deputy Dean, or is it okay if only one of them signs it?",
         answer:
-          "Yes, if it is only one of them, whether it is the Vice Rector, Dean, or Vice Dean. The most important thing is that there are signatures and stamps from their respective campuses.",
+          "It is okay if only one of them signs it, whether it is the Deputy Rector, Dean, or Deputy Dean. The most important thing is that there is a signature and stamp from each campus.",
       },
       {
-        question: "Who can participate in the IDC and EDC UNAS FEST 2025 debate competitions?",
+        question: "Who can participate in the KDBI and EDC UNAS FEST 2025 debate competitions?",
         answer:
-          "All active undergraduate students registered in PDDikti (Higher Education Database) from various study programs and universities, both public and private, who do not yet have a bachelor's degree (S1) are eligible to participate in the competition.",
+          "All active undergraduate students registered in PDDikti (Higher Education Database) from various study programmes and universities, both state and private, who do not yet have a bachelor's degree (S1) are welcome to participate in the competition.",
       },
       {
-        question: "If you wish to request a receipt as proof of reimbursement from the university, what are the terms and conditions?",
+        question: "If participants want to request a receipt as proof of reimbursement from the university, what are the terms and conditions?",
         answer:
-          "Participants can request a receipt directly from the relevant committee. However, please note that such requests cannot be made suddenly or on the day of the competition.",
+          "Participants can request a receipt directly from the relevant committee. However, please note that such requests cannot be asked suddenly or on the day of the competition.",
       },
       {
-        question: "What are the rules for participants in creating team names?",
+        question: "What are the rules for participants in creating team name?",
         answer:
-          "Each team must create a team name in accordance with the theme of UNAS FEST 2025 without containing elements of ethnicity, religion, race, and intergroup relations (SARA).",
+          "Each team must create a team name in accordance with the UNAS FEST 2025 theme without offending any elements of Ethnicity, Religion, Race, and Intergroup (SARA).",
       },
       {
-        question: "Are registration fees refundable if participants cancel their participation?",
+        question: "Can the registration fee be refunded if participants cancel their participation?",
         answer:
-          "We apologize, but registration fees are non-refundable if participants have paid and then decide to cancel their participation.",
+          "We apologize, but the registration fee cannot be refunded if participants have already paid and then decide to cancel their participation.",
       },
       {
-        question: "If our team is unable to attend the Technical Meeting and Webinar due to certain constraints, what should we do? Is it permissible?",
+        question: "If our team is not able to attend the Technical Meeting and Webinar due to certain constraints, what should we do? Is it allowed?",
         answer:
-          "Participants must attend the Technical Meeting (TM) and Webinar, or at least send one representative from the team.",
+          "Participants are required to attend the Technical Meeting (TM) and Webinar, or at least send one representative from the team.",
       },
       {
-        question: "Is there an obligation to distribute IDC & EDC UNAS FEST 2025 flyers?",
+        question: "Is there an obligation to share the KBDI & EDC UNAS FEST 2025 flyer?",
         answer:
-          "In relation to this, participants are required to share IDC & EDC flyers on their Instagram stories and upload the UNAS FEST 2025 Twibbon.",
+          "Regarding this, participants are required to share the KDBI & EDC flyer on their Instagram stories and upload the UNAS FEST 2025 Twibbon.",
       },
     ],
   },
@@ -359,7 +359,7 @@ export const Activities: Activity[] = [
           "We apologize, but the registration fee cannot be refunded if participants have already paid and then decide to cancel their participation.",
       },
       {
-        question: "if our team is not able to attend the Technical Meeting and Webinar due to certain constraints, what should we do? Is it allowed?",
+        question: "If our team is not able to attend the Technical Meeting and Webinar due to certain constraints, what should we do? Is it allowed?",
         answer:
           "Participants are required to attend the Technical Meeting (TM) and Webinar, or at least send one representative from the team.",
       },
