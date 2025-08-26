@@ -111,7 +111,7 @@ export default function Memories() {
                         <Trophy className="w-8 h-8 text-yellow-400" />
                         <div>
                             <h3 className="font-bold text-lg">Winners 2024</h3>
-                            <Link href="https://unasfest.com" target="_blank">
+                            <Link href="https://2024.unasfest.com/#activity-slider-section" target="_blank">
                                 <p className="text-sm opacity-80 hover:scale-120">See last year&apos;s winners</p>
                             </Link>
                         </div>
