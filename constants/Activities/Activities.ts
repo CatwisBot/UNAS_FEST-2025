@@ -1,7 +1,7 @@
 // Cover Image
-import KDBICover from "@/public/image/Activities/Cover/coverKDBI.png";
+import IDCCover from "@/public/image/Activities/Cover/coverKDBI.png";
 import SPCCover from "@/public/image/Activities/Cover/Gemini_Generated_Image_vfn6iyvfn6iyvfn6.png"
-// Juri KDBI
+// Juri IDC
 import kyla from "@/public/image/Activities/judges/Kylas.jpg";
 
 //Juri EDC
@@ -20,9 +20,9 @@ export const Activities: Activity[] = [
     path: "IDC",
     alias: "IDC",
     title: "Indonesian Debate Competition",
-    coverImage: KDBICover,
+    coverImage: IDCCover,
     description:
-      "Welcome to Kompetisi Debat Bahasa Indonesia! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the Kompetisi Debat Bahasa Indonesia (KDBI). Kompetisi Debat Bahasa Indonesia (KDBI) is an Indonesian language debate competition held as a platform for participants to express their arguments and thoughts on current, relevant and important issues in society. Through this competition, participants are expected to hone their public speaking, critical thinking, and logical and systematic argumentation skills, enabling them to better understand and address the issues around them in a more constructive manner. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025.",
+      "Welcome to Indonesian Debate Competition! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the Indonesian Debate Competition (IDC). Indonesian Debate Competition (IDC) is an Indonesian language debate competition held as a platform for participants to express their arguments and thoughts on current, relevant and important issues in society. Through this competition, participants are expected to hone their public speaking, critical thinking, and logical and systematic argumentation skills, enabling them to better understand and address the issues around them in a more constructive manner. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025.",
     guideBook: "/File/tes.pdf",
     guideBookName: "Guide_Book_IDC",
     requirements: [
@@ -161,7 +161,7 @@ export const Activities: Activity[] = [
           "It is okay if only one of them signs it, whether it is the Deputy Rector, Dean, or Deputy Dean. The most important thing is that there is a signature and stamp from each campus.",
       },
       {
-        question: "Who can participate in the KDBI and EDC UNAS FEST 2025 debate competitions?",
+        question: "Who can participate in the IDC and EDC UNAS FEST 2025 debate competitions?",
         answer:
           "All active undergraduate students registered in PDDikti (Higher Education Database) from various study programmes and universities, both state and private, who do not yet have a bachelor's degree (S1) are welcome to participate in the competition.",
       },
@@ -186,9 +186,9 @@ export const Activities: Activity[] = [
           "Participants are required to attend the Technical Meeting (TM) and Webinar, or at least send one representative from the team.",
       },
       {
-        question: "Is there an obligation to share the KBDI & EDC UNAS FEST 2025 flyer?",
+        question: "Is there an obligation to share the IDC & EDC UNAS FEST 2025 flyer?",
         answer:
-          "Regarding this, participants are required to share the KDBI & EDC flyer on their Instagram stories and upload the UNAS FEST 2025 Twibbon.",
+          "Regarding this, participants are required to share the IDC & EDC flyer on their Instagram stories and upload the UNAS FEST 2025 Twibbon.",
       },
     ],
   },
@@ -196,7 +196,7 @@ export const Activities: Activity[] = [
     path: "EDC",
     alias: "EDC",
     title: "English Debate Competition",
-    coverImage: KDBICover,
+    coverImage: IDCCover,
     description:
       "Welcome to the English Debate Competition! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the English Debate Competition (EDC). English Debate Competition (EDC) is an English language debate competition held as a means where the participants deliver their argumentation and thoughts regarding current issues. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025.",
     guideBook: "/File/tes.pdf",
@@ -341,7 +341,7 @@ export const Activities: Activity[] = [
           "It is okay if only one of them signs it, whether it is the Deputy Rector, Dean, or Deputy Dean. The most important thing is that there is a signature and stamp from each campus.",
       },
       {
-        question: "Who can participate in the KDBI and EDC UNAS FEST 2025 debate competitions?",
+        question: "Who can participate in the IDC and EDC UNAS FEST 2025 debate competitions?",
         answer:
           "All active undergraduate students registered in PDDikti (Higher Education Database) from various study programmes and universities, both state and private, who do not yet have a bachelor's degree (S1) are welcome to participate in the competition.",
       },
@@ -366,9 +366,9 @@ export const Activities: Activity[] = [
           "Participants are required to attend the Technical Meeting (TM) and Webinar, or at least send one representative from the team.",
       },
       {
-        question: "Is there an obligation to share the KBDI & EDC UNAS FEST 2025 flyer?",
+        question: "Is there an obligation to share the IDC & EDC UNAS FEST 2025 flyer?",
         answer:
-          "Regarding this, participants are required to share the KDBI & EDC flyer on their Instagram stories and upload the UNAS FEST 2025 Twibbon.",
+          "Regarding this, participants are required to share the IDC & EDC flyer on their Instagram stories and upload the UNAS FEST 2025 Twibbon.",
       },
     ],
   },
@@ -376,7 +376,7 @@ export const Activities: Activity[] = [
     path: "SPC",
     alias: "SPC",
     title: "Scientific Paper Competition",
-    coverImage: KDBICover,
+    coverImage: IDCCover,
     description:
       "The Scientific Paper Competition at UNAS FEST 2025 is organized for participants to submit scientific papers based on research results using data collection methods such as observation, interviews, questionnaires, and focus group discussions (FGD). The papers must be systematically structured, written in proper Indonesian, and adhere to scientific principles that can be accounted for. This competition aims to cultivate students who are concerned about environmental and social issues, as well as those who possess sharp analytical skills and critical thinking. Through the process of writing and presenting their scientific papers to the panel of judges, participants are expected to enhance their scientific communication skills, public speaking, and the ability to defend their arguments comprehensively.",
     guideBook: "/File/tes.pdf",
@@ -557,7 +557,7 @@ export const Activities: Activity[] = [
     path: "Infographic",
     alias: "Infographic",
     title: "Infographic Competition",
-    coverImage: KDBICover,
+    coverImage: IDCCover,
     description:
       "The Infographics competition aims to encourage participants to think critically and creatively, while being able to present information in a concise, accurate, and easily understandable manner. Besides honing design skills and visual message delivery, participants are also invited to increase their awareness of global issues relevant to daily life. The Infographics competition carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” which discusses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and remain sustainable. The competition targets 15 teams consisting of active high school students from SMA, MAN, and SMK in the JABODETABEK area. Activities begin with a webinar to equip participants with the skills, knowledge, and understanding necessary to create their works.The Infographics competition consists of three stages: Administrative Selection, Semifinals, and Finals—all conducted online, followed by an onsite awarding ceremony.",
     guideBook: "/File/tes.pdf",
@@ -700,10 +700,10 @@ export const Activities: Activity[] = [
     faqs: [
       {
         question:
-          "How do I register for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
+          "How do I register for the Indonesian Debate Competition (IDC)?",
         answer: [
           "Open your web browser and visit caturnawa.unasfest.com",
-          'Scroll down the page until you find the "Kompetisi Debat Bahasa Indonesia" section',
+          'Scroll down the page until you find the "Indonesian Debate Competition" section',
           'Click the "Register Now" button',
           "Fill out the registration form and complete all the required information",
           "Review the entered data",
@@ -712,7 +712,7 @@ export const Activities: Activity[] = [
       },
       {
         question:
-          "What is the registration fee for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
+          "What is the registration fee for the Indonesian Debate Competition (IDC)?",
         answer: [
           "Early Bird (July 23 - July 28 , 2024)",
           "General: Rp300.000,-/team",
@@ -727,9 +727,9 @@ export const Activities: Activity[] = [
       },
       {
         question:
-          "When is the registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
+          "When is the registration deadline for the Indonesian Debate Competition (IDC)?",
         answer:
-          "The registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI) is September 7, 2024",
+          "The registration deadline for the Indonesian Debate Competition (IDC) is September 7, 2024",
       },
       {
         question: "When will the winners be announced?",
@@ -747,7 +747,7 @@ export const Activities: Activity[] = [
     path: "Short-Video",
     alias: "Short Video",
     title: "Short Video Competition",
-    coverImage: KDBICover,
+    coverImage: IDCCover,
     description:
       "The Short Video competition is a contest for brief videos typically lasting from 15 seconds up to 3 minutes, designed to convey messages in a concise, creative, and informative manner. The theme, “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” addresses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and sustainable over time. The Short Video competition targets 15 teams consisting of active high school students from SMA, MAN, and SMK in the JABODETABEK area. The activity begins with a webinar aimed at providing participants with the skills, knowledge, and understanding needed to create effective Short Video works. The competition consists of three stages: Administrative Selection, Semifinals, and Finals — all conducted online, followed by an onsite awarding ceremony.",
     guideBook: "/File/tes.pdf",
@@ -900,10 +900,10 @@ export const Activities: Activity[] = [
     faqs: [
       {
         question:
-          "How do I register for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
+          "How do I register for the Indonesian Debate Competition (IDC)?",
         answer: [
           "Open your web browser and visit caturnawa.unasfest.com",
-          'Scroll down the page until you find the "Kompetisi Debat Bahasa Indonesia" section',
+          'Scroll down the page until you find the "Indonesian Debate Competition" section',
           'Click the "Register Now" button',
           "Fill out the registration form and complete all the required information",
           "Review the entered data",
@@ -912,7 +912,7 @@ export const Activities: Activity[] = [
       },
       {
         question:
-          "What is the registration fee for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
+          "What is the registration fee for the Indonesian Debate Competition (IDC)?",
         answer: [
           "Early Bird (July 23 - July 28 , 2024)",
           "General: Rp300.000,-/team",
@@ -927,9 +927,9 @@ export const Activities: Activity[] = [
       },
       {
         question:
-          "When is the registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
+          "When is the registration deadline for the Indonesian Debate Competition (IDC)?",
         answer:
-          "The registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI) is September 7, 2024",
+          "The registration deadline for the Indonesian Debate Competition (IDC) is September 7, 2024",
       },
       {
         question: "When will the winners be announced?",

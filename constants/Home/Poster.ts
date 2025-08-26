@@ -10,7 +10,7 @@ export const AllPoster = [
     image: IDC.src,
     name: "Indonesia Poster",
     path: "/activities/IDC",
-    desc: "Welcome to the Indonesian Debate Competition! UNAS FEST 2025 is an event held to celebrate the 76th anniversary of Universitas Nasional. One of the competitions to be held at UNAS FEST 2025 is the Indonesian Debate Competition (IDC). The Indonesian Language Debate Competition (KDBI) is a debate competition conducted in the Indonesian language, serving as a platform for participants to present their arguments and ideas on current issues. What are you waiting for? Get ready to secure victory at UNAS FEST 2025!",
+    desc: "Welcome to the Indonesian Debate Competition! UNAS FEST 2025 is an event held to celebrate the 76th anniversary of Universitas Nasional. One of the competitions to be held at UNAS FEST 2025 is the Indonesian Debate Competition (IDC). The Indonesian Language Debate Competition (IDC) is a debate competition conducted in the Indonesian language, serving as a platform for participants to present their arguments and ideas on current issues. What are you waiting for? Get ready to secure victory at UNAS FEST 2025!",
   },
   {
     index: 2,
