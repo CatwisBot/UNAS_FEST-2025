@@ -48,28 +48,28 @@ export default function Footer() {
           />
           <div className="flex space-x-4 justify-center md:justify-start">
             <Link
-              href="https://www.instagram.com/yourunasfest"
+              href="https://www.instagram.com/unasfest"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image src={Instagram} alt="Instagram" className="w-6 h-6" />
             </Link>
             <Link
-              href="https://www.youtube.com/yourunasfest"
+              href="https://youtube.com/@unasfest?si=7sXp541G21RHWMRH"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image src={Youtube} alt="Youtube" className="w-6 h-6" />
             </Link>
             <Link
-              href="https://www.tiktok.com/yourunasfest"
+              href="https://www.tiktok.com/@unasfest?_t=ZS-8zDpScbWF73&_r=1"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image src={Tiktok} alt="Tiktok" className="w-6 h-6" />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/yourunasfest"
+              href="https://www.linkedin.com/in/unas-fest-universitas-nasional-festival-6b6287301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
             >
