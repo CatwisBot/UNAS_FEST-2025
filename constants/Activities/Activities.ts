@@ -429,7 +429,7 @@ export const Activities: Activity[] = [
       {
         question: "Is the registration fee refundable if a participant withdraws?",
         answer:
-        "No. The registration fee is non-refundable under any circumstances.",
+          "No. The registration fee is non-refundable under any circumstances.",
       },
       {
         question: "How is the competition assessed?",
@@ -444,27 +444,27 @@ export const Activities: Activity[] = [
       {
         question: "Does the paper have to be written in English?",
         answer:
-        "No. The scientific paper can be written in Indonesian; however, the abstract must be written in both English and Indonesian.",
+          "No. The scientific paper can be written in Indonesian; however, the abstract must be written in both English and Indonesian.",
       },
       {
         question: "Is there a page limit for the paper?",
         answer:
-        "Yes. The scientific paper for SPC UNAS FEST 2025 must be a maximum of 10 pages, counted from the title to the references section, excluding appendices.",
+          "Yes. The scientific paper for SPC UNAS FEST 2025 must be a maximum of 10 pages, counted from the title to the references section, excluding appendices.",
       },
       {
         question: "What is the deadline for submitting the scientific paper?",
         answer:
-        "The deadline for submission is October 17, 2025.",
+          "The deadline for submission is October 17, 2025.",
       },
       {
         question: "Will participants receive a certificate?",
         answer:
-        "All SPC participants will receive a certificate as a form of appreciation.",
+          "All SPC participants will receive a certificate as a form of appreciation.",
       },
       {
         question: "When will the winners be announced?",
         answer:
-        "Winners will be announced on November 10, 2025.",
+          "Winners will be announced on November 10, 2025.",
       },
     ],
   },
@@ -576,46 +576,44 @@ export const Activities: Activity[] = [
     faqs: [
       {
         question:
-          "How do I register for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
-        answer: [
-          "Open your web browser and visit caturnawa.unasfest.com",
-          'Scroll down the page until you find the "Kompetisi Debat Bahasa Indonesia" section',
-          'Click the "Register Now" button',
-          "Fill out the registration form and complete all the required information",
-          "Review the entered data",
-          "Then you can make the payment by clicking the payment button",
-        ],
-      },
-      {
-        question:
-          "What is the registration fee for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
-        answer: [
-          "Early Bird (July 23 - July 28 , 2024)",
-          "General: Rp300.000,-/team",
-          "Universitas Nasional Students: Free",
-          "Phase 1 (July 29 - August 11, 2024)",
-          "General: Rp400.000,-/team",
-          "Universitas Nasional Students: Free",
-          "Phase 2 (August 12 - August 23, 2024)",
-          "General: Rp450.000,-/team",
-          "Universitas Nasional Students: Free",
-        ],
-      },
-      {
-        question:
-          "When is the registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
+          "What are the allowed size and orientation for Infographics?",
         answer:
-          "The registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI) is September 7, 2024",
+          "A3 size (297x420 mm) with portrait orientation.",
       },
       {
-        question: "When will the winners be announced?",
+        question: "What file format should be submitted?",
         answer:
-          "The winners will be announced on October 17, 2024, after the final round day 2 sessions.",
+          "The required file format for participants is PDF.",
       },
       {
-        question: "Where can I see the winner announcement?",
+        question: "Can the work be created using free applications such as Canva?",
         answer:
-          "The winner announcement will be available on caturnawa.unasfest.com.",
+          "Yes, it is allowed. Participants are permitted to use any software or application as long as the result does not deviate from the guidelines.",
+      },
+      {
+        question: "Is the theme of the work predetermined?",
+        answer:
+          "Yes, participants are permitted to use one of the three sub-themes listed in the Guide Book.",
+      },
+      {
+        question: "Is it permissible to use photos and illustrations?",
+        answer:
+          "Yes, it is allowed. However, the source of the photo must be credited if it is not the participant’s own work.",
+      },
+      {
+        question: "Can the work be in English?",
+        answer:
+          "Yes, it is permitted. However, Indonesian must still dominate the work.",
+      },
+      {
+        question: "Does the design have to be full color?",
+        answer:
+          "No, monochrome designs are still permitted as long as the message remains clear.",
+      },
+      {
+        question: "Can the work be more than one page?",
+        answer:
+          "No, the work is only permitted to be one page.",
       },
     ],
   },
@@ -737,46 +735,46 @@ export const Activities: Activity[] = [
     faqs: [
       {
         question:
-          "How do I register for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
-        answer: [
-          "Open your web browser and visit caturnawa.unasfest.com",
-          'Scroll down the page until you find the "Kompetisi Debat Bahasa Indonesia" section',
-          'Click the "Register Now" button',
-          "Fill out the registration form and complete all the required information",
-          "Review the entered data",
-          "Then you can make the payment by clicking the payment button",
-        ],
+          "What is the allowed video duration?",
+        answer:
+          "The minimum duration is 1 minute and the maximum is 3 minutes.",
       },
       {
         question:
-          "What is the registration fee for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
-        answer: [
-          "Early Bird (July 23 - July 28 , 2024)",
-          "General: Rp300.000,-/team",
-          "Universitas Nasional Students: Free",
-          "Phase 1 (July 29 - August 11, 2024)",
-          "General: Rp400.000,-/team",
-          "Universitas Nasional Students: Free",
-          "Phase 2 (August 12 - August 23, 2024)",
-          "General: Rp450.000,-/team",
-          "Universitas Nasional Students: Free",
-        ],
+          "What file format should be used?",
+        answer:
+          "MP4 with a minimum resolution of 1080p.",
       },
       {
         question:
-          "When is the registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
+          "Is it allowed to use music or video clips from other parties?",
         answer:
-          "The registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI) is September 7, 2024",
+          "It is allowed if the video/music is copyright-free or has obtained official permission.",
       },
       {
-        question: "When will the winners be announced?",
+        question: "Is the theme of the work predetermined?",
         answer:
-          "The winners will be announced on October 17, 2024, after the final round day 2 sessions.",
+          "Yes, participants are permitted to use one of the three sub-themes listed in the Guide Book.",
       },
       {
-        question: "Where can I see the winner announcement?",
+        question: "Is the use of animation permitted?",
         answer:
-          "The winner announcement will be available on caturnawa.unasfest.com.",
+          "Yes, it is permitted as long as it aligns with the theme and competition rules.",
+      },
+      {
+        question: "Is it permitted to include a personal watermark?",
+        answer:
+          "Yes, it is permitted. Participants are also required to include the UNAS FEST 2025 watermark.",
+      },
+      {
+        question: "Can a team include members from different schools?",
+        answer:
+          "No, all team members must be from the same school and may have different majors.",
+      },
+      {
+        question: "Is it permitted to use stock footage from the internet?",
+        answer:
+          "Yes, it is permitted if it is copyright-free and does not dominate the work.",
       },
     ],
   },
