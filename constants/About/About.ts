@@ -65,7 +65,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
   DPM: [
     {
       id: 2,
-      name: "Wafa Ma'alim Fithoriq",
+      name: "Harini Setyowati",
       role: "Deputy Manager for Finance & Secretarial Affairs",
       photoUrl: "",
       description:
@@ -81,15 +81,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     },
     {
       id: 4,
-      name: "Raffidamara Putra Anggara",
-      role: "Deputy Manager for Advertising & Partnership",
-      photoUrl: "",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
-    {
-      id: 5,
-      name: "Najmia",
+      name: "Andhika Pratama",
       role: "Deputy General Manager",
       photoUrl: "",
       description:
@@ -99,8 +91,8 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
   APM: [
     {
       id: 6,
-      name: "Harini Setyowati",
-      role: "Dept. Finance",
+      name: "Muhammad Akmal Baskoro",
+      role: "APM Finance Dept",
       photoUrl: "",
       description:
         "The Finance Department is responsible for managing all financial aspects of an event or organization. This includes budgeting, tracking expenses, handling transactions, and ensuring financial transparency.",
@@ -133,8 +125,8 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     },
     {
       id: 7,
-      name: "Dwi Luvita Sari",
-      role: "Dept. Secretarial Affairs",
+      name: "Wafa Ma'alim Fithoriq",
+      role: "APM Secretarial Affairs Dept",
       photoUrl: "",
       description:
         "The Secretarial Affairs Department ensures smooth administrative operations, maintaining clear communication and documentation throughout the event planning and execution process.",
@@ -166,7 +158,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     {
       id: 8,
       name: "Leila Alysia Syafiiqoh",
-      role: "Dept. Debate",
+      role: "APM Debate Dept",
       photoUrl: "",
       description:
         "The Debate Department is responsible for organizing, managing, and overseeing debate-related activities and events.",
@@ -226,7 +218,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     {
       id: 9,
       name: "Chairunnisa Salsabila",
-      role: "Dept. Scientific Paper Competition",
+      role: "APM Scientific Paper Competition Dept",
       photoUrl: "",
       description:
         "The Scientific Paper Competition Department is responsible for organizing and managing events focused on academic writing and research presentation.",
@@ -268,7 +260,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     {
       id: 10,
       name: "Eky Wijayanto",
-      role: "Dept. Digital Content Competition",
+      role: "APM Digital Content Competition Dept",
       photoUrl: "",
       description:
         "The Short Movie Competition Department is in charge of organizing and managing all aspects of the short movie competition.",
@@ -325,7 +317,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     {
       id: 11,
       name: "Vanez Meida Olivia Putri",
-      role: "Dept. Entertainment",
+      role: "APM Entertainment Dept",
       photoUrl: "",
       description:
         "The Entertainment Department is responsible for organizing and managing all entertainment-related activities for events.",
@@ -357,7 +349,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     {
       id: 12,
       name: "Muhammad Bisyr",
-      role: "Dept. Advertising",
+      role: "APM Advertising Dept",
       photoUrl: "",
       description:
         "The Advertising Department is tasked with creating and executing promotional strategies to maximize event visibility and engagement.",
@@ -411,7 +403,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     {
       id: 13,
       name: "Kyla Nazwara Sofyan",
-      role: "Dept. Partnership",
+      role: "APM Partnership Dept",
       photoUrl: "",
       description:
         "The Partnership Department focuses on building and managing relationships with external organizations, partners, and sponsors.",
@@ -457,7 +449,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     {
       id: 14,
       name: "Nasya Rizka Saputri",
-      role: "Dept. Public Relation",
+      role: "APM Public Relation Dept",
       photoUrl: "",
       description:
         "The Public Relation (PR) Department is responsible for managing communication between the event organizers and the public, participants, sponsors, partners and stakeholders.",
@@ -495,7 +487,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     {
       id: 15,
       name: "Dimas",
-      role: "Dept. IT",
+      role: "APM IT Dept",
       photoUrl: "",
       description:
         "The Information Technology (IT) Department is responsible for designing, developing, and maintaining the digital platforms for the event, including unasfest.com and caturnawa.unasfest.com.",
@@ -524,8 +516,8 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     },
     {
       id: 16,
-      name: "Andhika Pratama",
-      role: "Dept. Facility and Infrastructure",
+      name: "Najmia",
+      role: "APM Facility and Infrastructure Dept",
       photoUrl: "",
       description:
         "The Infrastructure Department is responsible for planning, organizing, and maintaining the physical resources required for events.",
@@ -577,7 +569,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     {
       id: 17,
       name: "Keysha Andani",
-      role: "Dept. Food & Beverage",
+      role: "APM Food & Beverage Dept",
       photoUrl: "",
       description:
         "The Food and Beverage (F&B) Department is responsible for planning, organizing, and delivering meals, snacks, and beverages during events.",
@@ -623,7 +615,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     {
       id: 18,
       name: "Nayla Luthfia Hayati",
-      role: "Dept. Health",
+      role: "APM Health Dept",
       photoUrl: "",
       description:
         "The Health Department is tasked with ensuring the physical well-being and safety of all committee and participants during events.",
@@ -659,7 +651,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     {
       id: 19,
       name: "Juandhika Irama",
-      role: "Dept. Security",
+      role: "APM Security Dept",
       photoUrl: "",
       description:
         "The Security Department is responsible for ensuring the safety and security of all participants, guests, and assets during events.",
