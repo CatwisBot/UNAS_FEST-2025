@@ -165,7 +165,7 @@ const MainCommittee: React.FC = () => {
 
           if (count <= 4 && isDesktop) {
             return (
-              <div className="flex flex-wrap justify-center gap-6">
+              <div className="flex flex-wrap justify-center gap-6 z-99">
                 {members.map((member) => (
                   <div
                     key={member.id}
