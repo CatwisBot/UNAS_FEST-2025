@@ -4,6 +4,26 @@ import KDBICover from "@/public/image/About/Hero/no-photo.jpg";
 // No Photo
 import Photo from "@/public/image/About/Hero/no-photo.jpg";
 
+// Judge
+import Purwo from "@/public/image/Activities/Judges/KDBI/Purwo.jpg";
+import Laila from "@/public/image/Activities/Judges/KDBI/Laila.jpg";
+import Lasman from "@/public/image/Activities/Judges/KDBI/Lasman.jpg";
+
+import Batara from "@/public/image/Activities/Judges/EDC/Batara.jpg";
+import Joddy from "@/public/image/Activities/Judges/EDC/Joddy.jpg";
+import Maria from "@/public/image/Activities/Judges/EDC/Maria.jpg";
+
+import Donna from "@/public/image/Activities/Judges/SPC/Donna.jpg";
+import Efriza from "@/public/image/Activities/Judges/SPC/Efriza.jpg";
+import Gani from "@/public/image/Activities/Judges/SPC/Gani.jpg";
+
+import Dhea from "@/public/image/Activities/Judges/Infographic/Dhea.jpg";
+import Dhieka from "@/public/image/Activities/Judges/Infographic/Dhieka.jpg";
+import Riski from "@/public/image/Activities/Judges/Infographic/Riski.jpg";
+
+import Raden from "@/public/image/Activities/Judges/Short/Raden.jpg";
+import Rizky from "@/public/image/Activities/Judges/Short/Rizki.jpg";
+
 import { Activity } from "@/lib/types/Activities/Activities";
 
 export const Activities: Activity[] = [
@@ -57,7 +77,7 @@ export const Activities: Activity[] = [
       {
         index: 1,
         name: "Purwo Besari",
-        image: Photo,
+        image: Purwo,
         school: "Jakarta State University",
         lastEducation:
           "Faculty of Social Sciences",
@@ -79,7 +99,7 @@ export const Activities: Activity[] = [
       {
         index: 2,
         name: "Lasman",
-        image: Photo,
+        image: Lasman,
         school: "Padjajaran University",
         lastEducation: "-",
         description:
@@ -108,7 +128,7 @@ export const Activities: Activity[] = [
       {
         index: 3,
         name: "Laila Amalia Khaerani",
-        image: Photo,
+        image: Laila,
         school: "Jakarta State University",
         lastEducation: "History Education",
         description:
@@ -236,7 +256,7 @@ export const Activities: Activity[] = [
       {
         index: 1,
         name: "-",
-        image: Photo,
+        image: Batara,
         school: "-",
         lastEducation: "-",
         description:
@@ -248,7 +268,7 @@ export const Activities: Activity[] = [
       {
         index: 2,
         name: "-",
-        image: Photo,
+        image: Joddy,
         school: "-",
         lastEducation: "-",
         description:
@@ -260,7 +280,7 @@ export const Activities: Activity[] = [
       {
         index: 3,
         name: "-",
-        image: Photo,
+        image: Maria,
         school: "-",
         lastEducation: "-",
         description:
@@ -370,8 +390,8 @@ export const Activities: Activity[] = [
     judgesData: [
       {
         index: 1,
-        name: "Hisyam Farindra",
-        image: Photo,
+        name: "-",
+        image: Donna,
         school: "-",
         lastEducation:
           "-",
@@ -383,8 +403,8 @@ export const Activities: Activity[] = [
       },
       {
         index: 2,
-        name: "Hisyam Farindra",
-        image: Photo,
+        name: "-",
+        image: Efriza,
         school: "-",
         lastEducation: "-",
         description:
@@ -395,8 +415,8 @@ export const Activities: Activity[] = [
       },
       {
         index: 3,
-        name: "Hisyam Farindra",
-        image: Photo,
+        name: "-",
+        image: Gani,
         school: "-",
         lastEducation: "-",
         description:
@@ -537,8 +557,8 @@ export const Activities: Activity[] = [
     judgesData: [
       {
         index: 1,
-        name: "Fuecoco a Pokemon",
-        image: Photo,
+        name: "Dhea Marela Salman, S.IP.",
+        image: Dhea,
         school: "-",
         lastEducation:
           "-",
@@ -550,8 +570,8 @@ export const Activities: Activity[] = [
       },
       {
         index: 2,
-        name: "Fuecoco a Pokemon",
-        image: Photo,
+        name: "Dhieka Avrilia Lantana, S.Kom., M.Kom.",
+        image: Dhieka,
         school: "-",
         lastEducation: "-",
         description:
@@ -562,8 +582,8 @@ export const Activities: Activity[] = [
       },
       {
         index: 3,
-        name: "Fuecoco a Pokemon",
-        image: Photo,
+        name: "Riski Ramadhan Budhianto, S.Sos.",
+        image: Riski,
         school: "-",
         lastEducation: "-",
         description:
@@ -696,8 +716,8 @@ export const Activities: Activity[] = [
     judgesData: [
       {
         index: 1,
-        name: "Fuecoco a Pokemon",
-        image: Photo,
+        name: "Raden Daniel Wisnu Wardhana, S.IP., M.F.Tv.",
+        image: Raden,
         school: "-",
         lastEducation:
           "-",
@@ -709,20 +729,8 @@ export const Activities: Activity[] = [
       },
       {
         index: 2,
-        name: "Fuecoco a Pokemon",
-        image: Photo,
-        school: "-",
-        lastEducation: "-",
-        description:
-          "-",
-        achievements: [
-          "-",
-        ],
-      },
-      {
-        index: 3,
-        name: "Fuecoco a Pokemon",
-        image: Photo,
+        name: "Rizky Wahyu Sugandhi",
+        image: Rizky,
         school: "-",
         lastEducation: "-",
         description:
