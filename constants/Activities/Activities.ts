@@ -22,7 +22,7 @@ import Dhieka from "@/public/image/Activities/Judges/Infographic/Dhieka.jpg";
 import Riski from "@/public/image/Activities/Judges/Infographic/Riski.jpg";
 
 import Raden from "@/public/image/Activities/Judges/Short/Raden.jpg";
-import Rizky from "@/public/image/Activities/Judges/Short/Rizki.jpg";
+import Rizky from "@/public/image/Activities/Judges/Short/Rizky.jpg";
 
 import { Activity } from "@/lib/types/Activities/Activities";
 
