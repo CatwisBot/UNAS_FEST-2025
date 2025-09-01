@@ -14,7 +14,7 @@ export const Activities: Activity[] = [
     coverImage: KDBICover,
     description:
       "Welcome to Kompetisi Debat Bahasa Indonesia! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the Kompetisi Debat Bahasa Indonesia (KDBI). Kompetisi Debat Bahasa Indonesia (KDBI) is an Indonesian language debate competition held as a platform for participants to express their arguments and thoughts on current, relevant and important issues in society. Through this competition, participants are expected to hone their public speaking, critical thinking, and logical and systematic argumentation skills, enabling them to better understand and address the issues around them in a more constructive manner. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025.",
-    guideBook: "/File/tes.pdf",
+    guideBook: "https://drive.google.com/drive/folders/1vrvGKyW27txpAmaJHosCYuXGj5Ys5lem",
     guideBookName: "Guide_Book_KDBI",
     requirements: [
       {
@@ -193,7 +193,7 @@ export const Activities: Activity[] = [
     coverImage: KDBICover,
     description:
       "Welcome to the English Debate Competition! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the English Debate Competition (EDC). English Debate Competition (EDC) is an English language debate competition held as a means where the participants deliver their argumentation and thoughts regarding current issues. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025.",
-    guideBook: "/File/tes.pdf",
+    guideBook: "https://drive.google.com/drive/folders/1e7naZIFEdpAHYMFanHY6hQPXY-SvdPd9",
     guideBookName: "Guide_Book_EDC",
     requirements: [
       {
@@ -475,7 +475,7 @@ export const Activities: Activity[] = [
     coverImage: KDBICover,
     description:
       "The Infographics competition aims to encourage participants to think critically and creatively, while being able to present information in a concise, accurate, and easily understandable manner. Besides honing design skills and visual message delivery, participants are also invited to increase their awareness of global issues relevant to daily life. The Infographics competition carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” which discusses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and remain sustainable. The competition targets 15 teams consisting of active high school students from SMA, MAN, and SMK in the JABODETABEK area. Activities begin with a webinar to equip participants with the skills, knowledge, and understanding necessary to create their works.The Infographics competition consists of three stages: Administrative Selection, Semifinals, and Finals—all conducted online, followed by an onsite awarding ceremony.",
-    guideBook: "/File/tes.pdf",
+    guideBook: "https://drive.google.com/drive/folders/11Y6R3AD24Xg2DfzuD42gs8bIRfmiEFIR?usp=sharing",
     guideBookName: "Guide_Book_DCC",
     requirements: [
       {
@@ -624,7 +624,7 @@ export const Activities: Activity[] = [
     coverImage: KDBICover,
     description:
       "The Short Video competition is a contest for brief videos typically lasting from 15 seconds up to 3 minutes, designed to convey messages in a concise, creative, and informative manner. The theme, “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” addresses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and sustainable over time. The Short Video competition targets 15 teams consisting of active high school students from SMA, MAN, and SMK in the JABODETABEK area. The activity begins with a webinar aimed at providing participants with the skills, knowledge, and understanding needed to create effective Short Video works. The competition consists of three stages: Administrative Selection, Semifinals, and Finals — all conducted online, followed by an onsite awarding ceremony.",
-    guideBook: "/File/tes.pdf",
+    guideBook: "https://drive.google.com/drive/folders/1LuHHzETGY8t9RW00I55AYTcUBpqmZXz8?usp=sharing",
     guideBookName: "Guide_Book_DCC",
     requirements: [
       {
