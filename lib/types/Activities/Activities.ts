@@ -7,6 +7,7 @@ export interface Judge {
   image: StaticImageData;
   school: string;
   lastEducation: string;
+  role: string;
   description: string;
   achievements?: string[];
 }

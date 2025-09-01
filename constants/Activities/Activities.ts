@@ -81,6 +81,7 @@ export const Activities: Activity[] = [
         school: "Jakarta State University",
         lastEducation:
           "Faculty of Social Sciences",
+        role: "Expert",
         description:
           "Purwo Besari is a graduate of the Faculty of Social Sciences at the State University of Jakarta (UNJ). He has experience as a judge in various national debate competitions, such as UNAS FEST, COMMFIESTA, PISN BEM FIS UNJ, UNJ Student Debate Competition, EDUFAIR UNESA, and Hysteric National Debate. His dedication as an invited judge at these events demonstrates his commitment to supporting the development of critical thinking and rhetorical skills among Indonesian students.",
         achievements: [
@@ -102,6 +103,7 @@ export const Activities: Activity[] = [
         image: Lasman,
         school: "Padjajaran University",
         lastEducation: "-",
+        role: "Expert",
         description:
           "Lasman is a graduate of Padjadjaran University from Samarinda who has been active in the world of debate since high school. He is active as a debate judge in various national competitions, including as a guest judge at UNAS FEST, as well as competitions such as Viva Legislativa STMKG, Binus International Festival, EDUFAIR UNESA, PISN BEM FIS UNJ, and various other student and high school debate competitions. Lasman has also been entrusted to serve as the chair and vice-chair of the judging panel for the KDMI and LDBI selection processes in various regions.",
         achievements: [
@@ -131,6 +133,7 @@ export const Activities: Activity[] = [
         image: Laila,
         school: "Jakarta State University",
         lastEducation: "History Education",
+        role: "Expert",
         description:
           "Laila Amalia Khaerani is a graduate of the History Education program at UNJ who has achieved numerous national accolades in the field of debate. She is the Champion of the KDMI UNJ competition and has also won the Best Speaker award at FESTKA UNM and Fastweek. In addition, Laila is actively involved as a judge and chairperson in numerous competitions, including CNC UNSRI, FYG UIN Jakarta, and Leipzig Universitas Gunadarma. Her consistency in both debating and judging has established her as one of the most respected young adjudicators on the national stage.",
         achievements: [
@@ -259,6 +262,7 @@ export const Activities: Activity[] = [
         image: Batara,
         school: "-",
         lastEducation: "-",
+        role: "Expert",
         description:
           "-",
         achievements: [
@@ -271,6 +275,7 @@ export const Activities: Activity[] = [
         image: Joddy,
         school: "-",
         lastEducation: "-",
+        role: "Expert",
         description:
           "-",
         achievements: [
@@ -283,6 +288,7 @@ export const Activities: Activity[] = [
         image: Maria,
         school: "-",
         lastEducation: "-",
+        role: "Expert",
         description:
           "-",
         achievements: [
@@ -395,6 +401,7 @@ export const Activities: Activity[] = [
         school: "-",
         lastEducation:
           "-",
+        role: "Expert",
         description:
           "-",
         achievements: [
@@ -407,6 +414,7 @@ export const Activities: Activity[] = [
         image: Efriza,
         school: "-",
         lastEducation: "-",
+        role: "Expert",
         description:
           "-",
         achievements: [
@@ -419,6 +427,7 @@ export const Activities: Activity[] = [
         image: Gani,
         school: "-",
         lastEducation: "-",
+        role: "Expert",
         description:
           "-",
         achievements: [
@@ -562,6 +571,7 @@ export const Activities: Activity[] = [
         school: "-",
         lastEducation:
           "-",
+        role: "Expert",
         description:
           "-",
         achievements: [
@@ -574,6 +584,7 @@ export const Activities: Activity[] = [
         image: Dhieka,
         school: "-",
         lastEducation: "-",
+        role: "Expert",
         description:
           "-",
         achievements: [
@@ -586,6 +597,7 @@ export const Activities: Activity[] = [
         image: Riski,
         school: "-",
         lastEducation: "-",
+        role: "Expert",
         description:
           "-",
         achievements: [
@@ -721,6 +733,7 @@ export const Activities: Activity[] = [
         school: "-",
         lastEducation:
           "-",
+        role: "Expert",
         description:
           "-",
         achievements: [
@@ -733,6 +746,7 @@ export const Activities: Activity[] = [
         image: Rizky,
         school: "-",
         lastEducation: "-",
+        role: "Expert",
         description:
           "-",
         achievements: [
