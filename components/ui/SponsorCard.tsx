@@ -6,7 +6,7 @@ export default function SponsorCard({ sponsor }: { sponsor: SponsorData }) {
   return (
     <div
       className="flex flex-col items-center justify-center
-            w-48 h-48
+            w-64 h-64
             bg-white/10 backdrop-blur-md border border-[#474242] 
             rounded-2xl shadow-lg p-4"
     >
