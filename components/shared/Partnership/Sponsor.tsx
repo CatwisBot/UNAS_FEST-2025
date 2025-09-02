@@ -52,16 +52,16 @@ export default function Sponsor() {
       
       <div id="SeeSponsor" className="flex flex-row gap-4 items-center justify-center text-white pb-10 pt-20 relative z-20">
         <Image src={Medal} alt="Medal" width={30} height={30} />
-        <h2 className="uppercase text-3xl font-bold">sponsor</h2>
+        <h2 className="uppercase text-sm sm:text-3xl font-bold">sponsor</h2>
       </div>
 
       <div ref={scrollerRef} className="relative w-full overflow-hidden group max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto py-6 z-20">
         <div 
           ref={innerScrollerRef} 
-          className="flex animate-loop-scroll-reverse group-hover:[animation-play-state:paused] gap-6 px-4 sm:px-8"
+          className="flex animate-loop-scroll-reverse group-hover:[animation-play-state:paused] gap-2 px-1 sm:px-2"
         >
           {sponsorsData.map((sponsor, idx) => (
-            <div key={idx} className="min-w-[250px] flex-shrink-0 hover:scale-110 transition-transform duration-300">
+            <div key={idx} className="min-w-[200px] flex-shrink-0 hover:scale-110 transition-transform duration-300">
               <SponsorCard sponsor={sponsor} />
             </div>
           ))}
