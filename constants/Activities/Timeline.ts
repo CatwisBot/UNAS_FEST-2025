@@ -59,7 +59,7 @@ export const EVENTS: CompetitionEvent[] = [
       { month: "OCTOBER", day: "8-17", year: "2025", title: "Collection of SPC Script" },
       { month: "OCTOBER", day: "18-21", year: "2025", title: "Assessment of SPC Script by the Jury" },
       { month: "OCTOBER", day: "22", year: "2025", title: "Annoucement of 6 Finalists" },
-      { month: "OCTOBER", day: "25", year: "2025", title: "Technical Meeting of Participants" },
+      { month: "OCTOBER", day: "23", year: "2025", title: "Technical Meeting of Participants" },
       { month: "OCTOBER", day: "27", year: "2025", title: "Implementation of the Final Round" },
       { month: "NOVEMBER", day: "6", year: "2025", title: "Award Ceremony UNAS FEST 2025" },
     ],
