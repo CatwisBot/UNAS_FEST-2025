@@ -26,13 +26,13 @@ type Props = {
 const stats = [
     {
         icon: <Users className="w-6 h-6 text-white" />,
-        value: "20+",
+        value: "15+",
         label: "Participants",
         gradient: "from-[#BE85FC] to-[#858BF8]",
     },
     {
         icon: <Trophy className="w-6 h-6 text-white" />,
-        value: "1.000.000+",
+        value: "5.000.000+",
         label: "Prize",
         gradient: "from-[#BE85FC] to-[#858BF8]",
     },

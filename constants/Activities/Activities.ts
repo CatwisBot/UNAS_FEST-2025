@@ -396,40 +396,40 @@ export const Activities: Activity[] = [
     judgesData: [
       {
         index: 1,
-        name: "-",
+        name: "Mouliza Kristhoper Donna Sweinstani",
         image: Donna,
         school: "-",
         lastEducation:
           "-",
         role: "Expert",
         description:
-          "-",
+          "Mouliza Kristhopher Donna Sweinstani is a young and accomplished academic and researcher in the field of political science. A graduate of Diponegoro University (summa cum laude) and the University of Indonesia (cum laude), she actively writes scholarly works on political education and women's representation. She also works as a researcher at the BRIN Political Research Center and as a lecturer at several universities. Mouliza's dedication to developing youth politics and strengthening academic and socio-political contributions in Indonesia is evident through her accomplishments. She was a speaker at the Tokyo Youth Democracy Forum 2024, a recipient of the Mata Garuda Prize LPDP 2021, and the founder of the Indonesia Youth Political Institute.",
         achievements: [
           "-",
         ],
       },
       {
         index: 2,
-        name: "-",
+        name: "Efriza, S.IP., M.Si.",
         image: Efriza,
         school: "-",
         lastEducation: "-",
         role: "Expert",
         description:
-          "-",
+          "Efriza is a political science academic and researcher who actively teaches at UNPAM PSDKU Serang and STIP-AN. He is a prolific writer, having published 13 books, including Sosiologi Kekuasaan (Sociology of Power) in 2023 and Pengantar Politik (Introduction to Politics) in 2021. He is also a columnist for Telisik.id. Additionally, he is involved with AIPI, serves as a journal reviewer, and founded the Citra Institute and CV Kreasi Cendekia Pustaka. For all these reasons, he is known as an active and influential political observer in Indonesia.",
         achievements: [
           "-",
         ],
       },
       {
         index: 3,
-        name: "-",
+        name: "Gani Putri Aryanto",
         image: Gani,
         school: "-",
         lastEducation: "-",
         role: "Expert",
         description:
-          "-",
+          "Gani Putri Aryanto is a student in the Midwifery Undergraduate Program at Universitas Nasional (UNAS), known for her outstanding achievements and active self-development in both academic and non-academic fields. Since beginning her studies in 2022, she has shown a high dedication to the world of midwifery through her involvement in campus activities, soft skills training, and by winning 1st Place at the National Level in an essay competition organized by the HMP of Midwifery at Universitas Muhammadiyah Jakarta. Additionally, Gani also channels her interest in writing through her personal blog and actively builds a professional network, reflecting her strong commitment to developing her knowledge and skills in the healthcare field.",
         achievements: [
           "-",
         ],
