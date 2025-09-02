@@ -77,7 +77,7 @@ export default function Sponsor() {
           
           .animate-loop-scroll {
             display: flex;
-            animation: loop-scroll 25s linear infinite;
+            animation: loop-scroll 20s linear infinite;
             width: max-content;
           }
           
