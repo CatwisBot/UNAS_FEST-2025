@@ -50,12 +50,12 @@ export default function Sponsor() {
     <main className="bg-gradient-to-b from-[#010E80] via-[#010E82] to-[#030D6C] relative">
       <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-[#0A0B30] to-transparent z-10"></div>
       
-      <div id="SeeSponsor" className="flex flex-row gap-4 items-center justify-center text-white pb-10 pt-20 relative z-20">
+      <div id="SeeSponsor" className="flex flex-row gap-4 items-center justify-center text-white pb-3 pt-20 relative z-20">
         <Image src={Medal} alt="Medal" width={30} height={30} />
         <h2 className="uppercase text-sm sm:text-3xl font-bold">sponsor</h2>
       </div>
 
-      <div ref={scrollerRef} className="relative w-full overflow-hidden group max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto py-6 z-20">
+      <div ref={scrollerRef} className="relative w-full overflow-hidden group max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto pb-6 z-20">
         <div 
           ref={innerScrollerRef} 
           className="flex animate-loop-scroll-reverse group-hover:[animation-play-state:paused] gap-2 px-1 sm:px-2"

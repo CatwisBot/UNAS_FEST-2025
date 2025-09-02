@@ -54,7 +54,7 @@ export default function Sponsor() {
 
   return (
     <main className="bg-[#0A0B30]">
-      <div className="flex flex-row gap-4 items-center justify-center text-white py-10">
+      <div className="flex flex-row gap-4 items-center justify-center text-white pb-3 pt-10">
         <Image src={Media} alt="Person" width={30} height={30} />
         <h2 className="uppercase text-2xl sm:text-3xl font-bold">
           Media Partner
@@ -63,7 +63,7 @@ export default function Sponsor() {
 
       <div
         ref={scrollerRef}
-        className="relative w-full overflow-hidden group max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto py-6"
+        className="relative w-full overflow-hidden group max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto pb-6"
       >
         <div
           ref={innerScrollerRef}
