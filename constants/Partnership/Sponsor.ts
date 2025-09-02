@@ -43,4 +43,46 @@ export const sponsorsData: SponsorData[] = [
         description: "Teh Poci",
         link: "https://sariroti.com",
     },
+   {
+        index: 7,
+        image: "/icons/Partnership/Sponsor/Sari Roti.png",
+        description: "Sari Roti",
+        link: "https://sariroti.com",
+    },
+    {
+        index: 8,
+        image: "/icons/Partnership/Sponsor/BNI.png",
+        description: "Bank BNI",
+        link: "https://sariroti.com",
+    },
+    {
+        index: 9,
+        image: "/icons/Partnership/Sponsor/Bumi Aksara.png",
+        description: "Bumi Aksara",
+        link: "https://sariroti.com",
+    },
+    {
+        index: 10,
+        image: "/icons/Partnership/Sponsor/ByU.png",
+        description: "ByU",
+        link: "https://sariroti.com",
+    },
+    {
+        index: 11,
+        image: "/icons/Partnership/Sponsor/Fitbar.png",
+        description: "Fitbar",
+        link: "https://sariroti.com",
+    },
+    {
+        index: 12,
+        image: "/icons/Partnership/Sponsor/Kebab Monster.png",
+        description: "Kebab Monster",
+        link: "https://sariroti.com",
+    },
+    {
+        index: 13,
+        image: "/icons/Partnership/Sponsor/Teh Poci.png",
+        description: "Teh Poci",
+        link: "https://sariroti.com",
+    },
 ]
