@@ -19,7 +19,7 @@ const Benefit = () => {
         </div>
       </div>
 
-      <div className="text-center pb-1 sm:pb-2">
+      <div className="text-center mt-5 pb-1 sm:pb-2">
         <h2 className="uppercase font-bold text-2xl sm:text-4xl">get <span className="bg-gradient-to-r from-[#A14CF3] from-38% to-[#345CEB] to-100% bg-clip-text text-transparent">exciting rewards</span></h2>
       </div>
 
