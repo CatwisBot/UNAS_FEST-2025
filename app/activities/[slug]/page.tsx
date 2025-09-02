@@ -250,7 +250,7 @@ export default function ActivityDetailPage({ params }: Props) {
                         </div>
                         <Link
                             href={activity.guideBook}
-                            target="_blank"
+                            download={activity.guideBookName}
                             className="mx-auto inline-flex items-center justify-center gap-3 px-3 py-2 sm:px-8 sm:py-4 bg-gradient-to-r from-[#FACA16] to-[#FB943A] text-black font-bold rounded-lg shadow-lg hover:bg-white hover:bg-none cursor-pointer transition"
                         >
                             <Download className="w-6 h-6" />
