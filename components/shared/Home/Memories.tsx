@@ -22,7 +22,7 @@ export default function Memories() {
                     <span className="text-[9px] lg:text-sm">Memories</span>
                 </div>
             </div>
-            <div className="text-center pb-1 sm:pb-2">
+            <div className="text-center mt-5 pb-1 sm:pb-2">
                 <h2 className="uppercase font-bold text-2xl sm:text-4xl">looking back at <span className="bg-gradient-to-r from-[#D793FF] from-0% to-[#94C4FD] to-100% bg-clip-text text-transparent">unas fest 2024</span></h2>
             </div>
 
@@ -64,10 +64,10 @@ export default function Memories() {
 
                 <Card className="sm:col-span-2 sm:row-span-2 sm:col-start-3 lg:col-span-2 lg:row-span-3 lg:col-start-1 lg:row-start-5 p-4 bg-[#49258B] border-1 border-[#54279E] text-white rounded-2xl shadow-lg">
                     <CardContent>
-                        <h2 className="font-bold text-lg mb-3">Highlights 2024</h2>
+                        <h2 className="font-bold text-lg mb-3">Universitas Nasional</h2>
                         <ul className="space-y-2 text-sm font-medium text-[#D8B4FE]">
                             {[
-                                "Indonesia Debate Competition 250+ Peserta",
+                                "Kompetisi Debat Bahasa Indonesia 250+ Peserta",
                                 "English Debate Competition 250+ Peserta",
                                 "Short Movie Competition 250+ peserta",
                                 "Scientific Paper Competition 250+ peserta",

@@ -288,7 +288,7 @@ export default function BenefitCard() {
                         </h3>
 
                         <p className="text-sm text-[#E1CBF9] mb-4 leading-relaxed relative z-10">
-                            Exclusive trophies for champions and finalistsas a symbol of the
+                            Exclusive trophies for champions and finalists as a symbol of the
                             highest achievement in each competition category.
                         </p>
 
