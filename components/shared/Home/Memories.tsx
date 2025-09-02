@@ -64,13 +64,13 @@ export default function Memories() {
 
                 <Card className="sm:col-span-2 sm:row-span-2 sm:col-start-3 lg:col-span-2 lg:row-span-3 lg:col-start-1 lg:row-start-5 p-4 bg-[#49258B] border-1 border-[#54279E] text-white rounded-2xl shadow-lg">
                     <CardContent>
-                        <h2 className="font-bold text-lg mb-3">Universitas Nasional</h2>
+                        <h2 className="font-bold text-lg mb-3">Highlights 2024</h2>
                         <ul className="space-y-2 text-sm font-medium text-[#D8B4FE]">
                             {[
-                                "Kompetisi Debat Bahasa Indonesia 250+ Peserta",
-                                "English Debate Competition 250+ Peserta",
-                                "Short Movie Competition 250+ peserta",
-                                "Scientific Paper Competition 250+ peserta",
+                                "Kompetisi Debat Bahasa Indonesia 20 Tim (40 Peserta)",
+                                "English Debate Competition 16 Tim (32 Peserta)",
+                                "Short Movie Competition 10 Tim (50 Peserta)",
+                                "Scientific Paper Competition 7 peserta",
                             ].map((item, i) => (
                                 <li key={i} className="flex items-start gap-2">
                                     <Star className="w-4 h-4 text-yellow-400 mt-0.5" />

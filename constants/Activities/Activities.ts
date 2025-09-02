@@ -525,7 +525,7 @@ export const Activities: Activity[] = [
       {
         index: 4,
         detail:
-          "Participants are required to upload their works via specified social media platforms (YouTube, Instagram, or TikTok) including the official competition hashtag and tagging the official UNAS FEST account.",
+          "The submission process consists of two stages. Participants are required to upload their work on their personal social media accounts and submit the infographic in PDF format through the official Unas Fest 2025 website.",
       },
       {
         index: 5,
@@ -672,50 +672,45 @@ export const Activities: Activity[] = [
       {
         index: 3,
         detail:
-          "Submitted videos must be original and not previously published or entered into any other competition.",
+          "Use of content containing elements of SARA (ethnic, religious, racial, and social issues), pornography, violence, or plagiarism is prohibited.",
       },
       {
         index: 4,
         detail:
-          "Use of content containing elements of SARA (ethnic, religious, racial, and social issues), pornography, violence, or plagiarism is prohibited.",
+          "Each participant may submit only one (1) video.",
       },
       {
         index: 5,
         detail:
-          "Each participant may submit only one (1) video.",
+          "Accepted video formats: MP4 or MOV, with a minimum resolution of 720p.",
       },
       {
         index: 6,
         detail:
-          "Accepted video formats: MP4 or MOV, with a minimum resolution of 720p.",
+          "Language is free; if using regional or foreign languages, Indonesian subtitles are required.",
       },
       {
         index: 7,
         detail:
-          "Language is free; if using regional or foreign languages, Indonesian subtitles are required.",
+          "Videos must not violate copyright laws (music, footage, etc. must be licensed or authorized).",
       },
       {
         index: 8,
         detail:
-          "Videos must not violate copyright laws (music, footage, etc. must be licensed or authorized).",
+          "Uploaded works must be original creations of the participants, not plagiarized, and not previously submitted or published in other competitions.",
       },
       {
         index: 9,
         detail:
-          "Uploaded works must be original creations of the participants, not plagiarized, and not previously submitted or published in other competitions.",
+          "Participants must upload their works on specified social media platforms (YouTube, Instagram, or TikTok) including the official competition hashtag and tag the official UNAS FEST account.",
       },
       {
         index: 10,
         detail:
-          "Participants must upload their works on specified social media platforms (YouTube, Instagram, or TikTok) including the official competition hashtag and tag the official UNAS FEST account.",
+          "The submission process consists of two stages. Participants are required to upload their work on their personal social media accounts and submit the video file in MP4 format (Short Video) through the official Unas Fest 2025 website.",
       },
       {
         index: 11,
-        detail:
-          "The social media account used to upload the work must be public (not private) throughout the competition period.",
-      },
-      {
-        index: 12,
         detail:
           "The organizers reserve the right to disqualify any participant who violates these terms or is proven to commit fraud in any form.",
       },
