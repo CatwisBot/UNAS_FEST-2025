@@ -1,9 +1,6 @@
 // Cover Image
 import KDBICover from "@/public/image/About/Hero/no-photo.jpg";
 
-// No Photo
-import Photo from "@/public/image/About/Hero/no-photo.jpg";
-
 // Judge
 import Purwo from "@/public/image/Activities/Judges/KDBI/Purwo.jpg";
 import Laila from "@/public/image/Activities/Judges/KDBI/Laila.jpg";
@@ -34,8 +31,8 @@ export const Activities: Activity[] = [
     coverImage: KDBICover,
     description:
       "Welcome to Kompetisi Debat Bahasa Indonesia! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the Kompetisi Debat Bahasa Indonesia (KDBI). Kompetisi Debat Bahasa Indonesia (KDBI) is an Indonesian language debate competition held as a platform for participants to express their arguments and thoughts on current, relevant and important issues in society. Through this competition, participants are expected to hone their public speaking, critical thinking, and logical and systematic argumentation skills, enabling them to better understand and address the issues around them in a more constructive manner. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025.",
-    guideBook: "https://drive.google.com/drive/folders/1vrvGKyW27txpAmaJHosCYuXGj5Ys5lem",
-    guideBookName: "Guide_Book_KDBI",
+    guideBook: "/file/KDBI.pdf",
+    guideBookName: "Guidebook KDBI UNAS FEST 2025",
     requirements: [
       {
         index: 1,
@@ -216,8 +213,8 @@ export const Activities: Activity[] = [
     coverImage: KDBICover,
     description:
       "Welcome to the English Debate Competition! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the English Debate Competition (EDC). English Debate Competition (EDC) is an English language debate competition held as a means where the participants deliver their argumentation and thoughts regarding current issues. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025.",
-    guideBook: "https://drive.google.com/drive/folders/1e7naZIFEdpAHYMFanHY6hQPXY-SvdPd9",
-    guideBookName: "Guide_Book_EDC",
+    guideBook: "/file/EDC.pdf",
+    guideBookName: "Guidebook EDC UNAS FEST 2025",
     requirements: [
       {
         index: 1,
@@ -359,8 +356,8 @@ export const Activities: Activity[] = [
     coverImage: KDBICover,
     description:
       "The Scientific Paper Competition at UNAS FEST 2025 is organized for participants to submit scientific papers based on research results using data collection methods such as observation, interviews, questionnaires, and focus group discussions (FGD). The papers must be systematically structured, written in proper Indonesian, and adhere to scientific principles that can be accounted for. This competition aims to cultivate students who are concerned about environmental and social issues, as well as those who possess sharp analytical skills and critical thinking. Through the process of writing and presenting their scientific papers to the panel of judges, participants are expected to enhance their scientific communication skills, public speaking, and the ability to defend their arguments comprehensively.",
-    guideBook: "/File/tes.pdf",
-    guideBookName: "Guide_Book_SPC",
+    guideBook: "/file/SPC.pdf",
+    guideBookName: "Guidebook SPC UNAS FEST 2025",
     requirements: [
       {
         index: 1,
@@ -504,8 +501,8 @@ export const Activities: Activity[] = [
     coverImage: KDBICover,
     description:
       "The Infographics competition aims to encourage participants to think critically and creatively, while being able to present information in a concise, accurate, and easily understandable manner. Besides honing design skills and visual message delivery, participants are also invited to increase their awareness of global issues relevant to daily life. The Infographics competition carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” which discusses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and remain sustainable. The competition targets 15 teams consisting of active high school students from SMA, MAN, and SMK in the JABODETABEK area. Activities begin with a webinar to equip participants with the skills, knowledge, and understanding necessary to create their works.The Infographics competition consists of three stages: Administrative Selection, Semifinals, and Finals—all conducted online, followed by an onsite awarding ceremony.",
-    guideBook: "https://drive.google.com/drive/folders/11Y6R3AD24Xg2DfzuD42gs8bIRfmiEFIR?usp=sharing",
-    guideBookName: "Guide_Book_DCC",
+    guideBook: "",
+    guideBookName: "Guidebook Infographic UNAS FEST 2025",
     requirements: [
       {
         index: 1,
@@ -656,8 +653,8 @@ export const Activities: Activity[] = [
     coverImage: KDBICover,
     description:
       "The Short Video competition is a contest for brief videos typically lasting from 15 seconds up to 3 minutes, designed to convey messages in a concise, creative, and informative manner. The theme, “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” addresses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and sustainable over time. The Short Video competition targets 15 teams consisting of active high school students from SMA, MAN, and SMK in the JABODETABEK area. The activity begins with a webinar aimed at providing participants with the skills, knowledge, and understanding needed to create effective Short Video works. The competition consists of three stages: Administrative Selection, Semifinals, and Finals — all conducted online, followed by an onsite awarding ceremony.",
-    guideBook: "https://drive.google.com/drive/folders/1LuHHzETGY8t9RW00I55AYTcUBpqmZXz8?usp=sharing",
-    guideBookName: "Guide_Book_DCC",
+    guideBook: "",
+    guideBookName: "Guidebook Short Video UNAS FEST 2025",
     requirements: [
       {
         index: 1,
