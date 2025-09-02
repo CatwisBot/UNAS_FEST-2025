@@ -128,7 +128,7 @@ export default function Hero() {
             <p className="text-white mt-6 text-md sm:text-lg leading-relaxed">
               The Universitas Nasional Festival 2025 (UNAS FEST 2025) is one of the
               annual events held to commemorate and celebrate the 76th anniversary
-              of Dies Natalis Universitas Nasional.
+              of Universitas Nasional.
             </p>
             <Link href="#competition" className="scroll-smooth">
               <button className="mt-8 cursor-pointer bg-white text-[#973BEB] font-semibold px-6 py-3 rounded-xl shadow-lg w-fit hover:bg-[#973BEB] hover:text-white transition">

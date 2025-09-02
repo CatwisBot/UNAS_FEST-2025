@@ -7,7 +7,7 @@ export const featureHero = [
   {
     image: Calendar,
     title: "Event Period",
-    detail: "July 12-20 & Aug 20-22"
+    detail: "Sept 1 - Nov 6"
   },
   {
     image: Medal,
