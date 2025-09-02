@@ -23,7 +23,7 @@ const PartnershipSection: React.FC = () => {
 
       <div className="w-full max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto text-white p-10 pt-10 sm:pt-20 text-center z-10 relative">
         <div className="flex items-center justify-center gap-2 sm:gap-6 pb-5 mt-0 sm:mt-5 lg:mt-10">
-          <h1 className="text-3xl lg:text-4xl font-bold">BUILDING THE</h1>
+          <h1 className="text-sm sm:text-3xl lg:text-4xl font-bold">BUILDING THE</h1>
           <span>
             <Image
               src={Rectangle}
@@ -44,7 +44,7 @@ const PartnershipSection: React.FC = () => {
               className="w-10 sm:w-13 lg:w-53 h-1"
             />
           </span>
-          <h1 className="text-3xl lg:text-4xl font-bold">
+          <h1 className="text-sm sm:text-3xl lg:text-4xl font-bold">
             <span className="bg-gradient-to-r from-[#A14CF3] from-[38%] to-[#345CEB] to-[100%] bg-clip-text text-transparent">
               FUTURE
             </span>{" "}
