@@ -76,8 +76,7 @@ export const Activities: Activity[] = [
         name: "Purwo Besari",
         image: Purwo,
         school: "Jakarta State University",
-        lastEducation:
-          "Faculty of Social Sciences",
+        lastEducation: "Faculty of Social Sciences",
         role: "Expert",
         description:
           "Purwo Besari is a graduate of the Faculty of Social Sciences at the State University of Jakarta (UNJ). He has experience as a judge in various national debate competitions, such as UNAS FEST, COMMFIESTA, PISN BEM FIS UNJ, UNJ Student Debate Competition, EDUFAIR UNESA, and Hysteric National Debate. His dedication as an invited judge at these events demonstrates his commitment to supporting the development of critical thinking and rhetorical skills among Indonesian students.",
@@ -170,17 +169,20 @@ export const Activities: Activity[] = [
           "The screenshot evidence of following UNAS FEST social media must be combined into one PDF file.",
       },
       {
-        question: "Regarding the administrative requirements in the Delegation Cover Letter column, does the letter have to be signed by the Deputy Rector, Dean, and Deputy Dean, or is it okay if only one of them signs it?",
+        question:
+          "Regarding the administrative requirements in the Delegation Cover Letter column, does the letter have to be signed by the Deputy Rector, Dean, and Deputy Dean, or is it okay if only one of them signs it?",
         answer:
           "It is okay if only one of them signs it, whether it is the Deputy Rector, Dean, or Deputy Dean. The most important thing is that there is a signature and stamp from each campus.",
       },
       {
-        question: "Who can participate in the KDBI and EDC UNAS FEST 2025 debate competitions?",
+        question:
+          "Who can participate in the KDBI and EDC UNAS FEST 2025 debate competitions?",
         answer:
           "All active undergraduate students registered in PDDikti (Higher Education Database) from various study programmes and universities, both state and private, who do not yet have a bachelor's degree (S1) are welcome to participate in the competition.",
       },
       {
-        question: "If participants want to request a receipt as proof of reimbursement from the university, what are the terms and conditions?",
+        question:
+          "If participants want to request a receipt as proof of reimbursement from the university, what are the terms and conditions?",
         answer:
           "Participants can request a receipt directly from the relevant committee. However, please note that such requests cannot be asked suddenly or on the day of the competition.",
       },
@@ -190,17 +192,20 @@ export const Activities: Activity[] = [
           "Each team must create a team name in accordance with the UNAS FEST 2025 theme without offending any elements of Ethnicity, Religion, Race, and Intergroup (SARA).",
       },
       {
-        question: "Can the registration fee be refunded if participants cancel their participation?",
+        question:
+          "Can the registration fee be refunded if participants cancel their participation?",
         answer:
           "We apologize, but the registration fee cannot be refunded if participants have already paid and then decide to cancel their participation.",
       },
       {
-        question: "If our team is not able to attend the Technical Meeting and Webinar due to certain constraints, what should we do? Is it allowed?",
+        question:
+          "If our team is not able to attend the Technical Meeting and Webinar due to certain constraints, what should we do? Is it allowed?",
         answer:
           "Participants are required to attend the Technical Meeting (TM) and Webinar, or at least send one representative from the team.",
       },
       {
-        question: "Is there an obligation to share the KDBI & EDC UNAS FEST 2025 flyer?",
+        question:
+          "Is there an obligation to share the KDBI & EDC UNAS FEST 2025 flyer?",
         answer:
           "Regarding this, participants are required to share the KDBI & EDC flyer on their Instagram stories and upload the UNAS FEST 2025 Twibbon.",
       },
@@ -255,41 +260,82 @@ export const Activities: Activity[] = [
     judgesData: [
       {
         index: 1,
-        name: "-",
+        name: "Muhammad Batara Mulya",
         image: Batara,
         school: "-",
         lastEducation: "-",
         role: "Expert",
         description:
-          "-",
+          "a parliamentary debate coach and English-Indonesian interpreter dedicated to the development of debate and public speaking in various educational institutions in Indonesia. He has extensive experience in designing debate training curricula, coaching university and high school teams up to national and international competition levels, and being a adjudicator in various prestigious events such as NUDC, KDMI, NSDC, and WSDC.",
         achievements: [
-          "-",
+          "Parliamentary Debate Coach - BINUS University",
+          "Parliamentary Debate Coach - Hasanuddin University",
+          "Assistant Coach & Adjudicator - WSDC Indonesia | 2024",
+          "Permanent Judge - NUDC, KDMI, NSDC, and LDBI | 2020-2024",
+          "Adjudication Core Member - NUDC, KDMI, and LDBI | 2023",
+          "Debate Coach - SMAN 4 Jayapura",
+          "Debate Coach - SMAK 1 PENABUR Jakarta",
+          "Debate Coach - Universitas Padjadjaran",
+          "Debate Coach - Universitas Brawijaya",
+          "English-Indonesia Interpreter - DT Global",
+          "Debate Coach - Telkom University",
+          "Debate Coach - Universitas Surabaya (UBAYA)",
+          "Interpreter - Institut Leimena",
+          "English Tutor - Briton English Education",
+          "Interpreter - USAID",
         ],
       },
       {
         index: 2,
-        name: "-",
+        name: "Joddy Saputra Lubis",
         image: Joddy,
-        school: "-",
+        school: "Telkom University",
         lastEducation: "-",
         role: "Expert",
         description:
-          "-",
+          "Joddy Saputra Lubis is a graduate of Telkom University from West Lampung. He was awarded Best Institutional Adjudicator at the 2024 National KDMI, surpassing more than a hundred other universities. With his extensive experience as an adjudicator in various competitions, Joddy is recognized for his sharp analytical skills and consistency in leading debate panels.",
         achievements: [
-          "-",
+          "Chief Adjudicator - ECLIPSE SOCIAL CLASH Debate Competition | May 2025",
+          "Invited Adjudicator - JDF Detour Debate Competition | May 2025",
+          "Chief Adjudicator - SKETSA Debate Competition | May 2025",
+          "Invited Adjudicator - IPB High School Debate Competition | April 2025",
+          "Chief Adjudicator - NDC COLLCUP VOL. I Debate Competition | April 2025",
+          "Invited Adjudicator - GADJAH MADA ELOQUENTIA PRA-LDBI | March 2025",
+          "Invited Adjudicator - AURGUMENTUM PROAMS Debate Competition | February 2025",
+          "Chief Adjudicator - AMUSE XV Debate Competition 2025 | December 2024 - January 2025",
+          "Invited Adjudicator - CAKRAWALA Debate Competition | November 2024",
+          "Chief Adjudicator - THOMAS DAY Debate Competition | November 2024",
+          "Invited Adjudicator - EFEST Debate Competition | October 2024",
+          "Invited Adjudicator - KAMPIUN Debate Competition | October 2024",
+          "Invited Adjudicator - PAKUAN Debate Competition | October 2024",
+          "Chief Adjudicator - KANSAS Debate Competition | October 2024",
+          "Invited Adjudicator - FESPA Debate Competition | September 2024",
+          "Invited Adjudicator - FIPA Debate Competition | September 2024",
+          "Invited Adjudicator - LDBI Jawa Barat | September 2024",
+          "Invited Adjudicator - NICE Debate Competition | September 2024",
+          "Invited Adjudicator - ASIA CUP Debate Competition | August 2024",
+          "Invited Adjudicator - DIVESCENT Debate Competition | July 2024",
+          "Invited Adjudicator - NSDC Banten | June 2024",
         ],
       },
       {
         index: 3,
-        name: "-",
+        name: "Maria Bellen",
         image: Maria,
         school: "-",
         lastEducation: "-",
         role: "Expert",
         description:
-          "-",
+          "She is a results-oriented professional with strong interpersonal skills, adept at developing strategic communication with stakeholders and government officials, backed by excellent negotiation abilities. With over 9 years of experience as a professional debater, she has honed exceptional critical thinking, adaptability, and problem-solving skills, enabling her to thrive in fast-paced and dynamic environments. She actively collaborates with political actors, government, and NGOs focused on youth empowerment and public policy, demonstrating a deep passion for contributing to the public sector. Her career aspirations lie in politics, public policy, and governance, where she can leverage her expertise to drive meaningful impact.",
         achievements: [
-          "-",
+          "Trained over 15 students in Indonesian debate using the Asian Parliamentary System, focusing on debate skills, critical thinking, research, and public speaking as a Debate Coach at SMAN 6 Kota Tangerang Selatan",
+          "Designed and developed a comprehensive debate curriculum covering various aspects of debate",
+          "Guided students in preparing for and participating in over 15 debate tournaments, including conducting debate drills and providing performance feedback",
+          "Coached students who achieved 1st place in SETARA debate competition at SMAN 70 Jakarta (with best speaker award)",
+          "Coached students who won 3rd place in LDBI 2019 debate competition at South Tangerang City level",
+          "Coached students selected to represent South Tangerang City's debate team at provincial level",
+          "Created learning objectives and curriculum to develop confidence in presenting ideas, critical thinking, and problem-solving through regular exercises as Debate Coach at SMPK Mater Dei",
+          "Coached students who gained 3rd place in South Tangerang City Debate Competition",
         ],
       },
     ],
@@ -313,17 +359,20 @@ export const Activities: Activity[] = [
           "The screenshot evidence of following UNAS FEST social media must be combined into one PDF file.",
       },
       {
-        question: "Regarding the administrative requirements in the Delegation Cover Letter column, does the letter have to be signed by the Deputy Rector, Dean, and Deputy Dean, or is it okay if only one of them signs it?",
+        question:
+          "Regarding the administrative requirements in the Delegation Cover Letter column, does the letter have to be signed by the Deputy Rector, Dean, and Deputy Dean, or is it okay if only one of them signs it?",
         answer:
           "It is okay if only one of them signs it, whether it is the Deputy Rector, Dean, or Deputy Dean. The most important thing is that there is a signature and stamp from each campus.",
       },
       {
-        question: "Who can participate in the KDBI and EDC UNAS FEST 2025 debate competitions?",
+        question:
+          "Who can participate in the KDBI and EDC UNAS FEST 2025 debate competitions?",
         answer:
           "All active undergraduate students registered in PDDikti (Higher Education Database) from various study programmes and universities, both state and private, who do not yet have a bachelor's degree (S1) are welcome to participate in the competition.",
       },
       {
-        question: "If participants want to request a receipt as proof of reimbursement from the university, what are the terms and conditions?",
+        question:
+          "If participants want to request a receipt as proof of reimbursement from the university, what are the terms and conditions?",
         answer:
           "Participants can request a receipt directly from the relevant committee. However, please note that such requests cannot be asked suddenly or on the day of the competition.",
       },
@@ -333,17 +382,20 @@ export const Activities: Activity[] = [
           "Each team must create a team name in accordance with the UNAS FEST 2025 theme without offending any elements of Ethnicity, Religion, Race, and Intergroup (SARA).",
       },
       {
-        question: "Can the registration fee be refunded if participants cancel their participation?",
+        question:
+          "Can the registration fee be refunded if participants cancel their participation?",
         answer:
           "We apologize, but the registration fee cannot be refunded if participants have already paid and then decide to cancel their participation.",
       },
       {
-        question: "If our team is not able to attend the Technical Meeting and Webinar due to certain constraints, what should we do? Is it allowed?",
+        question:
+          "If our team is not able to attend the Technical Meeting and Webinar due to certain constraints, what should we do? Is it allowed?",
         answer:
           "Participants are required to attend the Technical Meeting (TM) and Webinar, or at least send one representative from the team.",
       },
       {
-        question: "Is there an obligation to share the KDBI & EDC UNAS FEST 2025 flyer?",
+        question:
+          "Is there an obligation to share the KDBI & EDC UNAS FEST 2025 flyer?",
         answer:
           "Regarding this, participants are required to share the KDBI & EDC flyer on their Instagram stories and upload the UNAS FEST 2025 Twibbon.",
       },
@@ -389,6 +441,11 @@ export const Activities: Activity[] = [
         detail:
           "For participants of the Scientific Paper Competition UNAS FEST 2025 who have paid the registration fee and then withdrawn from the competition, the fee is non-refundable under any circumstances.",
       },
+      {
+        index: 7,
+        detail:
+          "Finalists are required to attend the awarding ceremony of UNAS FEST 2025.",
+      },
     ],
     judgesData: [
       {
@@ -396,8 +453,7 @@ export const Activities: Activity[] = [
         name: "Mouliza Kristhoper Donna Sweinstani",
         image: Donna,
         school: "University of Indonesia",
-        lastEducation:
-          "Political Science",
+        lastEducation: "Political Science",
         role: "Expert",
         description:
           "Mouliza Kristhopher Donna Sweinstani is a young and accomplished academic and researcher in the field of political science. A graduate of Diponegoro University (summa cum laude) and the University of Indonesia (cum laude), she actively writes scholarly works on political education and women's representation. She also works as a researcher at the BRIN Political Research Center and as a lecturer at several universities. Mouliza's dedication to developing youth politics and strengthening academic and socio-political contributions in Indonesia is evident through her accomplishments. She was a speaker at the Tokyo Youth Democracy Forum 2024, a recipient of the Mata Garuda Prize LPDP 2021, and the founder of the Indonesia Youth Political Institute.",
@@ -457,15 +513,17 @@ export const Activities: Activity[] = [
           "SPC UNAS FEST 2025 is an individual competition and does not allow team participation.",
       },
       {
-        question: "What is the registration fee and when is the payment period?",
+        question:
+          "What is the registration fee and when is the payment period?",
         answer: [
           "Early Bird: Rp115.000 (25–31 August 2025)",
           "Phase 1: Rp135.000(1–13 September 2025)",
           "Phase 2: Rp150.000(14–26 September 2025)",
-        ]
+        ],
       },
       {
-        question: "Is the registration fee refundable if a participant withdraws?",
+        question:
+          "Is the registration fee refundable if a participant withdraws?",
         answer:
           "No. The registration fee is non-refundable under any circumstances.",
       },
@@ -477,7 +535,7 @@ export const Activities: Activity[] = [
           "Semifinal Round: based on the submitted paper (presentation, substance, and quality).",
           "Final Round: based on the presentation of the paper (material delivery, ability to answer questions, and theme relevance).",
           "In the national-level Scientific Paper Competition of UNAS FEST 2025, scores from the preliminary round will not be carried over and will be reset at the semifinal round. The final score is determined by a weighted calculation: 60% from the semifinal round and 40% from the final round.",
-        ]
+        ],
       },
       {
         question: "Does the paper have to be written in English?",
@@ -491,8 +549,7 @@ export const Activities: Activity[] = [
       },
       {
         question: "What is the deadline for submitting the scientific paper?",
-        answer:
-          "The deadline for submission is October 17, 2025.",
+        answer: "The deadline for submission is October 17, 2025.",
       },
       {
         question: "Will participants receive a certificate?",
@@ -501,8 +558,7 @@ export const Activities: Activity[] = [
       },
       {
         question: "When will the winners be announced?",
-        answer:
-          "Winners will be announced on November 10, 2025.",
+        answer: "Winners will be announced on November 10, 2025.",
       },
     ],
   },
@@ -577,57 +633,69 @@ export const Activities: Activity[] = [
         index: 1,
         name: "Dhea Marela Salman, S.IP.",
         image: Dhea,
-        school: "-",
-        lastEducation:
-          "-",
+        school: "Halu Oleo University",
+        lastEducation: "-",
         role: "Expert",
         description:
-          "-",
+          "Dhea Marela Salman, S.IP., is currently a student at Halu Oleo University majoring in Political Science. She is a Graphic Design and Content Creator at TikTok (@tiredhea). She has experience participating in posters and infographic competitions, being a resource person in webinars and workshops related to posters and infographics currently selling her talent for designing posters and infographics through TikTok (@tiredhea) and on Instagram (@dheazier).",
         achievements: [
-          "-",
+          "First Place in National Poster Competition Sociology Expo Riau University | 2023",
+          "First Place Poster Competition National Student Theater Week Riau University | 2024",
+          "First Place Poster Competition Ramadhan Creator Fest Genbi IAIN Kendari | 2025",
+          "Second Place in National Poster Competition Education Fair Nahdlatul Mataram University | 2024",
+          "Second Place National Infographic Competition Sharia Economy Festival Islamic University Zainul Hasan Genggong - Probolinggo | 2024",
+          "Second Place in Law Faculty Moot Court Competition Dean's Cup Haluoleo University Law Faculty | 2023",
+          "Third place in the National Poster Competition Islamic Festival Competition Campus Da'wah Institution Jama'ah Saladin Gadjah Mada University | 2023",
+          "Finalist of Public Service Advertisement Tangguh Awards BNPB Indonesia | 2023",
+          "KOLOSTRUM Public Poster Finalist Sebelas Maret University | 2023",
+          "Computer Science II Poster Finalist Haluoleo University | 2023",
+          "Presenters of DEXTROSE (Design Explore and Training for Scientific Purposes) Faculty of Medicine, Tanjungpura University | 2024",
         ],
       },
       {
         index: 2,
         name: "Dhieka Avrilia Lantana, S.Kom., M.Kom.",
         image: Dhieka,
-        school: "-",
-        lastEducation: "-",
+        school: "Bogor Agricultural University",
+        lastEducation: " Computer Science",
         role: "Expert",
         description:
-          "-",
+          "Dhieka Avrilia Lantana, S.Kom., M.Kom., has a Master's Degree, the first is S1 Computer Science, S2 Computer Science. She is a permanent lecturer with a strong educational background in Computer Science from IPB. She is active in academic activities both in teaching, research, and service, especially in the realm of Digital Business, an interdisciplinary field that combines information technology with business strategy.",
         achievements: [
-          "-",
+          "Account Optimizer in Accenture Malaysia",
+          "SEO Optimizer for Liputan6.com, Vidio.com, Bola.com and Bintang.com",
+          "Software Developer for National University",
+          "Google Adwords Certified",
         ],
       },
       {
         index: 3,
         name: "Riski Ramadhan Budhianto, S.Sos.",
         image: Riski,
-        school: "-",
-        lastEducation: "-",
+        school: "National University",
+        lastEducation: "Sociology",
         role: "Expert",
         description:
-          "-",
+          "Rizki Ramadhan Budhianti, S.Sos., Bachelor of Sociology degree, National University. He has experience as social media support at orca comm, voting organizer group officer (KPPS) at the general election commission of the republic of Indonesia (KPU RI), surveyor at legit group, social media staff at ICOSOP FISIP UNAS.",
         achievements: [
-          "-",
+          "Participating ICOSOP The 2nd International Conference on Social Politics Media Team Your Hard Work, Dedication, And Achievement Will Be Cherished",
+          "Participants of Field Work Practice Period June 2022-July 2022 at the Institute for the Protection of SAKSI AND KORBAN, For Dedication",
+          "1st place IN THE NATIONAL LEVEL POSTER DESIGN COMPETITION In the HI Fest 2021 event with the theme Enriching Biodiversity and Ecosystem Through Sustainability which was organized by the INTERNATIONAL RELATIONSHIPS STUDENTS ASSOCIATION OF THE NATIONAL UNIVERSITY of Indonesia.",
         ],
       },
     ],
     faqs: [
       {
-        question:
-          "What are the allowed size and orientation for Infographics?",
-        answer:
-          "A3 size (297x420 mm) with portrait orientation.",
+        question: "What are the allowed size and orientation for Infographics?",
+        answer: "A3 size (297x420 mm) with portrait orientation.",
       },
       {
         question: "What file format should be submitted?",
-        answer:
-          "The required file format for participants is PDF.",
+        answer: "The required file format for participants is PDF.",
       },
       {
-        question: "Can the work be created using free applications such as Canva?",
+        question:
+          "Can the work be created using free applications such as Canva?",
         answer:
           "Yes, it is allowed. Participants are permitted to use any software or application as long as the result does not deviate from the guidelines.",
       },
@@ -653,8 +721,7 @@ export const Activities: Activity[] = [
       },
       {
         question: "Can the work be more than one page?",
-        answer:
-          "No, the work is only permitted to be one page.",
+        answer: "No, the work is only permitted to be one page.",
       },
     ],
   },
@@ -685,8 +752,7 @@ export const Activities: Activity[] = [
       },
       {
         index: 4,
-        detail:
-          "Each participant may submit only one (1) video.",
+        detail: "Each participant may submit only one (1) video.",
       },
       {
         index: 5,
@@ -734,42 +800,71 @@ export const Activities: Activity[] = [
         index: 1,
         name: "Raden Daniel Wisnu Wardhana, S.IP., M.F.Tv.",
         image: Raden,
-        school: "-",
-        lastEducation:
-          "-",
+        school: "Bond University",
+        lastEducation: "Film/Video and Photography",
         role: "Expert",
         description:
-          "-",
+          "Raden Daniel Wisnu Wardana, S.IP., M.F.TvD., completed his undergraduate education at the National University in 1992-1998 (Bachelor of Political Science, Politics and Sociology) and continued his postgraduate studies at Bond University, in 2000-2003 (Master's degree, Film/Video and Photography).",
         achievements: [
-          "-",
+          "Favorite Champion of Documentary Film Festival at SBM Golden Lens, Erasmus Huis Jakarta | 2013",
+          "DOP Nomination - Dallas Film Festival",
+          "DOP Nominee - Studentfilmfestival.com Film Festival",
+          "Jury Member - Rudi Sujarwo National Short Film Festival for Junior and Senior High School, Jakarta",
+          "Festival Jury - Campus Level Competition, Universitas Mercu Buana 2020 (with Arbain Rambe)",
+          "Chairman of the Jury - Regional Raya Kultura-Indolife Photo Festival",
+          "Jury Member - ASPIKOM National Short Film Festival",
+          "Regional Jury - Papatong Awards Video Poetry Festival",
         ],
       },
       {
         index: 2,
         name: "Rizky Wahyu Sugandhi",
         image: Rizky,
-        school: "-",
-        lastEducation: "-",
+        school: "National University",
+        lastEducation: "Computer Systems Technology",
         role: "Expert",
         description:
-          "-",
+          "Rizky Wahyu Sugandhi, He completed his education at SMA Negeri 113 Jakarta (Biology) and is currently a student at National University (Computer Systems Technology).",
         achievements: [
-          "-",
+          "Head of Documentation Division and Head of Camera Person Division - Unas TV",
+          "Independent Study - Digital Talent Scholarship",
+          "Head of Creative Media Division - Information Systems Student Association",
+          "Assistant Project Manager (Short Movie Competition) and Frontend Web Developer - National University Festival (UNAS FEST)",
+          "Laboratory Assistant (Software) - Networking, Database, and Cloud Lab, National University",
+        ],
+      },
+      {
+        index: 3,
+        name: "Mega Mei Wahidati, S.I.KOM. M.A.",
+        image: Rizky,
+        school: "National University",
+        lastEducation: "Communication Science",
+        role: "Expert",
+        description:
+          "Mega Mei Wahidati, S.I.KOM. M.A., a student of FISIP Communication Science Study Program. She is an alumnus of Universitas Nasional, as well as a recipient of the LPDP ITB Master's scholarship and the Indian Embassy Master's scholarship. She completed her education at SMK N 16 Jakarta (Accounting), then undergraduate at National University (Communication Science, Journalism) and continued her postgraduate studies at Gujarat University (Master of Arts - MA, Mass Communication / Media Studies).",
+        achievements: [
+          "Master of Arts (MA) in Mass Communication/Media Studies - Gujarat University",
+          "Scout Member",
+          "Marching Band Member",
+          "English Club Member",
+          "Unas Radio Member",
+          "Assistant Producer - V Radio Jakarta",
+          "Content Creator - UBM YouTube Channel",
+          "Chairwoman - Annual Student Meeting",
+          "Multimedia Staff - Siber Asia University",
+          "Influencer (Instagram & TikTok)",
         ],
       },
     ],
     faqs: [
       {
-        question:
-          "What is the allowed video duration?",
+        question: "What is the allowed video duration?",
         answer:
           "The minimum duration is 1 minute and the maximum is 3 minutes.",
       },
       {
-        question:
-          "What file format should be used?",
-        answer:
-          "MP4 with a minimum resolution of 1080p.",
+        question: "What file format should be used?",
+        answer: "MP4 with a minimum resolution of 1080p.",
       },
       {
         question:
