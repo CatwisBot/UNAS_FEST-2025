@@ -27,7 +27,7 @@ const stats = [
     {
         icon: <Users className="w-6 h-6 text-white" />,
         value: "15+",
-        label: "Participants",
+        label: "Target Participants",
         gradient: "from-[#BE85FC] to-[#858BF8]",
     },
     {
