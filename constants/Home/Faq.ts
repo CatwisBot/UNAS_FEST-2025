@@ -12,14 +12,14 @@ export const FaqData: FaqItem[] = [
   {
     question: "What is the theme of this year's UNAS FEST?",
     answer:
-      " This year, UNAS FEST carries the theme “Taking Preventive Action Against Deforestation Through Artificial Intelligence (AI)-Based Technological Innovation in Achieving a Resilient and Sustainable Ecosystem.”",
+      " This year, UNAS FEST carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem”.",
   },
   {
     question: "What competitions are there at UNAS FEST 2025?",
     answer: [
       "English Debate Competition",
       "Kompetisi Debat Bahasa Indonesia",
-      "Scientific Writing Competition",
+      "Scientific Paper Competition",
       "Short Video Competition",
       "Infographics Competition",
     ],
