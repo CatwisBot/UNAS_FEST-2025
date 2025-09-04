@@ -17,7 +17,7 @@ export const EVENTS: CompetitionEvent[] = [
       { month: "OCTOBER", day: "22", year: "2025", title: "Annoucement of Finalist SPC and DCC" },
       { month: "OCTOBER", day: "23-25", year: "2025", title: "PPT Collection of DCC" },
       { month: "OCTOBER", day: "27", year: "2025", title: "Final Round All Competition" },
-      { month: "NOVEMBER", day: "6", year: "2025", title: "Award Ceremony UNAS FEST 2025" },
+      { month: "NOVEMBER", day: "6", year: "2025", title: "Awarding Ceremony UNAS FEST 2025" },
     ],
   },
   {
@@ -31,7 +31,7 @@ export const EVENTS: CompetitionEvent[] = [
       { month: "OCTOBER", day: "14", year: "2025", title: "Preliminary Round - Day 2" },
       { month: "OCTOBER", day: "15", year: "2025", title: "Semifinal KDBI and EDC" },
       { month: "OCTOBER", day: "27", year: "2025", title: "Final Round" },
-      { month: "NOVEMBER", day: "6", year: "2025", title: "Award Ceremony UNAS FEST 2025" },
+      { month: "NOVEMBER", day: "6", year: "2025", title: "Awarding Ceremony UNAS FEST 2025" },
     ],
   },
   {
@@ -45,7 +45,7 @@ export const EVENTS: CompetitionEvent[] = [
       { month: "OCTOBER", day: "14", year: "2025", title: "Preliminary Round - Day 2" },
       { month: "OCTOBER", day: "15", year: "2025", title: "Semifinal Debate" },
       { month: "OCTOBER", day: "27", year: "2025", title: "Final Round" },
-      { month: "NOVEMBER", day: "6", year: "2025", title: "Award Ceremony UNAS FEST 2025" },
+      { month: "NOVEMBER", day: "6", year: "2025", title: "Awarding Ceremony UNAS FEST 2025" },
     ],
   },
   {
@@ -61,7 +61,7 @@ export const EVENTS: CompetitionEvent[] = [
       { month: "OCTOBER", day: "22", year: "2025", title: "Annoucement of 6 Finalists" },
       { month: "OCTOBER", day: "23", year: "2025", title: "Technical Meeting of Participants" },
       { month: "OCTOBER", day: "27", year: "2025", title: "Implementation of the Final Round" },
-      { month: "NOVEMBER", day: "6", year: "2025", title: "Award Ceremony UNAS FEST 2025" },
+      { month: "NOVEMBER", day: "6", year: "2025", title: "Awarding Ceremony UNAS FEST 2025" },
     ],
   },
   {
@@ -78,7 +78,7 @@ export const EVENTS: CompetitionEvent[] = [
       { month: "OCTOBER", day: "22", year: "2025", title: "Annoucement" },
       { month: "OCTOBER", day: "23-25", year: "2025", title: "PPT Collection" },
       { month: "OCTOBER", day: "27", year: "2025", title: "Final" },
-      { month: "NOVEMBER", day: "6", year: "2025", title: "Award Ceremony UNAS FEST 2025" },
+      { month: "NOVEMBER", day: "6", year: "2025", title: "Awarding Ceremony UNAS FEST 2025" },
     ],
   },
   {
@@ -95,7 +95,7 @@ export const EVENTS: CompetitionEvent[] = [
       { month: "OCTOBER", day: "22", year: "2025", title: "Annoucement" },
       { month: "OCTOBER", day: "23-25", year: "2025", title: "PPT Collection" },
       { month: "OCTOBER", day: "27", year: "2025", title: "Final" },
-      { month: "NOVEMBER", day: "6", year: "2025", title: "Award Ceremony UNAS FEST 2025" },
+      { month: "NOVEMBER", day: "6", year: "2025", title: "Awarding Ceremony UNAS FEST 2025" },
     ],
   },
 ];
