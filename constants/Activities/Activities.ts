@@ -20,6 +20,7 @@ import Riski from "@/public/image/Activities/Judges/Infographic/Riski.jpg";
 
 import Raden from "@/public/image/Activities/Judges/Short/Raden.jpg";
 import Rizky from "@/public/image/Activities/Judges/Short/Rizky.jpg";
+import Photo from "@/public/image/About/Hero/no-photo.jpg";
 
 import { Activity } from "@/lib/types/Activities/Activities";
 
@@ -568,7 +569,7 @@ export const Activities: Activity[] = [
     title: "Infographic Competition",
     coverImage: KDBICover,
     description:
-      "The Infographics competition aims to encourage participants to think critically and creatively, while being able to present information in a concise, accurate, and easily understandable manner. Besides honing design skills and visual message delivery, participants are also invited to increase their awareness of global issues relevant to daily life. The Infographics competition carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” which discusses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and remain sustainable. The competition targets 15 teams consisting of active high school students from SMA, MAN, and SMK in the JABODETABEK area. Activities begin with a webinar to equip participants with the skills, knowledge, and understanding necessary to create their works.The Infographics competition consists of three stages: Administrative Selection, Semifinals, and Finals—all conducted online, followed by an onsite awarding ceremony.",
+      "The Infographics competition aims to encourage participants to think critically and creatively, while being able to present information in a concise, accurate, and easily understandable manner. Besides honing design skills and visual message delivery, participants are also invited to increase their awareness of global issues relevant to daily life. The Infographics competition carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” which discusses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and remain sustainable. The competition targets 15 teams consisting of active high school students from SMA/SMK/Equivalent in the JABODETABEK area. Activities begin with a webinar to equip participants with the skills, knowledge, and understanding necessary to create their works.The Infographics competition consists of three stages: Administrative Selection, Semifinals, and Finals—all conducted online, followed by an onsite awarding ceremony.",
     guideBook: "/file/Guidebook Infographic UNAS FEST 2025.pdf",
     guideBookName: "Guidebook Infographic UNAS FEST 2025",
     requirements: [
@@ -731,7 +732,7 @@ export const Activities: Activity[] = [
     title: "Short Video Competition",
     coverImage: KDBICover,
     description:
-      "The Short Video competition is a contest for brief videos typically lasting from 15 seconds up to 3 minutes, designed to convey messages in a concise, creative, and informative manner. The theme, “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” addresses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and sustainable over time. The Short Video competition targets 15 teams consisting of active high school students from SMA, MAN, and SMK in the JABODETABEK area. The activity begins with a webinar aimed at providing participants with the skills, knowledge, and understanding needed to create effective Short Video works. The competition consists of three stages: Administrative Selection, Semifinals, and Finals — all conducted online, followed by an onsite awarding ceremony.",
+      "The Short Video competition is a contest for brief videos typically lasting from 15 seconds up to 3 minutes, designed to convey messages in a concise, creative, and informative manner. The theme, “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” addresses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and sustainable over time. The Short Video competition targets 15 teams consisting of active high school students from SMA/SMK/Equivalent in the JABODETABEK area. The activity begins with a webinar aimed at providing participants with the skills, knowledge, and understanding needed to create effective Short Video works. The competition consists of three stages: Administrative Selection, Semifinals, and Finals — all conducted online, followed by an onsite awarding ceremony.",
     guideBook: "/file/Guidebook Short Video UNAS FEST 2025.pdf",
     guideBookName: "Guidebook Short Video UNAS FEST 2025",
     requirements: [
@@ -836,7 +837,7 @@ export const Activities: Activity[] = [
       {
         index: 3,
         name: "Mega Mei Wahidati, S.I.KOM. M.A.",
-        image: Rizky,
+        image: Photo,
         school: "National University",
         lastEducation: "Communication Science",
         role: "Expert",
