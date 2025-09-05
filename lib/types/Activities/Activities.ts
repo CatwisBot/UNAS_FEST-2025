@@ -1,4 +1,12 @@
 import { StaticImageData } from "next/image";
+import { ReactElement } from "react";
+
+export interface Stat {
+  icon: ReactElement;
+  value: string;
+  label: string;
+  gradient: string;
+}
 
 export interface Judge {
   index: number;
@@ -33,6 +41,7 @@ export interface Activity {
   requirements: Requirement[];
   judgesData: Judge[];
   faqs?: FAQ[];
+  stats?: Stat[];
 }
 
 // Legacy types for backward compatibility

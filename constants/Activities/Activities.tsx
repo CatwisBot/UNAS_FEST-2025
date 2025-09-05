@@ -1,3 +1,5 @@
+import { Users, Trophy, Medal, Star } from "lucide-react";
+
 // Cover Image
 import KDBICover from "@/public/image/About/Hero/no-photo.jpg";
 
@@ -69,6 +71,32 @@ export const Activities: Activity[] = [
         index: 7,
         detail:
           "All participants must create a group name that relates to the UNAS FEST 2025 theme, without offending any elements of Ethnicity, Religion, Race, and Intergroup (SARA).",
+      },
+    ],
+    stats: [
+      {
+        icon: <Users className="w-6 h-6 text-white" />,
+        value: "24+",
+        label: "Target Participants",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Trophy className="w-6 h-6 text-white" />,
+        value: "8.000.000+",
+        label: "Prize",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Medal className="w-6 h-6 text-white" />,
+        value: "3",
+        label: "Expert Judge",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Star className="w-6 h-6 text-white" />,
+        value: "2 Months",
+        label: "Competition",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
       },
     ],
     judgesData: [
@@ -256,6 +284,32 @@ export const Activities: Activity[] = [
         index: 7,
         detail:
           "All participants must create a group name that relates to the UNAS FEST 2025 theme, without offending any elements of Ethnicity, Religion, Race, and Intergroup (SARA).",
+      },
+    ],
+    stats: [
+      {
+        icon: <Users className="w-6 h-6 text-white" />,
+        value: "24+",
+        label: "Target Participants",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Trophy className="w-6 h-6 text-white" />,
+        value: "8.000.000+",
+        label: "Prize",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Medal className="w-6 h-6 text-white" />,
+        value: "3",
+        label: "Expert Judge",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Star className="w-6 h-6 text-white" />,
+        value: "2 Months",
+        label: "Competition",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
       },
     ],
     judgesData: [
@@ -448,6 +502,32 @@ export const Activities: Activity[] = [
           "Finalists are required to attend the awarding ceremony of UNAS FEST 2025.",
       },
     ],
+    stats: [
+      {
+        icon: <Users className="w-6 h-6 text-white" />,
+        value: "15+",
+        label: "Target Participants",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Trophy className="w-6 h-6 text-white" />,
+        value: "3.000.000+",
+        label: "Prize",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Medal className="w-6 h-6 text-white" />,
+        value: "3",
+        label: "Expert Judge",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Star className="w-6 h-6 text-white" />,
+        value: "2 Months",
+        label: "Competition",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+    ],
     judgesData: [
       {
         index: 1,
@@ -629,6 +709,32 @@ export const Activities: Activity[] = [
           "Recommended infographic design size is in a 4:5 (portrait) ratio to optimize display on social media.",
       },
     ],
+    stats: [
+      {
+        icon: <Users className="w-6 h-6 text-white" />,
+        value: "15+",
+        label: "Target Participants",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Trophy className="w-6 h-6 text-white" />,
+        value: "3.000.000+",
+        label: "Prize",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Medal className="w-6 h-6 text-white" />,
+        value: "3",
+        label: "Expert Judge",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Star className="w-6 h-6 text-white" />,
+        value: "2 Months",
+        label: "Competition",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+    ],
     judgesData: [
       {
         index: 1,
@@ -794,6 +900,32 @@ export const Activities: Activity[] = [
         index: 12,
         detail:
           "The judges' decisions are final, binding, and cannot be contested.",
+      },
+    ],
+    stats: [
+      {
+        icon: <Users className="w-6 h-6 text-white" />,
+        value: "15+",
+        label: "Target Participants",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Trophy className="w-6 h-6 text-white" />,
+        value: "3.000.000+",
+        label: "Prize",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Medal className="w-6 h-6 text-white" />,
+        value: "3",
+        label: "Expert Judge",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
+      },
+      {
+        icon: <Star className="w-6 h-6 text-white" />,
+        value: "2 Months",
+        label: "Competition",
+        gradient: "from-[#BE85FC] to-[#858BF8]",
       },
     ],
     judgesData: [
