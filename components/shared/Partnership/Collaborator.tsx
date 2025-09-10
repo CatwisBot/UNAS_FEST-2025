@@ -56,7 +56,7 @@ export default function Sponsor() {
       <div ref={scrollerRef} className="relative w-full overflow-hidden group max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto pb-6">
         <div 
           ref={innerScrollerRef} 
-          className="flex animate-loop-scroll group-hover:[animation-play-state:paused] gap-6 px-4 sm:px-8"
+          className="flex animate-loop-scroll group-hover:[animation-play-state:paused] gap-2 px-1 sm:px-2"
         >
           {CollaboratorData.map((collaborator, idx) => (
             <div key={idx} className="min-w-[250px] flex-shrink-0 hover:scale-110 transition-transform duration-300">

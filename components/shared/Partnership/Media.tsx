@@ -67,7 +67,7 @@ export default function Sponsor() {
       >
         <div
           ref={innerScrollerRef}
-          className="flex animate-loop-scroll-reverse group-hover:[animation-play-state:paused] gap-6 px-4 sm:px-8"
+          className="flex animate-loop-scroll-reverse group-hover:[animation-play-state:paused] gap-2 px-1 sm:px-2"
         >
           {MediaData.map((media, idx) => (
             <div
