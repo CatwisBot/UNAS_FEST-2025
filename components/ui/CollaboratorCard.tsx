@@ -4,7 +4,8 @@ import { SponsorData } from "@/lib/types/Partnership/Sponsor";
 
 export default function CollaboratorCard({ collaborator }: { collaborator: SponsorData }) {
     return (
-        <div className="flex flex-col items-center  
+        <div className="flex flex-col items-center justify-center
+            w-48 h-48
             bg-white/10 backdrop-blur-md border border-[#474242] 
             rounded-2xl shadow-lg p-4"
         >
