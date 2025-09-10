@@ -234,7 +234,15 @@ export const Gallery = [
         title: "Scientific Paper Competition",
         desc: "SPC is a competition that encourages students to conduct research and present their findings in a scientific paper format, fostering innovation and academic excellence.",
         images: [
-            
+            {
+                src: "/image/About/Hero/no-photo.jpg",
+                alt: "Coming Soon",
+                caption: "Coming Soon",
+                day: "Day 1",
+                year: "2023",
+                date: "Coming Soon",
+                location: "Coming Soon"
+            },
         ]
     },
     {
@@ -242,7 +250,15 @@ export const Gallery = [
         title: "Infographic Competition",
         desc: "Infographic Competition is a creative contest that invites participants to design visually compelling infographics to communicate complex information effectively.",
         images: [
-            
+            {
+                src: "/image/About/Hero/no-photo.jpg",
+                alt: "Coming Soon",
+                caption: "Coming Soon",
+                day: "Day 1",
+                year: "2023",
+                date: "Coming Soon",
+                location: "Coming Soon"
+            },
         ]
     },
     {
@@ -250,7 +266,15 @@ export const Gallery = [
         title: "Short Video Competition",
         desc: "Short Video Competition is a dynamic contest that challenges participants to create engaging short videos that tell a story or convey a message in a concise and impactful manner.",
         images: [
-            
+            {
+                src: "/image/About/Hero/no-photo.jpg",
+                alt: "Coming Soon",
+                caption: "Coming Soon",
+                day: "Day 1",
+                year: "2023",
+                date: "Coming Soon",
+                location: "Coming Soon"
+            },
         ]
     }
 ]
