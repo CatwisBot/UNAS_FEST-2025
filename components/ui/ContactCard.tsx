@@ -16,7 +16,7 @@ export default function GlassCard() {
             rel="noopener noreferrer"
         >
             <div className="shine-overlay-contact"></div>
-            <div className="bg-white/10 shadow-xl p-8 text-center w-[250px] h-[380px] sm:w-[300px] sm:h-[300px] md:w-[320px] md:h-[320px]">
+            <div className="bg-white/10 shadow-xl p-8 text-center w-[250px] h-[350px] sm:w-[300px] sm:h-[280px] md:w-[320px] md:h-[300px]">
                 <div className="flex justify-center mb-4">
                     <div className="bg-gradient-to-br from-[#914EF2] to-[#6156EE] p-4 rounded-xl shadow-md">
                         <FaWhatsapp className="text-white text-xl sm:text-3xl" />
