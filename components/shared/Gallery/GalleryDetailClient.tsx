@@ -11,7 +11,7 @@ interface GalleryDetailClientProps {
 }
 
 export default function GalleryDetailClient({ event }: GalleryDetailClientProps) {
-    const [selectedYear, setSelectedYear] = useState("All");
+    const [selectedYear, setSelectedYear] = useState("2025");
     const [selectedDay, setSelectedDay] = useState("All");
 
     const years = ["All", "2025", "2024", "2023"];
