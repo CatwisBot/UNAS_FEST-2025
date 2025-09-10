@@ -56,7 +56,7 @@ export default function Sponsor() {
     <main className="bg-[#0A0B30]">
       <div className="flex flex-row gap-4 items-center justify-center text-white pb-3 pt-10">
         <Image src={Media} alt="Person" width={30} height={30} />
-        <h2 className="uppercase text-2xl sm:text-3xl font-bold">
+        <h2 className="uppercase text-sm sm:text-3xl font-bold">
           Media Partner
         </h2>
       </div>
@@ -72,7 +72,7 @@ export default function Sponsor() {
           {MediaData.map((media, idx) => (
             <div
               key={idx}
-              className="min-w-[250px] flex-shrink-0 hover:scale-110 transition-transform duration-300"
+              className="min-w-[200px] flex-shrink-0 hover:scale-110 transition-transform duration-300"
             >
               <MediaCard media={media} />
             </div>

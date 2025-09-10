@@ -50,7 +50,7 @@ export default function Sponsor() {
     <main className="bg-gradient-to-b from-[#030D6C] to-[#0A0B30] py-10">
       <div className="flex flex-row gap-4 items-center justify-center text-white pb-3 pt-10">
         <Image src={Person} alt="Person" width={30} height={30} />
-        <h2 className="uppercase text-2xl sm:text-3xl font-bold">collaborator</h2>
+        <h2 className="uppercase text-sm sm:text-3xl font-bold">collaborator</h2>
       </div>
 
       <div ref={scrollerRef} className="relative w-full overflow-hidden group max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto pb-6">
@@ -59,7 +59,7 @@ export default function Sponsor() {
           className="flex animate-loop-scroll group-hover:[animation-play-state:paused] gap-2 px-1 sm:px-2"
         >
           {CollaboratorData.map((collaborator, idx) => (
-            <div key={idx} className="min-w-[250px] flex-shrink-0 hover:scale-110 transition-transform duration-300">
+            <div key={idx} className="min-w-[200px] flex-shrink-0 hover:scale-110 transition-transform duration-300">
               <CollaboratorCard collaborator={collaborator} />
             </div>
           ))}
