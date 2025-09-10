@@ -5,59 +5,131 @@ export const Gallery = [
         desc: "KDBI is a prestigious national debate competition that brings together the brightest minds from universities across Indonesia to showcase their debating skills and critical thinking.",
         images: [
             {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Opening ceremony of KDBI 2025",
-                caption: "Grand opening with keynote speakers",
+                src: "/image/Gallery/IDC/Peserta KDBI 1.png",
+                alt: "Participant KDBI 1",
+                caption: "Participants are discussing.",
                 day: "Day 1",
-                year: "2025",
-                date: "October 15",
-                location: "Main Hall"
+                year: "2023",
+                date: "December 19",
+                location: "Aula Room"
             },
             {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Preliminary rounds",
-                caption: "Preliminary debate rounds in session",
+                src: "/image/Gallery/IDC/Peserta KDBI 2.png",
+                alt: "Participant KDBI 2",
+                caption: "Participants are discussing (2).",
                 day: "Day 1",
-                year: "2025",
-                date: "October 15", 
-                location: "Room 301"
+                year: "2023",
+                date: "December 19",
+                location: "Aula Room"
             },
             {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Quarterfinal matches",
-                caption: "Intense quarterfinal debates",
+                src: "/image/Gallery/IDC/Peserta KDBI 3.png",
+                alt: "Participant KDBI 3",
+                caption: "Participants express their aspirations.",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/Peserta KDBI 5.png",
+                alt: "Participant KDBI 5",
+                caption: "Participants express their aspirations (3).",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/Peserta KDBI 6.png",
+                alt: "Participant KDBI 6",
+                caption: "Participants express their aspirations (4).",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/Peserta KDBI 7.png",
+                alt: "Participant KDBI 7",
+                caption: "Participants express their aspirations (5).",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/Peserta KDBI 8.png",
+                alt: "Participant KDBI 8",
+                caption: "Participants express their aspirations (6).",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/Peserta KDBI 9.png",
+                alt: "Participant KDBI 9",
+                caption: "Participants express their aspirations (7).",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/Peserta KDBI 10.png",
+                alt: "Participant KDBI 10",
+                caption: "Participants express their aspirations (8).",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/Peserta KDBI 10.png",
+                alt: "Participant KDBI 10",
+                caption: "Participants express their aspirations (8).",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/Peserta KDBI 11.png",
+                alt: "Participant KDBI 11",
+                caption: "Group photo and prize giving.",
                 day: "Day 2",
-                year: "2025",
-                date: "October 16",
-                location: "Main Hall"
+                year: "2023",
+                date: "December 20",
+                location: "Auditorium Room"
             },
             {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Semifinal matches",
-                caption: "Semifinal round between top teams",
-                day: "Day 2", 
-                year: "2025",
-                date: "October 16",
-                location: "Grand Ballroom"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Final round debate",
-                caption: "Championship round between UI and ITB",
+                src: "/image/Gallery/IDC/Peserta KDBI 12.png",
+                alt: "Participant KDBI 12",
+                caption: "Group photo and prize giving (2).",
                 day: "Day 2",
-                year: "2025",
-                date: "October 17",
-                location: "Main Auditorium"
+                year: "2023",
+                date: "December 20",
+                location: "Auditorium Room"
             },
             {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Winners celebration",
-                caption: "Champion team receiving the trophy",
+                src: "/image/Gallery/IDC/Peserta KDBI 13.png",
+                alt: "Participant KDBI 13",
+                caption: "Group photo and prize giving (3).",
                 day: "Day 2",
-                year: "2025",
-                date: "October 17",
-                location: "Main Auditorium"
-            }
+                year: "2023",
+                date: "December 20",
+                location: "Auditorium Room"
+            },
+            {
+                src: "/image/Gallery/IDC/Peserta KDBI 14.png",
+                alt: "Participant KDBI 14",
+                caption: "Group photo and prize giving (4.)",
+                day: "Day 2",
+                year: "2023",
+                date: "December 20",
+                location: "Auditorium Room"
+            },
         ]
     },
     {
@@ -66,59 +138,95 @@ export const Gallery = [
         desc: "EDC is a renowned English debate competition that challenges participants to engage in rigorous discourse on global issues, enhancing their language proficiency and argumentation skills.",
         images: [
             {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Participant registration",
-                caption: "Participants registering for the competition",
+                src: "/image/Gallery/EDC/Peserta EDC 1.png",
+                alt: "Participant EDC 1",
+                caption: "Participants are putting together debate words.",
                 day: "Day 1",
-                year: "2025",
-                date: "November 5",
-                location: "Lobby"
+                year: "2023",
+                date: "December 19",
+                location: "Seminar Selasar"
             },
             {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Team preparation session",
-                caption: "Teams preparing their arguments before the debate",
+                src: "/image/Gallery/EDC/Peserta EDC 2.png",
+                alt: "Participant EDC 2",
+                caption: "Participants are discussing.",
                 day: "Day 1",
-                year: "2025",
-                date: "November 5",
-                location: "Preparation Room"
+                year: "2023",
+                date: "December 19",
+                location: "Seminar Selasar"
             },
             {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Preliminary rounds",
-                caption: "First round of English debates",
+                src: "/image/Gallery/EDC/Peserta EDC 3.png",
+                alt: "Participant EDC 3",
+                caption: "Participants expressed their disagreement.",
                 day: "Day 1",
-                year: "2025",
-                date: "November 5",
-                location: "Various Classrooms"
+                year: "2023",
+                date: "December 19",
+                location: "Seminar Selasar"
             },
             {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "International judges panel",
-                caption: "International judges from various countries",
+                src: "/image/Gallery/EDC/Peserta EDC 4.png",
+                alt: "Participant EDC 4",
+                caption: "Participants expressed their disagreement (2).",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Seminar Selasar"
+            },
+            {
+                src: "/image/Gallery/EDC/Peserta EDC 5.png",
+                alt: "Participant EDC 5",
+                caption: "Participants expressed their disagreement (3),",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Seminar Selasar"
+            },
+            {
+                src: "/image/Gallery/EDC/Peserta EDC 6.png",
+                alt: "Participant EDC 6",
+                caption: "Participants register their attendance.",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Seminar Selasar"
+            },
+            {
+                src: "/image/Gallery/EDC/Peserta EDC 7.png",
+                alt: "Participant EDC 7",
+                caption: "Participants are preparing before the debate.",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Seminar Selasar"
+            },
+            {
+                src: "/image/Gallery/EDC/Peserta EDC 8.png",
+                alt: "Participant EDC 8",
+                caption: "Participants are paying attention to the debate discussion.",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Seminar Selasar"
+            },
+            {
+                src: "/image/Gallery/EDC/Peserta EDC 9.png",
+                alt: "Participant EDC 9",
+                caption: "Participants are paying attention to the debate discussion (2).",
+                day: "Day 1",
+                year: "2023",
+                date: "December 19",
+                location: "Seminar Selasar"
+            },
+            {
+                src: "/image/Gallery/EDC/Peserta EDC 10.png",
+                alt: "Participant EDC 10",
+                caption: "Participants' enthusiasm.",
                 day: "Day 2",
-                year: "2025",
-                date: "November 6",
-                location: "Judge's Lounges"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Semifinal round",
-                caption: "Semifinal debate on international relations",
-                day: "Day 2",
-                year: "2025",
-                date: "November 6",
+                year: "2023",
+                date: "December 20",
                 location: "Auditorium"
             },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Award ceremony",
-                caption: "Award ceremony for best speakers",
-                day: "Day 2",
-                year: "2025",
-                date: "November 6",
-                location: "Main Hall"
-            }
         ]
     },
     {
@@ -126,60 +234,7 @@ export const Gallery = [
         title: "Scientific Paper Competition",
         desc: "SPC is a competition that encourages students to conduct research and present their findings in a scientific paper format, fostering innovation and academic excellence.",
         images: [
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Registration day",
-                caption: "Participants registering their research papers",
-                day: "Day 1",
-                year: "2025",
-                date: "September 22",
-                location: "UNAS Campus Center"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Keynote speech",
-                caption: "Keynote speech by renowned scientist",
-                day: "Day 1",
-                year: "2025",
-                date: "September 22",
-                location: "Main Auditorium"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Paper presentation",
-                caption: "Participant presenting their research paper",
-                day: "Day 1",
-                year: "2025",
-                date: "September 22",
-                location: "Room 101"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Poster presentation session",
-                caption: "Poster session with interactive discussions",
-                day: "Day 2",
-                year: "2025",
-                date: "September 23",
-                location: "Exhibition Hall"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Judging process",
-                caption: "Judges evaluating scientific papers",
-                day: "Day 2",
-                year: "2025",
-                date: "September 23",
-                location: "Judge's Room"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Winner announcement",
-                caption: "Announcement of the best research paper",
-                day: "Day 2",
-                year: "2025",
-                date: "September 23",
-                location: "Main Auditorium"
-            }
+            
         ]
     },
     {
@@ -187,60 +242,7 @@ export const Gallery = [
         title: "Infographic Competition",
         desc: "Infographic Competition is a creative contest that invites participants to design visually compelling infographics to communicate complex information effectively.",
         images: [
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Technical meeting",
-                caption: "Online technical meeting for participants",
-                day: "Day 1",
-                year: "2025",
-                date: "August 10",
-                location: "Zoom Meeting"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Submission process",
-                caption: "Participants submitting their infographic designs",
-                day: "Day 2",
-                year: "2025",
-                date: "August 11",
-                location: "Online Submission Portal"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Design process",
-                caption: "Behind the scenes of the design process",
-                day: "Day 2",
-                year: "2025",
-                date: "August 11",
-                location: "Participant's Workspace"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Judging session",
-                caption: "Judges evaluating infographic designs",
-                day: "Day 2",
-                year: "2025",
-                date: "August 12",
-                location: "Online Judging Platform"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Finalists showcase",
-                caption: "Showcase of finalist infographic designs",
-                day: "Day 2",
-                year: "2025",
-                date: "August 12",
-                location: "Competition Website Gallery"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Winner announcement",
-                caption: "Live announcement of winners",
-                day: "Day 2",
-                year: "2025",
-                date: "August 12",
-                location: "YouTube Live Stream"
-            }
+            
         ]
     },
     {
@@ -248,60 +250,7 @@ export const Gallery = [
         title: "Short Video Competition",
         desc: "Short Video Competition is a dynamic contest that challenges participants to create engaging short videos that tell a story or convey a message in a concise and impactful manner.",
         images: [
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Pre-competition workshop",
-                caption: "Filmmaking workshop for participants",
-                day: "Day 1",
-                year: "2025",
-                date: "July 23",
-                location: "Multimedia Room"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Behind the scenes filming",
-                caption: "Participants filming their short videos",
-                day: "Day 2",
-                year: "2025",
-                date: "July 24",
-                location: "Various Locations in Jakarta"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Video editing process",
-                caption: "Editing process of the short videos",
-                day: "Day 2",
-                year: "2025",
-                date: "July 25",
-                location: "Editing Studio"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Video screening",
-                caption: "Screening of short video entries",
-                day: "Day 2",
-                year: "2025",
-                date: "July 25",
-                location: "Main Theater"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Director talk session",
-                caption: "Talk session with renowned film directors",
-                day: "Day 2",
-                year: "2025",
-                date: "July 25",
-                location: "Conference Room"
-            },
-            {
-                src: "/image/About/Hero/no-photo.jpg",
-                alt: "Award night",
-                caption: "Award night for best short videos",
-                day: "Day 2",
-                year: "2025",
-                date: "July 25",
-                location: "Main Theater"
-            }
+            
         ]
     }
 ]

@@ -5,17 +5,17 @@ export interface FaqItem {
 
 export const FaqData: FaqItem[] = [
   {
-    question: "What is UNAS FEST 2025?",
+    question: "What is UNAS FEST?",
     answer:
-      "UNAS FEST 2025 is a national academic and creative festival organized by Universitas Nasional. This festival accommodates competitions for high school/vocational school/equivalent students to hone their critical thinking, scientific writing, and digital creativity skills.",
+      "UNAS FEST 2025 is a national academic and creative festival organized by Universitas Nasional. This festival accommodates competitions for high school/vocational high school students to enhance their critical thinking, scientific writing, and digital creativity skills",
   },
   {
-    question: "What is the theme of this year's UNAS FEST?",
+    question: "What is the theme of this year’s UNAS FEST?",
     answer:
-      " This year, UNAS FEST carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem”.",
+      "This year, UNAS FEST carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem”.",
   },
   {
-    question: "What competitions are there at UNAS FEST 2025?",
+    question: "What competitions are there in UNAS FEST 2025?",
     answer: [
       "English Debate Competition",
       "Kompetisi Debat Bahasa Indonesia",
@@ -28,10 +28,10 @@ export const FaqData: FaqItem[] = [
     question:
       "Who can participate in UNAS FEST 2025?",
     answer:
-      "The Debate and Scientific Paper Competition is open to all university students in Indonesia, while the Digital Content Competition is open to high school students in the Greater Jakarta area.",
+      "Debate competition and Scientific Competition is for for universities students in Indonesia, and Digital Content Competition is open for high school students in Jabodetabek",
   },
   {
-    question: "When will registration for UNAS FEST 2025 open?",
+    question: "When does registration for UNAS FEST 2025 open?",
     answer: [
       "Early Bird: September 1–7, 2025",
       "Phase 1: September 8–19, 2025",
@@ -39,28 +39,28 @@ export const FaqData: FaqItem[] = [
     ],
   },
   {
-    question: "How do I register?",
+    question: "How to register for UNAS FEST?",
     answer:
-      "Registration for the competition can be done through the Caturnawa UNAS FEST 2025 website.",
+      "Registration for the competition can be done through UNAS FEST 2025 Caturnawa website.",
   },
   {
     question: "Is there a registration fee?",
     answer:
-      "Yes, each competition has a different registration fee. Details of the fees will be listed on the official website.",
+      "Yes, each competition has different registration fees. Details of the fees are listed on UNAS FEST official website.",
   },
   {
-    question: "What is the format of the competition? Online or offline?",
+    question: "Will the competitions be held online or onsite?",
     answer:
-      "The entire UNAS FEST 2025 series will be held online through the official platform determined by the committee, and the UNAS FEST awarding ceremony will be held onsite at Universitas Nasional.",
+      "The entire UNAS FEST 2025 series will be held online through the official platform determined by the committee and UNAS FEST awarding ceremony will be held onsite in Universitas Nasional.",
   },
   {
-    question: "Who are the judges for the competition at UNAS FEST?",
+    question: "Who are the adjudicators for the competition at UNAS FEST?",
     answer:
-      "The judges consist of academics, practitioners, influencers, and professionals in their respective fields of competition.",
+      "The adjudicators consist of academics, practitioners, influencers, and professionals in their respective fields of competition.",
   },
   {
     question: "Will there be certificates for participants and winners of the competition?",
     answer:
-      "All contestants from all competition categories will receive a certificate of participation, while the winners will receive a special certificate, prize money, and a trophy. ",
+      "All participants from all competition categories will receive an e-certificate as a token of appreciation.",
   },
 ];
