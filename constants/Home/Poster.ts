@@ -3,18 +3,20 @@ import EDC from "@/public/image/About/Hero/no-photo.jpg";
 import SPC from "@/public/image/About/Hero/no-photo.jpg";
 import Infographic from "@/public/image/About/Hero/no-photo.jpg";
 import Short from "@/public/image/About/Hero/no-photo.jpg";
+import FlyerEDC from "@/public/image/Activities/Cover/Flyer EDC.png";
+import FlyerKDBI from "@/public/image/Activities/Cover/Flyer KDBI.png.png";
 
 export const AllPoster = [
   {
     index: 1,
-    image: KDBI.src,
+    image: FlyerKDBI.src,
     name: "Indonesia Poster",
     path: "/activities/KDBI",
     desc: "Welcome to the Kompetisi Debat Bahasa Indonesia! UNAS FEST 2025 is an event held to celebrate the 76th anniversary of Universitas Nasional. One of the competitions to be held at UNAS FEST 2025 is the Kompetisi Debat Bahasa Indonesia (KDBI). The Indonesian Language Debate Competition (KDBI) is a debate competition conducted in the Indonesian language, serving as a platform for participants to present their arguments and ideas on current issues. What are you waiting for? Get ready to secure victory at UNAS FEST 2025!",
   },
   {
     index: 2,
-    image: EDC.src,
+    image: FlyerEDC.src,
     name: "English Poster",
     path: "/activities/EDC",
     desc: "Welcome to the English Debate Competition! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the English Debate Competition (EDC). English Debate Competition (EDC) is an English language debate competition held as a means where the participants deliver their argumentation and thoughts regarding current issues. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025."
