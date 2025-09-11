@@ -2,6 +2,8 @@ import { Users, Trophy, Medal, Star } from "lucide-react";
 
 // Cover Image
 import KDBICover from "@/public/image/About/Hero/no-photo.jpg";
+import FlyerEDC from "@/public/image/Activities/Cover/Flyer EDC.png";
+import FlyerKDBI from "@/public/image/Activities/Cover/Flyer KDBI.png.png";
 
 // Judge
 import Purwo from "@/public/image/Activities/Judges/KDBI/Purwo.jpg";
@@ -31,7 +33,7 @@ export const Activities: Activity[] = [
     path: "KDBI",
     alias: "KDBI",
     title: "Kompetisi Debat Bahasa Indonesia",
-    coverImage: KDBICover,
+    coverImage: FlyerKDBI,
     description:
       "Welcome to Kompetisi Debat Bahasa Indonesia! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the Kompetisi Debat Bahasa Indonesia (KDBI). Kompetisi Debat Bahasa Indonesia (KDBI) is an Indonesian language debate competition held as a platform for participants to express their arguments and thoughts on current, relevant and important issues in society. Through this competition, participants are expected to hone their public speaking, critical thinking, and logical and systematic argumentation skills, enabling them to better understand and address the issues around them in a more constructive manner. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025.",
     guideBook: "/file/Guidebook KDBI UNAS FEST 2025.pdf",
@@ -244,7 +246,7 @@ export const Activities: Activity[] = [
     path: "EDC",
     alias: "EDC",
     title: "English Debate Competition",
-    coverImage: KDBICover,
+    coverImage: FlyerEDC,
     description:
       "Welcome to the English Debate Competition! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the English Debate Competition (EDC). English Debate Competition (EDC) is an English language debate competition held as a means where the participants deliver their argumentation and thoughts regarding current issues. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025.",
     guideBook: "/file/Guidebook EDC UNAS FEST 2025.pdf",
