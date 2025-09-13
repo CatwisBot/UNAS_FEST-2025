@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function OurMascot() {
   return (
     <main className="bg-gradient-to-b from-[#1B1368] to-[#000022] from-0% to-100%">
-      <div className="pt-10 pb-1 max-w-7xl mx-auto px-4">
+      <div className="pt-10 pb-10 md:pb-1 max-w-7xl mx-auto px-4">
         <div className="relative w-fit mx-auto">
           <div className="relative top-4 flex justify-between items-center px-6">
             <Image
