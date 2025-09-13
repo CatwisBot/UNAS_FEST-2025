@@ -32,13 +32,13 @@ export default function Home() {
             quality={100}
           />
           <Image
-            src={Photo}
+            src={Fotbar}
             alt="Fotbar UF 25"
             className="object-cover z-1 h-50 sm:h-100 max-w-[224px] sm:max-w-md mx-auto"
             priority
             quality={100}
           />
-          <div className="flex items-center justify-center hidden">
+          <div className="flex items-center justify-center">
             <button
               onClick={handleClick}
               className="absolute bottom-5 md:bottom-10 border border-white px-2 py-1 md:px-4 md:py-2 rounded-xl text-white font-semibold hover:scale-110 z-10 bg-transparent"
@@ -48,7 +48,7 @@ export default function Home() {
 
             {showToast && (
               <div className="fixed top-25 left-1/2 transform -translate-x-1/2 z-50">
-                <div className="flex items-center gap-3 bg-black text-white px-4 py-3 rounded-xl shadow-lg">
+                <div className="flex items-center gap-3 bg-white text-black px-4 py-3 rounded-xl shadow-lg">
                   <BookOpen className="text-blue-400 w-5 h-5" />
                   <span>The Yearbook for this year is not yet available.</span>
                 </div>
