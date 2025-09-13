@@ -10,13 +10,11 @@ import {
   CommitteeMember,
   CommitteeData,
 } from "@/constants/About/About";
-import {
-  Drawer,
-  DrawerContent,
-} from "@/components/ui/drawer";
+import { Drawer, DrawerContent } from "@/components/ui/drawer";
 import { Button } from "@/components/ui/button";
 import { Fragment } from "react";
-
+import Link from "next/link";
+import { Instagram } from "lucide-react";
 interface MemberCardProps {
   name: string;
   role: string;
@@ -24,6 +22,7 @@ interface MemberCardProps {
   description?: string;
   member?: string[];
   position?: string[];
+  instagram?: string;
   isAPM?: boolean;
   onOpen: () => void;
   isHovered: boolean;
@@ -154,6 +153,7 @@ const MainCommittee: React.FC = () => {
                     description={members[0].description}
                     member={members[0].member}
                     position={members[0].position}
+                    instagram={members[0].instagram}
                     isAPM={isAPM}
                     onOpen={() => handleOpenDrawer(members[0])}
                     isHovered={hoveredCard === members[0].id}
@@ -281,9 +281,19 @@ const MainCommittee: React.FC = () => {
                             />
                           </div>
                         )}
-                        <p className="text-white text-justify">
-                          {selectedMember.description}
-                        </p>
+                        <div className="flex flex-col gap-3 text-white text-justify">
+                          <p>{selectedMember.description}</p>
+                          {selectedMember.instagram && (
+                            <Link
+                              href={selectedMember.instagram}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center gap-2 text-pink-400 hover:text-pink-800"
+                            >
+                              <Instagram size={30} />
+                            </Link>
+                          )}
+                        </div>
                       </div>
                     </div>
                   )}
