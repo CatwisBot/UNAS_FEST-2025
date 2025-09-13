@@ -48,7 +48,7 @@ export default function Home() {
 
             {showToast && (
               <div className="fixed top-25 left-1/2 transform -translate-x-1/2 z-50">
-                <div className="flex items-center gap-3 bg-white text-black px-1 py-1 md:px-4 md:py-3 rounded-xl shadow-lg">
+                <div className="flex items-center gap-3 bg-white text-black px-2 py-1 md:px-4 md:py-3 rounded-xl shadow-lg">
                   <BookOpen className="text-blue-400 w-10 h-10 md:w-5 md:h-5" />
                   <span>The Yearbook for this year is not yet available.</span>
                 </div>
