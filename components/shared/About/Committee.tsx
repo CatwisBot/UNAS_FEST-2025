@@ -262,10 +262,10 @@ const MainCommittee: React.FC = () => {
                     <div className="space-y-6 pb-6">
                       {" "}
                       <div className="bg-[#1F3D76] rounded-2xl px-6 py-4 text-left">
-                        <h2 className="text-2xl font-bold">
+                        <h2 className="text-sm sm:text-lg md:text-2xl font-bold">
                           {selectedMember.role}
                         </h2>
-                        <p className="text-lg font-medium text-white mt-1">
+                        <p className="text-xs sm:text-sm md:text-lg font-medium text-white mt-1">
                           {selectedMember.name}
                         </p>
                       </div>
