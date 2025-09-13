@@ -2,6 +2,8 @@ import { Users, Trophy, Medal, Star } from "lucide-react";
 
 // Cover Image
 import KDBICover from "@/public/image/About/Hero/no-photo.jpg";
+import FlyerEDC from "@/public/image/Activities/Cover/Flyer EDC.png";
+import FlyerKDBI from "@/public/image/Activities/Cover/Flyer KDBI.png.png";
 
 // Judge
 import Purwo from "@/public/image/Activities/Judges/KDBI/Purwo.jpg";
