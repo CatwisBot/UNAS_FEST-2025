@@ -64,7 +64,7 @@ export default function PosterSwiper() {
                   {AllPoster[activeIndex].desc}
                 </p>
               </div>
-              <div id="competition" className="relative w-[200px] h-[280px] xl:w-[260px] xl:h-[360px] flex-shrink-0">
+              <div id="competition" className="relative w-[200px] h-[280px] xl:w-[250px] xl:h-[350px] flex-shrink-0">
                 <Image
                   src={AllPoster[activeIndex].image}
                   alt={AllPoster[activeIndex].name}
@@ -108,7 +108,7 @@ export default function PosterSwiper() {
             <SwiperSlide key={item.index}>
               <div className="flex flex-col items-center py-3">
                 <Link href={item.path}>
-                  <div className="relative w-[200px] h-[280px] xl:w-[260px] xl:h-[360px] cursor-pointer shine-container">
+                  <div className="relative w-[200px] h-[280px] xl:w-[250px] xl:h-[350px] cursor-pointer shine-container">
                     <div className="shine-overlay"></div>
                     <Image
                       src={item.image}
