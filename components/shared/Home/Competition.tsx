@@ -69,7 +69,7 @@ export default function PosterSwiper() {
                   src={AllPoster[activeIndex].image}
                   alt={AllPoster[activeIndex].name}
                   fill
-                  className="object-contain rounded-lg shadow-lg"
+                  className="object-contain rounded-2xl shadow-lg"
                 />
               </div>
             </motion.div>
