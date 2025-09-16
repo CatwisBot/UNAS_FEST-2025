@@ -110,7 +110,7 @@ html {
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 16px;
   transition: transform 0.3s ease;
 }
 
@@ -160,7 +160,7 @@ html {
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 10px;
   border-width: 1px;
   border-style: solid;
   border-color: white;
