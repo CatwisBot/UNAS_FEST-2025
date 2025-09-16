@@ -129,7 +129,7 @@ export const Activities: Activity[] = [
         name: "Lasman",
         image: Lasman,
         school: "Padjajaran University",
-        lastEducation: "-",
+        lastEducation: "Faculty of Law",
         role: "Expert",
         description:
           "Lasman is a graduate of Padjadjaran University from Samarinda who has been active in the world of debate since high school. He is active as a debate judge in various national competitions, including as a guest judge at UNAS FEST, as well as competitions such as Viva Legislativa STMKG, Binus International Festival, EDUFAIR UNESA, PISN BEM FIS UNJ, and various other student and high school debate competitions. Lasman has also been entrusted to serve as the chair and vice-chair of the judging panel for the KDMI and LDBI selection processes in various regions.",
@@ -319,8 +319,8 @@ export const Activities: Activity[] = [
         index: 1,
         name: "Muhammad Batara Mulya",
         image: Batara,
-        school: "-",
-        lastEducation: "-",
+        school: "BINUS University",
+        lastEducation: "Faculty of Computer Science",
         role: "Expert",
         description:
           "a parliamentary debate coach and English-Indonesian interpreter dedicated to the development of debate and public speaking in various educational institutions in Indonesia. He has extensive experience in designing debate training curricula, coaching university and high school teams up to national and international competition levels, and being a adjudicator in various prestigious events such as NUDC, KDMI, NSDC, and WSDC.",
@@ -347,7 +347,7 @@ export const Activities: Activity[] = [
         name: "Joddy Saputra Lubis",
         image: Joddy,
         school: "Telkom University",
-        lastEducation: "-",
+        lastEducation: "Faculty of Business and Economics",
         role: "Expert",
         description:
           "Joddy Saputra Lubis is a graduate of Telkom University from West Lampung. He was awarded Best Institutional Adjudicator at the 2024 National KDMI, surpassing more than a hundred other universities. With his extensive experience as an adjudicator in various competitions, Joddy is recognized for his sharp analytical skills and consistency in leading debate panels.",
@@ -379,8 +379,8 @@ export const Activities: Activity[] = [
         index: 3,
         name: "Maria Bellen",
         image: Maria,
-        school: "-",
-        lastEducation: "-",
+        school: "National University",
+        lastEducation: "Faculty of Social and Political Sciences",
         role: "Expert",
         description:
           "She is a results-oriented professional with strong interpersonal skills, adept at developing strategic communication with stakeholders and government officials, backed by excellent negotiation abilities. With over 9 years of experience as a professional debater, she has honed exceptional critical thinking, adaptability, and problem-solving skills, enabling her to thrive in fast-paced and dynamic environments. She actively collaborates with political actors, government, and NGOs focused on youth empowerment and public policy, demonstrating a deep passion for contributing to the public sector. Her career aspirations lie in politics, public policy, and governance, where she can leverage her expertise to drive meaningful impact.",
