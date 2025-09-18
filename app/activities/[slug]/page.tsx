@@ -263,8 +263,8 @@ export default function ActivityDetailPage({ params }: Props) {
             </span>
           </div>
 
-          <h2 className="text-2xl md:text-4xl font-extrabold text-white mb-4">
-            THE DEBATE{" "}
+          <h2 className="text-2xl md:text-4xl font-extrabold text-white mb-4 uppercase">
+            THE {activity.subtitle}{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
               EXPERTS
             </span>
@@ -272,7 +272,7 @@ export default function ActivityDetailPage({ params }: Props) {
 
           <p className="text-[#E5D1FC] text-sm md:text-base">
             Assessed directly by leading experts and practitioners in the field
-            of debate and communication
+            of {activity.subtitle} and communication
           </p>
         </section>
         <div className="px-4">
@@ -292,7 +292,7 @@ export default function ActivityDetailPage({ params }: Props) {
           </h1>
 
           <p className="text-white font-medium mb-6">
-            Register now and prove your debating skills!
+            Register now and prove your skills!
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

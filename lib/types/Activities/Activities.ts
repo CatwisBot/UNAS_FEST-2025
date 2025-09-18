@@ -36,6 +36,7 @@ export interface Activity {
   title: string;
   coverImage: StaticImageData;
   description: string;
+  subtitle: string;
   guideBook: string;
   guideBookName: string;
   requirements: Requirement[];
