@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image, { StaticImageData } from "next/image"; 
-import { Mascot, Web, Music, Visionary } from "@/constants/About/Visionaries";
+import { Mascot, Web, Music } from "@/constants/About/Visionaries";
 
 interface VisionaryCardProps {
   name: string;
