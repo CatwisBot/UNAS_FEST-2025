@@ -12,7 +12,7 @@ interface VisionaryCardProps {
 
 const VisionaryCard: React.FC<VisionaryCardProps> = ({ name, role, image }) => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center flex-shrink-0 w-48 md:w-64 lg:w-72">
       <div className="relative w-48 h-72 md:w-64 md:h-88 lg:w-72 lg:h-96 rounded-2xl overflow-hidden mb-4">
         <Image
           src={image}
@@ -22,10 +22,10 @@ const VisionaryCard: React.FC<VisionaryCardProps> = ({ name, role, image }) => {
           className="rounded-2xl"
         />
       </div>
-      <h3 className="text-xl md:text-2xl font-semibold text-white text-center">
+      <h3 className="text-lg md:text-xl lg:text-2xl font-semibold text-white text-center max-w-full">
         {name}
       </h3>
-      <p className="text-sm md:text-base text-gray-300 text-center">
+      <p className="text-sm md:text-base text-gray-300 text-center max-w-full">
         {role}
       </p>
     </div>
@@ -66,15 +66,17 @@ const Visionaries = () => {
           ))}
         </div>
 
-        <div className="flex flex-wrap justify-center gap-12">
-          {currentData.map((member) => (
-            <VisionaryCard
-              key={member.id}
-              name={member.name}
-              role={member.role}
-              image={member.image}
-            />
-          ))}
+        <div className="overflow-x-auto custom-scrollbar pb-4">
+          <div className="flex gap-6 md:gap-8 lg:gap-12 px-4 pb-2 min-w-max">
+            {currentData.map((member) => (
+              <VisionaryCard
+                key={member.id}
+                name={member.name}
+                role={member.role}
+                image={member.image}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </main>
