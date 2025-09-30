@@ -38,7 +38,7 @@ export const Web: Visionary[] = [
     {
     id: 2,
     name: "Najwa Aura Hastin",
-    role: "UNASFEST Web 2025",
+    role: "IT Support Web 2025",
     image: Aura,
   },
     {
@@ -74,7 +74,7 @@ export const Web: Visionary[] = [
     {
     id: 8,
     name: "Ilham Ramadhan",
-    role: "caturnawa web 2025",
+    role: "Caturnawa Web 2025",
     image: Ilham,
   },
 ];
