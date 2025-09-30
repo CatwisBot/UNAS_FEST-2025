@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Photo from "@/public/image/About/Hero/no-photo.jpg"
 import youtube from '@/public/image/Gallery/youtube.jpg';
 
 const CaleidoscopeSection: React.FC = () => {
@@ -21,7 +20,7 @@ const CaleidoscopeSection: React.FC = () => {
           <>
 
             <Image
-              src={Photo}
+              src={youtube}
               alt="YouTube UNAS FEST Placeholder"
               layout="fill"
               objectFit="cover"
@@ -44,26 +43,26 @@ const CaleidoscopeSection: React.FC = () => {
             </div>
 
             <a 
-              href="#" 
-              // target="_blank" 
+              href="https://youtu.be/XWlBhQ9dFUQ?si=rs6ANnjoMSCjOimo" 
+              target="_blank" 
               rel="noopener noreferrer" 
               className="absolute bottom-4 left-4 text-lg font-bold text-black backdrop-blur-xs hover:underline z-10"
             >
-              Not Available For Now
+              Watch on YouTube
             </a>
           </>
         )}
 
-        {/* {isPlaying && (
+        {isPlaying && (
           <iframe 
-            src="https://www.youtube.com/embed/avng_u8b2d0?autoplay=1" 
+            src="https://www.youtube.com/embed/XWlBhQ9dFUQ?autoplay=1" 
             title="YouTube video player" 
             frameBorder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowFullScreen 
             className="w-full h-full absolute top-0 left-0 rounded-lg"
           ></iframe>
-        )} */}
+        )}
       </div>
     </div>
   );
