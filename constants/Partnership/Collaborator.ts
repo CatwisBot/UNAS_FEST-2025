@@ -49,4 +49,46 @@ export const CollaboratorData: SponsorData[] = [
         description: "Sari Roti 1",
         link: "https://sariroti.com",
     },
+    {
+        index: 8,
+        image: "/image/About/Hero/no-photo.jpg",
+        description: "Sari Roti 1",
+        link: "https://sariroti.com",
+    },
+    {
+        index: 9,
+        image: "/image/About/Hero/no-photo.jpg",
+        description: "Sari Roti 1",
+        link: "https://sariroti.com",
+    },
+    {
+        index: 10,
+        image: "/image/About/Hero/no-photo.jpg",
+        description: "Sari Roti 1",
+        link: "https://sariroti.com",
+    },
+    {
+        index: 11,
+        image: "/image/About/Hero/no-photo.jpg",
+        description: "Sari Roti 1",
+        link: "https://sariroti.com",
+    },
+    {
+        index: 12,
+        image: "/image/About/Hero/no-photo.jpg",
+        description: "Sari Roti 1",
+        link: "https://sariroti.com",
+    },
+    {
+        index: 13,
+        image: "/image/About/Hero/no-photo.jpg",
+        description: "Sari Roti 1",
+        link: "https://sariroti.com",
+    },
+    {
+        index: 14,
+        image: "/image/About/Hero/no-photo.jpg",
+        description: "Sari Roti 1",
+        link: "https://sariroti.com",
+    },
 ]
