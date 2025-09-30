@@ -428,7 +428,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       member: [
         "Vanez Meida Olivia Putri",
         "Amanda Candra Prastika",
-        "Aurellya Zahwa Maulina",
+        "Aurellya Zahwa Maulani",
         "Az-Zahra Syafira",
         "Glory Maranatha Christiantoro",
         "Helwa Alby Maliha",
