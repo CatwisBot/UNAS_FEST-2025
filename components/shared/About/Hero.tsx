@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Photo from "@/public/image/About/Hero/no-photo.jpg"
+import FotoBersama from "@/public/image/About/YB/FotoBersama.png"
 import Link from "next/link";
 
 export default function Hero() {
@@ -26,8 +27,8 @@ export default function Hero() {
                 </div>
                 <div className="relative hidden sm:flex sm:col-span-2 sm:row-span-5 sm:col-start-4">
                     <Image
-                        src={Photo}
-                        alt="Gambar 3"
+                        src={FotoBersama}
+                        alt="UNAS FEST 2024"
                         fill
                         className="object-cover rounded-xl"
                     />
