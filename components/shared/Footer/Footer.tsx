@@ -9,6 +9,7 @@ import Youtube from "@/public/icons/Footer/Youtube.png";
 import Tiktok from "@/public/icons/Footer/Tiktok.png";
 import Linkedin from "@/public/icons/Footer/LinkedIn.png";
 import UF from "@/public/icons/Navbar/UNAS FEST 2025.png";
+import UNAS from "@/public/icons/Footer/UNAS.png";
 
 export default function Footer() {
   const [showActivities, setShowActivities] = useState(false);
@@ -39,13 +40,21 @@ export default function Footer() {
     >
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 md:items-start">
         <div className="flex flex-col items-center space-y-4 pl-0">
-          <Image
-            src={UF}
-            alt="UNAS FEST"
-            width={50}
-            height={25}
-            className="mb-4"
-          />
+          <div className="flex flex-row items-center space-x-4 mb-4">
+            <Image
+              src={UF}
+              alt="UNAS FEST"
+              width={50}
+              height={25}
+            />
+            <div className="h-8 border-l border-white/60 mx-2" />
+            <Image
+              src={UNAS}
+              alt="UNAS Logo"
+              width={40}
+              height={40}
+            />
+          </div>
           <div className="flex space-x-4 justify-center md:justify-start">
             <Link
               href="https://www.instagram.com/unasfest"
