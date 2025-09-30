@@ -13,44 +13,7 @@ export default function Sponsor() {
 
   useEffect(() => {
     setIsMounted(true);
-
-    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      addAnimation();
-    }
-
-    return () => {
-      if (innerScrollerRef.current) {
-        const elements = innerScrollerRef.current.querySelectorAll(
-          '[data-duplicated="true"]'
-        );
-        elements.forEach((el) => el.remove());
-      }
-    };
   }, []);
-
-  const addAnimation = () => {
-    if (!innerScrollerRef.current) return;
-
-    const scrollerInner = innerScrollerRef.current;
-
-    const duplicates = scrollerInner.querySelectorAll(
-      '[data-duplicated="true"]'
-    );
-    duplicates.forEach((el) => el.remove());
-
-    MediaData.forEach((_media, idx) => {
-      const originalItems =
-        scrollerInner.querySelectorAll(".min-w-\\[250px\\]");
-      if (originalItems[idx]) {
-        const duplicatedNode = originalItems[idx].cloneNode(
-          true
-        ) as HTMLElement;
-        duplicatedNode.setAttribute("data-duplicated", "true");
-        duplicatedNode.setAttribute("aria-hidden", "true");
-        scrollerInner.appendChild(duplicatedNode);
-      }
-    });
-  };
 
   return (
     <main className="bg-[#0A0B30]">
@@ -62,14 +25,12 @@ export default function Sponsor() {
       </div>
 
       <div
-        ref={scrollerRef}
         className="relative w-full overflow-hidden group max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto pb-6"
       >
         <div
-          ref={innerScrollerRef}
           className="flex animate-loop-scroll-reverse group-hover:[animation-play-state:paused] gap-2 px-1 sm:px-2"
         >
-          {MediaData.map((media, idx) => (
+          {[...MediaData, ...MediaData].map((media, idx) => (
             <div
               key={idx}
               className="min-w-[200px] flex-shrink-0 hover:scale-110 transition-transform duration-300"
@@ -87,13 +48,13 @@ export default function Sponsor() {
               transform: translateX(0);
             }
             100% {
-              transform: translateX(calc(-100% / 2));
+              transform: translateX(-50%);
             }
           }
 
           .animate-loop-scroll {
             display: flex;
-            animation: loop-scroll 12s linear infinite;
+            animation: loop-scroll 30s linear infinite;
             width: max-content;
           }
 
