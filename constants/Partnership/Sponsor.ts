@@ -33,13 +33,13 @@ export const sponsorsData: SponsorData[] = [
     },
     {
         index: 5,
-        image: "/icons/Partnership/Sponsor/Kebab Monster.png",
+        image: "/icons/Partnership/Sponsor/Logo Kebab Monster.png",
         description: "Kebab Monster",
         link: "https://sariroti.com",
     },
     {
         index: 6,
-        image: "/icons/Partnership/Sponsor/Teh Poci.png",
+        image: "/icons/Partnership/Sponsor/Logo Teh Poci.png",
         description: "Teh Poci",
         link: "https://sariroti.com",
     },
@@ -75,13 +75,13 @@ export const sponsorsData: SponsorData[] = [
     },
     {
         index: 12,
-        image: "/icons/Partnership/Sponsor/Kebab Monster.png",
+        image: "/icons/Partnership/Sponsor/Logo Kebab Monster.png",
         description: "Kebab Monster",
         link: "https://sariroti.com",
     },
     {
         index: 13,
-        image: "/icons/Partnership/Sponsor/Teh Poci.png",
+        image: "/icons/Partnership/Sponsor/Logo Teh Poci.png",
         description: "Teh Poci",
         link: "https://sariroti.com",
     },
