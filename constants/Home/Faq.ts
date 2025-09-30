@@ -36,6 +36,7 @@ export const FaqData: FaqItem[] = [
       "Early Bird: September 1–7, 2025",
       "Phase 1: September 8–19, 2025",
       "Phase 2: September 20–28, 2025",
+      "Phase 3: September 29 - October 4, 2025",
     ],
   },
   {
