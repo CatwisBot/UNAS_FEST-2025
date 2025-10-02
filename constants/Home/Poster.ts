@@ -1,6 +1,6 @@
 import EDC from "@/public/image/Poster/EDC.png";
 import KDBI from "@/public/image/Poster/KDBI.png";
-import SPC from "@/public/image/Poster/SPC.png";
+import SPC from "@/public/image/Poster/SPC2.png";
 import SVC from "@/public/image/Poster/SVC.png";
 import IFC from "@/public/image/Poster/IFC.png";
 
