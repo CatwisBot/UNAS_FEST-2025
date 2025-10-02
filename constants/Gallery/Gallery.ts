@@ -1026,7 +1026,15 @@ export const Gallery = [
         title: "Infographic Competition",
         desc: "Infographic Competition is a creative contest that invites participants to design visually compelling infographics to communicate complex information effectively.",
         images: [
-            
+            {
+                src: "/image/About/Hero/no-photo.jpg",
+                alt: "Participant Infographic 1",
+                caption: "Participant Infographic 1",
+                day: "Day 1",
+                year: "2024",
+                date: "",
+                location: "Universitas Nasional"
+            },
         ]
     },
     {
