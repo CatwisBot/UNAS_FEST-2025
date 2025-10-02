@@ -63,7 +63,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       photoUrl: "/image/About/Committee/PM/shafa.jpg",
       instagram: "https://www.instagram.com/shafasabrina?igsh=b3RwNjBqcjJjNmNo",
       description:
-        "Shafa Sabrina is the Project Manager of Universitas Nasional Festival (UNAS FEST) 2025. With extensive experience in project management and event development, Shafa has led various creative and educational initiatives to create a dynamic and impactful festival experience. Her leadership within the UNAS FEST team centers on collaboration and innovation to deliver high-quality events that engage both the campus community and the broader public. As Project Manager of UNAS FEST 2024, Shafa Sabrina leads a dedicated team to bring engaging and impactful events to the Universitas Nasional community.",
+        "Shafa Sabrina is the Project Manager of Universitas Nasional Festival (UNAS FEST) 2025. With extensive experience in project management and event development, Shafa has led various creative and educational initiatives to create a dynamic and impactful festival experience. Her leadership within the UNAS FEST team centers on collaboration and innovation to deliver high-quality events that engage both the campus community and the broader public. As Project Manager of UNAS FEST 2025, Shafa Sabrina leads a dedicated team to bring engaging and impactful events to the Universitas Nasional community.",
     },
   ],
   DPM: [
