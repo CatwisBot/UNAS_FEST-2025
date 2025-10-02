@@ -23,6 +23,7 @@ interface MemberCardProps {
   member?: string[];
   position?: string[];
   instagram?: string;
+  username?: string;
   isAPM?: boolean;
   onOpen: () => void;
   isHovered: boolean;
@@ -154,6 +155,7 @@ const MainCommittee: React.FC = () => {
                     member={members[0].member}
                     position={members[0].position}
                     instagram={members[0].instagram}
+                    username={members[0].username}
                     isAPM={isAPM}
                     onOpen={() => handleOpenDrawer(members[0])}
                     isHovered={hoveredCard === members[0].id}
@@ -179,6 +181,8 @@ const MainCommittee: React.FC = () => {
                       description={member.description}
                       member={member.member}
                       position={member.position}
+                      instagram={member.instagram}
+                      username={member.username}
                       isAPM={isAPM}
                       onOpen={() => handleOpenDrawer(member)}
                       isHovered={hoveredCard === member.id}
@@ -237,6 +241,7 @@ const MainCommittee: React.FC = () => {
                   >
                     <MemberCard
                       name={member.name}
+                      username={member.username}
                       role={member.role}
                       photoUrl={member.photoUrl}
                       description={member.description}
@@ -288,9 +293,12 @@ const MainCommittee: React.FC = () => {
                               href={selectedMember.instagram}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="flex items-center gap-2 text-pink-400 hover:text-pink-800"
+                              className="flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors duration-200"
                             >
-                              <Instagram size={30} />
+                              <Instagram size={24} />
+                              <span className="text-sm font-medium">
+                                @{selectedMember.username || 'instagram'}
+                              </span>
                             </Link>
                           )}
                         </div>
