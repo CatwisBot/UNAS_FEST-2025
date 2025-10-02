@@ -1,5 +1,10 @@
 import { StaticImageData } from 'next/image';
 
+//Mascot
+import Bisyr from "@/public/image/About/Visionaries/Mascot/bisyr.jpg";
+import Dara from "@/public/image/About/Visionaries/Mascot/dara.jpg";
+import Rama from "@/public/image/About/Visionaries/Mascot/rama.jpg";
+
 // Web
 import Dimas from "@/public/image/About/Committee/APM/dimas.jpg";
 import Aura from "@/public/image/About/Visionaries/Web/aura.jpg";
@@ -22,9 +27,21 @@ export interface Visionary {
 export const Mascot: Visionary[] = [
     {
     id: 1,
-    name: "-",
-    role: "-",
-    image: Photo,
+    name: "Bisyr",
+    role: "Mascot UNASFEST 2025",
+    image: Bisyr,
+  },
+    {
+    id: 2,
+    name: "Dara",
+    role: "Mascot UNASFEST 2025",
+    image: Dara,
+  },
+    {
+    id: 3,
+    name: "Rama",
+    role: "Mascot UNASFEST 2025",
+    image: Rama,
   },
 ];
 

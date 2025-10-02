@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Photo from "@/public/image/About/Hero/no-photo.jpg"
-import FotoBersama from "@/public/image/About/YB/FotoBersama.png"
+import FotoBersama from "@/public/image/About/YB/FotoBersama.png";
 import Link from "next/link";
 
 export default function Hero() {
@@ -10,19 +9,21 @@ export default function Hero() {
             <div className="w-full max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto grid grid-cols-2 grid-rows-5 sm:grid-cols-5 sm:grid-rows-7 gap-4 max-hscreen px-4 py-10">
                 <div className="relative row-span-2 sm:row-span-3">
                     <Image
-                        src={Photo}
+                        src={FotoBersama}
                         alt="Gambar 1"
                         fill
                         className="object-cover rounded-xl"
+                        style={{ objectPosition: 'left center' }}
                         priority
                     />
                 </div>
                 <div className="relative row-span-3 sm:col-span-2 sm:row-span-4">
                     <Image
-                        src={Photo}
+                        src={FotoBersama}
                         alt="Gambar 2"
                         fill
                         className="object-cover rounded-xl"
+                        style={{ objectPosition: 'center center' }}
                     />
                 </div>
                 <div className="relative hidden sm:flex sm:col-span-2 sm:row-span-5 sm:col-start-4">
@@ -31,6 +32,7 @@ export default function Hero() {
                         alt="UNAS FEST 2024"
                         fill
                         className="object-cover rounded-xl"
+                        style={{ objectPosition: 'right center' }}
                     />
                 </div>
                 <div className="col-span-2 row-start-4 sm:col-span-2 sm:row-span-2 sm:row-start-6 flex items-center justify-center sm:justify-normal">

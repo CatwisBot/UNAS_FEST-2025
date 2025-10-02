@@ -40,6 +40,7 @@ export const ABOUT_SLIDES: AboutSlide[] = [
 export interface CommitteeMember {
   id: number;
   name: string;
+  username?: string;
   role: string;
   photoUrl?: string;
   description?: string;
@@ -57,40 +58,44 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
     {
       id: 1,
       name: "Nabila Shafa Sabrina, S.Sos",
+      username: "shafasabrina",
       role: "Project Manager",
       photoUrl: "/image/About/Committee/PM/shafa.jpg",
-      instagram: "https://www.instagram.com/",
+      instagram: "https://www.instagram.com/shafasabrina?igsh=b3RwNjBqcjJjNmNo",
       description:
-        "Coming Soon",
+        "Shafa Sabrina is the Project Manager of Universitas Nasional Festival (UNAS FEST) 2025. With extensive experience in project management and event development, Shafa has led various creative and educational initiatives to create a dynamic and impactful festival experience. Her leadership within the UNAS FEST team centers on collaboration and innovation to deliver high-quality events that engage both the campus community and the broader public. As Project Manager of UNAS FEST 2024, Shafa Sabrina leads a dedicated team to bring engaging and impactful events to the Universitas Nasional community.",
     },
   ],
   DPM: [
     {
       id: 2,
       name: "Harini Setyowati",
+      username: "harin.stywti",
       role: "Deputy Manager for Finance & Secretarial Affairs",
       photoUrl: "/image/About/Committee/DPM/harini.jpg",
-      instagram: "https://www.instagram.com/",
+      instagram: "https://www.instagram.com/harin.stywti?igsh=emprbXBuZ2Q2cXFn",
       description:
-        "Coming Soon",
+        "The Deputy Manager for Finance & Secretarial Affairs is responsible for supporting financial management and administrative functions, ensuring effective coordination between finance operations and secretarial duties. This role involves assisting in budget preparation, expense monitoring, and financial reporting, while also managing documentation, correspondence, and organizational records. The position works closely with the Manager to maintain compliance, transparency, and efficiency in both financial and secretarial matters.",
     },
     {
       id: 3,
       name: "Nazwa Priyandini Cahyani Putri",
+      username: "nzwaprydn",
       role: "Deputy Event Manager",
       photoUrl: "/image/About/Committee/DPM/nazwa.jpg",
-      instagram: "https://www.instagram.com/",
+      instagram: "https://www.instagram.com/nzwaprydn?igsh=d3gyc2Nid3c4dDhw",
       description:
-        "Coming Soon",
+        "The Deputy Event Manager supports the Event Manager in planning, organizing, and executing events to ensure smooth operations and successful outcomes. They act as the second-in-command, assisting in decision-making, coordinating with teams, and stepping in to lead when the Event Manager is unavailable.",
     },
     {
       id: 4,
       name: "Andhika Pratama",
+      username: "andhiikaprtm_",
       role: "Deputy General Manager",
       photoUrl: "/image/About/Committee/DPM/andhika.jpg",
-      instagram: "https://www.instagram.com/_whisnu.py/",
+      instagram: "https://www.instagram.com/andhiikaprtm_?igsh=MWUxdTl0YWs3a21tcg==",
       description:
-        "Coming Soon",
+        "The Deputy General Manager (DGM) supports the General Manager in overseeing overall operations, strategy implementation, and organizational performance. Acting as second-in-command, the DGM ensures that daily activities align with company goals while fostering effective communication across departments. This role requires leadership, problem-solving, and decision-making skills to maintain operational excellence and business growth.",
     },
   ],
   APM: [
@@ -103,21 +108,21 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "The Finance Department is responsible for managing all financial aspects of an event or organization. This includes budgeting, tracking expenses, handling transactions, and ensuring financial transparency.",
       member: [
         "Muhammad Akmal Baskoro",
-        "Dhimas Setyo Nugorho",
+        "Dhimas Setyo Nugroho",
         "Syafa Aisha Putri",
         "Ahmad Zaky",
-        "Bunga Adelia",
+        "Bunga Adella",
         "Aliya Putri",
         "Bunga Citra",
         "Shaula Chaerunnisa",
         "Dhenis Auliya Putri",
-        "Rohma Zeva Aurelia Taufani",
+        "Rohma Zeva Aurellia Taufani",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervisor",
-        "Cash Bookkeping",
-        "Cash Bookkeping",
+        "Cash Bookkeeping",
+        "Cash Bookkeeping",
         "Field Treasurer & Administration",
         "Field Treasurer & Administration",
         "Field Treasurer & Administration",
@@ -136,18 +141,18 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       member: [
         "Wafa Ma'alim Fithoriq",
         "Syafira Ramadanty",
-        "Dwi Luvita Sari",
         "Nurul Rahmawati",
-        "Chusnul nur Rahmahdhianti",
+        "Dwi Luvita Sari",
+        "Chusnul Nur Rahmahdhianti",
         "Zahrah Nura Eryunanza",
-        "Shefiana Dhifta Yudha Octavia",
         "Zahwa Nabila Shaqi",
+        "Shefiana Dhifta Yudha Octavia",
         "Khairunisa Salsabila Putri",
         "Suci Novia Triani",
         "Sabha Zidna Annabila",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Finance Officer",
         "Supervisor",
         "Correspondence Administration",
@@ -190,7 +195,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Nabiilah Septiana",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervisor",
         "Secretary & Finance Officer",
         "Division of Pers",
@@ -229,7 +234,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Hisyam Farindra",
         "Najwa Chaela Khosiatillah",
         "Muhammad Fakhruddien",
-        "Ahmad Kahirul Ilham",
+        "Ahmad Khairul Ilham",
         "Komang Ratih Melani Putri",
         "Afira Tria Sahara",
         "Az Zahra Nabila Pratiwi",
@@ -239,9 +244,9 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Rafli Faalih Erianto",
       ],
       position: [
-        "Assistent Project Manager",
-        "Supervision",
-        "Secretaris",
+        "Assistant Project Manager",
+        "Supervisor",
+        "Secretary",
         "Finance Officer",
         "Delegation Donator",
         "Delegation Sponsor",
@@ -292,7 +297,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Sandrina Maharini",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervisor",
         "Coordinator of EDC",
         "Coordinator of KDBI",
@@ -343,7 +348,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Syiifa Khairani",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Administration & Finance Officer",
         "Coordinator",
         "Supervisor",
@@ -393,7 +398,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Fatma Indriyani",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervisor",
         "Coordinator Short Video Compettion",
         "Coordinator Infographic Competition",
@@ -428,7 +433,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       member: [
         "Vanez Meida Olivia Putri",
         "Amanda Candra Prastika",
-        "Aurellya Zahwa Maulina",
+        "Aurellya Zahwa Maulani",
         "Az-Zahra Syafira",
         "Glory Maranatha Christiantoro",
         "Helwa Alby Maliha",
@@ -438,7 +443,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Irene Efelin Najoan",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervisor",
         "Performance",
         "Mc and Moderator",
@@ -473,7 +478,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Malik Hardiansyah",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervisor",
         "Secretary & Finance Officer",
         "Event Division of Debtate Competition (KDBI)",
@@ -507,7 +512,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Ilham Ramadhan",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Techlead",
         "Secretarial Affairs & Finance Officer",
         "UI/UX Design",
@@ -546,7 +551,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Farhan Rizky Cahyadi",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Division of Facility",
         "Coordinator",
         "Secretary",
@@ -594,7 +599,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Muthia Amelia",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Secretary",
         "Supervision",
         "Committee",
@@ -635,7 +640,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Suci Ramadhani",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervision",
         "Coordinator",
         "Secretaris and Finance Officer",
@@ -673,7 +678,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Zahwa Alifa Rachman",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervision",
         "Secretary and Finance Officer",
         "Crowd Control & Preparation",
