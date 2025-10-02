@@ -99,7 +99,7 @@ export default function Memories() {
                                 photos from various competitions that have taken place.
                             </p>
                         </div>
-                        <Link href="https://2024.unasfest.com" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://unasfest-three.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <Button className="cursor-pointer mt-6 bg-gradient-to-r from-[#9233EA] from-0% to-[#2C5FEA] to-100% text-white w-full rounded-xl py-4 text-base font-semibold shadow-md hover:opacity-90">
                                 Visit UNAS FEST 2024
                             </Button>
@@ -111,7 +111,7 @@ export default function Memories() {
                         <Trophy className="w-8 h-8 text-yellow-400" />
                         <div>
                             <h3 className="font-bold text-lg">Winners 2024</h3>
-                            <Link href="https://2024.unasfest.com/#activity-slider-section" target="_blank">
+                            <Link href="https://unasfest-three.vercel.app/#activity-slider-section" target="_blank">
                                 <p className="text-sm opacity-80 hover:scale-120">See last year&apos;s winners</p>
                             </Link>
                         </div>
@@ -123,7 +123,7 @@ export default function Memories() {
                         <ImageIcon className="w-8 h-8 text-blue-400" />
                         <div>
                             <h3 className="font-bold text-lg">Gallery</h3>
-                            <Link href="https://2024.unasfest.com/gallery" target="_blank">
+                            <Link href="https://unasfest-three.vercel.app/gallery" target="_blank">
                                 <p className="text-sm opacity-80 hover:scale-120">Event Archive</p>
                             </Link>
                         </div>
