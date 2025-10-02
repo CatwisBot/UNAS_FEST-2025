@@ -114,7 +114,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Rohma Zeva Aurelia Taufani",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervisor",
         "Cash Bookkeping",
         "Cash Bookkeping",
@@ -147,7 +147,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Sabha Zidna Annabila",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Finance Officer",
         "Supervisor",
         "Correspondence Administration",
@@ -190,7 +190,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Nabiilah Septiana",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervisor",
         "Secretary & Finance Officer",
         "Division of Pers",
@@ -239,7 +239,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Rafli Faalih Erianto",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervision",
         "Secretaris",
         "Finance Officer",
@@ -292,7 +292,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Sandrina Maharini",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervisor",
         "Coordinator of EDC",
         "Coordinator of KDBI",
@@ -343,7 +343,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Syiifa Khairani",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Administration & Finance Officer",
         "Coordinator",
         "Supervisor",
@@ -393,7 +393,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Fatma Indriyani",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervisor",
         "Coordinator Short Video Compettion",
         "Coordinator Infographic Competition",
@@ -438,7 +438,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Irene Efelin Najoan",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervisor",
         "Performance",
         "Mc and Moderator",
@@ -473,7 +473,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Malik Hardiansyah",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervisor",
         "Secretary & Finance Officer",
         "Event Division of Debtate Competition (KDBI)",
@@ -507,7 +507,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Ilham Ramadhan",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Techlead",
         "Secretarial Affairs & Finance Officer",
         "UI/UX Design",
@@ -546,7 +546,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Farhan Rizky Cahyadi",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Division of Facility",
         "Coordinator",
         "Secretary",
@@ -594,7 +594,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Muthia Amelia",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Secretary",
         "Supervision",
         "Committee",
@@ -635,7 +635,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Suci Ramadhani",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervision",
         "Coordinator",
         "Secretaris and Finance Officer",
@@ -673,7 +673,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Zahwa Alifa Rachman",
       ],
       position: [
-        "Assistent Project Manager",
+        "Assistant Project Manager",
         "Supervision",
         "Secretary and Finance Officer",
         "Crowd Control & Preparation",
