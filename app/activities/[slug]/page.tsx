@@ -11,14 +11,13 @@ import {
   ClipboardList,
   Clock,
   Settings,
+  AlertTriangle,
 } from "lucide-react";
 import {
   Trophy,
   Gift,
   BadgeCheck,
   Users,
-  Medal,
-  Star,
   BookOpen,
   Brain,
   CheckCircle,
@@ -136,7 +135,7 @@ export default function ActivityDetailPage({ params }: Props) {
               </div>
 
               <div className="bg-[#5C46A3] rounded-xl p-6 flex flex-col items-center border border-purple-500/30 transition">
-                <Medal className="w-10 h-10 mb-4 text-purple-300" />
+                <AlertTriangle className="w-10 h-10 mb-4 text-purple-300" />
                 <h3 className="font-semibold mb-2">National Issue</h3>
                 <p className="text-xs text-gray-300">
                   Understanding Current National Issues
@@ -225,7 +224,7 @@ export default function ActivityDetailPage({ params }: Props) {
               <div className="rounded-xl border-1 border-[#8E67B8] bg-[#7240A6] p-6">
                 <Settings className="w-10 h-10 mx-auto mb-3 text-white/80" />
                 <h3 className="font-bold text-white text-lg">Technique</h3>
-                <p className="text-white text-sm">Debating Techniques</p>
+                <p className="text-white text-sm">{activity.Techniques}</p>
               </div>
 
               <div className="rounded-xl border-1 border-[#8E67B8] bg-[#7240A6] p-6">
@@ -264,15 +263,14 @@ export default function ActivityDetailPage({ params }: Props) {
           </div>
 
           <h2 className="text-2xl md:text-4xl font-extrabold text-white mb-4 uppercase">
-            THE {activity.subtitle}{" "}
+            THE {activity.subtitleshort}{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
               EXPERTS
             </span>
           </h2>
 
           <p className="text-[#E5D1FC] text-sm md:text-base">
-            Assessed directly by leading experts and practitioners in the field
-            of {activity.subtitle} and communication
+            {activity.subtitle}
           </p>
         </section>
         <div className="px-4">
