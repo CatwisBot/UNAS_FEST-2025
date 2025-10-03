@@ -9,7 +9,7 @@ export default function Ready() {
 
       <p className="text-base md:text-xl text-[#F3DAF9] max-w-lg">
         Don’t miss this opportunity to be part of our 76th anniversary celebration. 
-        Register now and showcase your talents!
+        Register now and show your talents!
       </p>
 
       <div className="flex gap-4 mt-6">
