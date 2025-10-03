@@ -51,8 +51,8 @@ export default function Footer() {
             <Image
               src={UNAS}
               alt="UNAS Logo"
-              width={40}
-              height={40}
+              width={45}
+              height={25}
             />
           </div>
           <div className="flex space-x-4 justify-center md:justify-start">
