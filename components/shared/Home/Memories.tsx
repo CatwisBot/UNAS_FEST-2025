@@ -27,7 +27,7 @@ export default function Memories() {
             </div>
 
             <div className="text-center">
-                <p className="font-semibold text-[8px] sm:text-[10px] md:text-sm text-[#E4E4E4]">Take a look back at the history from last year's  UNAS FEST and<br /> feel the nostalgia of our journey.</p>
+                <p className="font-semibold text-[8px] sm:text-[10px] md:text-sm text-[#E4E4E4]">Take a look back at the history from last year  UNAS FEST and<br /> feel the nostalgia of our journey.</p>
             </div>
 
 
@@ -51,7 +51,7 @@ export default function Memories() {
 
                         <div className="grid grid-cols-2 gap-2 mt-4">
                             <div className="bg-[#55269E] border-1 border-[#54279E] p-3 rounded-xl text-center">
-                                <p className="text-xl font-bold">999+</p>
+                                <p className="text-xl font-bold">129</p>
                                 <span className="text-xs opacity-75">Participants</span>
                             </div>
                             <div className="bg-[#55269E] border-1 border-[#54279E] p-3 rounded-xl text-center">
@@ -70,7 +70,7 @@ export default function Memories() {
                                 "Kompetisi Debat Bahasa Indonesia 20 Tim (40 Peserta)",
                                 "English Debate Competition 16 Tim (32 Peserta)",
                                 "Short Movie Competition 10 Tim (50 Peserta)",
-                                "Scientific Paper Competition 7 peserta",
+                                "Scientific Paper Competition (7 Peserta)",
                             ].map((item, i) => (
                                 <li key={i} className="flex items-start gap-2">
                                     <Star className="w-4 h-4 text-yellow-400 mt-0.5" />
