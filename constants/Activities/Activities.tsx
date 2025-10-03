@@ -35,7 +35,9 @@ export const Activities: Activity[] = [
     path: "KDBI",
     alias: "KDBI",
     title: "Kompetisi Debat Bahasa Indonesia",
-    subtitle: "debate",
+    Techniques: "Debate Techniques",
+    subtitleshort: "debate",
+    subtitle: "Assessed directly by leading experts and practitioners in the field of debate and communication",
     coverImage: KDBI,
     description:
       "Welcome to Kompetisi Debat Bahasa Indonesia! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the Kompetisi Debat Bahasa Indonesia (KDBI). Kompetisi Debat Bahasa Indonesia (KDBI) is an Indonesian language debate competition held as a platform for participants to express their arguments and thoughts on current, relevant and important issues in society. Through this competition, participants are expected to hone their public speaking, critical thinking, and logical and systematic argumentation skills, enabling them to better understand and address the issues around them in a more constructive manner. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025.",
@@ -94,7 +96,7 @@ export const Activities: Activity[] = [
       {
         icon: <Medal className="w-6 h-6 text-white" />,
         value: "3",
-        label: "Expert Judge",
+        label: "Expert Adjudicators",
         gradient: "from-[#BE85FC] to-[#858BF8]",
       },
       {
@@ -131,7 +133,7 @@ export const Activities: Activity[] = [
         index: 2,
         name: "Lasman",
         image: Lasman,
-        school: "Padjajaran University",
+        school: "University Padjadjaran",
         lastEducation: "Faculty of Law",
         role: "Expert",
         description:
@@ -249,7 +251,9 @@ export const Activities: Activity[] = [
     path: "EDC",
     alias: "EDC",
     title: "English Debate Competition",
-    subtitle: "debate",
+    Techniques: "Debate Techniques",
+    subtitleshort: "debate",
+    subtitle: "Assessed directly by leading experts and practitioners in the field of debate and communication",
     coverImage: EDC,
     description:
       "Welcome to the English Debate Competition! UNAS FEST 2025 is an event to celebrate the 76th anniversary of Nasional University. One of the competitions that will be held at UNAS FEST 2025 is the English Debate Competition (EDC). English Debate Competition (EDC) is an English language debate competition held as a means where the participants deliver their argumentation and thoughts regarding current issues. What are you waiting for? Let’s get prepared to achieve victory in UNAS FEST 2025.",
@@ -308,7 +312,7 @@ export const Activities: Activity[] = [
       {
         icon: <Medal className="w-6 h-6 text-white" />,
         value: "3",
-        label: "Expert Judge",
+        label: "Expert Adjudicators",
         gradient: "from-[#BE85FC] to-[#858BF8]",
       },
       {
@@ -466,7 +470,9 @@ export const Activities: Activity[] = [
     path: "SPC",
     alias: "SPC",
     title: "Scientific Paper Competition",
-    subtitle: "writing",
+    Techniques: "Writing Techniques",
+    subtitleshort: "writing",
+    subtitle: "Assessed directly by leading experts and practitioners in the field of writing and research",
     coverImage: SPC,
     description:
       "The Scientific Paper Competition at UNAS FEST 2025 is organized for participants to submit scientific papers based on research results using data collection methods such as observation, interviews, questionnaires, and focus group discussions (FGD). The papers must be systematically structured, written in proper Indonesian, and adhere to scientific principles that can be accounted for. This competition aims to cultivate students who are concerned about environmental and social issues, as well as those who possess sharp analytical skills and critical thinking. Through the process of writing and presenting their scientific papers to the panel of judges, participants are expected to enhance their scientific communication skills, public speaking, and the ability to defend their arguments comprehensively.",
@@ -525,7 +531,7 @@ export const Activities: Activity[] = [
       {
         icon: <Medal className="w-6 h-6 text-white" />,
         value: "3",
-        label: "Expert Judge",
+        label: "Expert Adjudicators",
         gradient: "from-[#BE85FC] to-[#858BF8]",
       },
       {
@@ -538,9 +544,9 @@ export const Activities: Activity[] = [
     judgesData: [
       {
         index: 1,
-        name: "Mouliza Kristhoper Donna Sweinstani",
+        name: "Mouliza Kristhoper Donna Sweinstani, S.IP., M.IP.",
         image: Donna,
-        school: "University of Indonesia",
+        school: "Universitas Indonesia",
         lastEducation: "Political Science",
         role: "Expert",
         description:
@@ -557,8 +563,8 @@ export const Activities: Activity[] = [
         index: 2,
         name: "Efriza, S.IP., M.Si.",
         image: Efriza,
-        school: "National University",
-        lastEducation: "Polithical Science",
+        school: "Universitas Nasional",
+        lastEducation: "Political Science",
         role: "Expert",
         description:
           "Efriza is a political science academic and researcher who actively teaches at UNPAM PSDKU Serang and STIP-AN. He is a prolific writer, having published 13 books, including Sosiologi Kekuasaan (Sociology of Power) in 2023 and Pengantar Politik (Introduction to Politics) in 2021. He is also a columnist for Telisik.id. Additionally, he is involved with AIPI, serves as a journal reviewer, and founded the Citra Institute and CV Kreasi Cendekia Pustaka. For all these reasons, he is known as an active and influential political observer in Indonesia.",
@@ -574,7 +580,7 @@ export const Activities: Activity[] = [
         index: 3,
         name: "Gani Putri Aryanto",
         image: Gani,
-        school: "National University",
+        school: "Universitas Nasional",
         lastEducation: "Midwifery",
         role: "Expert",
         description:
@@ -654,7 +660,9 @@ export const Activities: Activity[] = [
     path: "Infographic",
     alias: "Infographic",
     title: "Infographic Competition",
-    subtitle: "DCC",
+    Techniques: "Design Techniques",
+    subtitleshort: "DCC",
+    subtitle: "Assessed directly by leading experts and practitioners in the field of DCC and communication dignity",
     coverImage: Infographic,
     description:
       "The Infographics competition aims to encourage participants to think critically and creatively, while being able to present information in a concise, accurate, and easily understandable manner. Besides honing design skills and visual message delivery, participants are also invited to increase their awareness of global issues relevant to daily life. The Infographics competition carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” which discusses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and remain sustainable. The competition targets 15 teams consisting of active high school students from SMA/SMK/Equivalent in the JABODETABEK area. Activities begin with a webinar to equip participants with the skills, knowledge, and understanding necessary to create their works.The Infographics competition consists of three stages: Administrative Selection, Semifinals, and Finals—all conducted online, followed by an onsite awarding ceremony.",
@@ -733,7 +741,7 @@ export const Activities: Activity[] = [
       {
         icon: <Medal className="w-6 h-6 text-white" />,
         value: "3",
-        label: "Expert Judge",
+        label: "Expert Adjudicators",
         gradient: "from-[#BE85FC] to-[#858BF8]",
       },
       {
@@ -748,7 +756,7 @@ export const Activities: Activity[] = [
         index: 1,
         name: "Dhea Marela Salman, S.IP.",
         image: Dhea,
-        school: "Halu Oleo University",
+        school: "Universitas Halu Oleo",
         lastEducation: "-",
         role: "Expert",
         description:
@@ -771,7 +779,7 @@ export const Activities: Activity[] = [
         index: 2,
         name: "Dhieka Avrilia Lantana, S.Kom., M.Kom.",
         image: Dhieka,
-        school: "Bogor Agricultural University",
+        school: "Institut Pertanian Bogor",
         lastEducation: " Computer Science",
         role: "Expert",
         description:
@@ -787,7 +795,7 @@ export const Activities: Activity[] = [
         index: 3,
         name: "Riski Ramadhan Budhianto, S.Sos.",
         image: Riski,
-        school: "National University",
+        school: "Universitas Nasional",
         lastEducation: "Sociology",
         role: "Expert",
         description:
@@ -844,7 +852,9 @@ export const Activities: Activity[] = [
     path: "Short-Video",
     alias: "Short Video",
     title: "Short Video Competition",
-    subtitle: "DCC",
+    Techniques: "Design Techniques",
+    subtitleshort: "DCC",
+    subtitle: "Assessed directly by leading experts and practitioners in the field of DCC and communication dignity",
     coverImage: Short,
     description:
       "The Short Video competition is a contest for brief videos typically lasting from 15 seconds up to 3 minutes, designed to convey messages in a concise, creative, and informative manner. The theme, “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” addresses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and sustainable over time. The Short Video competition targets 15 teams consisting of active high school students from SMA/SMK/Equivalent in the JABODETABEK area. The activity begins with a webinar aimed at providing participants with the skills, knowledge, and understanding needed to create effective Short Video works. The competition consists of three stages: Administrative Selection, Semifinals, and Finals — all conducted online, followed by an onsite awarding ceremony.",
@@ -927,7 +937,7 @@ export const Activities: Activity[] = [
       {
         icon: <Medal className="w-6 h-6 text-white" />,
         value: "3",
-        label: "Expert Judge",
+        label: "Expert Adjudicators",
         gradient: "from-[#BE85FC] to-[#858BF8]",
       },
       {
@@ -942,7 +952,7 @@ export const Activities: Activity[] = [
         index: 1,
         name: "Raden Daniel Wisnu Wardhana, S.IP., M.F.Tv.",
         image: Raden,
-        school: "Bond University",
+        school: "Universitas Bond",
         lastEducation: "Film/Video and Photography",
         role: "Expert",
         description:
@@ -962,7 +972,7 @@ export const Activities: Activity[] = [
         index: 2,
         name: "Rizky Wahyu Sugandhi",
         image: Rizky,
-        school: "National University",
+        school: "Universitas Nasional",
         lastEducation: "Computer Systems Technology",
         role: "Expert",
         description:
@@ -977,24 +987,15 @@ export const Activities: Activity[] = [
       },
       {
         index: 3,
-        name: "Mega Mei Wahidati, S.I.KOM. M.A.",
+        name: "Coming Soon",
         image: Photo,
-        school: "National University",
-        lastEducation: "Communication Science",
-        role: "Expert",
+        school: "Coming Soon",
+        lastEducation: "Coming Soon",
+        role: "Coming Soon",
         description:
-          "Mega Mei Wahidati, S.I.KOM. M.A., a student of FISIP Communication Science Study Program. She is an alumnus of Universitas Nasional, as well as a recipient of the LPDP ITB Master's scholarship and the Indian Embassy Master's scholarship. She completed her education at SMK N 16 Jakarta (Accounting), then undergraduate at National University (Communication Science, Journalism) and continued her postgraduate studies at Gujarat University (Master of Arts - MA, Mass Communication / Media Studies).",
+          "Coming Soon",
         achievements: [
-          "Master of Arts (MA) in Mass Communication/Media Studies - Gujarat University",
-          "Scout Member",
-          "Marching Band Member",
-          "English Club Member",
-          "Unas Radio Member",
-          "Assistant Producer - V Radio Jakarta",
-          "Content Creator - UBM YouTube Channel",
-          "Chairwoman - Annual Student Meeting",
-          "Multimedia Staff - Siber Asia University",
-          "Influencer (Instagram & TikTok)",
+          "Coming Soon",
         ],
       },
     ],
