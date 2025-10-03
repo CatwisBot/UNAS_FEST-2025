@@ -48,7 +48,7 @@ const PartnershipSection: React.FC = () => {
             <span className="bg-gradient-to-r from-[#A14CF3] from-[38%] to-[#345CEB] to-[100%] bg-clip-text text-transparent">
               FUTURE
             </span>{" "}
-            TOGHETER
+            TOGETHER
           </h1>
         </div>
 
