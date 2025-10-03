@@ -15,16 +15,15 @@ import "swiper/css/autoplay";
 const cards = [
   {
     id: 1,
-    title: "Certificate & E-Certificate",
+    title: "Certificate",
     icon: Medal,
     iconBg: "from-[#3C80F6] to-[#4D4BE6]",
     cornerBg: "bg-[#4C2E9E]",
     description:
-      "Official digital certificate from Universitas Nasional that can be used to complement your academic and professional portfolio.",
+      "Official certificate from Universitas Nasional that can be used to complement your academic and professional portfolio.",
     items: [
       "Certificate of Participation",
       "Certificate of Achievement",
-      "PDF & Digital Format",
     ],
     bulletColor: "bg-[#3B82F6]",
   },
