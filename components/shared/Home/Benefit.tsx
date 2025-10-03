@@ -39,17 +39,22 @@ const Benefit = () => {
             Total Benefit Value
           </h2>
           <p className="text-2xl sm:text-4xl font-bold text-[#FDE047] mb-8">
-            Rp 75.000.000+
+            Rp 25.000.000+
           </p>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            {["Sertifikat", "Trophy", "Plaque", "Merch"].map((label, i) => (
-              <div key={i} className="bg-gradient-to-r from-[#5368EC] to-[#3F71ED] font-bold rounded-lg p-4 shadow-xl">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            {["Certificate", "Trophy", "Merch"].map((label, i) => (
+              <div
+                key={i}
+                className={
+                  `bg-gradient-to-r from-[#5368EC] to-[#3F71ED] font-bold rounded-lg p-4 shadow-xl` +
+                  (i === 2 ? " col-span-2 justify-self-center sm:col-span-1 sm:justify-self-auto" : "")
+                }
+              >
                 <p className="text-md sm:text-xl mb-1 text-[#FDE047]">
-                  {i === 0 ? "1000+"
-                    : i === 1 ? "50+"
-                      : i === 2 ? "25+"
-                        : "500+"}
+                  {i === 0 ? "50+"
+                    : i === 1 ? "15+"
+                        : "10+"}
                 </p>
                 <p className="text-xs sm:text-sm">{label}</p>
               </div>
