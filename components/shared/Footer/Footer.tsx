@@ -40,7 +40,7 @@ export default function Footer() {
     >
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 md:items-start">
         <div className="flex flex-col items-center space-y-4 pl-0">
-          <div className="flex flex-row items-center space-x-4 mb-4">
+          <div className="flex flex-row items-center mb-4">
             <Image
               src={UF}
               alt="UNAS FEST"
