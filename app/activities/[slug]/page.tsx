@@ -84,9 +84,9 @@ export default function ActivityDetailPage({ params }: Props) {
           </div>
         </div>
 
-        <div className="rounded-2xl inset-10 bg-gradient-to-r from-[#603791] to-[#49428E] w-full max-w-2xs sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-7xl h-[600px] flex items-center justify-center mx-auto">
-          <div className="w-full h-[600px] p-5 md:p-10 lg:p-5 flex justify-center items-center">
-            <div className="w-full h-full relative rounded-2xl overflow-hidden shadow-xl border-1 mx-auto border-white/20">
+        <div className="rounded-2xl inset-10 bg-gradient-to-r from-[#603791] to-[#49428E] w-full max-w-2xs sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto">
+          <div className="w-full p-5 md:p-10 lg:p-5 flex justify-center items-center">
+            <div className="w-full aspect-video relative rounded-2xl overflow-hidden shadow-xl border-1 mx-auto border-white/20">
               <Image
                 src={activity.coverImage}
                 alt={activity.title}
