@@ -26,7 +26,7 @@ import Riski from "@/public/image/Activities/Judges/Infographic/Riski.jpg";
 
 import Raden from "@/public/image/Activities/Judges/Short/Raden.jpg";
 import Rizky from "@/public/image/Activities/Judges/Short/Rizky.jpg";
-import Photo from "@/public/image/About/Hero/no-photo.jpg";
+import Rakhma from "@/public/image/Activities/Judges/Short/rahma.png";
 
 import { Activity } from "@/lib/types/Activities/Activities";
 
@@ -678,7 +678,7 @@ export const Activities: Activity[] = [
     descSkill2: "Proficiency in conveying messages creatively using visuals",
     Techniques: "Design Techniques",
     subtitleshort: "DCC",
-    subtitle: "Assessed directly by leading experts and practitioners in the field of DCC and communication dignity",
+    subtitle: "Assessed directly by leading experts and practitioners in infographic design and communication",
     coverImage: Infographic,
     description:
       "The Infographics competition aims to encourage participants to think critically and creatively, while being able to present information in a concise, accurate, and easily understandable manner. Besides honing design skills and visual message delivery, participants are also invited to increase their awareness of global issues relevant to daily life. The Infographics competition carries the theme “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” which discusses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and remain sustainable. The competition targets 15 teams consisting of active high school students from SMA/SMK/Equivalent in the JABODETABEK area. Activities begin with a webinar to equip participants with the skills, knowledge, and understanding necessary to create their works.The Infographics competition consists of three stages: Administrative Selection, Semifinals, and Finals—all conducted online, followed by an onsite awarding ceremony.",
@@ -874,7 +874,7 @@ export const Activities: Activity[] = [
     descSkill2: "Proficiency in producing videos that attract and hold audience attention",
     Techniques: "Design Techniques",
     subtitleshort: "DCC",
-    subtitle: "Assessed directly by leading experts and practitioners in the field of DCC and communication dignity",
+    subtitle: "Assessed directly by leading experts and practitioners in short video creation and communication",
     coverImage: Short,
     description:
       "The Short Video competition is a contest for brief videos typically lasting from 15 seconds up to 3 minutes, designed to convey messages in a concise, creative, and informative manner. The theme, “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem,” addresses the importance of preventing deforestation by utilizing artificial intelligence (AI)-based technology to build ecosystems that are resilient to various threats and sustainable over time. The Short Video competition targets 15 teams consisting of active high school students from SMA/SMK/Equivalent in the JABODETABEK area. The activity begins with a webinar aimed at providing participants with the skills, knowledge, and understanding needed to create effective Short Video works. The competition consists of three stages: Administrative Selection, Semifinals, and Finals — all conducted online, followed by an onsite awarding ceremony.",
@@ -1007,15 +1007,15 @@ export const Activities: Activity[] = [
       },
       {
         index: 3,
-        name: "Coming Soon",
-        image: Photo,
-        school: "Coming Soon",
-        lastEducation: "Coming Soon",
-        role: "Coming Soon",
+        name: "Yulia Rakhmawati, S.M., M.AB.",
+        image: Rakhma,
+        school: "Universitas Nasional",
+        lastEducation: "Management",
+        role: "Expert",
         description:
-          "Coming Soon",
+          "Yulia Dwi Rakhamawati S.M. M.AB. completed her bachelor's degree at Universitas Nasional majoring in Management and then continued her master's degree at the Bandung Institute of Technology majoring in Business Administration and Management. She has experience as a Portfolio Manager and Investor Relations at Arunami Partner, LPDP Awardee from the Indonesian Ministry of Finance, Financial Analyst Internship at Arunami Partner, Partnership and Government Relations at FishLog, Private Tutor, Radio Announcer at the National Population and Family Planning Agency, Ambassador GenRe South Jakarta, Customer Service at Universitas Nasional (UNAS), Content Writer at Bacaboy.com, and Establishment Crew at KidZania Jakarta. Received awards as 1st Champion in the International Gadjah Mada Business Case Competition Graduate Category held by PT. Pupuk Kaltim and Kafegama (UGM), Best Graduate of the Faculty of Economics and Business, Universitas Nasional Issued by the Faculty of Economics and Business, MTF Friends Scholarship Awardee, 3rd Winner of the Best Business Model Idea To Business International Competition Issued by Universitas Esa Unggul, GenRe Ambassador for DKI Jakarta 2020 issued by the DKI Jakarta PPAPP Office, GenRe Ambassador for South Jakarta 2020 issued by the South Jakarta PPAPP Sub-Office, 3rd Place Winner of KDMI Universitas Nasional, *BRILLIANT Scholarship Awardee issued by Bank BRI Contact Person: Instagram: @yulliade_er.",
         achievements: [
-          "Coming Soon",
+          "-",
         ],
       },
     ],
