@@ -36,6 +36,10 @@ export interface Activity {
   title: string;
   coverImage: StaticImageData;
   description: string;
+  skill: string;
+  skill2?: string;
+  descSkill: string;
+  descSkill2?: string;
   Techniques?: string;
   subtitleshort: string;
   subtitle: string;
