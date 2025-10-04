@@ -1,11 +1,11 @@
 import { Users, Trophy, Medal, Star } from "lucide-react";
 
 // Cover Image
-import KDBI from "@/public/image/Activities/Cover/kdbiCover.webp";
-import EDC from "@/public/image/Activities/Cover/edcCover.webp";
-import SPC from "@/public/image/Activities/Cover/scpCover.webp";
-import Infographic from "@/public/image/Activities/Cover/smcCover.webp";
-import Short from "@/public/image/Activities/Cover/smcCover.webp";
+import KDBI from "@/public/image/Activities/Cover/kdbi254.webp";
+import EDC from "@/public/image/Activities/Cover/edc257.webp";
+import SPC from "@/public/image/Activities/Cover/spc12.webp";
+import Infographic from "@/public/image/Activities/Cover/smc09.webp";
+import Short from "@/public/image/Activities/Cover/smc09.webp";
 
 // Judge
 import Purwo from "@/public/image/Activities/Judges/KDBI/Purwo.jpg";
@@ -35,6 +35,10 @@ export const Activities: Activity[] = [
     path: "KDBI",
     alias: "KDBI",
     title: "Kompetisi Debat Bahasa Indonesia",
+    skill: "Analytical Skills",
+    skill2: "Public Speaking",
+    descSkill: "Developing analytical and critical thinking skills",
+    descSkill2: "Improving public speaking skills",
     Techniques: "Debate Techniques",
     subtitleshort: "debate",
     subtitle: "Assessed directly by leading experts and practitioners in the field of debate and communication",
@@ -251,6 +255,10 @@ export const Activities: Activity[] = [
     path: "EDC",
     alias: "EDC",
     title: "English Debate Competition",
+    skill: "Analytical Skills",
+    skill2: "Public Speaking",
+    descSkill: "Developing analytical and critical thinking skills",
+    descSkill2: "Improving public speaking skills",
     Techniques: "Debate Techniques",
     subtitleshort: "debate",
     subtitle: "Assessed directly by leading experts and practitioners in the field of debate and communication",
@@ -470,6 +478,10 @@ export const Activities: Activity[] = [
     path: "SPC",
     alias: "SPC",
     title: "Scientific Paper Competition",
+    skill: "Analytical Skills",
+    skill2: "Public Speaking",
+    descSkill: "Developing analytical and critical thinking skills",
+    descSkill2: "Improving public speaking skills",
     Techniques: "Writing Techniques",
     subtitleshort: "writing",
     subtitle: "Assessed directly by leading experts and practitioners in the field of writing and research",
@@ -660,6 +672,10 @@ export const Activities: Activity[] = [
     path: "Infographic",
     alias: "Infographic",
     title: "Infographic Competition",
+    skill: "Data Visualization",
+    skill2: "Graphic Storytelling",
+    descSkill: "Proficiency in turning data into clear and understandable visuals",
+    descSkill2: "Proficiency in conveying messages creatively using visuals",
     Techniques: "Design Techniques",
     subtitleshort: "DCC",
     subtitle: "Assessed directly by leading experts and practitioners in the field of DCC and communication dignity",
@@ -852,6 +868,10 @@ export const Activities: Activity[] = [
     path: "Short-Video",
     alias: "Short Video",
     title: "Short Video Competition",
+    skill: "Visual Storytelling",
+    skill2: "Public Speaking",
+    descSkill: "Profiency in telling stories through imagery and video content",
+    descSkill2: "Proficiency in producing videos that attract and hold audience attention",
     Techniques: "Design Techniques",
     subtitleshort: "DCC",
     subtitle: "Assessed directly by leading experts and practitioners in the field of DCC and communication dignity",
@@ -883,7 +903,7 @@ export const Activities: Activity[] = [
       {
         index: 5,
         detail:
-          "Accepted video formats: MP4 or MOV, with a minimum resolution of 720p.",
+          "Videos must be submitted in MP4 or MOV format, with a minimum resolution of 1080p (Full HD), a maximum file size of 1 GB, and in portrait orientation (9:16 aspect ratio).",
       },
       {
         index: 6,
@@ -903,7 +923,7 @@ export const Activities: Activity[] = [
       {
         index: 9,
         detail:
-          "Participants must upload their works on specified social media platforms (YouTube, Instagram, or TikTok) including the official competition hashtag and tag the official UNAS FEST account.",
+          "Participants must upload their works on specified social media platforms (Instagram, or TikTok) including the official competition hashtag and tag the official UNAS FEST account.",
       },
       {
         index: 10,
