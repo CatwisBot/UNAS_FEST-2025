@@ -503,8 +503,8 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       member: [
         "Dimas",
         "Najwa Aura Hastin",
-        "Nizma",
-        "Galang Rispai",
+        "Nizma Alya",
+        "Galang Rispa'i",
         "Muhammad Zidan",
         "Raden Whisnu Arya Nugraha",
         "Nur Arohman",
