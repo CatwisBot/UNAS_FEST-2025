@@ -120,17 +120,17 @@ export default function ActivityDetailPage({ params }: Props) {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-[#5C46A3] rounded-xl p-6 flex flex-col items-center border border-purple-500/30 transition">
                 <Brain className="w-10 h-10 mb-4 text-purple-300" />
-                <h3 className="font-semibold mb-2">Analytical Skills</h3>
+                <h3 className="font-semibold mb-2">{activity.skill}</h3>
                 <p className="text-xs text-gray-300">
-                  Developing analytical and critical thinking skills
+                  {activity.descSkill}
                 </p>
               </div>
 
               <div className="bg-[#5C46A3] rounded-xl p-6 flex flex-col items-center border border-purple-500/30 transition">
                 <Users className="w-10 h-10 mb-4 text-purple-300" />
-                <h3 className="font-semibold mb-2">Public Speaking</h3>
+                <h3 className="font-semibold mb-2">{activity.skill2}</h3>
                 <p className="text-xs text-gray-300">
-                  Improving public speaking skills
+                  {activity.descSkill2}
                 </p>
               </div>
 
