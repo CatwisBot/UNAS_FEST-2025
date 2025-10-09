@@ -28,6 +28,8 @@ import Raden from "@/public/image/Activities/Judges/Short/Raden.jpg";
 import Rizky from "@/public/image/Activities/Judges/Short/Rizky.jpg";
 import Rakhma from "@/public/image/Activities/Judges/Short/rahma.png";
 
+import user from "@/public/image/About/Hero/no-photo.jpg";
+
 import { Activity } from "@/lib/types/Activities/Activities";
 
 export const Activities: Activity[] = [
@@ -115,7 +117,7 @@ export const Activities: Activity[] = [
         index: 1,
         name: "Purwo Besari",
         image: Purwo,
-        school: "Jakarta State University",
+        school: "Universitas Negri Jakarta",
         lastEducation: "Faculty of Social Sciences",
         role: "Expert",
         description:
@@ -137,7 +139,7 @@ export const Activities: Activity[] = [
         index: 2,
         name: "Lasman",
         image: Lasman,
-        school: "University Padjadjaran",
+        school: "Universitas Padjadjaran",
         lastEducation: "Faculty of Law",
         role: "Expert",
         description:
@@ -167,7 +169,7 @@ export const Activities: Activity[] = [
         index: 3,
         name: "Laila Amalia Khaerani",
         image: Laila,
-        school: "Jakarta State University",
+        school: "Universitas Negeri Jakarta",
         lastEducation: "History Education",
         role: "Expert",
         description:
@@ -393,10 +395,10 @@ export const Activities: Activity[] = [
       },
       {
         index: 3,
-        name: "Maria Bellen",
-        image: Maria,
-        school: "National University",
-        lastEducation: "Faculty of Social and Political Sciences",
+        name: "-",
+        image: user,
+        school: "-",
+        lastEducation: "-",
         role: "Expert",
         description:
           "She is a results-oriented professional with strong interpersonal skills, adept at developing strategic communication with stakeholders and government officials, backed by excellent negotiation abilities. With over 9 years of experience as a professional debater, she has honed exceptional critical thinking, adaptability, and problem-solving skills, enabling her to thrive in fast-paced and dynamic environments. She actively collaborates with political actors, government, and NGOs focused on youth empowerment and public policy, demonstrating a deep passion for contributing to the public sector. Her career aspirations lie in politics, public policy, and governance, where she can leverage her expertise to drive meaningful impact.",
@@ -556,7 +558,7 @@ export const Activities: Activity[] = [
     judgesData: [
       {
         index: 1,
-        name: "Mouliza Kristhoper Donna Sweinstani, S.IP., M.IP.",
+        name: "Mouliza Kristhoper Donna S, S.IP., M.IP.",
         image: Donna,
         school: "Universitas Indonesia",
         lastEducation: "Political Science",
@@ -793,7 +795,7 @@ export const Activities: Activity[] = [
       },
       {
         index: 2,
-        name: "Dhieka Avrilia Lantana, S.Kom., M.Kom.",
+        name: "Dhieka Avrilia L, S.Kom., M.Kom.",
         image: Dhieka,
         school: "Institut Pertanian Bogor",
         lastEducation: " Computer Science",
@@ -872,7 +874,7 @@ export const Activities: Activity[] = [
     skill2: "Public Speaking",
     descSkill: "Profiency in telling stories through imagery and video content",
     descSkill2: "Proficiency in producing videos that attract and hold audience attention",
-    Techniques: "Design Techniques",
+    Techniques: "Video Techniques",
     subtitleshort: "DCC",
     subtitle: "Assessed directly by leading experts and practitioners in short video creation and communication",
     coverImage: Short,
@@ -970,9 +972,9 @@ export const Activities: Activity[] = [
     judgesData: [
       {
         index: 1,
-        name: "Raden Daniel Wisnu Wardhana, S.IP., M.F.Tv.",
+        name: "Raden Daniel Wisnu W, S.IP., M.F.Tv.",
         image: Raden,
-        school: "Universitas Bond",
+        school: "Bond University",
         lastEducation: "Film/Video and Photography",
         role: "Expert",
         description:
@@ -993,7 +995,7 @@ export const Activities: Activity[] = [
         name: "Rizky Wahyu Sugandhi",
         image: Rizky,
         school: "Universitas Nasional",
-        lastEducation: "Computer Systems Technology",
+        lastEducation: "Information Systems",
         role: "Expert",
         description:
           "Rizky Wahyu Sugandhi, He completed his education at SMA Negeri 113 Jakarta (Biology) and is currently a student at National University (Computer Systems Technology).",

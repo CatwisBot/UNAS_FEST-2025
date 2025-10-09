@@ -223,7 +223,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       role: "APM of Partnership Dept",
       photoUrl: "/image/About/Committee/APM/kyla.jpg",
       description:
-        "The Partnership Department focuses on building and managing relationships with external organizations, partners, and sponsors.",
+        "The Partnership Department focuses on building and managing relationships with external organizations, partners, donors, and sponsors.",
       member: [
         "Kyla Nazwara Sofyan",
         "Leysa Regita Parhusip",
@@ -371,12 +371,12 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       role: "APM of Digital Content Competition Dept",
       photoUrl: "/image/About/Committee/APM/eky.jpg",
       description:
-        "The Short Movie Competition Department is in charge of organizing and managing all aspects of the short movie competition.",
+        "The Digital Content Competition Department is in charge of organizing and managing all aspects of the Infographic and Short Video competitions.",
       member: [
         "Eky Wijayanto",
         "Firda Chaerunnisa",
         "Malika Ma'asya Putri Hermalia",
-        "Mohammad Nabil Malik Futonik",
+        "Muhammad Daffa",
         "Akelens Pangestu",
         "Anisa Nada Noviriansyah",
         "Arrum Kulsuma Wardhani",
@@ -386,7 +386,6 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Fiesda Sekar Prastica",
         "Habibi Zamzami",
         "Maheswari Nabilah Fasya",
-        "Muhammad Daffa",
         "Rian Nurfadli",
         "Riani Nurfadillah",
         "Siti Nurlaila",
@@ -411,7 +410,6 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Tabulator",
         "Division of CAP",
         "Division of Event",
-        "Division of Registration",
         "Division of Event",
         "Division of Administration",
         "Division of CAP",
@@ -429,7 +427,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       role: "APM of Entertainment Dept",
       photoUrl: "/image/About/Committee/APM/vanez.jpg",
       description:
-        "The Entertainment Department is responsible for organizing and managing all entertainment-related activities for events.",
+        "The Entertainment Department is responsible for organizing and managing all entertainment-related activities for events, including designing visual backgrounds and effects, coordinating flash mobs, arranging performances, and managing stage production.",
       member: [
         "Vanez Meida Olivia Putri",
         "Amanda Candra Prastika",
@@ -497,7 +495,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
       id: 15,
       name: "Dimas",
       role: "APM of IT Dept",
-      photoUrl: "/image/About/Committee/APM/dimas.jpg",
+      photoUrl: "/image/About/Committee/APM/dimas.jpeg",
       description:
         "The Information Technology (IT) Department is responsible for designing, developing, and maintaining the digital platforms for the event, including unasfest.com and caturnawa.unasfest.com.",
       member: [

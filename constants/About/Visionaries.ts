@@ -9,7 +9,7 @@ import Nirvana from "@/public/image/About/Visionaries/Mascot/NIRVANA PUTRI RIZAL
 import Adelin from "@/public/image/About/Visionaries/Mascot/ADELIN VINICO YUANITA.png";
 
 // Web
-import Dimas from "@/public/image/About/Committee/APM/dimas.jpg";
+import Dimas from "@/public/image/About/Committee/APM/dimas.jpeg";
 import Aura from "@/public/image/About/Visionaries/Web/aura.jpg";
 import Galang from "@/public/image/About/Visionaries/Web/galang.jpg";
 import Zidan from "@/public/image/About/Visionaries/Web/zidan.jpg";
@@ -61,25 +61,25 @@ export const Mascot: Visionary[] = [
     {
     id: 1,
     name: "Muhammad Bisyr",
-    role: "Mascot UNASFEST 2025",
+    role: "Mascot UNAS FEST 2025",
     image: Bisyr,
   },
     {
     id: 2,
     name: "Azzahra Dara",
-    role: "Mascot UNASFEST 2025",
+    role: "Mascot UNAS FEST 2025",
     image: Dara,
   },
     {
     id: 3,
     name: "Nadia Ramadhani",
-    role: "Mascot UNASFEST 2025",
+    role: "Mascot UNAS FEST 2025",
     image: Rama,
   },
     {
     id: 4,
     name: "Muhammad Bisyr",
-    role: "Mascot UNASFEST 2024",
+    role: "Mascot UNAS FEST 2024",
     image: Bisyr24,
   },
     {
@@ -91,7 +91,7 @@ export const Mascot: Visionary[] = [
     {
     id: 6,
     name: "Adelin Vinico Yuanita",
-    role: "Mascot UNASFEST 2023",
+    role: "Mascot UNAS FEST 2023",
     image: Adelin,
   },
 ];
@@ -124,13 +124,13 @@ export const Web: Visionary[] = [
     {
     id: 5,
     name: "Raden Whisnu A. N",
-    role: "UNASFEST Web 2025",
+    role: "UNAS FEST Web 2025",
     image: Whisnu,
   },
     {
     id: 6,
     name: "Nur Arohman",
-    role: "UNASFEST Web 2025",
+    role: "UNAS FEST Web 2025",
     image: Arohman,
   },
     {
@@ -308,7 +308,7 @@ export const Music: Visionary[] = [
     id: 8,
     name: "Johanes Nathanael Bimambang",
     role: "Producer & Arranger Music",
-    image: Johannes,
+    image: Albert,
   },
     {
     id: 9,
@@ -326,7 +326,7 @@ export const Music: Visionary[] = [
     id: 11,
     name: "Albert Deniel Sitorus",
     role: "BFX",
-    image: Albert,
+    image: Johannes,
   },
     {
     id: 12,

@@ -364,40 +364,10 @@ export default function BenefitCard() {
             <p className="text-sm text-[#E1CBF9] mb-4 leading-relaxed relative z-10">
               Plaques are awarded as a token of appreciation to keynote speakers for their valuable contributions and inspiration at UNAS FEST.
             </p>
-
-            <ul className="text-sm relative flex flex-col lg:flex-row gap-4 z-10">
-              <li className="flex items-center gap-2">
-                <span className="font-semibold text-white bg-[#5728A4] rounded-md px-3 py-2 hidden lg:block">
-                  Champion
-                </span>
-                <span className="w-2 h-2 rounded-full bg-[#5728A4] block lg:hidden"></span>
-                <span className="font-semibold text-white block lg:hidden">
-                  Champion
-                </span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="font-semibold text-white bg-[#5728A4] rounded-md px-3 py-2 hidden lg:block">
-                  Best Team
-                </span>
-                <span className="w-2 h-2 rounded-full bg-[#5728A4] block lg:hidden"></span>
-                <span className="font-semibold text-white block lg:hidden">
-                  Best Team
-                </span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="font-semibold text-white bg-[#5728A4] rounded-md px-3 py-2 hidden lg:block">
-                  Most Creative
-                </span>
-                <span className="w-2 h-2 rounded-full bg-[#5728A4] block lg:hidden"></span>
-                <span className="font-semibold text-white block lg:hidden">
-                  Most Creative
-                </span>
-              </li>
-            </ul>
           </div>
 
           {/* Card 5 */}
-          {/* <div className="relative bg-gradient-to-br from-[#4D258E] to-[#2b146b] text-white p-6 rounded-2xl shadow-lg overflow-hidden">
+          <div className="relative bg-gradient-to-br from-[#4D258E] to-[#2b146b] text-white p-6 rounded-2xl shadow-lg overflow-hidden">
             <div className="absolute top-0 right-0 w-15 h-15 bg-[#057B56] rounded-bl-3xl"></div>
             <div className="w-15 h-15 flex items-center justify-center bg-gradient-to-r from-[#15A14A] to-[#057B56] rounded-lg mb-4 relative z-10">
               <Image
@@ -448,7 +418,7 @@ export default function BenefitCard() {
                 </span>
               </li>
             </ul>
-          </div> */}
+          </div>
         </div>
       </div>
     </main>
