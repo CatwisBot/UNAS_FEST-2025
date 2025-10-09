@@ -22,7 +22,7 @@ export const pastMascotsData: PastMascotsByYear = {
         bg: '/icons/Mascot/bg-card.png',
     },
     ],
-    description: "Lumina Verde is a small, smart symbol of renewable energy technology. Its crystal tubes reflect sunlight, reducing heat from the sun. The dandelion-shaped wings symbolize regeneration and energy potential, while the energizing crystals indicate low energy output. This symbol inspires us to harness the potential of renewable energy and global energy momentum. The name comes from the Latin Lumina, meaning home, and Verde, meaning water, highlighting the innovative use of anemo and hydro energy to protect the environment.",
+    description: "The four symbols—Sun (Youna), Water (Nassa), Fire (Alfest), and Lumina Verde—capture the spirit of UNAS FEST. The Sun represents consistency and energy, Water reflects flexibility and clarity, Fire embodies creativity and passion, and Lumina Verde symbolizes innovation and sustainability. Together, they illustrate UNAS FEST as a vibrant, adaptable, and forward-looking event driven by dedication, creativity, and environmental awareness.",
     },
     "2023": {
     mascots: [
