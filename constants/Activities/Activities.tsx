@@ -14,7 +14,7 @@ import Lasman from "@/public/image/Activities/Judges/KDBI/Lasman.jpg";
 
 import Batara from "@/public/image/Activities/Judges/EDC/Batara.jpg";
 import Joddy from "@/public/image/Activities/Judges/EDC/Joddy.jpg";
-import Maria from "@/public/image/Activities/Judges/EDC/Maria.jpg";
+import Ahmad from "@/public/image/Activities/Judges/EDC/Ahamd.jpg";
 
 import Donna from "@/public/image/Activities/Judges/SPC/Donna.jpg";
 import Efriza from "@/public/image/Activities/Judges/SPC/Efriza.jpg";
@@ -395,22 +395,26 @@ export const Activities: Activity[] = [
       },
       {
         index: 3,
-        name: "-",
-        image: user,
+        name: "Ahmad Kushay",
+        image: Ahmad,
         school: "-",
         lastEducation: "-",
         role: "Expert",
         description:
-          "She is a results-oriented professional with strong interpersonal skills, adept at developing strategic communication with stakeholders and government officials, backed by excellent negotiation abilities. With over 9 years of experience as a professional debater, she has honed exceptional critical thinking, adaptability, and problem-solving skills, enabling her to thrive in fast-paced and dynamic environments. She actively collaborates with political actors, government, and NGOs focused on youth empowerment and public policy, demonstrating a deep passion for contributing to the public sector. Her career aspirations lie in politics, public policy, and governance, where she can leverage her expertise to drive meaningful impact.",
+          "a passionate educator and aspiring legal scholar with a strong background in debate coaching, research, and public communication. Formerly a competitive debating coach with years of experience mentoring students across 40 institutions, Ahmad has transitioned into the legal field with an academic focus on international law, human rights, and environmental governance. His career reflects a dedication to education, research, and impactful advocacy through writing and teaching.",
         achievements: [
-          "Trained over 15 students in Indonesian debate using the Asian Parliamentary System, focusing on debate skills, critical thinking, research, and public speaking as a Debate Coach at SMAN 6 Kota Tangerang Selatan",
-          "Designed and developed a comprehensive debate curriculum covering various aspects of debate",
-          "Guided students in preparing for and participating in over 15 debate tournaments, including conducting debate drills and providing performance feedback",
-          "Coached students who achieved 1st place in SETARA debate competition at SMAN 70 Jakarta (with best speaker award)",
-          "Coached students who won 3rd place in LDBI 2019 debate competition at South Tangerang City level",
-          "Coached students selected to represent South Tangerang City's debate team at provincial level",
-          "Created learning objectives and curriculum to develop confidence in presenting ideas, critical thinking, and problem-solving through regular exercises as Debate Coach at SMPK Mater Dei",
-          "Coached students who gained 3rd place in South Tangerang City Debate Competition",
+          "Regulatory Compliance Intern – Hukumonline.com (2025)",
+          "Part-time Legal Writer – klikhukum.id (2025)",
+          "Research Assistant to Prof. Dra. Sri Wartini, S.H., M.H., Ph.D. – Universitas Islam Indonesia (2024)",
+          "Debate Coach – coached teams from over 40 universities and high schools across Indonesia (2017–Present)",
+          "English Lecturer – Institut Teknologi Bandung (2018)",
+          "Learning Program Management Intern – GO-JEK (2018)",
+          "President, Student English Forum ITB (2018–2019)",
+          "Head of Matter & Curriculum Division, Student English Forum ITB (2017–2018)",
+          "Champion of Indonesian National Round of International Humanitarian Law Moot Court Competition (2023)",
+          "1st Runner-up, IMA-HTN Constitutional Law Festival Legislative Drafting Competition (2024)",
+          "ITB’s Most Outstanding Student Award (3 times)",
+          "Debating Achievements: 2 regional, 21 national, and 2 international titles"
         ],
       },
     ],
