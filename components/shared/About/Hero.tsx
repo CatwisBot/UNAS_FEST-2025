@@ -47,7 +47,7 @@ export default function Hero() {
                 </div>
                 <div className="col-span-2 row-start-5 sm:col-span-3 sm:row-span-2 sm:col-start-3 sm:row-start-6 flex flex-col justify-center sm:items-end items-center">
                     <p className="text-white text-center sm:text-right font-semibold text-xs lg:text-xl leading-snug mb-1 sm:mb-2 md:mb-4 lg:mb-6">
-                        “Exploring the Potential of Renewable Energy Technology Innovation to Achieve Global Green Momentum”
+                        “Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem”
                     </p>
 
                     <Link href="/#competition">
