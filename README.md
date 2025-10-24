@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![UNAS FEST 2025](public/Preview_UF25.png)
+![UNAS FEST 2025](public/preview_UF25.png)
 
 **Celebrating 76 Years of Excellence**
 
