@@ -51,7 +51,7 @@ export const sponsorsData: SponsorData[] = [
     },
     {
         index: 8,
-        image: "/icons/Partnership/Sponsor/Logo BRI.jpg",
+        image: "/icons/Partnership/Sponsor/New BRI.png",
         description: "Bank BRI",
         link: "https://sariroti.com",
     },
@@ -63,7 +63,7 @@ export const sponsorsData: SponsorData[] = [
     },
     {
         index: 10,
-        image: "/icons/Partnership/Sponsor/Logo Lays.jpg",
+        image: "/icons/Partnership/Sponsor/New Lays.PNG",
         description: "Lays",
         link: "https://sariroti.com",
     },
@@ -81,7 +81,7 @@ export const sponsorsData: SponsorData[] = [
     },
     {
         index: 13,
-        image: "/icons/Partnership/Sponsor/Logo Sewa HT.png",
+        image: "/icons/Partnership/Sponsor/New Sewa HT.png",
         description: "Sewa HT",
         link: "https://sariroti.com",
     },
