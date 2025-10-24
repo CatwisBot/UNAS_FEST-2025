@@ -518,7 +518,7 @@ export const Gallery = [
                 location: "Universitas Nasional"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (1).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (1).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -527,7 +527,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (2).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (2).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -536,7 +536,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (3).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (3).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -545,7 +545,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (4).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (4).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -554,7 +554,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (5).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (5).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -563,7 +563,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (6).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (6).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -572,7 +572,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (7).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (7).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -581,7 +581,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (8).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (8).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -590,7 +590,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
            {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (9).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (9).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -599,7 +599,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
               {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (10).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (10).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -608,7 +608,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
               {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (11).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (11).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -617,7 +617,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
               {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (12).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (12).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -626,7 +626,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (13).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (13).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -635,7 +635,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (14).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (14).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -644,7 +644,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (15).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (15).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -653,7 +653,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (16).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (16).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -662,7 +662,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (17).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (17).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -671,7 +671,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (18).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (18).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -680,7 +680,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (19).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (19).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -689,7 +689,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (20).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (20).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -698,7 +698,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (21).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (21).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -707,7 +707,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (22).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (22).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -716,7 +716,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (23).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (23).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -725,7 +725,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
          {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (24).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (24).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -734,7 +734,7 @@ export const Gallery = [
                 location: "Aula Room"
             },  
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (25).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (25).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -743,7 +743,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (26).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (26).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -752,7 +752,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
               {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (27).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (27).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -761,7 +761,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (28).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (28).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -770,7 +770,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (29).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (29).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -779,7 +779,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (30).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (30).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -788,7 +788,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
           {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (31).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (31).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -797,7 +797,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (32).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (32).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -806,7 +806,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (34).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (34).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -815,7 +815,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (35).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (35).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -824,7 +824,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (36).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (36).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -833,7 +833,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (37).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (37).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -842,7 +842,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (38).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (38).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -851,7 +851,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (39).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (39).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -860,7 +860,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (40).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (40).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -869,7 +869,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (41).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (41).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -878,7 +878,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (42).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (42).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -887,7 +887,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (43).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (43).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -896,7 +896,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (44).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (44).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -905,7 +905,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (45).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (45).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -914,7 +914,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (46).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (46).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -923,7 +923,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (47).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (47).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -932,7 +932,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (48).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (48).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -941,7 +941,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (49).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (49).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -950,7 +950,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (50).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (50).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -959,7 +959,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (51).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (51).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -968,7 +968,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (52).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (52).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -977,7 +977,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                 {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (53).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (53).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -986,7 +986,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (54).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (54).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -995,7 +995,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (55).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (55).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1004,7 +1004,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (56).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (56).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1013,7 +1013,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (57).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (57).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1022,7 +1022,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (58).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (58).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1031,7 +1031,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (59).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (59).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1040,7 +1040,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (60).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (60).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1049,7 +1049,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (61).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (61).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1058,7 +1058,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
  {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (62).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (62).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1067,7 +1067,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (63).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (63).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1076,7 +1076,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (64).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (64).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1085,7 +1085,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (65).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (65).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1094,7 +1094,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (66).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (66).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1103,7 +1103,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (67).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (67).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1112,7 +1112,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (68).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (68).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1121,7 +1121,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (69).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (69).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1130,7 +1130,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (70).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (70).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1139,7 +1139,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (71).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (71).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1148,7 +1148,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (72).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (72).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1157,7 +1157,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (73).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (73).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1166,7 +1166,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (74).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (74).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1175,7 +1175,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (75).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (75).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1184,7 +1184,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (76).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (76).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1193,7 +1193,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (77).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (77).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1202,7 +1202,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (78).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (78).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1211,7 +1211,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (79).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (79).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1220,7 +1220,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (80).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (80).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1229,7 +1229,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (81).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (81).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1238,7 +1238,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (82).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (82).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1247,7 +1247,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (83).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (83).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1256,7 +1256,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (84).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (84).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1265,7 +1265,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (85).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (85).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1274,7 +1274,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (86).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (86).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1283,7 +1283,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (87).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (87).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1292,7 +1292,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (88).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (88).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1301,7 +1301,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (89).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (89).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1310,7 +1310,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (90).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (90).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1319,7 +1319,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (91).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (91).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1328,7 +1328,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (92).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (92).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1337,7 +1337,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (93).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (93).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1346,7 +1346,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (94).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (94).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1355,7 +1355,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (95).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (95).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1364,7 +1364,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (96).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (96).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1373,7 +1373,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (97).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (97).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1382,7 +1382,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (98).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (98).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1391,7 +1391,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (99).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (99).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1400,7 +1400,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (100).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (100).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1409,7 +1409,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (101).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (101).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1418,7 +1418,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (102).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (102).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1427,7 +1427,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (103).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (103).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1436,7 +1436,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (104).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (104).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1445,7 +1445,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (105).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (105).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1454,7 +1454,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (106).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (106).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1463,7 +1463,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (107).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (107).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1472,7 +1472,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (108).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (108).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1481,7 +1481,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (109).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (109).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1490,7 +1490,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (110).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (110).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1499,7 +1499,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (111).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (111).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1508,7 +1508,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (112).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (112).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1517,7 +1517,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (113).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (113).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1526,7 +1526,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (114).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (114).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1535,7 +1535,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (115).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (115).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1544,7 +1544,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (116).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (116).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1553,7 +1553,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (117).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (117).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1562,7 +1562,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (118).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (118).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1571,7 +1571,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (119).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (119).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1580,7 +1580,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (120).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (120).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1589,7 +1589,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (121).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (121).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -1615,7 +1615,6 @@ export const Gallery = [
                 date: "15 Oktober",
                 location: "Aula Room"
             },
-
         ]
     },
     {
@@ -1985,7 +1984,7 @@ export const Gallery = [
                 location: "Universitas Nasional"
            },
            {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (1).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (1).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -1994,7 +1993,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (2).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (2).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2003,7 +2002,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (3).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (3).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2012,7 +2011,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (4).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (4).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2021,7 +2020,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (5).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (5).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2030,7 +2029,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (6).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (6).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2039,7 +2038,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (7).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (7).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2048,7 +2047,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (8).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (8).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2057,7 +2056,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
            {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (9).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (9).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2066,7 +2065,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
               {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (10).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (10).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2075,7 +2074,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
               {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (11).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (11).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2084,7 +2083,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
               {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (12).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (12).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2093,7 +2092,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (13).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (13).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2102,7 +2101,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (14).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (14).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2111,7 +2110,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (15).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (15).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2120,7 +2119,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (16).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (16).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2129,7 +2128,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (17).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (17).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2138,7 +2137,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (18).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (18).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2147,7 +2146,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (19).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (19).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2156,7 +2155,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (20).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (20).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2165,7 +2164,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (21).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (21).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2174,7 +2173,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (22).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (22).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2183,7 +2182,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (23).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (23).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2192,7 +2191,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
          {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (24).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (24).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2201,7 +2200,7 @@ export const Gallery = [
                 location: "Aula Room"
             },  
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (25).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (25).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2210,7 +2209,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (26).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (26).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2219,7 +2218,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
               {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (27).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (27).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2228,7 +2227,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (28).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (28).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2237,7 +2236,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (29).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (29).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2246,7 +2245,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (30).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (30).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2255,7 +2254,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
           {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (31).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (31).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2264,7 +2263,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (32).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (32).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2273,7 +2272,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (34).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (34).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2282,7 +2281,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (35).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (35).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2291,7 +2290,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (36).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (36).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2300,7 +2299,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (37).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (37).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2309,7 +2308,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (38).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (38).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2318,7 +2317,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (39).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (39).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2327,7 +2326,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (40).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (40).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2336,7 +2335,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (41).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (41).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2345,7 +2344,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (42).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (42).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2354,7 +2353,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (43).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (43).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2363,7 +2362,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (44).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (44).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2372,7 +2371,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (45).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (45).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2381,7 +2380,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (46).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (46).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2390,7 +2389,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (47).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (47).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2399,7 +2398,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (48).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (48).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2408,7 +2407,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (49).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (49).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2417,7 +2416,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (50).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (50).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 1",
@@ -2426,7 +2425,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (51).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (51).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2435,7 +2434,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
             {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (52).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (52).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2444,7 +2443,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                 {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (53).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (53).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2453,7 +2452,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (54).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (54).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2462,7 +2461,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (55).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (55).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2471,7 +2470,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (56).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (56).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2480,7 +2479,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (57).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (57).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2489,7 +2488,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (58).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (58).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2498,7 +2497,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (59).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (59).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2507,7 +2506,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (60).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (60).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2516,7 +2515,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
                {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (61).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (61).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2525,7 +2524,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
  {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (62).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (62).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2534,7 +2533,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (63).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (63).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2543,7 +2542,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (64).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (64).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2552,7 +2551,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (65).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (65).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2561,7 +2560,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (66).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (66).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2570,7 +2569,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (67).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (67).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2579,7 +2578,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (68).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (68).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2588,7 +2587,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (69).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (69).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2597,7 +2596,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (70).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (70).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2606,7 +2605,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (71).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (71).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2615,7 +2614,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (72).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (72).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2624,7 +2623,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (73).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (73).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2633,7 +2632,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (74).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (74).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2642,7 +2641,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (75).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (75).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2651,7 +2650,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (76).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (76).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2660,7 +2659,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (77).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (77).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2669,7 +2668,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (78).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (78).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2678,7 +2677,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (79).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (79).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2687,7 +2686,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (80).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (80).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2696,7 +2695,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (81).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (81).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2705,7 +2704,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (82).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (82).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2714,7 +2713,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (83).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (83).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2723,7 +2722,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (84).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (84).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2732,7 +2731,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (85).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (85).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2741,7 +2740,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (86).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (86).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2750,7 +2749,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (87).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (87).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2759,7 +2758,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (88).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (88).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2768,7 +2767,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (89).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (89).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2777,7 +2776,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (90).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (90).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2786,7 +2785,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (91).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (91).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2795,7 +2794,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (92).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (92).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2804,7 +2803,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (93).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (93).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2813,7 +2812,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (94).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (94).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2822,7 +2821,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (95).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (95).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2831,7 +2830,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (96).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (96).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2840,7 +2839,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (97).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (97).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2849,7 +2848,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (98).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (98).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2858,7 +2857,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (99).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (99).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2867,7 +2866,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (100).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (100).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2876,7 +2875,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (101).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (101).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2885,7 +2884,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (102).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (102).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2894,7 +2893,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (103).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (103).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2903,7 +2902,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (104).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (104).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2912,7 +2911,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (105).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (105).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2921,7 +2920,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (106).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (106).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2930,7 +2929,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (107).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (107).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2939,7 +2938,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (108).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (108).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2948,7 +2947,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (109).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (109).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2957,7 +2956,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (110).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (110).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2966,7 +2965,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (111).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (111).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2975,7 +2974,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (112).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (112).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2984,7 +2983,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (113).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (113).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -2993,7 +2992,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (114).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (114).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -3002,7 +3001,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (115).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (115).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -3011,7 +3010,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (116).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (116).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -3020,7 +3019,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (117).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (117).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -3029,7 +3028,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (118).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (118).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -3038,7 +3037,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (119).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (119).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -3047,7 +3046,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (120).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (120).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
@@ -3056,7 +3055,7 @@ export const Gallery = [
                 location: "Aula Room"
             },
              {
-                src: "/image/Gallery/IDC/kdbi25/kdbi (121).jpg",
+                src: "/image/Gallery/IDC/kdbi25/kdbi (121).JPG",
                 alt: "Gallery Debate 2025",
                 caption: "",
                 day: "Day 2",
