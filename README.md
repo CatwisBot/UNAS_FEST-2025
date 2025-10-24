@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![UNAS FEST 2025](public/Preview_UF24.png)
+![UNAS FEST 2025](public/Preview_UF25.png)
 
 **Celebrating 76 Years of Excellence**
 
@@ -12,7 +12,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
-[🌐 Visit Website](https://caturnawa.unasfest.com) | [📚 Documentation](#documentation) | [🤝 Partnership](#partnership)
+[🌐 Visit Website](https://unasfest.com) | [🌐 Visit Website Caturnawa](https://caturnawa.unasfest.com) | [🤝 Partnership](https://unasfest.com/partnership)
 
 </div>
 
