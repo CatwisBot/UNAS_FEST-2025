@@ -516,7 +516,1106 @@ export const Gallery = [
                 year: "2024",
                 date: "",
                 location: "Universitas Nasional"
-            }
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (1).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (2).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (3).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (4).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (5).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (6).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (7).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (8).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+           {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (9).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+              {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (10).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+              {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (11).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+              {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (12).jpg",
+                alt: "",
+                caption: "",
+                day: "disesuaikan",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (13).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (14).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (15).jpg",
+                alt: "",
+                caption: "",
+                day: "disesuaikan",
+                year: "2025",
+                date: "13/14/15 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (16).jpg",
+                alt: "",
+                caption: "",
+                day: "disesuaikan",
+                year: "2025",
+                date: "13/14/15 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (17).jpg",
+                alt: "",
+                caption: "",
+                day: "disesuaikan",
+                year: "2025",
+                date: "13/14/15 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (18).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (19).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (20).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (21).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (22).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (23).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+         {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (24).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },  
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (25).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (26).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+              {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (27).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (28).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (29).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (30).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+          {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (31).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (32).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (34).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (35).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (36).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (37).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (38).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (39).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (40).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (41).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (42).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (43).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (44).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (45).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (46).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (47).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (48).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (49).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (50).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 1",
+                year: "2025",
+                date: "13 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (51).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+            {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (52).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+                {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (53).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+               {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (54).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+               {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (55).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+               {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (56).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+               {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (57).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+               {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (58).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+               {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (59).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+               {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (60).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+               {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (61).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+ {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (62).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (63).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (64).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (65).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (66).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (67).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (68).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (69).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (70).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (71).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (72).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (73).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (74).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (75).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (76).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (77).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (78).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (79).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (80).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (81).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (82).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (83).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (84).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (85).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (86).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (87).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (88).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (89).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (90).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (91).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (92).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (93).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (94).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (95).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (96).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (97).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (98).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (99).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (100).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (101).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (102).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (103).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (104).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (105).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (106).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (107).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (108).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (109).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (110).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (111).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (112).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (113).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (114).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (115).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (116).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (117).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (118).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (119).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (120).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+             {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (121).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 2",
+                year: "2025",
+                date: "14 Oktober",
+                location: "Aula Room"
+            },
+              {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (122).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 3",
+                year: "2025",
+                date: "15 Oktober",
+                location: "Aula Room"
+            },
+              {
+                src: "/image/Gallery/IDC/kdbi25/kdbi (123).jpg",
+                alt: "",
+                caption: "",
+                day: "Day 3",
+                year: "2025",
+                date: "15 Oktober",
+                location: "Aula Room"
+            },
+
         ]
     },
     {
