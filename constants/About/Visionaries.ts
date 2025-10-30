@@ -1,4 +1,4 @@
-import { StaticImageData } from 'next/image';
+import { StaticImageData } from "next/image";
 
 //Mascot
 import Bisyr from "@/public/image/About/Visionaries/Mascot/bisyr.jpg";
@@ -10,7 +10,6 @@ import Adelin from "@/public/image/About/Visionaries/Mascot/ADELIN VINICO YUANIT
 
 // Web
 import Dimas from "@/public/image/About/Committee/APM/dimas.jpeg";
-import Aura from "@/public/image/About/Visionaries/Web/aura.jpg";
 import Galang from "@/public/image/About/Visionaries/Web/galang.jpg";
 import Zidan from "@/public/image/About/Visionaries/Web/zidan.jpg";
 import Whisnu from "@/public/image/About/Visionaries/Web/whisnu.jpg";
@@ -58,37 +57,37 @@ export interface Visionary {
 }
 
 export const Mascot: Visionary[] = [
-    {
+  {
     id: 1,
     name: "Muhammad Bisyr",
     role: "Mascot UNAS FEST 2025",
     image: Bisyr,
   },
-    {
+  {
     id: 2,
     name: "Azzahra Dara",
     role: "Mascot UNAS FEST 2025",
     image: Dara,
   },
-    {
+  {
     id: 3,
     name: "Nadia Ramadhani",
     role: "Mascot UNAS FEST 2025",
     image: Rama,
   },
-    {
+  {
     id: 4,
     name: "Muhammad Bisyr",
     role: "Mascot UNAS FEST 2024",
     image: Bisyr24,
   },
-    {
+  {
     id: 5,
     name: "Nirvana Putri Rizal",
     role: "Dubbing Voice Over Lumina Verde",
     image: Nirvana,
   },
-    {
+  {
     id: 6,
     name: "Adelin Vinico Yuanita",
     role: "Mascot UNAS FEST 2023",
@@ -97,164 +96,158 @@ export const Mascot: Visionary[] = [
 ];
 
 export const Web: Visionary[] = [
-    {
+  {
     id: 1,
     name: "Dimas",
     role: "Caturnawa Web 2025",
     image: Dimas,
   },
-    {
+  {
     id: 2,
-    name: "Najwa Aura Hastin",
-    role: "IT Support Web 2025",
-    image: Aura,
-  },
-    {
-    id: 3,
     name: "Galang Rispa'i",
     role: "Design Web 2025",
     image: Galang,
   },
-    {
-    id: 4,
+  {
+    id: 3,
     name: "Muhammad Zidan",
     role: "Design Web 2025",
     image: Zidan,
   },
-    {
-    id: 5,
+  {
+    id: 4,
     name: "Raden Whisnu A. N",
     role: "UNAS FEST Web 2025",
     image: Whisnu,
   },
-    {
-    id: 6,
+  {
+    id: 5,
     name: "Nur Arohman",
     role: "UNAS FEST Web 2025",
     image: Arohman,
   },
-    {
-    id: 7,
+  {
+    id: 6,
     name: "M. Akbar Hadi Pratama",
     role: "Caturnawa Web 2025",
     image: Akbar,
   },
-    {
-    id: 8,
+  {
+    id: 7,
     name: "Ilham Ramadhan",
     role: "Caturnawa Web 2025",
     image: Ilham,
   },
   {
-    id: 9,
+    id: 8,
     name: "Achmad Maulana Alawi",
     role: "UNAS FEST 2024 Website and Caturnawa 2024",
     image: alawi,
   },
   {
-    id: 10,
+    id: 9,
     name: "Muhammad Rangga Miftahul Falah",
     role: "UNAS FEST 2024 Website and Caturnawa 2024",
     image: rangga,
   },
   {
-    id: 11,
+    id: 10,
     name: "Heni Fitriany",
     role: "UNAS FEST 2024 Website and Caturnawa 2024",
     image: heni,
   },
   {
-    id: 12,
+    id: 11,
     name: "Hawra Fathiya Zahra",
     role: "UNAS FEST 2024 Website and Caturnawa 2024",
     image: hawra,
   },
   {
-    id: 13,
+    id: 12,
     name: "Muhammad Raihan Putra Febrianto",
     role: "UNAS FEST 2024 Website and Caturnawa 2024",
     image: rehan,
   },
   {
-    id: 14,
+    id: 13,
     name: "Moch Rafindra Aditias",
     role: "UNAS FEST 2024 Website and Caturnawa 2024",
     image: rafi,
   },
   {
-    id: 15,
+    id: 14,
     name: "Ferdiansyach",
     role: "UNAS FEST 2024 Website and Caturnawa 2024",
     image: iyan,
   },
   {
-    id: 16,
+    id: 15,
     name: "Afzal Khairahmansyach",
     role: "UNAS FEST 2024 Website and Caturnawa 2024",
     image: afzal,
   },
   {
-    id: 17,
+    id: 16,
     name: "Pancar Hizkia",
     role: "UNAS FEST 2024 Website and Caturnawa 2024",
     image: pancar,
   },
   {
-    id: 18,
+    id: 17,
     name: "Hansen Chandra",
     role: "UNAS FEST Website 2023",
     image: hansen,
   },
   {
-    id: 19,
+    id: 18,
     name: "Ciptoningaji Guridno",
     role: "UNAS FEST Website 2023",
     image: user,
   },
   {
-    id: 20,
+    id: 19,
     name: "Ronald Lakhomizaro Gulo",
     role: "UNAS FEST Website 2023",
     image: ronald,
   },
   {
-    id: 21,
+    id: 20,
     name: "Rizky Wahyu Sugandhi",
     role: "UNAS FEST Website 2023",
     image: ghandi,
   },
   {
-    id: 22,
+    id: 21,
     name: "Rian Hidayat",
     role: "UNAS FEST Website 2023",
     image: user,
   },
   {
-    id: 23,
+    id: 22,
     name: "Abija Bohdan P.",
     role: "UNAS FEST Website 2023",
     image: abija,
   },
   {
-    id: 24,
+    id: 23,
     name: "Arga Mahesa Putra",
     role: "UNAS FEST Website 2023",
     image: user,
   },
   {
-    id: 25,
+    id: 24,
     name: "Govinda Marcelino",
     role: "UNAS FEST Website 2023",
     image: govin,
   },
   {
-    id: 26,
+    id: 25,
     name: "Duhan Maulana Artline",
     role: "Caturnawa 2023",
     image: duhan,
   },
   {
-    id: 27,
+    id: 26,
     name: "Jepplin Sinaga",
     role: "Caturnawa 2023",
     image: jeplin,
@@ -262,25 +255,25 @@ export const Web: Visionary[] = [
 ];
 
 export const Music: Visionary[] = [
-    {
+  {
     id: 1,
     name: "Ronald Lakhomizaro Gulo",
     role: "Producer & Arranger Music",
     image: Ronald,
   },
-    {
+  {
     id: 2,
     name: "Beby Alya Rahman Nasution",
     role: "BFX",
     image: Beby,
   },
-    {
+  {
     id: 3,
     name: "Dian Sarah Purba",
     role: "Anthem UNAS FEST Singer",
     image: Dian,
   },
-    {
+  {
     id: 4,
     name: "Farhani Kurniayu",
     role: "Anthem UNAS FEST Singer",
@@ -292,43 +285,43 @@ export const Music: Visionary[] = [
     role: "Anthem UNAS FEST Singer",
     image: Shafa,
   },
-    {
+  {
     id: 6,
     name: "Syafira Fairuz",
     role: "Anthem UNAS FEST Song Writer",
     image: Fira,
   },
-    {
+  {
     id: 7,
     name: "Jihan Fauziah",
     role: "Koreografer",
     image: Jihan,
   },
-    {
+  {
     id: 8,
     name: "Johanes Nathanael Bimambang",
     role: "Producer & Arranger Music",
     image: Albert,
   },
-    {
+  {
     id: 9,
     name: "Joshua Pratama Martinus",
     role: "Producer & Arranger Music",
     image: Joshua,
   },
-    {
+  {
     id: 10,
     name: "Maimunahwaroh Heta Warman",
     role: "Anthem UNAS FEST Singer",
     image: Mamay,
   },
-    {
+  {
     id: 11,
     name: "Albert Deniel Sitorus",
     role: "BFX",
     image: Johannes,
   },
-    {
+  {
     id: 12,
     name: "Tegar Budiman",
     role: "UANS FEST Song Writer",
@@ -339,5 +332,5 @@ export const Music: Visionary[] = [
     name: "Alfarizky Esah Raffliansyah",
     role: "Anthem UNAS FEST Singer",
     image: Rafli,
-  }
+  },
 ];
