@@ -55,4 +55,10 @@ export const MediaData: SponsorData[] = [
         description: "LombaSMA",
         link: "-",
     },
+    {
+        index: 9,
+        image: "/icons/Partnership/Media/Logo Metro TV.png",
+        description: "Metro TV",
+        link: "-",
+    }
 ]
