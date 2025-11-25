@@ -7,11 +7,11 @@ import Faq from "@/components/shared/Home/Faq";
 import Header from "@/components/shared/Gallery/Header";
 
 interface GalleryDetailPageProps {
-  params: PageParams;
+  params: Promise<PageParams>;
 }
 
-export default function GalleryDetailPage({ params }: GalleryDetailPageProps) {
-  const { slug } = params;
+export default async function GalleryDetailPage({ params }: GalleryDetailPageProps) {
+  const { slug } = await params;
   const event = Gallery.find((e: GalleryEvent) => e.path === slug);
 
   if (!event) {
@@ -41,8 +41,8 @@ export async function generateStaticParams() {
 
 import type { Metadata } from "next";
 
-export async function generateMetadata({ params }: { params: PageParams }): Promise<Metadata> {
-  const { slug } = params;
+export async function generateMetadata({ params }: { params: Promise<PageParams> }): Promise<Metadata> {
+  const { slug } = await params;
   const event = Gallery.find((e: GalleryEvent) => e.path === slug);
 
   if (!event) {
