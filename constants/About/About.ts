@@ -450,7 +450,7 @@ export const COMMITTEE_MEMBERS: CommitteeData = {
         "Administration",
         "Performance",
         "Finance Officer",
-        "",
+        "Background Visual Effect",
       ],
     },
     {
