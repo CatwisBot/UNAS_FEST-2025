@@ -15,7 +15,7 @@ export default function GalleryDetailClient({ event }: GalleryDetailClientProps)
     const [selectedDay, setSelectedDay] = useState("All");
 
     const years = ["All", "2025", "2024", "2023"];
-    const days = ["All", "Day 1", "Day 2", "Day 3"];
+    const days = ["All", "Day 1", "Day 2", "Day 3", "Awarding"];
 
     const filteredImages = useMemo(() => {
         return event.images.filter((image) => {
@@ -28,7 +28,7 @@ export default function GalleryDetailClient({ event }: GalleryDetailClientProps)
     return (
         <div className="bg-gradient-to-b from-[#0A0B30] via-[#3F0E79] to-[#37126B]">
             <div className="max-w-2xs sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto min-h-screen">
-                <div className="pt-10 flex flex-row items-center gap-3">
+                <div className="pt-10 flex flex-row items-center gap-3">    
                     <Image src={FilterIcon} alt="Filter icon" width={28} height={28} />
                     <div className="flex flex-row items-center gap-3">
                         <p className="font-bold text-xl tracking-widest">Filter</p>
