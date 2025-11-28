@@ -15,7 +15,7 @@ export default function GalleryDetailClient({ event }: GalleryDetailClientProps)
     const [selectedDay, setSelectedDay] = useState("All");
 
     const years = ["All", "2025", "2024", "2023"];
-    const days = ["All", "Day 1", "Day 2", "Day 3", "Awarding"];
+    const days = ["All", "Day 1", "Day 2", "Day 3", "Day 4", "Awarding"];
 
     const filteredImages = useMemo(() => {
         return event.images.filter((image) => {
