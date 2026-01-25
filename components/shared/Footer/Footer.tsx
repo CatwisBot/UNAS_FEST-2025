@@ -279,10 +279,6 @@ export default function Footer() {
       <div className="container mx-auto px-10 mt-8">
         <div className="border-t-2 border-white/50 flex flex-col md:flex-row justify-between items-center text-xs md:text-sm font-semibold gap-2 pt-4">
           <p>© Copyright UNAS FEST 2025</p>
-          <p>
-            Visitor Count:{" "}
-            {count !== null ? count.toLocaleString() : "Memuat..."}
-          </p>
         </div>
       </div>
     </footer>
