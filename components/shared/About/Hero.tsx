@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import FotoBersama from "@/public/image/About/YB/FotoBersama.png";
+import FotoBersama from "@/public/image/About/YB/Foto Bersama.jpeg";
 import Link from "next/link";
 
 export default function Hero() {
