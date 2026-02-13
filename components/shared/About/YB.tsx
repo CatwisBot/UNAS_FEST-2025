@@ -4,24 +4,37 @@ import Image from "next/image";
 import Border from "@/public/image/About/YB/Border.png";
 import Fotbar from "@/public/image/About/YB/Foto Bersama.jpeg";
 import { useState } from "react";
-import { BookOpen } from "lucide-react";
+import { BookOpen, ExternalLink } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 export default function Home() {
-  const [showToast, setShowToast] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handleClick = () => {
-    // Release date: January 26, 2026 at 12:00 PM WIB (UTC+7)
-    const releaseDate = new Date('2026-01-26T12:00:00+07:00');
-    const now = new Date();
+  const yearbooks = [
+    {
+      year: "2024",
+      title: "UNAS FEST 2024",
+      link: "https://www.canva.com/design/DAG4pHPwmYQ/6SVzC4TZRy8LXGFHg2UoZg/edit?utm_content=DAG4pHPwmYQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      available: true,
+    },
+    {
+      year: "2025",
+      title: "UNAS FEST 2025",
+      link: "https://www.canva.com/design/DAG4qZ01CHg/VDkGToLPpeti27xaTl6myg/edit?success=true",
+      available: true,
+    },
+  ];
 
-    if (now < releaseDate) {
-      // Not yet available
-      setShowToast(true);
-      setTimeout(() => setShowToast(false), 3000);
-    } else {
-      // Open yearbook link
-      window.open('https://www.canva.com/design/DAG4qZ01CHg/VDkGToLPpeti27xaTl6myg/edit?success=true', '_blank');
-    }
+  const handleYearbookClick = (link: string) => {
+    window.open(link, '_blank');
+    setIsOpen(false);
   };
 
   return (
@@ -48,21 +61,52 @@ export default function Home() {
             quality={100}
           />
           <div className="flex items-center justify-center">
-            <button
-              onClick={handleClick}
-              className="absolute bottom-5 md:bottom-10 border border-white px-2 py-1 md:px-4 md:py-2 rounded-xl text-white font-semibold hover:scale-110 z-10 bg-white/20 backdrop-blur-md transition"
-            >
-              Visit Yearbook
-            </button>
-
-            {showToast && (
-              <div className="fixed top-25 left-1/2 transform -translate-x-1/2 z-50">
-                <div className="flex items-center gap-3 bg-white text-black px-2 py-1 md:px-4 md:py-3 rounded-xl shadow-lg">
-                  <BookOpen className="text-blue-400 w-10 h-10 md:w-5 md:h-5" />
-                  <span>The yearbook will be available on January 26, 2026 at 12:00 PM WIB.</span>
+            <Dialog open={isOpen} onOpenChange={setIsOpen}>
+              <DialogTrigger asChild>
+                <button
+                  className="absolute bottom-5 md:bottom-10 border border-white px-2 py-1 md:px-4 md:py-2 rounded-xl text-white font-semibold hover:scale-110 z-10 bg-white/20 backdrop-blur-md transition"
+                >
+                  Visit Yearbook
+                </button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-[500px]">
+                <DialogHeader>
+                  <DialogTitle className="text-2xl text-center">
+                    Select Yearbook
+                  </DialogTitle>
+                  <DialogDescription className="text-center">
+                    Choose which yearbook you want to view
+                  </DialogDescription>
+                </DialogHeader>
+                <div className="grid gap-4 py-4">
+                  {yearbooks.map((yearbook) => (
+                    <button
+                      key={yearbook.year}
+                      onClick={() => handleYearbookClick(yearbook.link)}
+                      disabled={!yearbook.available}
+                      className="group relative flex items-center justify-between p-4 rounded-lg border border-white/20 bg-white/5 hover:bg-white/10 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      <div className="flex items-center gap-4">
+                        <div className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-blue-500">
+                          <BookOpen className="w-6 h-6 text-white" />
+                        </div>
+                        <div className="text-left">
+                          <h3 className="text-lg font-semibold text-white">
+                            {yearbook.title}
+                          </h3>
+                          <p className="text-sm text-gray-400">
+                            {yearbook.available ? "Available now" : "Coming soon"}
+                          </p>
+                        </div>
+                      </div>
+                      {yearbook.available && (
+                        <ExternalLink className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+                      )}
+                    </button>
+                  ))}
                 </div>
-              </div>
-            )}
+              </DialogContent>
+            </Dialog>
           </div>
         </div>
       </div>
