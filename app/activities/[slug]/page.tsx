@@ -32,20 +32,22 @@ import "@/components/ui/shine.css";
 import CustomSwiper from "@/components/ui/swiper";
 import Judges from "@/components/shared/Activities/Judges";
 import { Card, CardContent, CardDescription } from "@/components/ui/card";
+import { use } from "react";
 
 type Props = {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 };
 
 export default function ActivityDetailPage({ params }: Props) {
-  const activity = Activities.find((act) => act.path === params.slug);
+  const { slug } = use(params);
+
+  const activity = Activities.find((act) => act.path === slug);
 
   if (!activity) return notFound();
 
   const requirementsData = activity.requirements || [];
 
-  const timelineData =
-    EVENTS.find((event) => event.path === params.slug)?.timeline || [];
+  const timelineData = EVENTS.find((event) => event.path === slug)?.timeline || [];
 
   return (
     <main>
@@ -277,7 +279,7 @@ export default function ActivityDetailPage({ params }: Props) {
           <Judges judgesData={activity.judgesData || []} />
         </div>
         <div>
-          <Faq slug={params.slug} />
+          <Faq slug={slug} />
         </div>
       </div>
 
