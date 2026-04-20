@@ -8,9 +8,9 @@
 
 *"Conducting a Preventive Action for Deforestation Through AI-Assisted Technology Innovation in Acquiring a Resilience and Sustainable Ecosystem"*
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.0-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-16.1.4-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
 [🌐 Visit Website](https://unasfest.com) | [🌐 Visit Website Caturnawa](https://caturnawa.unasfest.com) | [🤝 Partnership](https://unasfest.com/partnership)
 
@@ -61,7 +61,7 @@ UNAS FEST 2025 features **5 prestigious competitions** designed to challenge and
 
 #### 3. **SPC** - Scientific Paper Competition
 - **Target**: 15+ participants (individual)
-- **Prize Pool**: Rp 6,500,000+
+- **Prize Pool**: Rp 3,000,000+
 - **Format**: Research-based scientific paper
 - **Participants**: Active undergraduate students (S1) registered in PDDIKTI
 - **Key Skills**: Scientific writing, research methodology, critical analysis
@@ -69,14 +69,14 @@ UNAS FEST 2025 features **5 prestigious competitions** designed to challenge and
 
 #### 4. **Infographic Competition** (High School Level)
 - **Target**: 15+ teams
-- **Prize Pool**: Rp 4,500,000+
+- **Prize Pool**: Rp 3,000,000+
 - **Format**: Digital infographic design
 - **Participants**: High school students (SMA/SMK) in JABODETABEK area
 - **Key Skills**: Visual communication, data visualization, design thinking
 
 #### 5. **Short Video Competition** (High School Level)
 - **Target**: 15+ teams
-- **Prize Pool**: Rp 4,500,000+
+- **Prize Pool**: Rp 3,000,000+
 - **Format**: 60-180 seconds video content (9:16 portrait)
 - **Participants**: High school students (SMA/SMK) in JABODETABEK area
 - **Key Skills**: Video production, storytelling, digital content creation
@@ -96,11 +96,11 @@ UNAS FEST 2025 features **5 prestigious competitions** designed to challenge and
 ### Key Events
 - **Oct 11**: Webinar & Technical Meeting for All Competitions
 - **Oct 13-15**: Preliminary & Semifinal Rounds (KDBI & EDC)
-- **Oct 14-21**: Submission Period (SPC, Infographic, Short Video)
-- **Oct 22-27**: Assessment & Finals Preparation
-- **Oct 27**: Final Round (KDBI & EDC)
-- **Nov 1**: Final Round (SPC, Infographic, Short Video)
-- **Nov 6**: 🎊 **Grand Awarding Ceremony** at Universitas Nasional
+- **Oct 14-21**: Collection and Submission of Works (SPC, Infographic, Short Video)
+- **Oct 22-25**: Assessment of All Submissions by the Jury (SPC, Infographic, Short Video)
+- **Oct 28**: Announcement of All Finalists (SPC, Infographic, Short Video)
+- **Nov 1**: Final Round (All Competitions)
+- **Nov 6**: 🎊 **Awarding Ceremony** UNAS FEST 2025 at Universitas Nasional
 
 ---
 
@@ -109,19 +109,20 @@ UNAS FEST 2025 features **5 prestigious competitions** designed to challenge and
 This website is built with cutting-edge web technologies:
 
 ### Core Framework
-- **⚡ Next.js 15.0** - React framework with App Router and Turbopack
-- **🔷 TypeScript** - Type-safe development
-- **🎨 Tailwind CSS** - Utility-first CSS framework
+- **⚡ Next.js 16.1.4** - React framework with App Router and Turbopack
+- **⚛️ React 19** - Library for user programming interfaces
+- **🔷 TypeScript 5** - Type-safe development
+- **🎨 Tailwind CSS 4** - Utility-first CSS framework
 
 ### UI & Animation
 - **🧩 Radix UI** - Accessible component primitives
-- **🎬 Framer Motion** - Production-ready animation library
-- **✨ Swiper** - Modern mobile touch slider
+- **🎬 Framer Motion 12** - Production-ready animation library
+- **✨ Swiper & Keen Slider** - Modern mobile touch sliders
+- **🌟 tsParticles** - Lightweight library for creating animations and particles
 
 ### Development Tools
-- **📏 ESLint** - Code quality enforcement
-- **💅 Prettier** - Code formatting
-- **🪝 usehooks-ts** - Type-safe React hooks
+- **📏 ESLint 9** - Code quality enforcement
+- **🔄 Tailwind Merge & clsx** - Class utilities
 
 ---
 
@@ -129,36 +130,30 @@ This website is built with cutting-edge web technologies:
 
 ```bash
 UNAS_FEST-2025/
-├── app/                      # Next.js 15 App Router
-│   ├── about/               # About UNAS FEST pages
-│   ├── activities/[slug]/   # Dynamic competition pages
-│   ├── gallery/[slug]/      # Event photo galleries
-│   ├── partnership/         # Sponsor & collaborator info
-│   ├── api/visitor/         # Visitor tracking API
-│   └── page.tsx            # Homepage
-├── components/
-│   ├── shared/              # Reusable components
-│   │   ├── Home/           # Homepage sections
-│   │   ├── Activities/     # Competition components
-│   │   ├── Gallery/        # Gallery components
-│   │   ├── Navbar/         # Navigation
-│   │   └── Footer/         # Footer
-│   └── ui/                  # UI primitives
-├── constants/               # Static data & content
-│   ├── Activities/         # Competition details
-│   ├── About/              # Event information
-│   ├── Home/               # Homepage content
-│   ├── Gallery/            # Gallery data
-│   └── Partnership/        # Partner information
-├── hooks/                   # Custom React hooks
-├── lib/                     # Utilities & types
-│   ├── types/              # TypeScript definitions
-│   └── utils.ts            # Helper functions
-└── public/                  # Static assets
-    ├── icons/              # Icon collections
-    ├── image/              # Images & posters
-    ├── file/               # Guidebook PDFs
-    └── ANTHEM_UNASFEST.mp3 # Official anthem
+├── app/                      # Next.js App Router
+│   ├── about/                # About UNAS FEST pages
+│   ├── activities/           # Dynamic competition pages
+│   │   └── [slug]/
+│   ├── gallery/              # Event photo galleries
+│   │   └── [slug]/
+│   ├── partnership/          # Sponsor & collaborator info
+│   ├── api/                  # API endpoints
+│   └── page.tsx              # Homepage
+├── components/               # Next.js Components
+├── constants/                # Static data & content
+│   ├── Activities/           # Competition details
+│   ├── About/                # Event information
+│   ├── Home/                 # Homepage content
+│   ├── Gallery/              # Gallery data
+│   ├── Partnership/          # Partner information
+│   └── navMenu.ts            # Website navigation configs
+├── hooks/                    # Custom React hooks
+├── lib/                      # Utilities & types
+├── public/                   # Static assets
+│   ├── icons/                # Icon collections
+│   ├── image/                # Images & posters
+│   └── file/                 # Guidebook PDFs
+└── types/                    # TypeScript ambient modules
 ```
 
 ---
@@ -208,16 +203,14 @@ npm run lint     # Run ESLint for code quality
 ### ✨ User Experience
 - **🎯 Dynamic Competition Pages**: Detailed information for each competition category
 - **📱 Fully Responsive**: Optimized for mobile, tablet, and desktop
-- **🌐 SEO Optimized**: Enhanced visibility on search engines
-- **⚡ Lightning Fast**: Powered by Next.js 15 and Turbopack
-- **🎵 Interactive Audio**: UNAS FEST anthem integration
+- **🌟 Particles & Animations**: Utilizing framer motion and tsparticles for an interactive experience
 - **📸 Photo Galleries**: Comprehensive event documentation
+- **🚀 Lightning Fast**: Powered by Next.js and Turbopack
 
 ### 🛠️ Developer Experience
 - **🔐 Type Safety**: Full TypeScript implementation
 - **♻️ Reusable Components**: Modular component architecture
-- **📊 Visitor Tracking**: API endpoint for analytics
-- **🎨 Consistent Styling**: Tailwind CSS with custom design system
+- **🎨 Consistent Styling**: Tailwind CSS 4 with custom design system
 - **🔄 Hot Reload**: Instant feedback during development
 
 ---
@@ -227,7 +220,7 @@ npm run lint     # Run ESLint for code quality
 | Route | Description |
 |-------|-------------|
 | `/` | Homepage with hero, competitions overview, and CTA |
-| `/about` | About UNAS FEST, vision, mission, committee |
+| `/about` | About UNAS FEST, vision, mission |
 | `/activities/[slug]` | Individual competition details (KDBI, EDC, SPC, etc.) |
 | `/gallery/[slug]` | Event photo galleries by category |
 | `/partnership` | Sponsors, media partners, and collaborators |
@@ -247,22 +240,8 @@ Media outlets amplifying our message and event coverage
 ### 🤝 Collaborators
 Institutions and communities working together for success
 
-**Interested in partnering with us?**  
+**Interested in partnering with us?**
 📧 Contact: [partnership@unasfest.com](mailto:partnership@unasfest.com)
-
----
-
-## 👥 Organizing Committee
-
-The UNAS FEST 2025 committee comprises dedicated students from various study programs at Universitas Nasional, working collaboratively to create an inclusive, diverse, and impactful event.
-
-**Committee Divisions:**
-- 🎯 Steering Committee
-- 📣 Public Relations & Marketing
-- 💻 IT & Creative Design
-- 🎪 Event Management
-- 💰 Finance & Sponsorship
-- 🔒 Security & Logistics
 
 ---
 
@@ -281,28 +260,13 @@ All guidebooks are available in the `/public/file` directory:
 ## 🌐 Links
 
 - **🌍 Official Website**: [caturnawa.unasfest.com](https://caturnawa.unasfest.com)
-- **📸 Instagram**: [@unasfest](https://instagram.com/unasfest)
-- **📘 Facebook**: [UNAS FEST](https://facebook.com/unasfest)
-- **🐦 Twitter**: [@unasfest](https://twitter.com/unasfest)
-- **🎵 TikTok**: [@unasfest](https://tiktok.com/@unasfest)
 
 ---
 
 ## 📄 License
 
-This project is developed and maintained by the UNAS FEST 2025 Organizing Committee.  
+This project is developed and maintained by the UNAS FEST 2025 Organizing Committee.
 © 2025 Universitas Nasional. All rights reserved.
-
----
-
-## 🙏 Acknowledgments
-
-Special thanks to:
-- **Universitas Nasional** for 76 years of educational excellence
-- **All Committee Members** for their dedication and hard work
-- **Sponsors & Partners** for their generous support
-- **Participants** for making UNAS FEST a success
-- **Judges & Mentors** for sharing their expertise
 
 ---
 
