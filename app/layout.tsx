@@ -22,10 +22,66 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "UNASFEST 2025",
+  metadataBase: new URL("https://unasfest.com"),
+  title: {
+    default: "UNASFEST 2025 | Universitas Nasional",
+    template: "%s | UNASFEST 2025",
+  },
   description:
-    "UNAS FEST 2025 - Unas Fest is a festival organized by the students of Universitas Nasional, Jakarta, Indonesia. It is a celebration of culture, creativity, and community.",
-  icons: "./favicon.ico",
+    "UNAS FEST 2025 is a spectacular festival organized by the students of Universitas Nasional, Jakarta. Celebrate culture, creativity, and community with us.",
+  keywords: [
+    "UNAS",
+    "UNASFEST",
+    "UNAS FEST 2025",
+    "Universitas Nasional",
+    "Festival",
+    "Jakarta",
+    "Student Festival",
+    "Culture",
+    "Creativity",
+  ],
+  authors: [{ name: "Universitas Nasional Students" }],
+  creator: "UNASFEST Committee",
+  openGraph: {
+    type: "website",
+    locale: "id_ID",
+    url: "https://unasfest.com",
+    title: "UNASFEST 2025 | Universitas Nasional",
+    description:
+      "UNAS FEST 2025 is a spectacular festival organized by the students of Universitas Nasional, Jakarta. Celebrate culture, creativity, and community with us.",
+    siteName: "UNASFEST 2025",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "UNASFEST 2025",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UNASFEST 2025 | Universitas Nasional",
+    description:
+      "UNAS FEST 2025 is a spectacular festival organized by the students of Universitas Nasional, Jakarta. Celebrate culture, creativity, and community with us.",
+    images: ["/og-image.jpg"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
