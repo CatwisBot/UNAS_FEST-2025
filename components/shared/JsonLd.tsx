@@ -38,12 +38,7 @@ const organizationSchema = {
   },
 };
 
-const eventSchema = {
-  "@context": "https://schema.org",
-  "@type": "Event",
-  name: "UNAS FEST 2025",
-  description:
-    "UNAS FEST 2025 is a spectacular national student festival organized by Universitas Nasional, Jakarta. Featuring debate competitions (KDBI & EDC), Scientific Paper Competition, Infographic Competition, and Short Movie Competition.",
+const commonEventProps = {
   startDate: "2025-08-25",
   endDate: "2025-11-10",
   eventStatus: "https://schema.org/EventScheduled",
@@ -77,6 +72,15 @@ const eventSchema = {
     priceCurrency: "IDR",
     validFrom: "2025-08-25",
   },
+};
+
+const eventSchema = {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  name: "UNAS FEST 2025",
+  description:
+    "UNAS FEST 2025 is a spectacular national student festival organized by Universitas Nasional, Jakarta. Featuring debate competitions (KDBI & EDC), Scientific Paper Competition, Infographic Competition, and Short Movie Competition.",
+  ...commonEventProps,
   subEvent: [
     {
       "@type": "Event",
@@ -84,6 +88,7 @@ const eventSchema = {
       description:
         "Indonesian language debate competition as a platform for participants to express arguments on current national issues.",
       url: "https://unasfest.com/activities/KDBI",
+      ...commonEventProps,
     },
     {
       "@type": "Event",
@@ -91,6 +96,7 @@ const eventSchema = {
       description:
         "English language debate competition where participants deliver argumentation regarding current issues.",
       url: "https://unasfest.com/activities/EDC",
+      ...commonEventProps,
     },
     {
       "@type": "Event",
@@ -98,6 +104,7 @@ const eventSchema = {
       description:
         "National scientific paper competition based on research using data collection methods.",
       url: "https://unasfest.com/activities/SPC",
+      ...commonEventProps,
     },
     {
       "@type": "Event",
@@ -105,6 +112,7 @@ const eventSchema = {
       description:
         "Design competition encouraging participants to present information concisely and creatively through infographics.",
       url: "https://unasfest.com/activities/Infographic",
+      ...commonEventProps,
     },
     {
       "@type": "Event",
@@ -112,6 +120,7 @@ const eventSchema = {
       description:
         "Short movie competition showcasing creative filmmaking skills of students.",
       url: "https://unasfest.com/activities/Short",
+      ...commonEventProps,
     },
   ],
 };
