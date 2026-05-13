@@ -4,11 +4,12 @@ import { Poppins } from "next/font/google";
 import Navbar from "@/components/shared/Navbar/Navbar";
 import Footer from "@/components/shared/Footer/Footer";
 import Audio from "@/components/shared/Audio";
+import { JsonLd } from "@/components/shared/JsonLd";
 
 const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",
-  display: "optional",
+  display: "swap",
   weight: ["300", "400", "500", "600", "700", "800"],
   adjustFontFallback: true,
 });
@@ -16,8 +17,8 @@ const poppins = Poppins({
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
+  maximumScale: 5,
+  userScalable: true,
   viewportFit: 'cover',
 };
 
@@ -82,12 +83,17 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  alternates: {
+    canonical: 'https://unasfest.com',
+  },
+  category: 'education',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="id">
       <body className={`${poppins.variable} font-poppins text-white overflow-x-hidden`}>
+        <JsonLd />
         <div id="root-layout">
           <Navbar />
           <Audio />
