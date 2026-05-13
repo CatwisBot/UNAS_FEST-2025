@@ -8,11 +8,10 @@ import Benefit from "@/components/shared/Home/Benefit";
 import { EVENTS } from "@/constants/Activities/Timeline";
 
 
-export default function homePage() {
+export default function HomePage() {
     const homeEvents = EVENTS.find(event => event.path === "/")?.timeline;
     return(
-        <>
-           
+        <main>
             <Hero />
 
             <Competition />
@@ -26,6 +25,6 @@ export default function homePage() {
             <Ready />
 
             <FAQ />
-        </>
+        </main>
     )
 }
