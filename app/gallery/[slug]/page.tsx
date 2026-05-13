@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Gallery } from "@/constants/Gallery/Gallery";
 import { GalleryEvent, PageParams } from "@/lib/types/Gallery/Gallery";
@@ -39,8 +40,6 @@ export async function generateStaticParams() {
   }));
 }
 
-import type { Metadata } from "next";
-
 export async function generateMetadata({ params }: { params: Promise<PageParams> }): Promise<Metadata> {
   const { slug } = await params;
   const event = Gallery.find((e: GalleryEvent) => e.path === slug);
@@ -50,7 +49,17 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
   }
 
   return {
-    title: event.title,
+    title: `${event.title} Gallery`,
     description: event.desc,
+    alternates: {
+      canonical: `https://unasfest.com/gallery/${event.path}`,
+    },
+    openGraph: {
+      title: `${event.title} Gallery | UNASFEST 2025`,
+      description: event.desc,
+      url: `https://unasfest.com/gallery/${event.path}`,
+      type: "website",
+    },
   };
 }
+
