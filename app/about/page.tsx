@@ -32,10 +32,37 @@ export default function AboutPage() {
   const committeeMembers = Object.values(COMMITTEE_MEMBERS).flat();
   const visionaryMembers = [...Mascot, ...Web, ...Music];
   
-  const allMembers = [
-    ...committeeMembers.map(m => ({ name: m.name, role: m.role, description: m.description, instagram: m.instagram })),
-    ...visionaryMembers.map(m => ({ name: m.name, role: m.role, description: "", instagram: "" }))
-  ];
+  const allMembers: { name: string, role: string, description: string, instagram: string }[] = [];
+
+  committeeMembers.forEach(m => {
+    allMembers.push({
+      name: m.name,
+      role: m.role,
+      description: m.description || "",
+      instagram: m.instagram || ""
+    });
+
+    if (m.member && m.position) {
+      m.member.forEach((subName, index) => {
+        const subRole = m.position && m.position[index] ? m.position[index] : "Committee Member";
+        allMembers.push({
+          name: subName,
+          role: subRole + ` - ${m.role}`,
+          description: "",
+          instagram: ""
+        });
+      });
+    }
+  });
+
+  visionaryMembers.forEach(m => {
+    allMembers.push({
+      name: m.name,
+      role: m.role,
+      description: "",
+      instagram: ""
+    });
+  });
   
   const jsonLd = {
     "@context": "https://schema.org",
